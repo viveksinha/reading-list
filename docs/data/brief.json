@@ -1,0 +1,6 @@
+{
+ "date": "2026-11-27",
+ "headline": "Platforms decide how agents reach data, and Gemini is back near the top",
+ "text": "Google will require agents to use its own MCP servers for Workspace from February 2027, and Databricks and partners are adding catalog labels to the Iceberg REST API so engines and agents share table context. On the model side, Gemini 4 Neon puts Google DeepMind back near the frontier, and Simon Willison marks three jumps in coding-agent ability over the past year.",
+ "picks": ["6f6a6b07f17a", "a53e25c34fef", "3d118c7ed5ae", "190619a69a1b", "6ff348e652c9"]
+}

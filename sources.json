@@ -601,6 +601,83 @@
       "group": "pm",
       "kind": "newsletter",
       "url": "https://www.a16z.news/feed"
+    },
+    {
+      "id": "exponential-view",
+      "name": "Exponential View (Azeem Azhar)",
+      "group": "future",
+      "kind": "newsletter",
+      "url": "https://www.exponentialview.co/feed"
+    },
+    {
+      "id": "works-in-progress",
+      "name": "Works in Progress",
+      "group": "future",
+      "kind": "newsletter",
+      "url": "https://www.worksinprogress.news/feed"
+    },
+    {
+      "id": "asterisk",
+      "name": "Asterisk Magazine",
+      "group": "future",
+      "kind": "blog",
+      "url": "https://asteriskmag.com/feed"
+    },
+    {
+      "id": "construction-physics",
+      "name": "Construction Physics (Brian Potter)",
+      "group": "future",
+      "kind": "newsletter",
+      "url": "https://www.construction-physics.com/feed"
+    },
+    {
+      "id": "semianalysis",
+      "name": "SemiAnalysis",
+      "group": "future",
+      "kind": "newsletter",
+      "url": "https://newsletter.semianalysis.com/feed"
+    },
+    {
+      "id": "ben-evans",
+      "name": "Benedict Evans",
+      "group": "future",
+      "kind": "blog",
+      "url": "https://www.ben-evans.com/benedictevans?format=rss"
+    },
+    {
+      "id": "quanta",
+      "name": "Quanta Magazine",
+      "group": "future",
+      "kind": "blog",
+      "url": "https://api.quantamagazine.org/feed/"
+    },
+    {
+      "id": "mit-tech-review",
+      "name": "MIT Technology Review",
+      "group": "future",
+      "kind": "blog",
+      "url": "https://www.technologyreview.com/feed/"
+    },
+    {
+      "id": "ieee-spectrum",
+      "name": "IEEE Spectrum",
+      "group": "future",
+      "kind": "blog",
+      "url": "https://spectrum.ieee.org/feeds/feed.rss"
+    },
+    {
+      "id": "understanding-ai",
+      "name": "Understanding AI (Timothy B. Lee)",
+      "group": "ai",
+      "kind": "newsletter",
+      "url": "https://www.understandingai.org/feed"
+    },
+    {
+      "id": "zvi",
+      "name": "Don't Worry About the Vase (Zvi)",
+      "group": "ai",
+      "kind": "newsletter",
+      "url": "https://thezvi.substack.com/feed"
     }
   ],
   "pages": [
@@ -612,15 +689,6 @@
       "url": "https://www.anthropic.com/news",
       "pattern": "^/news/[a-z0-9-]+$",
       "base": "https://www.anthropic.com"
-    },
-    {
-      "id": "meta-ai",
-      "name": "Meta AI",
-      "group": "ai",
-      "kind": "blog",
-      "url": "https://ai.meta.com/blog/",
-      "pattern": "^https://ai\\.meta\\.com/blog/[a-z0-9-]+/$",
-      "base": ""
     },
     {
       "id": "the-batch",
@@ -648,16 +716,6 @@
       "url": "https://cognition.com/blog",
       "pattern": "^/blog/[a-z0-9.-]+$",
       "base": "https://cognition.com"
-    },
-    {
-      "id": "paul-graham",
-      "name": "Paul Graham",
-      "group": "pm",
-      "kind": "blog",
-      "url": "https://paulgraham.com/articles.html",
-      "pattern": "^[a-z0-9]+\\.html$",
-      "exclude": "^(index|articles|books|arc|bel|lisp|antispam|kedrosky|faq|raq|quo|rss|bio)\\.html$",
-      "base": "https://paulgraham.com/"
     }
   ],
   "hackernews": {
@@ -715,5 +773,9 @@
     "Stratechery (free weekly)",
     "Blind digests",
     "Saved links sent to the +reading address"
-  ]
+  ],
+  "hf_papers": {
+    "min_upvotes": 50,
+    "max_per_run": 4
+  }
 }

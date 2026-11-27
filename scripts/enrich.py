@@ -1,15 +1,22 @@
 #!/usr/bin/env python3
-"""Add pictures to docs/data/items.json: an article image and a source logo.
+"""Add pictures and reading time to docs/data/items.json, then write the site's feed.
 
 - Article image: the page's og:image / twitter:image, stored as item["image"]
-  ("" when the page has none, so it is not fetched again). Images are linked, not copied.
+  ("" when the page has none). Images are linked, not copied.
+- Reading time: item["minutes"], from the words in the page's paragraphs (0 = unknown).
+- Date check: when the page's own publish date is 2+ days older than item["published"]
+  (a feed re-dated an old post), the page date wins. Community links keep their post date.
 - Source logo: the site's apple-touch-icon or largest icon, saved once per source to
   docs/logos/<key>.<ext> and listed in docs/logos/index.json (null = none found).
+
+- Feed: docs/feed.xml, an Atom feed of the latest Must read and Worth it items.
 
 Run after merge.py. Only items and sources not seen before are fetched. Standard library only.
 """
 import json
 import re
+from datetime import datetime, timezone
+from xml.sax.saxutils import escape
 import sys
 import urllib.parse
 import urllib.request
@@ -20,7 +27,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scripts"))
-from fetch import SSL_CTX, UA  # noqa: E402
+from fetch import SSL_CTX, UA, article_date, parse_date  # noqa: E402
 
 ITEMS = ROOT / "docs" / "data" / "items.json"
 LOGOS = ROOT / "docs" / "logos"
@@ -64,18 +71,30 @@ def https(url):
     return "https:" + url[5:] if url.startswith("http:") else url
 
 
-def article_image(item):
+def words_in(body: str) -> int:
+    body = re.sub(r"<(script|style|nav|header|footer|aside)[^>]*>.*?</\1>", " ", body, flags=re.S | re.I)
+    paras = re.findall(r"<p[\s>].*?</p>", body, flags=re.S | re.I)
+    return sum(len(re.sub(r"<[^>]+>", " ", x).split()) for x in paras)
+
+
+def article_info(item):
+    """(id, image url, reading minutes, page publish date) for one article page."""
     if "news.ycombinator.com" in item["url"]:
-        return item["id"], ""
+        return item["id"], "", 0, None
     try:
-        p, final = head_of(item["url"])
+        ctype, raw, final = fetch(item["url"], limit=2_000_000)
     except Exception:
-        return item["id"], ""
-    if not p:
-        return item["id"], ""
-    src = p.meta.get("og:image") or p.meta.get("og:image:url") or p.meta.get("twitter:image") or ""
-    src = https(urllib.parse.urljoin(final, src.strip())) if src.strip() else ""
-    return item["id"], src if src.startswith("https://") else ""
+        return item["id"], "", 0, None
+    if "html" not in ctype:
+        return item["id"], "", 0, None
+    body = raw.decode("utf-8", "replace")
+    p = Head()
+    p.feed(body[:400_000])
+    src = (p.meta.get("og:image") or p.meta.get("og:image:url") or p.meta.get("twitter:image") or "").strip()
+    src = https(urllib.parse.urljoin(final, src)) if src else ""
+    words = words_in(body)
+    minutes = max(1, round(words / 230)) if 150 < words < 120 * 230 else 0  # >2h = page noise
+    return item["id"], src if src.startswith("https://") else "", minutes, article_date(body)
 
 
 def image_ext(data, ctype):
@@ -147,14 +166,24 @@ def logo_key(item):
 
 def main():
     items = json.loads(ITEMS.read_text())
-    todo = [i for i in items if "image" not in i]
+    todo = [i for i in items if "image" not in i or "minutes" not in i]
     with ThreadPoolExecutor(max_workers=12) as pool:
-        found = dict(pool.map(article_image, todo))
+        found = {k: rest for k, *rest in pool.map(article_info, todo)}
+    redated = 0
     for i in items:
         if i["id"] in found:
-            i["image"] = found[i["id"]]
+            img, mins, page_date = found[i["id"]]
+            if not i.get("image"):
+                i["image"] = img
+            i["minutes"] = mins
+            if page_date and i.get("kind") not in ("community", "paper") and \
+                    (parse_date(i["published"]) - page_date).days >= 2:
+                i["published"] = page_date.isoformat(timespec="seconds")
+                redated += 1
+    items.sort(key=lambda i: i["published"], reverse=True)
     ITEMS.write_text(json.dumps(items, indent=1, ensure_ascii=False) + "\n")
-    print(f"images: checked {len(todo)}, found {sum(1 for v in found.values() if v)}")
+    print(f"pages: checked {len(todo)}, images {sum(1 for v in found.values() if v[0])}, "
+          f"reading times {sum(1 for v in found.values() if v[1])}, re-dated {redated}")
 
     LOGOS.mkdir(parents=True, exist_ok=True)
     index_path = LOGOS / "index.json"
@@ -169,6 +198,41 @@ def main():
         index.update(pool.map(lambda j: logo(*j), jobs))
     index_path.write_text(json.dumps(dict(sorted(index.items())), indent=1) + "\n")
     print(f"logos: checked {len(jobs)}, found {sum(1 for k, _ in jobs if index.get(k))}")
+    write_feed(items)
+
+
+SITE = "https://viveksinha.github.io/reading-list/"
+
+
+def write_feed(items, limit=60):
+    picks = [i for i in items if i.get("importance", 1) >= 2][:limit]
+    now = datetime.now(timezone.utc).isoformat(timespec="seconds")
+    entries = []
+    for i in picks:
+        label = "Must read" if i["importance"] == 3 else "Worth it"
+        summary = f"{label} · {i['category']} · {i['source']}. {i['summary']}"
+        entries.append(f"""  <entry>
+    <title>{escape(i["title"])}</title>
+    <link href="{escape(i["url"])}"/>
+    <id>{escape(SITE)}#{i["id"]}</id>
+    <updated>{i.get("added") or i["published"]}</updated>
+    <published>{i["published"]}</published>
+    <author><name>{escape(i["source"])}</name></author>
+    <category term="{escape(i["category"])}"/>
+    <summary>{escape(summary)}</summary>
+  </entry>""")
+    (ROOT / "docs" / "feed.xml").write_text(f"""<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Reading List</title>
+  <subtitle>Must read and Worth it picks on data infrastructure, AI, product and the future.</subtitle>
+  <link href="{SITE}"/>
+  <link rel="self" href="{SITE}feed.xml"/>
+  <id>{SITE}</id>
+  <updated>{now}</updated>
+{chr(10).join(entries)}
+</feed>
+""")
+    print(f"feed: {len(entries)} entries")
 
 
 if __name__ == "__main__":

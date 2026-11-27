@@ -1,533 +1,5 @@
 [
  {
-  "id": "20b744e598ba",
-  "title": "Cursor is now a part of SpaceX",
-  "url": "https://cursor.com/blog/joining-spacex",
-  "source": "Cursor",
-  "source_id": "cursor",
-  "group": "ai",
-  "kind": "blog",
-  "published": "2026-11-27T06:15:45+00:00",
-  "summary": "Cursor announces it has been acquired by SpaceX. A major consolidation of the AI coding-tool market that reshapes the competitive landscape for AI developer tooling.",
-  "category": "Strategy & Markets",
-  "importance": 3,
-  "tags": [
-   "cursor",
-   "spacex",
-   "acquisition"
-  ],
-  "image": "https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/uploads/close-og-image-1-B5D1caLmbVsj0JInrL2qKgXzLPMGoU.png"
- },
- {
-  "id": "cb08e9af981e",
-  "title": "Git at any scale",
-  "url": "https://cursor.com/blog/git-at-any-scale",
-  "source": "Cursor",
-  "source_id": "cursor",
-  "group": "ai",
-  "kind": "blog",
-  "published": "2026-11-27T06:15:45+00:00",
-  "summary": "Cursor writes about making Git work at any repository scale for its agents. Mostly relevant as an infrastructure-scaling anecdote.",
-  "category": "Databases & Systems",
-  "importance": 1,
-  "tags": [
-   "git",
-   "scale",
-   "developer-tools"
-  ],
-  "image": "https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/blog/blog-demo-animation-2ntJbzDU6xSEoHctbbXf2VUO4b2nxK.gif"
- },
- {
-  "id": "26a46cce7cf4",
-  "title": "An update on our recent security incident",
-  "url": "https://cursor.com/blog/security-incident-update",
-  "source": "Cursor",
-  "source_id": "cursor",
-  "group": "ai",
-  "kind": "blog",
-  "published": "2026-11-27T06:15:45+00:00",
-  "summary": "Cursor shares findings from a two-week investigation of a recent attack and its impact. Useful case study on supply-chain risk for AI coding tools.",
-  "category": "AI Engineering",
-  "importance": 2,
-  "tags": [
-   "security",
-   "incident",
-   "cursor"
-  ],
-  "image": "https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/og/opengraph-default.png"
- },
- {
-  "id": "2cb4f31b0883",
-  "title": "Cursor Projects is now multiplayer",
-  "url": "https://cursor.com/blog/projects-multiplayer",
-  "source": "Cursor",
-  "source_id": "cursor",
-  "group": "ai",
-  "kind": "blog",
-  "published": "2026-11-27T06:15:45+00:00",
-  "summary": "Cursor Projects now lets teammates join a shared Project and work alongside agents. A product-update view of multiplayer agent workflows.",
-  "category": "AI Engineering",
-  "importance": 1,
-  "tags": [
-   "cursor",
-   "collaboration",
-   "agents"
-  ],
-  "image": "https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/uploads/projects-mp-UBYHzU2mlANxiKl3n44qnRePiRTOgt.jpg"
- },
- {
-  "id": "f5c413d73956",
-  "title": "Security notice: malicious Claude Code extension versions in Cursor marketplace",
-  "url": "https://cursor.com/blog/claude-code-extension-security-notice",
-  "source": "Cursor",
-  "source_id": "cursor",
-  "group": "ai",
-  "kind": "blog",
-  "published": "2026-11-27T06:15:45+00:00",
-  "summary": "Cursor flags malicious versions 2.1.312 and 2.1.313 of the Claude Code extension in its VS Code marketplace. A reminder that agent tooling is a live supply-chain target.",
-  "category": "AI Engineering",
-  "importance": 2,
-  "tags": [
-   "security",
-   "claude-code",
-   "supply-chain"
-  ],
-  "image": "https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/og/opengraph-default.png"
- },
- {
-  "id": "f40066880a48",
-  "title": "Introducing the Agent SDK",
-  "url": "https://cursor.com/blog/agent-sdk",
-  "source": "Cursor",
-  "source_id": "cursor",
-  "group": "ai",
-  "kind": "blog",
-  "published": "2026-11-27T06:15:45+00:00",
-  "summary": "Cursor releases the Agent SDK it uses internally for managed agents like Bugbot, letting you define agents in code and deploy with one command. Signals how agent platforms are being productized.",
-  "category": "AI Engineering",
-  "importance": 2,
-  "tags": [
-   "agent-sdk",
-   "cursor",
-   "agents"
-  ],
-  "image": "https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/OG%20Images/agent-sdk-blog-og-WlJMIsDgzkUUfvyf1R9PJSIfytr7Sx.png"
- },
- {
-  "id": "2b7d8b0fe4f3",
-  "title": "Introducing SWE-2.1",
-  "url": "https://cognition.com/blog/swe-2-1",
-  "source": "Cognition",
-  "source_id": "cognition",
-  "group": "ai",
-  "kind": "blog",
-  "published": "2026-11-27T06:15:45+00:00",
-  "summary": "Cognition releases SWE-2.1, a major upgrade over SWE-2 trained with pure reinforcement learning. Worth tracking for where coding-agent models are heading.",
-  "category": "AI Models & Research",
-  "importance": 2,
-  "tags": [
-   "coding-models",
-   "rl",
-   "cognition"
-  ],
-  "image": "https://cognition.com/images/swe-2-1/cover.jpg"
- },
- {
-  "id": "77e192b7dd2a",
-  "title": "Introducing SWE-2 Flash",
-  "url": "https://cognition.com/blog/swe-2-flash",
-  "source": "Cognition",
-  "source_id": "cognition",
-  "group": "ai",
-  "kind": "blog",
-  "published": "2026-11-27T06:15:45+00:00",
-  "summary": "Cognition introduces SWE-2 Flash, a fast, low-cost coding model. Mainly a model-release note for coding agents.",
-  "category": "AI Models & Research",
-  "importance": 1,
-  "tags": [
-   "coding-models",
-   "cognition",
-   "latency"
-  ],
-  "image": "https://cognition.com/images/swe-2-flash/cover.jpg"
- },
- {
-  "id": "6390b97ded36",
-  "title": "A Practical Guide to Security in November 2026",
-  "url": "https://cognition.com/blog/practical-guide-to-security-november-2026",
-  "source": "Cognition",
-  "source_id": "cognition",
-  "group": "ai",
-  "kind": "blog",
-  "published": "2026-11-27T06:15:45+00:00",
-  "summary": "A recap of recent security incidents with a practical checklist of long-standing best practices. Useful but generic guidance.",
-  "category": "AI Engineering",
-  "importance": 1,
-  "tags": [
-   "security",
-   "best-practices"
-  ],
-  "image": "https://cognition.com/images/practical-guide-to-security-november-2026/cover.png"
- },
- {
-  "id": "f0e0cc04d2c6",
-  "title": "Corridor is Joining Cognition",
-  "url": "https://cognition.com/blog/corridor-joining-cognition",
-  "source": "Cognition",
-  "source_id": "cognition",
-  "group": "ai",
-  "kind": "blog",
-  "published": "2026-11-27T06:15:45+00:00",
-  "summary": "Security startup Corridor is joining Cognition to build out Devin Security. A small acqui-hire move.",
-  "category": "AI Industry",
-  "importance": 1,
-  "tags": [
-   "acquisition",
-   "security",
-   "cognition"
-  ],
-  "image": "https://cognition.com/images/corridor-joining-cognition/cover.jpg"
- },
- {
-  "id": "559c640b831a",
-  "title": "FrontierCode 2.0",
-  "url": "https://cognition.com/blog/frontier-code-2.0",
-  "source": "Cognition",
-  "source_id": "cognition",
-  "group": "ai",
-  "kind": "blog",
-  "published": "2026-11-27T06:15:45+00:00",
-  "summary": "Cognition launches FrontierCode 2.0, a benchmark with more diverse, harder tasks across more repositories. Helpful for judging coding-agent claims.",
-  "category": "AI Models & Research",
-  "importance": 2,
-  "tags": [
-   "benchmarks",
-   "coding",
-   "evals"
-  ],
-  "image": "https://cognition.com/images/frontier-code/frontier-code-2-0-cover.jpg"
- },
- {
-  "id": "2a6eaa4c2ea1",
-  "title": "Devin Security: Find and fix your most dangerous vulnerabilities",
-  "url": "https://cognition.com/blog/devin-security",
-  "source": "Cognition",
-  "source_id": "cognition",
-  "group": "ai",
-  "kind": "blog",
-  "published": "2026-11-27T06:15:45+00:00",
-  "summary": "Cognition upgrades Devin Security with deep scans from frontier cyber models and large credit grants. Vendor launch, limited relevance.",
-  "category": "AI Engineering",
-  "importance": 1,
-  "tags": [
-   "security",
-   "devin",
-   "vulnerabilities"
-  ],
-  "image": "https://cognition.com/images/devin-security/cover.png"
- },
- {
-  "id": "25c96fa5a216",
-  "title": "Anthropic prices initial public offering",
-  "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
-  "source": "Anthropic",
-  "source_id": "anthropic",
-  "group": "ai",
-  "kind": "blog",
-  "published": "2026-11-27T05:41:29+00:00",
-  "summary": "Anthropic has priced its IPO of Class A common stock, a landmark capital-markets event for a frontier AI lab. It signals how much money and scrutiny now surround the AI platform vendors your product integrates with.",
-  "category": "AI Industry",
-  "importance": 3,
-  "tags": [
-   "anthropic",
-   "ipo",
-   "funding"
-  ],
-  "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg"
- },
- {
-  "id": "08e9aa519f83",
-  "title": "Introducing Muse Spark 1.1",
-  "url": "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/",
-  "source": "Meta AI",
-  "source_id": "meta-ai",
-  "group": "ai",
-  "kind": "blog",
-  "published": "2026-11-27T05:23:19+00:00",
-  "summary": "Meta's Muse Spark 1.1 upgrades its multimodal reasoning model with better tool use for agent tasks. Another frontier lab pushing agent-oriented models, which shapes what tool-calling clients will hit a data API.",
-  "category": "AI Models & Research",
-  "importance": 2,
-  "tags": [
-   "meta",
-   "muse",
-   "models"
-  ],
-  "image": ""
- },
- {
-  "id": "fc8c187b735b",
-  "title": "Reimagining Independence: How Meta’s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-  "url": "https://ai.meta.com/blog/assistive-robotics-university-of-pittsburgh-sam-dino/",
-  "source": "Meta AI",
-  "source_id": "meta-ai",
-  "group": "ai",
-  "kind": "blog",
-  "published": "2026-11-27T05:23:19+00:00",
-  "summary": "Describes how a university lab uses Meta's open vision models to build assistive robots for people with disabilities. A case study of open models in use; little bearing on data platforms.",
-  "category": "AI Models & Research",
-  "importance": 1,
-  "tags": [
-   "meta",
-   "robotics",
-   "open-source"
-  ],
-  "image": ""
- },
- {
-  "id": "503b9986b40d",
-  "title": "How Meta’s AI Models Are Powering the First Wave of Genesis Mission Projects",
-  "url": "https://ai.meta.com/blog/genesis-mission-lawrence-berkeley-national-laboratory-segment-anything-dino/",
-  "source": "Meta AI",
-  "source_id": "meta-ai",
-  "group": "ai",
-  "kind": "blog",
-  "published": "2026-11-27T05:23:19+00:00",
-  "summary": "Covers early US national-lab projects that use Meta's segmentation and vision models for science work. Mostly a showcase of open-model adoption, so low relevance here.",
-  "category": "AI Models & Research",
-  "importance": 1,
-  "tags": [
-   "meta",
-   "science",
-   "open-source"
-  ],
-  "image": ""
- },
- {
-  "id": "0d1a03f568f1",
-  "title": "Introducing Muse Image and Muse Video",
-  "url": "https://ai.meta.com/blog/introducing-muse-image-muse-video-msl/",
-  "source": "Meta AI",
-  "source_id": "meta-ai",
-  "group": "ai",
-  "kind": "blog",
-  "published": "2026-11-27T05:23:19+00:00",
-  "summary": "Meta Superintelligence Labs releases an image model and previews a video model, both tied to social context. Media generation sits outside this reader's focus.",
-  "category": "AI Models & Research",
-  "importance": 1,
-  "tags": [
-   "meta",
-   "image",
-   "video"
-  ],
-  "image": ""
- },
- {
-  "id": "86bc9e281379",
-  "title": "From Brain Waves to Words: Brain2Qwerty Offers a New Path to Communication Without Surgery",
-  "url": "https://ai.meta.com/blog/brain2qwerty-brain-ai-human-communication/",
-  "source": "Meta AI",
-  "source_id": "meta-ai",
-  "group": "ai",
-  "kind": "blog",
-  "published": "2026-11-27T05:23:19+00:00",
-  "summary": "Meta shares a second-generation system that decodes typed text from brain signals without implants. Interesting research, but far from the data platform world.",
-  "category": "AI Models & Research",
-  "importance": 1,
-  "tags": [
-   "meta",
-   "research",
-   "brain"
-  ],
-  "image": ""
- },
- {
-  "id": "17a523d995a6",
-  "title": "Introducing Muse Spark: Scaling Towards Personal Superintelligence",
-  "url": "https://ai.meta.com/blog/introducing-muse-spark-msl/",
-  "source": "Meta AI",
-  "source_id": "meta-ai",
-  "group": "ai",
-  "kind": "blog",
-  "published": "2026-11-27T05:23:19+00:00",
-  "summary": "The launch post for Meta Superintelligence Labs' first Muse model, a natively multimodal reasoning model. Useful as the baseline for how Meta now competes at the frontier.",
-  "category": "AI Models & Research",
-  "importance": 2,
-  "tags": [
-   "meta",
-   "muse",
-   "models"
-  ],
-  "image": ""
- },
- {
-  "id": "0458149255e6",
-  "title": "Jensen Huang’s Nvidia legacy, Claude Fable 5.2 and Anthropic’s IPO, World Labs Releases Atlas to Developers",
-  "url": "https://www.deeplearning.ai/the-batch/issue-380",
-  "source": "The Batch (DeepLearning.AI)",
-  "source_id": "the-batch",
-  "group": "ai",
-  "kind": "newsletter",
-  "published": "2026-11-27T05:23:19+00:00",
-  "summary": "This issue covers Nvidia's CEO stepping down, a new Claude release alongside Anthropic's IPO, and a developer release from World Labs. A quick scan of the week's AI market moves.",
-  "category": "AI Industry",
-  "importance": 2,
-  "tags": [
-   "newsletter",
-   "anthropic",
-   "nvidia"
-  ],
-  "image": "https://charonhub.deeplearning.ai/content/images/2026/11/Andrew-and-Jensen.webp"
- },
- {
-  "id": "2c37a971974c",
-  "title": "Reinforcement Learning Heats Up, White House Orders Muscular AI Policy, and more...",
-  "url": "https://www.deeplearning.ai/the-batch/issue-286",
-  "source": "The Batch (DeepLearning.AI)",
-  "source_id": "the-batch",
-  "group": "ai",
-  "kind": "newsletter",
-  "published": "2026-11-27T05:23:19+00:00",
-  "summary": "An older issue about the reaction to DeepSeek, the rise of reinforcement learning and a White House AI policy order. Dated context rather than current news.",
-  "category": "AI Industry",
-  "importance": 1,
-  "tags": [
-   "newsletter",
-   "deepseek",
-   "policy"
-  ],
-  "image": "https://charonhub.deeplearning.ai/content/images/2025/02/DeepSeek-Byte7_3D-1.jpg"
- },
- {
-  "id": "81f098ac2727",
-  "title": "GPT-6 Cyber Versus Linux, The Problem With LLM-Powered Search, LLMs Edit Model Weights, Agentic Doc Retrieval",
-  "url": "https://www.deeplearning.ai/the-batch/issue-379",
-  "source": "The Batch (DeepLearning.AI)",
-  "source_id": "the-batch",
-  "group": "ai",
-  "kind": "newsletter",
-  "published": "2026-11-27T05:23:19+00:00",
-  "summary": "An issue on agent harnesses, weaknesses of LLM-powered search, models editing their own weights and document retrieval for agents. Skim for the retrieval angle.",
-  "category": "AI Engineering",
-  "importance": 2,
-  "tags": [
-   "newsletter",
-   "agents",
-   "retrieval"
-  ],
-  "image": "https://charonhub.deeplearning.ai/content/images/2026/11/agentic-harness.webp"
- },
- {
-  "id": "0ec2e6081857",
-  "title": "Gemini 4 Carbon Heads Toward Wider Availability, What Anthropic's IPO Means for Developers, Genie 4 Combines with Gemini to Train Robots",
-  "url": "https://www.deeplearning.ai/the-batch/issue-378",
-  "source": "The Batch (DeepLearning.AI)",
-  "source_id": "the-batch",
-  "group": "ai",
-  "kind": "newsletter",
-  "published": "2026-11-27T05:23:19+00:00",
-  "summary": "Covers wider rollout of a Gemini model, what Anthropic going public means for developers, and a robot-training result. Gives a sense of where vendors are heading.",
-  "category": "AI Industry",
-  "importance": 2,
-  "tags": [
-   "newsletter",
-   "gemini",
-   "anthropic-ipo"
-  ],
-  "image": "https://charonhub.deeplearning.ai/content/images/2026/11/Most-Common-AI-Builder-Occupations.webp"
- },
- {
-  "id": "6a7843cb55ac",
-  "title": "Zombie Agents, Vampire Models, Witch Hunts, and the Mummy's Curse: AI Fears for Halloween 2026",
-  "url": "https://www.deeplearning.ai/the-batch/issue-377",
-  "source": "The Batch (DeepLearning.AI)",
-  "source_id": "the-batch",
-  "group": "ai",
-  "kind": "newsletter",
-  "published": "2026-11-27T05:23:19+00:00",
-  "summary": "A Halloween issue that frames current AI worries as monsters, from runaway agents to policy backlash. Light reading with little operational value.",
-  "category": "AI Industry",
-  "importance": 1,
-  "tags": [
-   "newsletter",
-   "ai-risk"
-  ],
-  "image": "https://charonhub.deeplearning.ai/content/images/2026/10/Cozy-Halloween-Storytime-Circle.webp"
- },
- {
-  "id": "b35242019b77",
-  "title": "Meta’s Muse Wonder and Spark Open, Educational Use of ChatGPT, Reflection's Partnership with Nvidia",
-  "url": "https://www.deeplearning.ai/the-batch/issue-376",
-  "source": "The Batch (DeepLearning.AI)",
-  "source_id": "the-batch",
-  "group": "ai",
-  "kind": "newsletter",
-  "published": "2026-11-27T05:23:19+00:00",
-  "summary": "Issue covering Meta's open Muse releases, classroom use of ChatGPT and a lab's partnership with Nvidia. A general roundup with limited relevance.",
-  "category": "AI Models & Research",
-  "importance": 1,
-  "tags": [
-   "newsletter",
-   "meta",
-   "chatgpt"
-  ],
-  "image": "https://charonhub.deeplearning.ai/content/images/2026/10/Futuristic-Space-Station-Classroom-Crew.webp"
- },
- {
-  "id": "66d5720ec836",
-  "title": "Investing in the public benefit",
-  "url": "https://www.anthropic.com/news/public-benefit-fund",
-  "source": "Anthropic",
-  "source_id": "anthropic",
-  "group": "ai",
-  "kind": "blog",
-  "published": "2026-11-27T05:23:16+00:00",
-  "summary": "Anthropic is putting part of its shares into a new public benefit fund whose stake grows with the company. A governance footnote to the IPO.",
-  "category": "AI Industry",
-  "importance": 1,
-  "tags": [
-   "anthropic",
-   "governance"
-  ],
-  "image": "https://assets.claude.com/f3afec5c5951eebed280125c907ef53524024eba.jpg"
- },
- {
-  "id": "8a77e646571b",
-  "title": "Anthropic files S-1 with the SEC for proposed initial public offering",
-  "url": "https://www.anthropic.com/news/s1-sec",
-  "source": "Anthropic",
-  "source_id": "anthropic",
-  "group": "ai",
-  "kind": "blog",
-  "published": "2026-11-27T05:23:16+00:00",
-  "summary": "Anthropic's filing with the SEC for its public offering, the first formal disclosure of its financials and risks. The details inform how much room AI vendors have to compete on price.",
-  "category": "AI Industry",
-  "importance": 2,
-  "tags": [
-   "anthropic",
-   "ipo",
-   "s-1"
-  ],
-  "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg"
- },
- {
-  "id": "e7354365dbd8",
-  "title": "Anthropic announces closing of initial public offering, including full exercise of underwriters’ option to purchase additional shares, and closing of concurrent private placement",
-  "url": "https://www.anthropic.com/news/ipo-close",
-  "source": "Anthropic",
-  "source_id": "anthropic",
-  "group": "ai",
-  "kind": "blog",
-  "published": "2026-11-27T05:23:16+00:00",
-  "summary": "Announces the close of Anthropic's offering at $83 a share, including the underwriters' extra allotment. A short factual notice; the market analysis is in other pieces.",
-  "category": "AI Industry",
-  "importance": 1,
-  "tags": [
-   "anthropic",
-   "ipo"
-  ],
-  "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg"
- },
- {
   "id": "3d118c7ed5ae",
   "title": "Converged Database Versus Lakehouse Platform for AI Agents",
   "url": "https://www.kai-waehner.de/blog/2026/11/27/converged-database-versus-lakehouse-platform-ai-agents/",
@@ -544,7 +16,8 @@
    "lakehouse",
    "databases"
   ],
-  "image": "https://www.kai-waehner.de/wp-content/uploads/2026/11/converged-database-versus-lakehouse-platform-thumbnail.png"
+  "image": "https://www.kai-waehner.de/wp-content/uploads/2026/11/converged-database-versus-lakehouse-platform-thumbnail.png",
+  "minutes": 7
  },
  {
   "id": "f809947e587d",
@@ -564,7 +37,8 @@
   ],
   "discussion_url": "https://news.ycombinator.com/item?id=50661646",
   "points": 194,
-  "image": "https://pub-430e0c9ecb66464fa6999cd23a749d13.r2.dev/content/images/2026/11/black-friday-hard-drive-prices-are-messed-up/row-of-easystore-drives-on-a-cluttered-workbench.webp"
+  "image": "https://pub-430e0c9ecb66464fa6999cd23a749d13.r2.dev/content/images/2026/11/black-friday-hard-drive-prices-are-messed-up/row-of-easystore-drives-on-a-cluttered-workbench.webp",
+  "minutes": 4
  },
  {
   "id": "00bb51c293be",
@@ -583,7 +57,9 @@
    "gtm",
    "clay"
   ],
-  "image": "https://i.ytimg.com/vi/qjPcaZf_plo/maxresdefault.jpg"
+  "image": "https://i.ytimg.com/vi/qjPcaZf_plo/maxresdefault.jpg",
+  "minutes": 79,
+  "story": "clay-gtm-agents"
  },
  {
   "id": "19dd4641586d",
@@ -601,7 +77,8 @@
    "self-hosting",
    "ai-coding"
   ],
-  "image": ""
+  "image": "",
+  "minutes": 0
  },
  {
   "id": "280fc6b8ee71",
@@ -621,7 +98,8 @@
   ],
   "discussion_url": "https://news.ycombinator.com/item?id=50657307",
   "points": 307,
-  "image": ""
+  "image": "",
+  "minutes": 1
  },
  {
   "id": "74178995a4e6",
@@ -640,7 +118,8 @@
    "postgres",
    "links"
   ],
-  "image": "https://rmoff.net/images/2026/11/h_IMG_9301.webp"
+  "image": "https://rmoff.net/images/2026/11/h_IMG_9301.webp",
+  "minutes": 11
  },
  {
   "id": "069f94445fa0",
@@ -651,14 +130,15 @@
   "group": "ai",
   "kind": "blog",
   "published": "2026-11-26T15:09:31+00:00",
-  "summary": "Simon quotes a writer who feels AI is flattening voices, with Claude's tone showing up in talks, videos and cold emails. Relevant when you draft customer or exec writing.",
+  "summary": "Simon quotes a writer who feels AI is flattening voices, with Claude's tone showing up in talks, videos and cold emails. Worth keeping in mind before letting a model draft anything sent under your name.",
   "category": "AI Industry",
   "importance": 2,
   "tags": [
    "ai-writing",
    "culture"
   ],
-  "image": ""
+  "image": "",
+  "minutes": 0
  },
  {
   "id": "46cd86bf0efb",
@@ -677,7 +157,8 @@
    "llm",
    "software-quality"
   ],
-  "image": ""
+  "image": "",
+  "minutes": 3
  },
  {
   "id": "462a4e67aa25",
@@ -696,7 +177,8 @@
    "postgres",
    "replicas"
   ],
-  "image": "https://www.databricks.com/sites/default/files/2026-11/read-replicas-lakebase.png"
+  "image": "https://www.databricks.com/sites/default/files/2026-11/read-replicas-lakebase.png",
+  "minutes": 6
  },
  {
   "id": "02a088434703",
@@ -715,7 +197,8 @@
    "benchmarks",
    "amd"
   ],
-  "image": "https://cdn-uploads.huggingface.co/production/uploads/67289c93ff90038d9a6e5675/tbIvyMSISXCm64WYP3atl.png"
+  "image": "https://cdn-uploads.huggingface.co/production/uploads/67289c93ff90038d9a6e5675/tbIvyMSISXCm64WYP3atl.png",
+  "minutes": 2
  },
  {
   "id": "f4e4840a9f08",
@@ -734,7 +217,8 @@
    "ethics",
    "society"
   ],
-  "image": "https://images.aeonmedia.co/images/e68a91ac-5959-4ae2-9d6b-7320076b26c7/grey-owl-feather-essay.jpg?width=1200&quality=75&format=jpeg"
+  "image": "https://images.aeonmedia.co/images/e68a91ac-5959-4ae2-9d6b-7320076b26c7/grey-owl-feather-essay.jpg?width=1200&quality=75&format=jpeg",
+  "minutes": 20
  },
  {
   "id": "abfcb376bbab",
@@ -753,7 +237,8 @@
    "exile",
    "identity"
   ],
-  "image": "https://images.aeonmedia.co/images/68ada2f7-60e3-4dde-8222-99fab8ecc80a/sz-rp-p-1896-a-19368-1049.jpg?top=130&left=0&cropWidth=2480&cropHeight=1395&width=1200&quality=75&format=jpeg"
+  "image": "https://images.aeonmedia.co/images/68ada2f7-60e3-4dde-8222-99fab8ecc80a/sz-rp-p-1896-a-19368-1049.jpg?top=130&left=0&cropWidth=2480&cropHeight=1395&width=1200&quality=75&format=jpeg",
+  "minutes": 10
  },
  {
   "id": "21481b3fb89d",
@@ -771,7 +256,8 @@
    "memory",
    "home"
   ],
-  "image": "https://images.aeonmedia.co/images/d78fd84c-6589-4089-ac48-f2f7f41cb932/pam-projects-main.jpg?top=283&left=9&cropWidth=2656&cropHeight=1494&width=1200&quality=75&format=jpeg"
+  "image": "https://images.aeonmedia.co/images/d78fd84c-6589-4089-ac48-f2f7f41cb932/pam-projects-main.jpg?top=283&left=9&cropWidth=2656&cropHeight=1494&width=1200&quality=75&format=jpeg",
+  "minutes": 10
  },
  {
   "id": "6f6a6b07f17a",
@@ -792,7 +278,8 @@
   ],
   "discussion_url": "https://news.ycombinator.com/item?id=50653477",
   "points": 296,
-  "image": "https://techstackups.com/img/articles/google-workspace-agent-api/cover.jpg"
+  "image": "https://techstackups.com/img/articles/google-workspace-agent-api/cover.jpg",
+  "minutes": 5
  },
  {
   "id": "82a13b62ffcb",
@@ -813,7 +300,8 @@
   ],
   "discussion_url": "https://news.ycombinator.com/item?id=50652527",
   "points": 308,
-  "image": ""
+  "image": "",
+  "minutes": 1
  },
  {
   "id": "05e5ec19ffd0",
@@ -831,7 +319,8 @@
    "garage",
    "object-storage"
   ],
-  "image": "https://garagehq.deuxfleurs.fr/images/og-default.png"
+  "image": "https://garagehq.deuxfleurs.fr/images/og-default.png",
+  "minutes": 5
  },
  {
   "id": "7fcbebbe6634",
@@ -842,14 +331,15 @@
   "group": "ai",
   "kind": "blog",
   "published": "2026-11-26T06:08:25+00:00",
-  "summary": "Simon points out that SQLite's rsync tool copies only changed pages, making remote copies of large databases cheap. A neat tool but peripheral to this reader.",
+  "summary": "Simon points out that SQLite's rsync tool copies only changed pages, making remote copies of large databases cheap. A neat, narrow tool.",
   "category": "Databases & Systems",
   "importance": 2,
   "tags": [
    "sqlite",
    "replication"
   ],
-  "image": ""
+  "image": "",
+  "minutes": 1
  },
  {
   "id": "a29e74b8be2d",
@@ -867,7 +357,8 @@
    "careers",
    "leadership"
   ],
-  "image": "https://substackcdn.com/image/fetch/$s_!D686!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,$fp_!0.5:0.6364!/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc3ba84f5-edc2-4346-856a-02ba56ce9477_2788x3717.heic"
+  "image": "https://substackcdn.com/image/fetch/$s_!D686!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,$fp_!0.5:0.6364!/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc3ba84f5-edc2-4346-856a-02ba56ce9477_2788x3717.heic",
+  "minutes": 15
  },
  {
   "id": "4faaa3acd738",
@@ -886,7 +377,9 @@
    "ai-backlash",
    "products"
   ],
-  "image": ""
+  "image": "",
+  "minutes": 1,
+  "story": "nyt-photoshop-warning"
  },
  {
   "id": "d3aa48daa62d",
@@ -904,7 +397,8 @@
    "nvidia",
    "document-parsing"
   ],
-  "image": "https://cdn-uploads.huggingface.co/production/uploads/6365c3f398da81987e2753f2/zArpuP9uLsLz9luMW0K2g.png"
+  "image": "https://cdn-uploads.huggingface.co/production/uploads/6365c3f398da81987e2753f2/zArpuP9uLsLz9luMW0K2g.png",
+  "minutes": 6
  },
  {
   "id": "244a3e8cb4f1",
@@ -925,7 +419,8 @@
   ],
   "discussion_url": "https://news.ycombinator.com/item?id=50651117",
   "points": 475,
-  "image": "https://pbs.twimg.com/profile_images/2093807917833281537/2yBgpwVV_400x400.jpg"
+  "image": "https://pbs.twimg.com/profile_images/2093807917833281537/2yBgpwVV_400x400.jpg",
+  "minutes": 0
  },
  {
   "id": "23df49456422",
@@ -945,7 +440,8 @@
   ],
   "discussion_url": "https://news.ycombinator.com/item?id=50650892",
   "points": 291,
-  "image": ""
+  "image": "",
+  "minutes": 2
  },
  {
   "id": "137c64b2d0d9",
@@ -963,7 +459,8 @@
    "gratitude",
    "art"
   ],
-  "image": "https://www.themarginalian.org/wp-content/uploads/2025/11/Cloud_Hebert1.jpg?fit=1200%2C630&ssl=1"
+  "image": "https://www.themarginalian.org/wp-content/uploads/2025/11/Cloud_Hebert1.jpg?fit=1200%2C630&ssl=1",
+  "minutes": 3
  },
  {
   "id": "e0f082ca4fd4",
@@ -982,7 +479,8 @@
    "mcp",
    "product"
   ],
-  "image": "https://substackcdn.com/image/fetch/$s_!HJbo!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0950b443-3155-43e2-8429-ec42b6be1a09_1456x971.png"
+  "image": "https://substackcdn.com/image/fetch/$s_!HJbo!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0950b443-3155-43e2-8429-ec42b6be1a09_1456x971.png",
+  "minutes": 6
  },
  {
   "id": "c01600d41603",
@@ -1001,7 +499,8 @@
    "training",
    "evals"
   ],
-  "image": "https://huggingface.co/blog/assets/training-swarms/thumbnail.png"
+  "image": "https://huggingface.co/blog/assets/training-swarms/thumbnail.png",
+  "minutes": 10
  },
  {
   "id": "04a9805dfa55",
@@ -1019,7 +518,8 @@
    "math",
    "ai-proofs"
   ],
-  "image": ""
+  "image": "",
+  "minutes": 0
  },
  {
   "id": "f0cbca428972",
@@ -1038,7 +538,8 @@
    "identity",
    "poetry"
   ],
-  "image": "https://www.themarginalian.org/wp-content/uploads/2017/05/robertpennwarren.jpg?fit=600%2C315&ssl=1"
+  "image": "https://www.themarginalian.org/wp-content/uploads/2017/05/robertpennwarren.jpg?fit=600%2C315&ssl=1",
+  "minutes": 3
  },
  {
   "id": "c7e5de5fee49",
@@ -1049,7 +550,7 @@
   "group": "ai",
   "kind": "newsletter",
   "published": "2026-11-25T22:28:01+00:00",
-  "summary": "A talk on using AI to produce lots of software cheaply while leaving time to polish one thing. Light on takeaways for this reader.",
+  "summary": "A talk on using AI to produce lots of software cheaply while leaving time to polish one thing. Light on concrete takeaways.",
   "category": "AI Engineering",
   "importance": 2,
   "tags": [
@@ -1057,7 +558,8 @@
    "craft",
    "openai"
   ],
-  "image": "https://i.ytimg.com/vi/Qe9d9dWyED0/maxresdefault.jpg"
+  "image": "https://i.ytimg.com/vi/Qe9d9dWyED0/maxresdefault.jpg",
+  "minutes": 3
  },
  {
   "id": "c7c801f91e25",
@@ -1076,7 +578,8 @@
    "openai",
    "proofs"
   ],
-  "image": "https://latent.space/og/card/post/ainews-math-proofs-are-landing-faster-than-we-can-read-them/a8d88191c53bdfffb796ec34d8bd3d83a9031dc0a6d34673e0da1fb9264aec06.png"
+  "image": "https://latent.space/og/card/post/ainews-math-proofs-are-landing-faster-than-we-can-read-them/a8d88191c53bdfffb796ec34d8bd3d83a9031dc0a6d34673e0da1fb9264aec06.png",
+  "minutes": 24
  },
  {
   "id": "d6a138330fba",
@@ -1095,7 +598,8 @@
    "ai-safety",
    "rationalism"
   ],
-  "image": "https://substackcdn.com/image/fetch/$s_!nvu9!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcdccffd1-41de-4e8e-accb-40e0236373a6_364x268.png"
+  "image": "https://substackcdn.com/image/fetch/$s_!nvu9!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcdccffd1-41de-4e8e-accb-40e0236373a6_364x268.png",
+  "minutes": 13
  },
  {
   "id": "19f2f984a80d",
@@ -1116,7 +620,9 @@
   ],
   "discussion_url": "https://news.ycombinator.com/item?id=50647673",
   "points": 661,
-  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2289911637.jpg?quality=90&strip=all&crop=0%2C10.232235952618%2C100%2C79.535528094764&w=1200"
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2289911637.jpg?quality=90&strip=all&crop=0%2C10.232235952618%2C100%2C79.535528094764&w=1200",
+  "minutes": 2,
+  "story": "nyt-photoshop-warning"
  },
  {
   "id": "c45dad0755da",
@@ -1135,7 +641,8 @@
    "query-planning",
    "clickhouse"
   ],
-  "image": "https://clickhouse.com/_next/image?url=%2Fuploads%2FIMG_6403_61a671fbea.png&w=1200&h=630&q=75"
+  "image": "https://clickhouse.com/_next/image?url=%2Fuploads%2FIMG_6403_61a671fbea.png&w=1200&h=630&q=75",
+  "minutes": 7
  },
  {
   "id": "37b5c9ba9326",
@@ -1154,7 +661,8 @@
    "science",
    "agents"
   ],
-  "image": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/F32BgZC_rj0kg99apJlto.png"
+  "image": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/F32BgZC_rj0kg99apJlto.png",
+  "minutes": 7
  },
  {
   "id": "9527dd371e58",
@@ -1173,7 +681,8 @@
    "charts",
    "release"
   ],
-  "image": "https://static.simonwillison.net/static/2026/chart-annotate.gif"
+  "image": "https://static.simonwillison.net/static/2026/chart-annotate.gif",
+  "minutes": 0
  },
  {
   "id": "8bc07deb0c8a",
@@ -1184,7 +693,7 @@
   "group": "pm",
   "kind": "newsletter",
   "published": "2026-11-25T17:31:32+00:00",
-  "summary": "The Pragmatic Engineer talks with an Anthropic engineering leader about how the company builds software in 2026. Real operating detail on AI-heavy development that you can compare with your own team.",
+  "summary": "The Pragmatic Engineer talks with an Anthropic engineering leader about how the company builds software in 2026. Real operating detail on AI-heavy development, useful as a benchmark for other teams.",
   "category": "Engineering Culture",
   "importance": 3,
   "tags": [
@@ -1192,7 +701,8 @@
    "engineering",
    "ai-coding"
   ],
-  "image": "https://substackcdn.com/image/fetch/$s_!MUG0!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff7f42984-2bb8-4041-bee8-3c81b2fa48ab_1280x720.png"
+  "image": "https://substackcdn.com/image/fetch/$s_!MUG0!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff7f42984-2bb8-4041-bee8-3c81b2fa48ab_1280x720.png",
+  "minutes": 9
  },
  {
   "id": "1b2e78da4c9f",
@@ -1211,7 +721,8 @@
    "testing",
    "ci"
   ],
-  "image": "https://clickhouse.com/_next/image?url=%2Fuploads%2Fhow_well_is_clickhouse_tested_thumbnail_2be6121c7f.jpg&w=1200&h=630&q=75"
+  "image": "https://clickhouse.com/_next/image?url=%2Fuploads%2Fhow_well_is_clickhouse_tested_thumbnail_2be6121c7f.jpg&w=1200&h=630&q=75",
+  "minutes": 12
  },
  {
   "id": "170ba12c1bad",
@@ -1230,7 +741,8 @@
    "search",
    "agents"
   ],
-  "image": "https://blog.cloudflare.com/_emdash/api/media/file/01M87EHBMCJY691A3ADBXCMG6A.png"
+  "image": "https://blog.cloudflare.com/_emdash/api/media/file/01M87EHBMCJY691A3ADBXCMG6A.png",
+  "minutes": 4
  },
  {
   "id": "fa9827167ead",
@@ -1249,7 +761,9 @@
    "gemini",
    "gpt"
   ],
-  "image": "https://substackcdn.com/image/fetch/$s_!Z4Di!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F89dd9fca-6931-4bea-94b4-e3531b57f89a_728x524.png"
+  "image": "https://substackcdn.com/image/fetch/$s_!Z4Di!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F89dd9fca-6931-4bea-94b4-e3531b57f89a_728x524.png",
+  "minutes": 2,
+  "story": "gemini-4-neon"
  },
  {
   "id": "e4828c4fc469",
@@ -1268,7 +782,8 @@
    "gender",
    "home"
   ],
-  "image": "https://images.aeonmedia.co/images/2c93b1cd-a5bf-4097-8468-9c953c8367c7/v4-badarcommercial4.jpg?top=138&left=0&cropWidth=2624&cropHeight=1476&width=1200&quality=75&format=jpeg"
+  "image": "https://images.aeonmedia.co/images/2c93b1cd-a5bf-4097-8468-9c953c8367c7/v4-badarcommercial4.jpg?top=138&left=0&cropWidth=2624&cropHeight=1476&width=1200&quality=75&format=jpeg",
+  "minutes": 13
  },
  {
   "id": "d0a3a7f662b5",
@@ -1287,7 +802,8 @@
    "ibm",
    "indic"
   ],
-  "image": "https://cdn-uploads.huggingface.co/production/uploads/67fe070a4e8cc28ba346f53c/-QNcrxSDbjI8VOCBlhi-C.png"
+  "image": "https://cdn-uploads.huggingface.co/production/uploads/67fe070a4e8cc28ba346f53c/-QNcrxSDbjI8VOCBlhi-C.png",
+  "minutes": 4
  },
  {
   "id": "045130688435",
@@ -1306,7 +822,8 @@
    "compilers",
    "performance"
   ],
-  "image": ""
+  "image": "",
+  "minutes": 20
  },
  {
   "id": "190619a69a1b",
@@ -1317,7 +834,7 @@
   "group": "ai",
   "kind": "newsletter",
   "published": "2026-11-25T04:29:07+00:00",
-  "summary": "Latent Space describes a new Gemini release as Google DeepMind's return to the frontier after doubts about the lab. A shift in the model leaderboard that affects which vendors your customers' agents will run on.",
+  "summary": "Latent Space describes a new Gemini release as Google DeepMind's return to the frontier after doubts about the lab. A shift in the model leaderboard that changes which vendors agent builders will bet on.",
   "category": "AI Models & Research",
   "importance": 3,
   "tags": [
@@ -1325,7 +842,9 @@
    "google",
    "frontier"
   ],
-  "image": "https://latent.space/og/card/post/ainews-gemini-4-neon-marks-gdm-s-full-return-as-a-frontier-lab/cbe347eb1fb1cb87c986d8fbe2e2206521e0bdecbfd20fbb16e0c4595e118daa.png"
+  "image": "https://latent.space/og/card/post/ainews-gemini-4-neon-marks-gdm-s-full-return-as-a-frontier-lab/cbe347eb1fb1cb87c986d8fbe2e2206521e0bdecbfd20fbb16e0c4595e118daa.png",
+  "minutes": 27,
+  "story": "gemini-4-neon"
  },
  {
   "id": "dc30af1becdb",
@@ -1336,7 +855,7 @@
   "group": "community",
   "kind": "community",
   "published": "2026-11-25T03:01:36+00:00",
-  "summary": "ProofAtlas ranks the top 500 open math problems by LLM-assessed importance, with exact statements and status notes. Interesting as an example of using models for judgment calls, though far from your core work.",
+  "summary": "ProofAtlas ranks the top 500 open math problems by LLM-assessed importance, with exact statements and status notes. An interesting case of using models for judgment calls.",
   "category": "AI Models & Research",
   "importance": 1,
   "tags": [
@@ -1346,7 +865,8 @@
   ],
   "discussion_url": "https://news.ycombinator.com/item?id=50637871",
   "points": 105,
-  "image": ""
+  "image": "",
+  "minutes": 0
  },
  {
   "id": "c89d4bfb36a9",
@@ -1367,7 +887,8 @@
   ],
   "discussion_url": "https://news.ycombinator.com/item?id=50637686",
   "points": 465,
-  "image": "https://res.cloudinary.com/lesswrong-2-0/image/upload/c_limit,w_1200,q_auto,f_jpg/f_auto,q_auto/v1/mirroredImages/7wzWuLP3HhyBLmKfo/ilkdsamuxja1dvu4uah2"
+  "image": "https://res.cloudinary.com/lesswrong-2-0/image/upload/c_limit,w_1200,q_auto,f_jpg/f_auto,q_auto/v1/mirroredImages/7wzWuLP3HhyBLmKfo/ilkdsamuxja1dvu4uah2",
+  "minutes": 12
  },
  {
   "id": "a58808d0bc10",
@@ -1388,7 +909,8 @@
   ],
   "discussion_url": "https://news.ycombinator.com/item?id=50637056",
   "points": 406,
-  "image": "https://greydanus.github.io/assets/pengpt/thumbnail.png"
+  "image": "https://greydanus.github.io/assets/pengpt/thumbnail.png",
+  "minutes": 5
  },
  {
   "id": "fa8097569f7c",
@@ -1399,7 +921,7 @@
   "group": "community",
   "kind": "community",
   "published": "2026-11-25T00:20:29-06:00",
-  "summary": "A brief status update from the Marginalia search engine author, mostly bug fixes and technical housekeeping. Little for this reader.",
+  "summary": "A brief status update from the Marginalia search engine author, mostly bug fixes and technical housekeeping.",
   "category": "Engineering Culture",
   "importance": 1,
   "tags": [
@@ -1407,7 +929,8 @@
    "indie",
    "project-update"
   ],
-  "image": ""
+  "image": "",
+  "minutes": 6
  },
  {
   "id": "8389e744fa38",
@@ -1426,7 +949,8 @@
    "claude",
    "sql"
   ],
-  "image": "https://duckdb.org/images/blog/thumbs/star-trek.png"
+  "image": "https://duckdb.org/images/blog/thumbs/star-trek.png",
+  "minutes": 15
  },
  {
   "id": "d8d6777ecf09",
@@ -1445,7 +969,8 @@
    "gpu",
    "optimization"
   ],
-  "image": "https://huggingface.co/blog/assets/inkling-2-mini-inference-hillclimb/thumbnail.png"
+  "image": "https://huggingface.co/blog/assets/inkling-2-mini-inference-hillclimb/thumbnail.png",
+  "minutes": 4
  },
  {
   "id": "f0387738029f",
@@ -1463,7 +988,8 @@
    "engineering-blogs",
    "culture"
   ],
-  "image": ""
+  "image": "",
+  "minutes": 2
  },
  {
   "id": "6ff348e652c9",
@@ -1482,7 +1008,8 @@
    "llm",
    "inflection"
   ],
-  "image": "https://img.youtube.com/vi/9RKrSF9d2SE/maxresdefault.jpg"
+  "image": "https://img.youtube.com/vi/9RKrSF9d2SE/maxresdefault.jpg",
+  "minutes": 5
  },
  {
   "id": "01140b05e4d0",
@@ -1500,7 +1027,8 @@
    "music",
    "silence"
   ],
-  "image": "https://www.themarginalian.org/wp-content/uploads/2026/11/Silence_by_MariaPopova_cropped.jpg?fit=1200%2C630&ssl=1"
+  "image": "https://www.themarginalian.org/wp-content/uploads/2026/11/Silence_by_MariaPopova_cropped.jpg?fit=1200%2C630&ssl=1",
+  "minutes": 3
  },
  {
   "id": "4105b6529962",
@@ -1519,7 +1047,8 @@
    "gibran",
    "mind"
   ],
-  "image": "https://www.themarginalian.org/wp-content/uploads/2023/04/KahlilGibran_TheMarginalian1.jpg?fit=1200%2C630&ssl=1"
+  "image": "https://www.themarginalian.org/wp-content/uploads/2023/04/KahlilGibran_TheMarginalian1.jpg?fit=1200%2C630&ssl=1",
+  "minutes": 3
  },
  {
   "id": "3c8900ad5c96",
@@ -1538,7 +1067,8 @@
    "timelines",
    "dwarkesh"
   ],
-  "image": "https://substackcdn.com/image/fetch/$s_!2aR1!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-video.s3.amazonaws.com%2Fvideo_upload%2Fpost%2F226413128%2F0876bdd3-98e3-474a-a39e-d09110b3307e%2Ftranscoded-1795556656.png"
+  "image": "https://substackcdn.com/image/fetch/$s_!2aR1!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-video.s3.amazonaws.com%2Fvideo_upload%2Fpost%2F226413128%2F0876bdd3-98e3-474a-a39e-d09110b3307e%2Ftranscoded-1795556656.png",
+  "minutes": 53
  },
  {
   "id": "03e2279915cc",
@@ -1557,7 +1087,8 @@
    "openai",
    "complexity"
   ],
-  "image": ""
+  "image": "",
+  "minutes": 0
  },
  {
   "id": "ca7efd0c9bb9",
@@ -1577,7 +1108,8 @@
   ],
   "discussion_url": "https://news.ycombinator.com/item?id=50633922",
   "points": 540,
-  "image": "https://cdn.prod.website-files.com/699604cc2b9dd89bdbda0608/6a6d0e0bc0d5f9a97a5164c0_69cc089669ab0df26e921aac_prism-og-img%2520(2).png"
+  "image": "https://cdn.prod.website-files.com/699604cc2b9dd89bdbda0608/6a6d0e0bc0d5f9a97a5164c0_69cc089669ab0df26e921aac_prism-og-img%2520(2).png",
+  "minutes": 2
  },
  {
   "id": "4c92b4223b9f",
@@ -1596,7 +1128,8 @@
    "postgres",
    "clickhouse"
   ],
-  "image": "https://clickhouse.com/_next/image?url=%2Fuploads%2FDurable_and_Auditable_Workflows_with_DBOS_and_Click_House_45d820bd7b.png&w=1200&h=630&q=75"
+  "image": "https://clickhouse.com/_next/image?url=%2Fuploads%2FDurable_and_Auditable_Workflows_with_DBOS_and_Click_House_45d820bd7b.png&w=1200&h=630&q=75",
+  "minutes": 5
  },
  {
   "id": "7038e65ffad2",
@@ -1615,7 +1148,8 @@
    "medallion",
    "databricks"
   ],
-  "image": "https://www.databricks.com/sites/default/files/2026-11/Blog-Data-Modeling-Best-Practices-for-an-Agentic-CDP-Part-1-The-Data-Foundation.png"
+  "image": "https://www.databricks.com/sites/default/files/2026-11/Blog-Data-Modeling-Best-Practices-for-an-Agentic-CDP-Part-1-The-Data-Foundation.png",
+  "minutes": 6
  },
  {
   "id": "e1da16352396",
@@ -1634,7 +1168,8 @@
    "writing",
    "newsletter"
   ],
-  "image": "https://substackcdn.com/image/fetch/$s_!nbv5!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F710bc15b-efad-4643-bb7d-fd4748f219ff_1672x941.png"
+  "image": "https://substackcdn.com/image/fetch/$s_!nbv5!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F710bc15b-efad-4643-bb7d-fd4748f219ff_1672x941.png",
+  "minutes": 27
  },
  {
   "id": "8d144b61c17a",
@@ -1653,7 +1188,8 @@
    "data-teams",
    "value"
   ],
-  "image": "https://substackcdn.com/image/fetch/$s_!7fPY!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F244d9014-cfe9-4ea0-903a-f80f24f2cc1a_1024x768.jpeg"
+  "image": "https://substackcdn.com/image/fetch/$s_!7fPY!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F244d9014-cfe9-4ea0-903a-f80f24f2cc1a_1024x768.jpeg",
+  "minutes": 10
  },
  {
   "id": "a4f11831f774",
@@ -1672,7 +1208,8 @@
    "java",
    "s3"
   ],
-  "image": ""
+  "image": "",
+  "minutes": 8
  },
  {
   "id": "0a51980ba760",
@@ -1690,7 +1227,8 @@
    "writing",
    "thinking"
   ],
-  "image": "https://substackcdn.com/image/fetch/$s_!iPGG!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8a146776-b8d2-4c2e-816a-e303163b18d6_1840x1201.jpeg"
+  "image": "https://substackcdn.com/image/fetch/$s_!iPGG!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8a146776-b8d2-4c2e-816a-e303163b18d6_1840x1201.jpeg",
+  "minutes": 2
  },
  {
   "id": "ff915f70f4b7",
@@ -1709,7 +1247,8 @@
    "genai",
    "verification"
   ],
-  "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQy1u-kWFglEfAJ2OYEIhEXZC_X14MOxXS4IELOycuIk7cJIX5_ahesF0tNh3Ezde6LeTrpaN7pfCHy0OB_jfPdfSW75pkVtBxEzWfIiEx2lxDqN4QCYBsYW7l6SJ7ij2oyUCOcbPJRK5ktxfQi2l3gzWWyMFiC0FlX426PbmfIlLBiQq0tDmuHpGM-9I/w1200-h630-p-k-no-nu/Screenshot%202026-11-24%20at%202.05.48%E2%80%AFPM.png"
+  "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQy1u-kWFglEfAJ2OYEIhEXZC_X14MOxXS4IELOycuIk7cJIX5_ahesF0tNh3Ezde6LeTrpaN7pfCHy0OB_jfPdfSW75pkVtBxEzWfIiEx2lxDqN4QCYBsYW7l6SJ7ij2oyUCOcbPJRK5ktxfQi2l3gzWWyMFiC0FlX426PbmfIlLBiQq0tDmuHpGM-9I/w1200-h630-p-k-no-nu/Screenshot%202026-11-24%20at%202.05.48%E2%80%AFPM.png",
+  "minutes": 5
  },
  {
   "id": "002bc4ff2409",
@@ -1730,7 +1269,8 @@
   ],
   "discussion_url": "https://news.ycombinator.com/item?id=50631210",
   "points": 225,
-  "image": "https://novaramedia.com/wp-content/uploads/2026/11/Screenshot-2026-11-24-at-2.42.06-pm-e1795535439679-1200x630.png"
+  "image": "https://novaramedia.com/wp-content/uploads/2026/11/Screenshot-2026-11-24-at-2.42.06-pm-e1795535439679-1200x630.png",
+  "minutes": 2
  },
  {
   "id": "f796e127a00b",
@@ -1749,7 +1289,8 @@
    "research",
    "history"
   ],
-  "image": ""
+  "image": "",
+  "minutes": 2
  },
  {
   "id": "bbef1e94d167",
@@ -1770,7 +1311,8 @@
   ],
   "discussion_url": "https://news.ycombinator.com/item?id=50630809",
   "points": 466,
-  "image": ""
+  "image": "",
+  "minutes": 0
  },
  {
   "id": "8e9b94fee057",
@@ -1791,7 +1333,8 @@
   ],
   "discussion_url": "https://news.ycombinator.com/item?id=50630294",
   "points": 108,
-  "image": "https://masondata.ai/og.png"
+  "image": "https://masondata.ai/og.png",
+  "minutes": 0
  },
  {
   "id": "197dc8b3ac4d",
@@ -1811,7 +1354,8 @@
   ],
   "discussion_url": "https://news.ycombinator.com/item?id=50629231",
   "points": 238,
-  "image": "https://repository-images.githubusercontent.com/1465322684/f6c97c41-6e40-4e48-83c6-1b20210672d6"
+  "image": "https://repository-images.githubusercontent.com/1465322684/f6c97c41-6e40-4e48-83c6-1b20210672d6",
+  "minutes": 2
  },
  {
   "id": "a0310481985e",
@@ -1830,7 +1374,8 @@
    "healthcare",
    "fhir"
   ],
-  "image": ""
+  "image": "",
+  "minutes": 0
  },
  {
   "id": "204a3b5c5043",
@@ -1851,7 +1396,9 @@
   ],
   "discussion_url": "https://news.ycombinator.com/item?id=50628932",
   "points": 130,
-  "image": ""
+  "image": "",
+  "minutes": 0,
+  "story": "anthropic-below-ipo-price"
  },
  {
   "id": "360f4418c875",
@@ -1870,7 +1417,8 @@
    "startups",
    "fraud"
   ],
-  "image": "https://thepointmag.com/wp-content/uploads/2026/11/Screenshot-2026-11-01-at-8.44.33-AM.png"
+  "image": "https://thepointmag.com/wp-content/uploads/2026/11/Screenshot-2026-11-01-at-8.44.33-AM.png",
+  "minutes": 21
  },
  {
   "id": "374488396458",
@@ -1889,7 +1437,8 @@
    "bugs",
    "quality"
   ],
-  "image": "https://storage.ghost.io/c/57/9b/579b6dca-f48a-4307-844f-f0533595d058/content/images/size/w1200/2026/10/bugs-atp.webp"
+  "image": "https://storage.ghost.io/c/57/9b/579b6dca-f48a-4307-844f-f0533595d058/content/images/size/w1200/2026/10/bugs-atp.webp",
+  "minutes": 1
  },
  {
   "id": "e628c0b2649e",
@@ -1910,7 +1459,9 @@
   ],
   "discussion_url": "https://news.ycombinator.com/item?id=50627836",
   "points": 433,
-  "image": ""
+  "image": "",
+  "minutes": 0,
+  "story": "anthropic-below-ipo-price"
  },
  {
   "id": "f14a6f6dfd19",
@@ -1929,7 +1480,8 @@
    "science",
    "chemistry"
   ],
-  "image": ""
+  "image": "https://lh3.googleusercontent.com/CtAfS_JWygw2R9cuDNty3xd0S4WFRzVew1vtNDiPaN1ZOGa88hCwTiCLxtgCtpSFER2t3jFO-moRkPnQYPjXziNgMvKHVc0wkOkzBTdGRoOYL3Ld=w1200-h630-n-nu-rw",
+  "minutes": 12
  },
  {
   "id": "3c6728c1bfd1",
@@ -1948,7 +1500,8 @@
    "protein",
    "gpt-6"
   ],
-  "image": "https://images.ctfassets.net/kftzwdyauwt9/Eg5mCwwaA3KqnznOVCh0n/8e6deaef25fd508d9853ff86a95187c1/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities-social.png?w=1600&h=900&fit=fill"
+  "image": "https://images.ctfassets.net/kftzwdyauwt9/Eg5mCwwaA3KqnznOVCh0n/8e6deaef25fd508d9853ff86a95187c1/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities-social.png?w=1600&h=900&fit=fill",
+  "minutes": 18
  },
  {
   "id": "ef8096d74f5d",
@@ -1969,7 +1522,8 @@
   ],
   "discussion_url": "https://news.ycombinator.com/item?id=50627340",
   "points": 1031,
-  "image": "https://michaelharley.net/assets/images/open-graph-image.png"
+  "image": "https://michaelharley.net/assets/images/open-graph-image.png",
+  "minutes": 6
  },
  {
   "id": "33e5526099fd",
@@ -1988,7 +1542,8 @@
    "parsing",
    "performance"
   ],
-  "image": ""
+  "image": "",
+  "minutes": 0
  },
  {
   "id": "20705cda544d",
@@ -2007,7 +1562,8 @@
    "clickhouse",
    "managed"
   ],
-  "image": "https://clickhouse.com/_next/image?url=%2Fuploads%2FPostgres_19_on_day_one_2_09f9ed54ca.png&w=1200&h=630&q=75"
+  "image": "https://clickhouse.com/_next/image?url=%2Fuploads%2FPostgres_19_on_day_one_2_09f9ed54ca.png&w=1200&h=630&q=75",
+  "minutes": 8
  },
  {
   "id": "f3aa9260f109",
@@ -2026,7 +1582,8 @@
    "astronomy",
    "case-study"
   ],
-  "image": "https://images.ctfassets.net/kftzwdyauwt9/318YLaAKlMKQFzOdMutjeX/8b6e4e516fd1a7894c97318838f43a0f/searching-for-distant-planets-with-astra-social.png?w=1600&h=900&fit=fill"
+  "image": "https://images.ctfassets.net/kftzwdyauwt9/318YLaAKlMKQFzOdMutjeX/8b6e4e516fd1a7894c97318838f43a0f/searching-for-distant-planets-with-astra-social.png?w=1600&h=900&fit=fill",
+  "minutes": 6
  },
  {
   "id": "7afaa8128bf8",
@@ -2045,7 +1602,8 @@
    "culture",
    "mind"
   ],
-  "image": "https://images.aeonmedia.co/images/52cd7554-7970-47c1-b2e1-b1f2609d4c56/essay-2011-04-26t120000z_177609120_gm1e74q1iax01_rtrmadp_3_china.jpg?width=1200&quality=75&format=jpeg"
+  "image": "https://images.aeonmedia.co/images/52cd7554-7970-47c1-b2e1-b1f2609d4c56/essay-2011-04-26t120000z_177609120_gm1e74q1iax01_rtrmadp_3_china.jpg?width=1200&quality=75&format=jpeg",
+  "minutes": 19
  },
  {
   "id": "312f55b632b2",
@@ -2064,7 +1622,8 @@
    "home",
    "identity"
   ],
-  "image": "https://images.aeonmedia.co/images/4ed838c6-53f7-49a6-aa7b-40598a28fc00/sz-final-par305491.jpg?top=120&left=0&cropWidth=2288&cropHeight=1287&width=1200&quality=75&format=jpeg"
+  "image": "https://images.aeonmedia.co/images/4ed838c6-53f7-49a6-aa7b-40598a28fc00/sz-final-par305491.jpg?top=120&left=0&cropWidth=2288&cropHeight=1287&width=1200&quality=75&format=jpeg",
+  "minutes": 9
  },
  {
   "id": "3e573b092674",
@@ -2083,7 +1642,8 @@
    "nvme",
    "storage"
   ],
-  "image": ""
+  "image": "",
+  "minutes": 0
  },
  {
   "id": "c052286a80b2",
@@ -2102,7 +1662,8 @@
    "creativity",
    "essay"
   ],
-  "image": "https://www.dbreunig.com/img/cng_2026/cng_2026.006.jpeg"
+  "image": "https://www.dbreunig.com/img/cng_2026/cng_2026.006.jpeg",
+  "minutes": 15
  },
  {
   "id": "53ecd8bdb026",
@@ -2121,7 +1682,28 @@
    "real-time",
    "olap"
   ],
-  "image": "https://clickhouse.com/_next/image?url=%2Fuploads%2Fyour_agents_dont_care_that_youre_a_batch_shop_cover_e4655f7b6b.png&w=1200&h=630&q=75"
+  "image": "https://clickhouse.com/_next/image?url=%2Fuploads%2Fyour_agents_dont_care_that_youre_a_batch_shop_cover_e4655f7b6b.png&w=1200&h=630&q=75",
+  "minutes": 6
+ },
+ {
+  "id": "2b7d8b0fe4f3",
+  "title": "Introducing SWE-2.1",
+  "url": "https://cognition.com/blog/swe-2-1",
+  "source": "Cognition",
+  "source_id": "cognition",
+  "group": "ai",
+  "kind": "blog",
+  "published": "2026-11-24T08:00:00-08:00",
+  "summary": "Cognition releases SWE-2.1, a major upgrade over SWE-2 trained with pure reinforcement learning. Worth tracking for where coding-agent models are heading.",
+  "category": "AI Models & Research",
+  "importance": 2,
+  "tags": [
+   "coding-models",
+   "rl",
+   "cognition"
+  ],
+  "image": "https://cognition.com/images/swe-2-1/cover.jpg",
+  "minutes": 4
  },
  {
   "id": "5c003d30472b",
@@ -2140,7 +1722,8 @@
    "profiling",
    "ai"
   ],
-  "image": ""
+  "image": "",
+  "minutes": 6
  },
  {
   "id": "3b1f8072ba29",
@@ -2159,7 +1742,8 @@
    "charts",
    "agents"
   ],
-  "image": ""
+  "image": "",
+  "minutes": 0
  },
  {
   "id": "a43a2373bab7",
@@ -2178,7 +1762,8 @@
    "glm",
    "openai"
   ],
-  "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/2d949515-988e-46e3-83cb-c3a9118cb699/Screenshot_2026-11-24_at_12.54.41b.png?t=1795525308"
+  "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/2d949515-988e-46e3-83cb-c3a9118cb699/Screenshot_2026-11-24_at_12.54.41b.png?t=1795525308",
+  "minutes": 31
  },
  {
   "id": "1951d3d0aee3",
@@ -2199,7 +1784,8 @@
   ],
   "discussion_url": "https://news.ycombinator.com/item?id=50622854",
   "points": 122,
-  "image": "https://davidtemkin.github.io/declarelang/assets/og-image.png"
+  "image": "https://davidtemkin.github.io/declarelang/assets/og-image.png",
+  "minutes": 66
  },
  {
   "id": "a53e25c34fef",
@@ -2218,7 +1804,8 @@
    "catalog",
    "databricks"
   ],
-  "image": "https://www.databricks.com/sites/default/files/2026-11/blog-og-Sharing-catalog-metadata-across-data-platforms-engines-and-agents.png"
+  "image": "https://www.databricks.com/sites/default/files/2026-11/blog-og-Sharing-catalog-metadata-across-data-platforms-engines-and-agents.png",
+  "minutes": 3
  },
  {
   "id": "0dd133049a77",
@@ -2237,7 +1824,8 @@
    "pm",
    "agents"
   ],
-  "image": "https://substackcdn.com/image/fetch/$s_!PIVJ!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F96906a85-c573-4c8a-8d2c-3afbcff69111_1280x720.jpeg"
+  "image": "https://substackcdn.com/image/fetch/$s_!PIVJ!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F96906a85-c573-4c8a-8d2c-3afbcff69111_1280x720.jpeg",
+  "minutes": 7
  },
  {
   "id": "3e8dc5b86d2d",
@@ -2256,7 +1844,8 @@
    "snowflake",
    "governance"
   ],
-  "image": ""
+  "image": "",
+  "minutes": 0
  },
  {
   "id": "b99b43256cba",
@@ -2275,7 +1864,8 @@
    "siem",
    "observability"
   ],
-  "image": "https://clickhouse.com/_next/image?url=%2Fuploads%2Fclickhouse_security_nov2026_banner_b561b84619.jpg&w=1200&h=630&q=75"
+  "image": "https://clickhouse.com/_next/image?url=%2Fuploads%2Fclickhouse_security_nov2026_banner_b561b84619.jpg&w=1200&h=630&q=75",
+  "minutes": 10
  },
  {
   "id": "80659a0fea2a",
@@ -2293,7 +1883,8 @@
    "duckdb",
    "newsletter"
   ],
-  "image": "https://motherduck-com-web-prod.s3.us-east-1.amazonaws.com/assets/img/articles/duckdb-ecosystem-newsletter-november-2026/duckdb_ecosystem_newsletter_november_2026_thumbnail_b0e559d818.png"
+  "image": "https://motherduck-com-web-prod.s3.us-east-1.amazonaws.com/assets/img/articles/duckdb-ecosystem-newsletter-november-2026/duckdb_ecosystem_newsletter_november_2026_thumbnail_b0e559d818.png",
+  "minutes": 6
  },
  {
   "id": "ca6247e2be65",
@@ -2312,45 +1903,8 @@
    "testing",
    "ci"
   ],
-  "image": "https://duckdb.org/images/blog/thumbs/sproutme.png"
- },
- {
-  "id": "ec442b764e04",
-  "title": "How Intentful uses dots to make more time for growth",
-  "url": "https://openai.com/business/customer-stories/intentful-dots",
-  "source": "OpenAI",
-  "source_id": "openai",
-  "group": "ai",
-  "kind": "blog",
-  "published": "2026-11-24T00:00:00+00:00",
-  "summary": "OpenAI profiles a small founder's agent that does research and proposals and flags messages. Vendor customer story.",
-  "category": "AI Engineering",
-  "importance": 1,
-  "tags": [
-   "openai",
-   "customer-story",
-   "agents"
-  ],
-  "image": "https://images.ctfassets.net/kftzwdyauwt9/2DH2aby1xmlzvADCraI7Xi/bbe8b8956578492f2c3fd7326ecbd9e1/intentful-dots-social-c.png?w=1600&h=900&fit=fill"
- },
- {
-  "id": "7a6462e387eb",
-  "title": "How iFood scales coding agents across 15,000 repositories",
-  "url": "https://openai.com/business/customer-stories/ifood",
-  "source": "OpenAI",
-  "source_id": "openai",
-  "group": "ai",
-  "kind": "blog",
-  "published": "2026-11-24T00:00:00+00:00",
-  "summary": "iFood runs coding agents across 15,000 repositories at about four cents per run through an internal platform. Concrete numbers on scaling agents inside a company.",
-  "category": "AI Engineering",
-  "importance": 2,
-  "tags": [
-   "coding-agents",
-   "openai",
-   "scale"
-  ],
-  "image": "https://images.ctfassets.net/kftzwdyauwt9/4Ts7RsLLSU4iEOxQwBkGgg/cbf56c075004a9ae2c41af4d5f7b428b/ifood-customer-story-social.png?w=1600&h=900&fit=fill"
+  "image": "https://duckdb.org/images/blog/thumbs/sproutme.png",
+  "minutes": 4
  },
  {
   "id": "99b93f3e1098",
@@ -2369,7 +1923,9 @@
    "openai",
    "gtm"
   ],
-  "image": "https://images.ctfassets.net/kftzwdyauwt9/24rUSNlLR8iXQysKA6dq12/38954f25812d30bf772691824f747b84/clay-seo-1920.png?w=1600&h=900&fit=fill"
+  "image": "https://images.ctfassets.net/kftzwdyauwt9/24rUSNlLR8iXQysKA6dq12/38954f25812d30bf772691824f747b84/clay-seo-1920.png?w=1600&h=900&fit=fill",
+  "minutes": 3,
+  "story": "clay-gtm-agents"
  },
  {
   "id": "cd79b5cf3ca4",
@@ -2388,7 +1944,8 @@
    "jevons",
    "pricing"
   ],
-  "image": "https://res.cloudinary.com/dzawgnnlr/image/upload/c_fill,g_auto,w_1200,h_630/analysis/ai-token-demand-inflation-vs-price-deflation/chart-01-indexed-divergence-ramp-v2-93144705160f.png"
+  "image": "https://res.cloudinary.com/dzawgnnlr/image/upload/c_fill,g_auto,w_1200,h_630/analysis/ai-token-demand-inflation-vs-price-deflation/chart-01-indexed-divergence-ramp-v2-93144705160f.png",
+  "minutes": 2
  },
  {
   "id": "ef3910f6a7af",
@@ -2407,7 +1964,8 @@
    "loop-transformer",
    "coding"
   ],
-  "image": "https://static.simonwillison.net/static/2026/glm-family-4.webp"
+  "image": "https://static.simonwillison.net/static/2026/glm-family-4.webp",
+  "minutes": 2
  },
  {
   "id": "b7fc35d5ccf0",
@@ -2425,26 +1983,8 @@
    "browser",
    "open-source"
   ],
-  "image": "https://static.simonwillison.net/static/2026/ladybird-ffmpeg.webp"
- },
- {
-  "id": "1d0c151fefed",
-  "title": "OpenAI and Cisco introduce Shirudo",
-  "url": "https://openai.com/index/introducing-shirudo",
-  "source": "OpenAI",
-  "source_id": "openai",
-  "group": "ai",
-  "kind": "blog",
-  "published": "2026-11-23T21:20:00+00:00",
-  "summary": "OpenAI and Cisco release an open-source runtime to shield Linux systems while patches roll out. Infra security news with indirect relevance.",
-  "category": "AI Engineering",
-  "importance": 1,
-  "tags": [
-   "openai",
-   "cisco",
-   "security"
-  ],
-  "image": "https://images.ctfassets.net/kftzwdyauwt9/5K7gFDr3r8vgjdIcsW6RVY/aba5325ce7902e5d1499b907f8e78f0b/shirudo-partner-logos-landscape-2x.png?w=1600&h=900&fit=fill"
+  "image": "https://static.simonwillison.net/static/2026/ladybird-ffmpeg.webp",
+  "minutes": 4
  },
  {
   "id": "76688e73cec3",
@@ -2463,7 +2003,8 @@
    "supply-chain",
    "databricks"
   ],
-  "image": "https://www.databricks.com/sites/default/files/2026-11/cover-notext.png"
+  "image": "https://www.databricks.com/sites/default/files/2026-11/cover-notext.png",
+  "minutes": 7
  },
  {
   "id": "3c69fd56490c",
@@ -2484,7 +2025,8 @@
   ],
   "discussion_url": "https://news.ycombinator.com/item?id=50615308",
   "points": 2021,
-  "image": "https://pbs.twimg.com/profile_images/1483577865056702469/rWA-3_T7_400x400.jpg"
+  "image": "https://pbs.twimg.com/profile_images/1483577865056702469/rWA-3_T7_400x400.jpg",
+  "minutes": 0
  },
  {
   "id": "d1d3915e5322",
@@ -2503,7 +2045,8 @@
    "snowflake",
    "migration"
   ],
-  "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/Data_Analytics_JooYPJr.max-2500x2500.jpg"
+  "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/Data_Analytics_JooYPJr.max-2500x2500.jpg",
+  "minutes": 4
  },
  {
   "id": "61dcf1169479",
@@ -2522,7 +2065,8 @@
    "quantum",
    "formal-verification"
   ],
-  "image": ""
+  "image": "",
+  "minutes": 0
  },
  {
   "id": "072458d77f66",
@@ -2541,7 +2085,8 @@
    "lakebase",
    "streaming"
   ],
-  "image": "https://www.databricks.com/sites/default/files/2026-11/lakebase-sink-optB-pipeline-2400x1256.png"
+  "image": "https://www.databricks.com/sites/default/files/2026-11/lakebase-sink-optB-pipeline-2400x1256.png",
+  "minutes": 5
  },
  {
   "id": "a4dbe453ad16",
@@ -2560,7 +2105,8 @@
    "immutability",
    "history"
   ],
-  "image": "https://web.archive.org/web/20210329070928im_/https://crux-blog-images.s3.eu-west-2.amazonaws.com/blog-thumbnails/gameboy/mid.png"
+  "image": "https://web.archive.org/web/20210329070928im_/https://crux-blog-images.s3.eu-west-2.amazonaws.com/blog-thumbnails/gameboy/mid.png",
+  "minutes": 14
  },
  {
   "id": "db5ec702beee",
@@ -2579,7 +2125,8 @@
    "aws",
    "partnership"
   ],
-  "image": "https://clickhouse.com/_next/image?url=%2Fuploads%2FSCA_Banner_bf4eda1389.png&w=1200&h=630&q=75"
+  "image": "https://clickhouse.com/_next/image?url=%2Fuploads%2FSCA_Banner_bf4eda1389.png&w=1200&h=630&q=75",
+  "minutes": 4
  },
  {
   "id": "eeeccf5ef933",
@@ -2598,7 +2145,8 @@
    "agents",
    "governance"
   ],
-  "image": ""
+  "image": "",
+  "minutes": 0
  },
  {
   "id": "3120537bb3c8",
@@ -2617,7 +2165,8 @@
    "research",
    "huawei"
   ],
-  "image": "https://substackcdn.com/image/fetch/$s_!3yYS!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6d17996-2bef-40a4-abe3-be72a0e8a227_258x258.png"
+  "image": "https://substackcdn.com/image/fetch/$s_!3yYS!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6d17996-2bef-40a4-abe3-be72a0e8a227_258x258.png",
+  "minutes": 11
  },
  {
   "id": "17cce5727050",
@@ -2638,7 +2187,8 @@
   ],
   "discussion_url": "https://news.ycombinator.com/item?id=50611593",
   "points": 131,
-  "image": "https://chszlab.github.io/AgenticAlgorithmEngineering/assets/social-preview.png"
+  "image": "https://chszlab.github.io/AgenticAlgorithmEngineering/assets/social-preview.png",
+  "minutes": 1
  },
  {
   "id": "9f50a7fbeba1",
@@ -2657,7 +2207,8 @@
    "dns",
    "testing"
   ],
-  "image": "https://blog.cloudflare.com/_emdash/api/media/file/01M7XNS6Z54W4GPXME90VX9S44.png"
+  "image": "https://blog.cloudflare.com/_emdash/api/media/file/01M7XNS6Z54W4GPXME90VX9S44.png",
+  "minutes": 7
  },
  {
   "id": "c2e00314602d",
@@ -2676,7 +2227,8 @@
    "databricks",
    "databases"
   ],
-  "image": "https://substackcdn.com/image/fetch/$s_!KV9K!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbca935bd-8b0c-4f19-94c5-d523ffc5c39c_1672x941.png"
+  "image": "https://substackcdn.com/image/fetch/$s_!KV9K!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbca935bd-8b0c-4f19-94c5-d523ffc5c39c_1672x941.png",
+  "minutes": 14
  },
  {
   "id": "a7df8bf18b52",
@@ -2695,7 +2247,8 @@
    "manufacturing",
    "agents"
   ],
-  "image": ""
+  "image": "",
+  "minutes": 0
  },
  {
   "id": "df9acd756c94",
@@ -2714,7 +2267,8 @@
    "executives",
    "productivity"
   ],
-  "image": "https://substackcdn.com/image/fetch/$s_!1BzH!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F03f79175-4d7d-4d7c-b919-21d0540b125a_728x524.png"
+  "image": "https://substackcdn.com/image/fetch/$s_!1BzH!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F03f79175-4d7d-4d7c-b919-21d0540b125a_728x524.png",
+  "minutes": 2
  },
  {
   "id": "e4e02944b3e0",
@@ -2733,7 +2287,8 @@
    "insurance",
    "agents"
   ],
-  "image": "https://www.kai-waehner.de/wp-content/uploads/2026/11/unified-orchestration-insurance-thumbnail.png"
+  "image": "https://www.kai-waehner.de/wp-content/uploads/2026/11/unified-orchestration-insurance-thumbnail.png",
+  "minutes": 10
  },
  {
   "id": "f8a4e02f4212",
@@ -2752,26 +2307,8 @@
    "legal",
    "workflows"
   ],
-  "image": "https://images.ctfassets.net/kftzwdyauwt9/40q0vnGDp1zwWuJrVjXtu6/79ebb13b84e11ce1711a27adfd6ffafe/connected-intelligence-for-in-house-legal-cover.png?w=1600&h=900&fit=fill"
- },
- {
-  "id": "680b35173b97",
-  "title": "Richpanel helps companies automate 50% of support in 30 days",
-  "url": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
-  "source": "OpenAI",
-  "source_id": "openai",
-  "group": "ai",
-  "kind": "blog",
-  "published": "2026-11-23T08:00:00+00:00",
-  "summary": "A support automation company reports handling half of tickets within 30 days using GPT models. Vendor story with a headline number.",
-  "category": "AI Engineering",
-  "importance": 1,
-  "tags": [
-   "openai",
-   "support",
-   "customer-story"
-  ],
-  "image": "https://images.ctfassets.net/kftzwdyauwt9/4aVhQ1EicxWg7i6lIkBrLQ/cdabc180f7e5f780dbb43c302e7163d8/richpanel-social.png?w=1600&h=900&fit=fill"
+  "image": "https://images.ctfassets.net/kftzwdyauwt9/40q0vnGDp1zwWuJrVjXtu6/79ebb13b84e11ce1711a27adfd6ffafe/connected-intelligence-for-in-house-legal-cover.png?w=1600&h=900&fit=fill",
+  "minutes": 0
  },
  {
   "id": "10de49f569d3",
@@ -2791,7 +2328,8 @@
   ],
   "discussion_url": "https://news.ycombinator.com/item?id=50607849",
   "points": 297,
-  "image": ""
+  "image": "",
+  "minutes": 8
  },
  {
   "id": "41d4ad8c2794",
@@ -2810,7 +2348,8 @@
    "data-engineering",
    "verification"
   ],
-  "image": "https://substackcdn.com/image/fetch/$s_!AdQk!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F6f51c1bf-abc9-4cd3-ad69-22cc8e3f1ef2_1080x1080.png"
+  "image": "https://substackcdn.com/image/fetch/$s_!AdQk!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F6f51c1bf-abc9-4cd3-ad69-22cc8e3f1ef2_1080x1080.png",
+  "minutes": 5
  },
  {
   "id": "289c8aeddacd",
@@ -2829,7 +2368,8 @@
    "charts",
    "claude"
   ],
-  "image": "https://static.simonwillison.net/static/2026/datasette-charts-0.1a0.webp"
+  "image": "https://static.simonwillison.net/static/2026/datasette-charts-0.1a0.webp",
+  "minutes": 1
  },
  {
   "id": "0061038fb64e",
@@ -2848,7 +2388,8 @@
    "saas",
    "ai"
   ],
-  "image": "https://images.stripeassets.com/fzn2n1nzq965/1KkWeWPosG15eHjC4Zwp2J/40c4870c1bceb5921c966cbe82c2651e/Option_2_Social__1_.jpg?q=80"
+  "image": "https://images.stripeassets.com/fzn2n1nzq965/1KkWeWPosG15eHjC4Zwp2J/40c4870c1bceb5921c966cbe82c2651e/Option_2_Social__1_.jpg?q=80",
+  "minutes": 4
  },
  {
   "id": "6fd4c32fe34a",
@@ -2867,7 +2408,8 @@
    "evals",
    "huggingface"
   ],
-  "image": "https://huggingface.co/blog/assets/agentic-evals/thumbnail.png"
+  "image": "https://huggingface.co/blog/assets/agentic-evals/thumbnail.png",
+  "minutes": 26
  },
  {
   "id": "1ba4d31258de",
@@ -2887,7 +2429,8 @@
   ],
   "discussion_url": "https://news.ycombinator.com/item?id=50603845",
   "points": 780,
-  "image": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth/opengraph-image-17m7t5?6653c98c6cd84ba6"
+  "image": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth/opengraph-image-17m7t5?6653c98c6cd84ba6",
+  "minutes": 10
  },
  {
   "id": "c0f9b5be5e22",
@@ -2908,7 +2451,8 @@
   ],
   "discussion_url": "https://news.ycombinator.com/item?id=50601280",
   "points": 466,
-  "image": ""
+  "image": "",
+  "minutes": 19
  },
  {
   "id": "0045010b29f8",
@@ -2927,7 +2471,8 @@
    "ai",
    "leadership"
   ],
-  "image": "https://substackcdn.com/image/fetch/$s_!jBdu!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F59e8c8e2-feda-485d-9f9b-db56d31dfd80_2048x2048.png"
+  "image": "https://substackcdn.com/image/fetch/$s_!jBdu!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F59e8c8e2-feda-485d-9f9b-db56d31dfd80_2048x2048.png",
+  "minutes": 2
  },
  {
   "id": "315e82c2f910",
@@ -2947,7 +2492,8 @@
   ],
   "discussion_url": "https://news.ycombinator.com/item?id=50598961",
   "points": 135,
-  "image": "https://substackcdn.com/image/fetch/$s_!MW3Y!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,$fp_!0.3439:1!/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5d71c583-fbcc-4b20-91c7-e1bdabe47973_4978x3319.jpeg"
+  "image": "https://substackcdn.com/image/fetch/$s_!MW3Y!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,$fp_!0.3439:1!/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5d71c583-fbcc-4b20-91c7-e1bdabe47973_4978x3319.jpeg",
+  "minutes": 16
  },
  {
   "id": "38c61351fe0d",
@@ -2968,7 +2514,8 @@
   ],
   "discussion_url": "https://news.ycombinator.com/item?id=50597612",
   "points": 1043,
-  "image": ""
+  "image": "",
+  "minutes": 0
  },
  {
   "id": "ce0bcf2918b4",
@@ -2989,7 +2536,8 @@
   ],
   "discussion_url": "https://news.ycombinator.com/item?id=50596511",
   "points": 110,
-  "image": "https://dragos.brightspotcdn.com/dims4/default/41c5c4a/2147483647/strip/true/crop/1307x735+309+0/resize/1440x810!/format/webp/quality/90/?url=https%3A%2F%2Fdragos-production-dragos.s3.us-west-2.amazonaws.com%2Fbrightspot%2Fd4%2Fb6%2Fb4dbcbe348a8b3506fb99c5419e7%2Fxot-hero.webp"
+  "image": "https://dragos.brightspotcdn.com/dims4/default/41c5c4a/2147483647/strip/true/crop/1307x735+309+0/resize/1440x810!/format/webp/quality/90/?url=https%3A%2F%2Fdragos-production-dragos.s3.us-west-2.amazonaws.com%2Fbrightspot%2Fd4%2Fb6%2Fb4dbcbe348a8b3506fb99c5419e7%2Fxot-hero.webp",
+  "minutes": 12
  },
  {
   "id": "528d6924cf9a",
@@ -3009,7 +2557,8 @@
   ],
   "discussion_url": "https://news.ycombinator.com/item?id=50595537",
   "points": 181,
-  "image": "https://noemamag.imgix.net/2026/01/The-Mythology-of-Conscious-AI-scaled.jpg?fit=crop&fm=pjpg&h=628&ixlib=php-3.3.1&w=1200&wpsize=noema-social-facebook&s=ac64b80d34a8583e44429565e7df4a07"
+  "image": "https://noemamag.imgix.net/2026/01/The-Mythology-of-Conscious-AI-scaled.jpg?fit=crop&fm=pjpg&h=628&ixlib=php-3.3.1&w=1200&wpsize=noema-social-facebook&s=ac64b80d34a8583e44429565e7df4a07",
+  "minutes": 34
  },
  {
   "id": "de5cd1a6d51d",
@@ -3028,7 +2577,8 @@
    "evals",
    "perplexity"
   ],
-  "image": "https://images.ctfassets.net/kftzwdyauwt9/6rIIhCRSKrhIfe385Onmcz/aca2d190553c62fd5d49efb5d5ce1eb6/perplexity-and-intelligence-social.png?w=1600&h=900&fit=fill"
+  "image": "https://images.ctfassets.net/kftzwdyauwt9/6rIIhCRSKrhIfe385Onmcz/aca2d190553c62fd5d49efb5d5ce1eb6/perplexity-and-intelligence-social.png?w=1600&h=900&fit=fill",
+  "minutes": 7
  },
  {
   "id": "a4ea85254a88",
@@ -3047,7 +2597,8 @@
    "benchmarks",
    "methodology"
   ],
-  "image": "https://eugeneyan.com/assets/og_image/public-evals.jpg"
+  "image": "https://eugeneyan.com/assets/og_image/public-evals.jpg",
+  "minutes": 29
  },
  {
   "id": "21bd1d482ae2",
@@ -3066,7 +2617,8 @@
    "rust",
    "servers"
   ],
-  "image": ""
+  "image": "",
+  "minutes": 1
  },
  {
   "id": "3d1bee2216f8",
@@ -3087,7 +2639,8 @@
   ],
   "discussion_url": "https://news.ycombinator.com/item?id=50593481",
   "points": 141,
-  "image": ""
+  "image": "",
+  "minutes": 0
  },
  {
   "id": "1c83a91ee04f",
@@ -3108,7 +2661,8 @@
   ],
   "discussion_url": "https://news.ycombinator.com/item?id=50591260",
   "points": 171,
-  "image": "https://jespino.github.io/gopgext/img/social.png"
+  "image": "https://jespino.github.io/gopgext/img/social.png",
+  "minutes": 1
  },
  {
   "id": "0d3333ef9d9b",
@@ -3127,7 +2681,8 @@
    "community",
    "workflow"
   ],
-  "image": "https://substackcdn.com/image/fetch/$s_!KxHU!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa1ca8352-9571-4b81-b041-52374176f4fc_2912x1456.png"
+  "image": "https://substackcdn.com/image/fetch/$s_!KxHU!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa1ca8352-9571-4b81-b041-52374176f4fc_2912x1456.png",
+  "minutes": 0
  },
  {
   "id": "739c2afbe047",
@@ -3146,7 +2701,8 @@
    "embedded",
    "single-binary"
   ],
-  "image": "https://progrium.xyz/articles/2026/single-binary-postgres.card.png"
+  "image": "https://progrium.xyz/articles/2026/single-binary-postgres.card.png",
+  "minutes": 6
  },
  {
   "id": "0861843e14b2",
@@ -3165,7 +2721,8 @@
    "incident",
    "microsoft"
   ],
-  "image": ""
+  "image": "",
+  "minutes": 0
  },
  {
   "id": "2b32d4b379bc",
@@ -3184,7 +2741,8 @@
    "anthropic",
    "proofs"
   ],
-  "image": "https://latent.space/og/card/post/ainews-riemann-hypothesis-proved-twice-independently/e5a84487c10f6433d047c718980d15e3da91212ba6d34d2720d3eb1a90a457ba.png"
+  "image": "https://latent.space/og/card/post/ainews-riemann-hypothesis-proved-twice-independently/e5a84487c10f6433d047c718980d15e3da91212ba6d34d2720d3eb1a90a457ba.png",
+  "minutes": 27
  },
  {
   "id": "c180aada27bd",
@@ -3203,7 +2761,8 @@
    "production",
    "pm"
   ],
-  "image": "https://substackcdn.com/image/fetch/$s_!kO5T!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-video.s3.amazonaws.com%2Fvideo_upload%2Fpost%2F225777916%2Fb9de1cba-8b1d-4b37-add3-6e2ae0265360%2Ftranscoded-1795171838.png"
+  "image": "https://substackcdn.com/image/fetch/$s_!kO5T!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-video.s3.amazonaws.com%2Fvideo_upload%2Fpost%2F225777916%2Fb9de1cba-8b1d-4b37-add3-6e2ae0265360%2Ftranscoded-1795171838.png",
+  "minutes": 2
  },
  {
   "id": "0e6ffb22cecb",
@@ -3222,7 +2781,8 @@
    "data-structures",
    "memory"
   ],
-  "image": "https://valkey.io/img/valkey-logo-og.png"
+  "image": "https://valkey.io/img/valkey-logo-og.png",
+  "minutes": 7
  },
  {
   "id": "c989db0d32fd",
@@ -3241,7 +2801,8 @@
    "slop",
    "coding"
   ],
-  "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/b6f560cd-a37a-4d62-8d6b-da5b59cf4790/formal-verification-feature.png?t=1795207886"
+  "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/b6f560cd-a37a-4d62-8d6b-da5b59cf4790/formal-verification-feature.png?t=1795207886",
+  "minutes": 8
  },
  {
   "id": "f93ea93941f6",
@@ -3260,7 +2821,8 @@
    "waf",
    "ruby"
   ],
-  "image": "https://blog.cloudflare.com/_emdash/api/media/file/01M7X91E3PVQ8147SJ7B05N2WK.png"
+  "image": "https://blog.cloudflare.com/_emdash/api/media/file/01M7X91E3PVQ8147SJ7B05N2WK.png",
+  "minutes": 5
  },
  {
   "id": "7066f202a884",
@@ -3279,7 +2841,8 @@
    "waf",
    "php"
   ],
-  "image": "https://blog.cloudflare.com/_emdash/api/media/file/01M7X76FEMSF7NE7RCCQQBHCVN.png"
+  "image": "https://blog.cloudflare.com/_emdash/api/media/file/01M7X76FEMSF7NE7RCCQQBHCVN.png",
+  "minutes": 7
  },
  {
   "id": "3e30621eb1a8",
@@ -3300,7 +2863,8 @@
   ],
   "discussion_url": "https://news.ycombinator.com/item?id=50579297",
   "points": 180,
-  "image": "https://ankitg.me/assets/fpga-board.png"
+  "image": "https://ankitg.me/assets/fpga-board.png",
+  "minutes": 10
  },
  {
   "id": "86db41def986",
@@ -3319,7 +2883,8 @@
    "agents",
    "google"
   ],
-  "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/Data_Analytics_JooYPJr.max-2500x2500.jpg"
+  "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/Data_Analytics_JooYPJr.max-2500x2500.jpg",
+  "minutes": 10
  },
  {
   "id": "7ec62e10e147",
@@ -3338,7 +2903,8 @@
    "evals",
    "google"
   ],
-  "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/Data_Analytics_JooYPJr.max-2500x2500.jpg"
+  "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/Data_Analytics_JooYPJr.max-2500x2500.jpg",
+  "minutes": 7
  },
  {
   "id": "347053b5b61d",
@@ -3357,7 +2923,8 @@
    "google",
    "agents"
   ],
-  "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/Data_Analytics_JooYPJr.max-2500x2500.jpg"
+  "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/Data_Analytics_JooYPJr.max-2500x2500.jpg",
+  "minutes": 8
  },
  {
   "id": "a7c069141e9e",
@@ -3376,7 +2943,8 @@
    "bigquery",
    "agents"
   ],
-  "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/Data_Analytics_JooYPJr.max-2500x2500.jpg"
+  "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/Data_Analytics_JooYPJr.max-2500x2500.jpg",
+  "minutes": 5
  },
  {
   "id": "83f2b5d135af",
@@ -3397,7 +2965,8 @@
   ],
   "discussion_url": "https://news.ycombinator.com/item?id=50577901",
   "points": 285,
-  "image": "https://www.motherjones.com/wp-content/uploads/2026/11/google-chromebook-la-school-covid.jpg?w=1200&h=630&crop=1"
+  "image": "https://www.motherjones.com/wp-content/uploads/2026/11/google-chromebook-la-school-covid.jpg?w=1200&h=630&crop=1",
+  "minutes": 4
  },
  {
   "id": "9d9e2c9f2c65",
@@ -3417,7 +2986,8 @@
   ],
   "discussion_url": "https://news.ycombinator.com/item?id=50577872",
   "points": 127,
-  "image": "https://a90.com/experiments/same-advice/og.png"
+  "image": "https://a90.com/experiments/same-advice/og.png",
+  "minutes": 10
  },
  {
   "id": "b8e1839046bc",
@@ -3436,7 +3006,8 @@
    "claude",
    "proofs"
   ],
-  "image": ""
+  "image": "",
+  "minutes": 1
  },
  {
   "id": "9fe3e937f57a",
@@ -3457,7 +3028,8 @@
   ],
   "discussion_url": "https://news.ycombinator.com/item?id=50577265",
   "points": 494,
-  "image": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
+  "image": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+  "minutes": 0
  },
  {
   "id": "beff442b3034",
@@ -3476,7 +3048,8 @@
    "architecture",
    "reference"
   ],
-  "image": "https://www.databricks.com/sites/default/files/2026-11/interactive-databricks-reference-architectures-across-industries-blog-og.png"
+  "image": "https://www.databricks.com/sites/default/files/2026-11/interactive-databricks-reference-architectures-across-industries-blog-og.png",
+  "minutes": 8
  },
  {
   "id": "2ab114abf449",
@@ -3495,7 +3068,8 @@
    "security",
    "saas"
   ],
-  "image": "https://substackcdn.com/image/fetch/$s_!sYba!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4a427dbf-30ce-4621-a891-630fb396fcd8_1731x909.png"
+  "image": "https://substackcdn.com/image/fetch/$s_!sYba!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4a427dbf-30ce-4621-a891-630fb396fcd8_1731x909.png",
+  "minutes": 7
  },
  {
   "id": "94ae0207bc3c",
@@ -3514,7 +3088,8 @@
    "newsletter",
    "tech"
   ],
-  "image": "https://substackcdn.com/image/fetch/$s_!PPUN!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F27d68c14-5cc8-42fd-afe9-cbd625d8687a_960x540.gif"
+  "image": "https://substackcdn.com/image/fetch/$s_!PPUN!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F27d68c14-5cc8-42fd-afe9-cbd625d8687a_960x540.gif",
+  "minutes": 8
  },
  {
   "id": "fda5004e845f",
@@ -3535,7 +3110,8 @@
   ],
   "discussion_url": "https://news.ycombinator.com/item?id=50574383",
   "points": 531,
-  "image": "https://i.guim.co.uk/img/media/578833ee207aab76c1b6a542f17226703dbd735b/686_0_5336_4269/master/5336.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=a36857abb7bd0660d819105186f898a0"
+  "image": "https://i.guim.co.uk/img/media/578833ee207aab76c1b6a542f17226703dbd735b/686_0_5336_4269/master/5336.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=a36857abb7bd0660d819105186f898a0",
+  "minutes": 3
  },
  {
   "id": "000028228240",
@@ -3556,7 +3132,8 @@
   ],
   "discussion_url": "https://news.ycombinator.com/item?id=50572503",
   "points": 686,
-  "image": "https://main--gleeful-begonia-6bb5f3.netlify.app/_next/static/media/frostbite-cover.3n9ytugnquhlr.jpg"
+  "image": "https://main--gleeful-begonia-6bb5f3.netlify.app/_next/static/media/frostbite-cover.3n9ytugnquhlr.jpg",
+  "minutes": 13
  },
  {
   "id": "3ea993db7e3c",
@@ -3575,7 +3152,8 @@
    "distillation",
    "security"
   ],
-  "image": "https://images.ctfassets.net/kftzwdyauwt9/5SUtPGdssrttC7LfP1yoJ1/b6b000846ab3576c1735c29534ab20b0/combatting-adversarial-distillation-social.png?w=1600&h=900&fit=fill"
+  "image": "https://images.ctfassets.net/kftzwdyauwt9/5SUtPGdssrttC7LfP1yoJ1/b6b000846ab3576c1735c29534ab20b0/combatting-adversarial-distillation-social.png?w=1600&h=900&fit=fill",
+  "minutes": 9
  },
  {
   "id": "50d6027fa155",
@@ -3594,7 +3172,8 @@
    "newsletter",
    "launches"
   ],
-  "image": "https://clickhouse.com/_next/image?url=%2Fuploads%2Fnov2026_nl_image1_32f768551e.png&w=1200&h=630&q=75"
+  "image": "https://clickhouse.com/_next/image?url=%2Fuploads%2Fnov2026_nl_image1_32f768551e.png&w=1200&h=630&q=75",
+  "minutes": 4
  },
  {
   "id": "c4ca83ba5741",
@@ -3615,7 +3194,8 @@
   ],
   "discussion_url": "https://news.ycombinator.com/item?id=50572348",
   "points": 584,
-  "image": "https://signal.org/blog/images/protecting-your-privacy-opengraph.png"
+  "image": "https://signal.org/blog/images/protecting-your-privacy-opengraph.png",
+  "minutes": 6
  },
  {
   "id": "2577a740a4e0",
@@ -3634,7 +3214,9 @@
    "ipo",
    "agents"
   ],
-  "image": "https://www.kai-waehner.de/wp-content/uploads/2026/11/anthropic-s1-ai-agent-orchestration-thumbnail.png"
+  "image": "https://www.kai-waehner.de/wp-content/uploads/2026/11/anthropic-s1-ai-agent-orchestration-thumbnail.png",
+  "minutes": 8,
+  "story": "anthropic-s1"
  },
  {
   "id": "1177dfbd92c1",
@@ -3653,7 +3235,29 @@
    "ipo",
    "market"
   ],
-  "image": "https://latent.space/og/card/post/ainews-anthropic-successfully-completes-largest-ipo-in-history-valued-at-1-5t/f8e51dd638504d7f5c621226c8a155ca94849fa49ed6a1d5ff9e8b82b0176ea9.png"
+  "image": "https://latent.space/og/card/post/ainews-anthropic-successfully-completes-largest-ipo-in-history-valued-at-1-5t/f8e51dd638504d7f5c621226c8a155ca94849fa49ed6a1d5ff9e8b82b0176ea9.png",
+  "minutes": 33,
+  "story": "anthropic-ipo"
+ },
+ {
+  "id": "0458149255e6",
+  "title": "Jensen Huang’s Nvidia legacy, Claude Fable 5.2 and Anthropic’s IPO, World Labs Releases Atlas to Developers",
+  "url": "https://www.deeplearning.ai/the-batch/issue-380",
+  "source": "The Batch (DeepLearning.AI)",
+  "source_id": "the-batch",
+  "group": "ai",
+  "kind": "newsletter",
+  "published": "2026-11-20T07:00:00-08:00",
+  "summary": "This issue covers Nvidia's CEO stepping down, a new Claude release alongside Anthropic's IPO, and a developer release from World Labs. A quick scan of the week's AI market moves.",
+  "category": "AI Industry",
+  "importance": 2,
+  "tags": [
+   "newsletter",
+   "anthropic",
+   "nvidia"
+  ],
+  "image": "https://charonhub.deeplearning.ai/content/images/2026/11/Andrew-and-Jensen.webp",
+  "minutes": 12
  },
  {
   "id": "d23cd7e9b4c1",
@@ -3672,6 +3276,606 @@
    "sap",
    "forecasting"
   ],
-  "image": ""
+  "image": "",
+  "minutes": 0
+ },
+ {
+  "id": "e7354365dbd8",
+  "title": "Anthropic announces closing of initial public offering, including full exercise of underwriters’ option to purchase additional shares, and closing of concurrent private placement",
+  "url": "https://www.anthropic.com/news/ipo-close",
+  "source": "Anthropic",
+  "source_id": "anthropic",
+  "group": "ai",
+  "kind": "blog",
+  "published": "2026-11-20T00:00:00+00:00",
+  "summary": "Announces the close of Anthropic's offering at $83 a share, including the underwriters' extra allotment. A short factual notice; the market analysis is in other pieces.",
+  "category": "AI Industry",
+  "importance": 1,
+  "tags": [
+   "anthropic",
+   "ipo"
+  ],
+  "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
+  "minutes": 2,
+  "story": "anthropic-ipo"
+ },
+ {
+  "id": "25c96fa5a216",
+  "title": "Anthropic prices initial public offering",
+  "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+  "source": "Anthropic",
+  "source_id": "anthropic",
+  "group": "ai",
+  "kind": "blog",
+  "published": "2026-11-18T00:00:00+00:00",
+  "summary": "Anthropic has priced its IPO of Class A common stock, a landmark capital-markets event for a frontier AI lab. It signals how much money and scrutiny now surround the platform vendors that AI products build on.",
+  "category": "AI Industry",
+  "importance": 3,
+  "tags": [
+   "anthropic",
+   "ipo",
+   "funding"
+  ],
+  "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
+  "minutes": 1,
+  "story": "anthropic-ipo"
+ },
+ {
+  "id": "26a46cce7cf4",
+  "title": "An update on our recent security incident",
+  "url": "https://cursor.com/blog/security-incident-update",
+  "source": "Cursor",
+  "source_id": "cursor",
+  "group": "ai",
+  "kind": "blog",
+  "published": "2026-11-13T12:00:00+00:00",
+  "summary": "Cursor shares findings from a two-week investigation of a recent attack and its impact. Useful case study on supply-chain risk for AI coding tools.",
+  "category": "AI Engineering",
+  "importance": 2,
+  "tags": [
+   "security",
+   "incident",
+   "cursor"
+  ],
+  "image": "https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/og/opengraph-default.png",
+  "minutes": 2
+ },
+ {
+  "id": "81f098ac2727",
+  "title": "GPT-6 Cyber Versus Linux, The Problem With LLM-Powered Search, LLMs Edit Model Weights, Agentic Doc Retrieval",
+  "url": "https://www.deeplearning.ai/the-batch/issue-379",
+  "source": "The Batch (DeepLearning.AI)",
+  "source_id": "the-batch",
+  "group": "ai",
+  "kind": "newsletter",
+  "published": "2026-11-13T07:00:00-08:00",
+  "summary": "An issue on agent harnesses, weaknesses of LLM-powered search, models editing their own weights and document retrieval for agents. Skim for the retrieval angle.",
+  "category": "AI Engineering",
+  "importance": 2,
+  "tags": [
+   "newsletter",
+   "agents",
+   "retrieval"
+  ],
+  "image": "https://charonhub.deeplearning.ai/content/images/2026/11/agentic-harness.webp",
+  "minutes": 9
+ },
+ {
+  "id": "680b35173b97",
+  "title": "Richpanel helps companies automate 50% of support in 30 days",
+  "url": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
+  "source": "OpenAI",
+  "source_id": "openai",
+  "group": "ai",
+  "kind": "blog",
+  "published": "2026-11-12T12:00:00+00:00",
+  "summary": "A support automation company reports handling half of tickets within 30 days using GPT models. Vendor story with a headline number.",
+  "category": "AI Engineering",
+  "importance": 1,
+  "tags": [
+   "openai",
+   "support",
+   "customer-story"
+  ],
+  "image": "https://images.ctfassets.net/kftzwdyauwt9/4aVhQ1EicxWg7i6lIkBrLQ/cdabc180f7e5f780dbb43c302e7163d8/richpanel-social.png?w=1600&h=900&fit=fill",
+  "minutes": 2
+ },
+ {
+  "id": "2cb4f31b0883",
+  "title": "Cursor Projects is now multiplayer",
+  "url": "https://cursor.com/blog/projects-multiplayer",
+  "source": "Cursor",
+  "source_id": "cursor",
+  "group": "ai",
+  "kind": "blog",
+  "published": "2026-11-10T12:00:00+00:00",
+  "summary": "Cursor Projects now lets teammates join a shared Project and work alongside agents. A product-update view of multiplayer agent workflows.",
+  "category": "AI Engineering",
+  "importance": 1,
+  "tags": [
+   "cursor",
+   "collaboration",
+   "agents"
+  ],
+  "image": "https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/uploads/projects-mp-UBYHzU2mlANxiKl3n44qnRePiRTOgt.jpg",
+  "minutes": 5
+ },
+ {
+  "id": "0ec2e6081857",
+  "title": "Gemini 4 Carbon Heads Toward Wider Availability, What Anthropic's IPO Means for Developers, Genie 4 Combines with Gemini to Train Robots",
+  "url": "https://www.deeplearning.ai/the-batch/issue-378",
+  "source": "The Batch (DeepLearning.AI)",
+  "source_id": "the-batch",
+  "group": "ai",
+  "kind": "newsletter",
+  "published": "2026-11-06T07:00:00-08:00",
+  "summary": "Covers wider rollout of a Gemini model, what Anthropic going public means for developers, and a robot-training result. Gives a sense of where vendors are heading.",
+  "category": "AI Industry",
+  "importance": 2,
+  "tags": [
+   "newsletter",
+   "gemini",
+   "anthropic-ipo"
+  ],
+  "image": "https://charonhub.deeplearning.ai/content/images/2026/11/Most-Common-AI-Builder-Occupations.webp",
+  "minutes": 11
+ },
+ {
+  "id": "1d0c151fefed",
+  "title": "OpenAI and Cisco introduce Shirudo",
+  "url": "https://openai.com/index/introducing-shirudo",
+  "source": "OpenAI",
+  "source_id": "openai",
+  "group": "ai",
+  "kind": "blog",
+  "published": "2026-11-06T00:00:00-08:00",
+  "summary": "OpenAI and Cisco release an open-source runtime to shield Linux systems while patches roll out. Infra security news with indirect relevance.",
+  "category": "AI Engineering",
+  "importance": 1,
+  "tags": [
+   "openai",
+   "cisco",
+   "security"
+  ],
+  "image": "https://images.ctfassets.net/kftzwdyauwt9/5K7gFDr3r8vgjdIcsW6RVY/aba5325ce7902e5d1499b907f8e78f0b/shirudo-partner-logos-landscape-2x.png?w=1600&h=900&fit=fill",
+  "minutes": 4
+ },
+ {
+  "id": "77e192b7dd2a",
+  "title": "Introducing SWE-2 Flash",
+  "url": "https://cognition.com/blog/swe-2-flash",
+  "source": "Cognition",
+  "source_id": "cognition",
+  "group": "ai",
+  "kind": "blog",
+  "published": "2026-11-04T10:00:00-08:00",
+  "summary": "Cognition introduces SWE-2 Flash, a fast, low-cost coding model. Mainly a model-release note for coding agents.",
+  "category": "AI Models & Research",
+  "importance": 1,
+  "tags": [
+   "coding-models",
+   "cognition",
+   "latency"
+  ],
+  "image": "https://cognition.com/images/swe-2-flash/cover.jpg",
+  "minutes": 3
+ },
+ {
+  "id": "6390b97ded36",
+  "title": "A Practical Guide to Security in November 2026",
+  "url": "https://cognition.com/blog/practical-guide-to-security-november-2026",
+  "source": "Cognition",
+  "source_id": "cognition",
+  "group": "ai",
+  "kind": "blog",
+  "published": "2026-11-03T09:00:00-08:00",
+  "summary": "A recap of recent security incidents with a practical checklist of long-standing best practices. Useful but generic guidance.",
+  "category": "AI Engineering",
+  "importance": 1,
+  "tags": [
+   "security",
+   "best-practices"
+  ],
+  "image": "https://cognition.com/images/practical-guide-to-security-november-2026/cover.png",
+  "minutes": 3
+ },
+ {
+  "id": "6a7843cb55ac",
+  "title": "Zombie Agents, Vampire Models, Witch Hunts, and the Mummy's Curse: AI Fears for Halloween 2026",
+  "url": "https://www.deeplearning.ai/the-batch/issue-377",
+  "source": "The Batch (DeepLearning.AI)",
+  "source_id": "the-batch",
+  "group": "ai",
+  "kind": "newsletter",
+  "published": "2026-10-30T07:00:00-07:00",
+  "summary": "A Halloween issue that frames current AI worries as monsters, from runaway agents to policy backlash. Light reading with little operational value.",
+  "category": "AI Industry",
+  "importance": 1,
+  "tags": [
+   "newsletter",
+   "ai-risk"
+  ],
+  "image": "https://charonhub.deeplearning.ai/content/images/2026/10/Cozy-Halloween-Storytime-Circle.webp",
+  "minutes": 10
+ },
+ {
+  "id": "f5c413d73956",
+  "title": "Security notice: malicious Claude Code extension versions in Cursor marketplace",
+  "url": "https://cursor.com/blog/claude-code-extension-security-notice",
+  "source": "Cursor",
+  "source_id": "cursor",
+  "group": "ai",
+  "kind": "blog",
+  "published": "2026-10-29T12:00:00+00:00",
+  "summary": "Cursor flags malicious versions 2.1.312 and 2.1.313 of the Claude Code extension in its VS Code marketplace. A reminder that agent tooling is a live supply-chain target.",
+  "category": "AI Engineering",
+  "importance": 2,
+  "tags": [
+   "security",
+   "claude-code",
+   "supply-chain"
+  ],
+  "image": "https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/og/opengraph-default.png",
+  "minutes": 3
+ },
+ {
+  "id": "f0e0cc04d2c6",
+  "title": "Corridor is Joining Cognition",
+  "url": "https://cognition.com/blog/corridor-joining-cognition",
+  "source": "Cognition",
+  "source_id": "cognition",
+  "group": "ai",
+  "kind": "blog",
+  "published": "2026-10-28T10:00:00-07:00",
+  "summary": "Security startup Corridor is joining Cognition to build out Devin Security. A small acqui-hire move.",
+  "category": "AI Industry",
+  "importance": 1,
+  "tags": [
+   "acquisition",
+   "security",
+   "cognition"
+  ],
+  "image": "https://cognition.com/images/corridor-joining-cognition/cover.jpg",
+  "minutes": 1
+ },
+ {
+  "id": "559c640b831a",
+  "title": "FrontierCode 2.0",
+  "url": "https://cognition.com/blog/frontier-code-2.0",
+  "source": "Cognition",
+  "source_id": "cognition",
+  "group": "ai",
+  "kind": "blog",
+  "published": "2026-10-27T10:00:00-07:00",
+  "summary": "Cognition launches FrontierCode 2.0, a benchmark with more diverse, harder tasks across more repositories. Helpful for judging coding-agent claims.",
+  "category": "AI Models & Research",
+  "importance": 2,
+  "tags": [
+   "benchmarks",
+   "coding",
+   "evals"
+  ],
+  "image": "https://cognition.com/images/frontier-code/frontier-code-2-0-cover.jpg",
+  "minutes": 6
+ },
+ {
+  "id": "2a6eaa4c2ea1",
+  "title": "Devin Security: Find and fix your most dangerous vulnerabilities",
+  "url": "https://cognition.com/blog/devin-security",
+  "source": "Cognition",
+  "source_id": "cognition",
+  "group": "ai",
+  "kind": "blog",
+  "published": "2026-10-26T09:00:00-07:00",
+  "summary": "Cognition upgrades Devin Security with deep scans from frontier cyber models and large credit grants. Vendor launch, limited relevance.",
+  "category": "AI Engineering",
+  "importance": 1,
+  "tags": [
+   "security",
+   "devin",
+   "vulnerabilities"
+  ],
+  "image": "https://cognition.com/images/devin-security/cover.png",
+  "minutes": 3
+ },
+ {
+  "id": "8a77e646571b",
+  "title": "Anthropic files S-1 with the SEC for proposed initial public offering",
+  "url": "https://www.anthropic.com/news/s1-sec",
+  "source": "Anthropic",
+  "source_id": "anthropic",
+  "group": "ai",
+  "kind": "blog",
+  "published": "2026-10-26T00:00:00+00:00",
+  "summary": "Anthropic's filing with the SEC for its public offering, the first formal disclosure of its financials and risks. The details inform how much room AI vendors have to compete on price.",
+  "category": "AI Industry",
+  "importance": 2,
+  "tags": [
+   "anthropic",
+   "ipo",
+   "s-1"
+  ],
+  "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
+  "minutes": 1,
+  "story": "anthropic-s1"
+ },
+ {
+  "id": "b35242019b77",
+  "title": "Meta’s Muse Wonder and Spark Open, Educational Use of ChatGPT, Reflection's Partnership with Nvidia",
+  "url": "https://www.deeplearning.ai/the-batch/issue-376",
+  "source": "The Batch (DeepLearning.AI)",
+  "source_id": "the-batch",
+  "group": "ai",
+  "kind": "newsletter",
+  "published": "2026-10-23T07:00:00-07:00",
+  "summary": "Issue covering Meta's open Muse releases, classroom use of ChatGPT and a lab's partnership with Nvidia. A general roundup with limited relevance.",
+  "category": "AI Models & Research",
+  "importance": 1,
+  "tags": [
+   "newsletter",
+   "meta",
+   "chatgpt"
+  ],
+  "image": "https://charonhub.deeplearning.ai/content/images/2026/10/Futuristic-Space-Station-Classroom-Crew.webp",
+  "minutes": 12
+ },
+ {
+  "id": "f40066880a48",
+  "title": "Introducing the Agent SDK",
+  "url": "https://cursor.com/blog/agent-sdk",
+  "source": "Cursor",
+  "source_id": "cursor",
+  "group": "ai",
+  "kind": "blog",
+  "published": "2026-10-20T12:00:00+00:00",
+  "summary": "Cursor releases the Agent SDK it uses internally for managed agents like Bugbot, letting you define agents in code and deploy with one command. Signals how agent platforms are being productized.",
+  "category": "AI Engineering",
+  "importance": 2,
+  "tags": [
+   "agent-sdk",
+   "cursor",
+   "agents"
+  ],
+  "image": "https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/OG%20Images/agent-sdk-blog-og-WlJMIsDgzkUUfvyf1R9PJSIfytr7Sx.png",
+  "minutes": 6
+ },
+ {
+  "id": "66d5720ec836",
+  "title": "Investing in the public benefit",
+  "url": "https://www.anthropic.com/news/public-benefit-fund",
+  "source": "Anthropic",
+  "source_id": "anthropic",
+  "group": "ai",
+  "kind": "blog",
+  "published": "2026-10-18T00:00:00+00:00",
+  "summary": "Anthropic is putting part of its shares into a new public benefit fund whose stake grows with the company. A governance footnote to the IPO.",
+  "category": "AI Industry",
+  "importance": 1,
+  "tags": [
+   "anthropic",
+   "governance"
+  ],
+  "image": "https://assets.claude.com/f3afec5c5951eebed280125c907ef53524024eba.jpg",
+  "minutes": 2
+ },
+ {
+  "id": "cb08e9af981e",
+  "title": "Git at any scale",
+  "url": "https://cursor.com/blog/git-at-any-scale",
+  "source": "Cursor",
+  "source_id": "cursor",
+  "group": "ai",
+  "kind": "blog",
+  "published": "2026-08-18T12:00:00+00:00",
+  "summary": "Cursor writes about making Git work at any repository scale for its agents. Mostly relevant as an infrastructure-scaling anecdote.",
+  "category": "Databases & Systems",
+  "importance": 1,
+  "tags": [
+   "git",
+   "scale",
+   "developer-tools"
+  ],
+  "image": "https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/blog/blog-demo-animation-2ntJbzDU6xSEoHctbbXf2VUO4b2nxK.gif",
+  "minutes": 45
+ },
+ {
+  "id": "20b744e598ba",
+  "title": "Cursor is now a part of SpaceX",
+  "url": "https://cursor.com/blog/joining-spacex",
+  "source": "Cursor",
+  "source_id": "cursor",
+  "group": "ai",
+  "kind": "blog",
+  "published": "2026-08-14T12:00:00+00:00",
+  "summary": "Cursor announces it has been acquired by SpaceX. A major consolidation of the AI coding-tool market that reshapes the competitive landscape for AI developer tooling.",
+  "category": "Strategy & Markets",
+  "importance": 3,
+  "tags": [
+   "cursor",
+   "spacex",
+   "acquisition"
+  ],
+  "image": "https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/uploads/close-og-image-1-B5D1caLmbVsj0JInrL2qKgXzLPMGoU.png",
+  "minutes": 2
+ },
+ {
+  "id": "fc8c187b735b",
+  "title": "Reimagining Independence: How Meta’s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
+  "url": "https://ai.meta.com/blog/assistive-robotics-university-of-pittsburgh-sam-dino/",
+  "source": "Meta AI",
+  "source_id": "meta-ai",
+  "group": "ai",
+  "kind": "blog",
+  "published": "2026-07-27T12:00:00+00:00",
+  "summary": "Describes how a university lab uses Meta's open vision models to build assistive robots for people with disabilities. A case study of open models in use; little bearing on data platforms.",
+  "category": "AI Models & Research",
+  "importance": 1,
+  "tags": [
+   "meta",
+   "robotics",
+   "open-source"
+  ],
+  "image": "",
+  "minutes": 0
+ },
+ {
+  "id": "503b9986b40d",
+  "title": "How Meta’s AI Models Are Powering the First Wave of Genesis Mission Projects",
+  "url": "https://ai.meta.com/blog/genesis-mission-lawrence-berkeley-national-laboratory-segment-anything-dino/",
+  "source": "Meta AI",
+  "source_id": "meta-ai",
+  "group": "ai",
+  "kind": "blog",
+  "published": "2026-07-21T12:00:00+00:00",
+  "summary": "Covers early US national-lab projects that use Meta's segmentation and vision models for science work. Mostly a showcase of open-model adoption, so low relevance here.",
+  "category": "AI Models & Research",
+  "importance": 1,
+  "tags": [
+   "meta",
+   "science",
+   "open-source"
+  ],
+  "image": "",
+  "minutes": 0
+ },
+ {
+  "id": "08e9aa519f83",
+  "title": "Introducing Muse Spark 1.1",
+  "url": "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/",
+  "source": "Meta AI",
+  "source_id": "meta-ai",
+  "group": "ai",
+  "kind": "blog",
+  "published": "2026-07-09T12:00:00+00:00",
+  "summary": "Meta's Muse Spark 1.1 upgrades its multimodal reasoning model with better tool use for agent tasks. Another frontier lab pushing agent-oriented models, which shapes what tool-calling clients will hit a data API.",
+  "category": "AI Models & Research",
+  "importance": 2,
+  "tags": [
+   "meta",
+   "muse",
+   "models"
+  ],
+  "image": "",
+  "minutes": 0
+ },
+ {
+  "id": "0d1a03f568f1",
+  "title": "Introducing Muse Image and Muse Video",
+  "url": "https://ai.meta.com/blog/introducing-muse-image-muse-video-msl/",
+  "source": "Meta AI",
+  "source_id": "meta-ai",
+  "group": "ai",
+  "kind": "blog",
+  "published": "2026-07-07T12:00:00+00:00",
+  "summary": "Meta Superintelligence Labs releases an image model and previews a video model, both tied to social context. Mostly consumer media generation.",
+  "category": "AI Models & Research",
+  "importance": 1,
+  "tags": [
+   "meta",
+   "image",
+   "video"
+  ],
+  "image": "",
+  "minutes": 0
+ },
+ {
+  "id": "86bc9e281379",
+  "title": "From Brain Waves to Words: Brain2Qwerty Offers a New Path to Communication Without Surgery",
+  "url": "https://ai.meta.com/blog/brain2qwerty-brain-ai-human-communication/",
+  "source": "Meta AI",
+  "source_id": "meta-ai",
+  "group": "ai",
+  "kind": "blog",
+  "published": "2026-06-29T12:00:00+00:00",
+  "summary": "Meta shares a second-generation system that decodes typed text from brain signals without implants. Interesting research, but far from the data platform world.",
+  "category": "AI Models & Research",
+  "importance": 1,
+  "tags": [
+   "meta",
+   "research",
+   "brain"
+  ],
+  "image": "",
+  "minutes": 0
+ },
+ {
+  "id": "7a6462e387eb",
+  "title": "How iFood scales coding agents across 15,000 repositories",
+  "url": "https://openai.com/business/customer-stories/ifood",
+  "source": "OpenAI",
+  "source_id": "openai",
+  "group": "ai",
+  "kind": "blog",
+  "published": "2026-05-27T11:00:00+00:00",
+  "summary": "iFood runs coding agents across 15,000 repositories at about four cents per run through an internal platform. Concrete numbers on scaling agents inside a company.",
+  "category": "AI Engineering",
+  "importance": 2,
+  "tags": [
+   "coding-agents",
+   "openai",
+   "scale"
+  ],
+  "image": "https://images.ctfassets.net/kftzwdyauwt9/4Ts7RsLLSU4iEOxQwBkGgg/cbf56c075004a9ae2c41af4d5f7b428b/ifood-customer-story-social.png?w=1600&h=900&fit=fill",
+  "minutes": 5
+ },
+ {
+  "id": "17a523d995a6",
+  "title": "Introducing Muse Spark: Scaling Towards Personal Superintelligence",
+  "url": "https://ai.meta.com/blog/introducing-muse-spark-msl/",
+  "source": "Meta AI",
+  "source_id": "meta-ai",
+  "group": "ai",
+  "kind": "blog",
+  "published": "2026-04-08T12:00:00+00:00",
+  "summary": "The launch post for Meta Superintelligence Labs' first Muse model, a natively multimodal reasoning model. Useful as the baseline for how Meta now competes at the frontier.",
+  "category": "AI Models & Research",
+  "importance": 2,
+  "tags": [
+   "meta",
+   "muse",
+   "models"
+  ],
+  "image": "",
+  "minutes": 0
+ },
+ {
+  "id": "ec442b764e04",
+  "title": "How Intentful uses dots to make more time for growth",
+  "url": "https://openai.com/business/customer-stories/intentful-dots",
+  "source": "OpenAI",
+  "source_id": "openai",
+  "group": "ai",
+  "kind": "blog",
+  "published": "2025-10-27T00:00:00+00:00",
+  "summary": "OpenAI profiles a small founder's agent that does research and proposals and flags messages. Vendor customer story.",
+  "category": "AI Engineering",
+  "importance": 1,
+  "tags": [
+   "openai",
+   "customer-story",
+   "agents"
+  ],
+  "image": "https://images.ctfassets.net/kftzwdyauwt9/2DH2aby1xmlzvADCraI7Xi/bbe8b8956578492f2c3fd7326ecbd9e1/intentful-dots-social-c.png?w=1600&h=900&fit=fill",
+  "minutes": 4
+ },
+ {
+  "id": "2c37a971974c",
+  "title": "Reinforcement Learning Heats Up, White House Orders Muscular AI Policy, and more...",
+  "url": "https://www.deeplearning.ai/the-batch/issue-286",
+  "source": "The Batch (DeepLearning.AI)",
+  "source_id": "the-batch",
+  "group": "ai",
+  "kind": "newsletter",
+  "published": "2025-01-29T14:48:00-08:00",
+  "summary": "An older issue about the reaction to DeepSeek, the rise of reinforcement learning and a White House AI policy order. Dated context rather than current news.",
+  "category": "AI Industry",
+  "importance": 1,
+  "tags": [
+   "newsletter",
+   "deepseek",
+   "policy"
+  ],
+  "image": "https://charonhub.deeplearning.ai/content/images/2025/02/DeepSeek-Byte7_3D-1.jpg",
+  "minutes": 10
  }
 ]

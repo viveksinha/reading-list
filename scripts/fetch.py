@@ -38,7 +38,7 @@ def _ssl_ctx():
 
 
 SSL_CTX = _ssl_ctx()
-PAGE_CAP = 6  # max new links per listing page per run (no dates on those pages)
+LINK_CAP = 15  # links checked per listing page per run (each needs a page fetch for its date)
 
 
 def canon(url: str) -> str:
@@ -96,6 +96,28 @@ def parse_date(s: str):
     return d if d.tzinfo else d.replace(tzinfo=timezone.utc)
 
 
+DATE_PATTERNS = [  # best first: explicit publish metadata, then JSON, then a <time> tag
+    r'<meta[^>]+(?:property|name|itemprop)="(?:article:published_time|og:published_time|datePublished|date|pubdate|publish-date|publication_date|parsely-pub-date|sailthru\.date|dc\.date)"[^>]+content="([^"]+)"',
+    r'<meta[^>]+content="([^"]+)"[^>]+(?:property|name|itemprop)="(?:article:published_time|datePublished|pubdate|publish-date)"',
+    r'"datePublished"\s*:\s*"([^"]+)"',
+    r'"(?:publishedAt|published_at|publishDate|publishedOn|firstPublishedAt)"\s*:\s*"([^"]+)"',
+    r'<time[^>]+datetime="([^"]+)"',
+]
+
+
+def article_date(page: str):
+    """Publish date from an article page's metadata, or None."""
+    for pat in DATE_PATTERNS:
+        for m in re.finditer(pat, page, flags=re.I):
+            raw = m.group(1).strip()
+            if re.fullmatch(r"\d{4}-\d{2}-\d{2}", raw):
+                raw += "T12:00:00+00:00"  # date only: assume midday UTC
+            d = parse_date(raw)
+            if d and datetime(2000, 1, 1, tzinfo=timezone.utc) < d <= datetime.now(timezone.utc) + timedelta(days=1):
+                return d
+    return None
+
+
 def local(tag: str) -> str:
     return tag.rsplit("}", 1)[-1]
 
@@ -150,15 +172,23 @@ def fetch_page(src):
         body = get(src["url"]).decode("utf-8", "replace")
     except Exception as exc:
         return src, [], f"{type(exc).__name__}: {exc}"
-    seen, out = set(), []
+    links = []
     for href in re.findall(r'href="([^"#?]+)"', body):
-        if src.get("exclude") and re.match(src["exclude"], href):
-            continue
-        if re.match(src["pattern"], href) and href not in seen:
-            seen.add(href)
-            url = src.get("base", "") + href
-            slug = href.rstrip("/").rsplit("/", 1)[-1].replace("-", " ")
-            out.append({"title": slug.capitalize(), "url": url, "published": None, "excerpt": "", "needs_title": True})
+        if re.match(src["pattern"], href) and not (src.get("exclude") and re.match(src["exclude"], href)) and href not in links:
+            links.append(href)
+    out = []
+    for href in links[:LINK_CAP]:
+        url = src.get("base", "") + href
+        slug = href.rstrip("/").rsplit("/", 1)[-1].replace("-", " ")
+        # Listing pages carry no dates. Use the article's own publish date; no date = skip,
+        # so an old post is never stamped with today's date.
+        pub = None
+        try:
+            pub = article_date(get(url).decode("utf-8", "replace"))
+        except Exception:
+            pass
+        if pub:
+            out.append({"title": slug.capitalize(), "url": url, "published": pub, "excerpt": "", "needs_title": True})
     return src, out, None
 
 
@@ -182,6 +212,22 @@ def fetch_hn(cfg, since: datetime):
             "excerpt": "", "discussion_url": hn_url, "points": h.get("points"),
         })
     return out
+
+
+def fetch_hf_papers(cfg, since: datetime):
+    """Most-upvoted papers from Hugging Face Daily Papers (community-curated arXiv picks)."""
+    papers = json.loads(get("https://huggingface.co/api/daily_papers?limit=100"))
+    out = []
+    for p in sorted(papers, key=lambda p: -p["paper"].get("upvotes", 0)):
+        pub = parse_date(p.get("publishedAt", ""))
+        if p["paper"].get("upvotes", 0) < cfg["min_upvotes"] or not pub or pub < since:
+            continue
+        out.append({
+            "title": p["title"], "url": f"https://huggingface.co/papers/{p['paper']['id']}",
+            "published": pub, "excerpt": clean(p.get("summary", "")),
+            "points": p["paper"]["upvotes"], "image": p.get("thumbnail") or "",
+        })
+    return out[: cfg["max_per_run"]]
 
 
 def main():
@@ -213,6 +259,7 @@ def main():
             **({"discussion_url": entry["discussion_url"]} if entry.get("discussion_url") else {}),
             **({"points": entry["points"]} if entry.get("points") else {}),
             **({"needs_title": True} if entry.get("needs_title") else {}),
+            **({"image": entry["image"]} if entry.get("image") else {}),
         })
 
     with ThreadPoolExecutor(max_workers=12) as pool:
@@ -225,8 +272,9 @@ def main():
         for src, entries, err in pool.map(fetch_page, cfg.get("pages", [])):
             if err:
                 errors[src["id"]] = err
-            for e in entries[:PAGE_CAP]:
-                add(src, e)
+            for e in entries:
+                if e["published"] >= since:
+                    add(src, e)
 
     try:
         hn_src = {"id": "hackernews", "name": "Hacker News", "group": "community", "kind": "community"}
@@ -234,6 +282,14 @@ def main():
             add(hn_src, e)
     except Exception as exc:
         errors["hackernews"] = f"{type(exc).__name__}: {exc}"
+
+    if cfg.get("hf_papers"):
+        try:
+            hf_src = {"id": "hf-papers", "name": "Hugging Face Papers", "group": "ai", "kind": "paper"}
+            for e in fetch_hf_papers(cfg["hf_papers"], since):
+                add(hf_src, e)
+        except Exception as exc:
+            errors["hf-papers"] = f"{type(exc).__name__}: {exc}"
 
     cands.sort(key=lambda c: c["published"], reverse=True)
     out = Path(args.out)

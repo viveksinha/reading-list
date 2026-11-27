@@ -23,6 +23,7 @@ Outside work they read philosophy and big-idea essays (ethics, mind, meaning, sc
 | Growth & GTM | pricing, PLG, marketing, sales, SaaS metrics |
 | Strategy & Markets | tech strategy, market analysis, cloud/SaaS market, competitive moves |
 | Engineering Culture | eng management, careers, org design, developer productivity |
+| Science & Progress | science news, energy, chips and hardware, biotech, progress studies, how technology changes the economy |
 | Philosophy & Ideas | philosophy, ethics, mind and consciousness, meaning, history of ideas, essays on science and society |
 
 ## Importance (1-3)
@@ -34,6 +35,12 @@ Outside work they read philosophy and big-idea essays (ethics, mind, meaning, sc
 - **1 = Skim.** Tangential, promotional, routine release notes, tutorials, or weak relevance.
 
 Vendor marketing posts default to 1 unless they announce something material.
+
+Science & Progress is scored like Philosophy & Ideas: a deep piece on where technology, science or
+the economy is heading is 2, an exceptional one is 3; routine science news is 1.
+
+Papers (Hugging Face daily papers) are 2 when the result could change how AI systems are built or
+used, 3 only for a clear step change; incremental benchmark papers are 1.
 
 Philosophy & Ideas is scored on its own terms, not work relevance: a deep, original essay is 2,
 an exceptional one (or one on AI and mind/ethics) is 3; book reviews, news and light pieces are 1.
@@ -56,6 +63,34 @@ notes and reposts from prolific writers (e.g. Simon Willison) keep normal scorin
 
 ## Summary style
 
-Two sentences, max ~45 words, in plain words: what it says, then why it matters to this reader.
+Two sentences, max ~45 words, in plain words: what it says, then why it matters. The site is
+public, so write for any technical reader: no "this reader", "your product" or "your team".
 No hype, no "this article explores". Don't copy the source text.
 Tags: 2-4 lowercase keywords (e.g. `iceberg`, `pricing`, `agents`).
+
+## Same story, several sources
+
+When two or more items (new or already in `docs/data/items.json`) cover the same event or
+announcement, give each the same `story` key: a short kebab-case slug such as `anthropic-ipo`.
+The site shows one card per story and lists the other sources on it. Different angles on a broad
+topic (two essays about agents) are not one story.
+
+## Dates
+
+`published` must be the article's own publish date. Never use the day it was found. If an item's
+page shows it is older than its feed date, use the page date. An old post re-shared on Hacker
+News or Lobsters keeps the discussion date, since that is when it surfaced.
+
+## Daily brief
+
+After scoring, write `docs/data/brief.json`:
+
+```json
+{"date": "YYYY-MM-DD", "headline": "...", "text": "...", "picks": ["<id>", "..."]}
+```
+
+- `picks`: 3-5 ids of the most important items **published in the last 3 days** (check each
+  item's `published`; never pick an older item, however important).
+- `headline`: one line, under 90 characters, naming what changed, not a teaser.
+- `text`: 2-3 plain sentences tying the picks together. State only what the picked items say,
+  and don't call anything "this week" or "today" unless its `published` date says so.
