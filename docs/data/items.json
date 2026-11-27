@@ -1,5 +1,220 @@
 [
  {
+  "id": "20b744e598ba",
+  "title": "Cursor is now a part of SpaceX",
+  "url": "https://cursor.com/blog/joining-spacex",
+  "source": "Cursor",
+  "source_id": "cursor",
+  "group": "ai",
+  "kind": "blog",
+  "published": "2026-11-27T06:15:45+00:00",
+  "summary": "Cursor announces it has been acquired by SpaceX. A major consolidation of the AI coding-tool market that reshapes the competitive landscape for AI developer tooling.",
+  "category": "Strategy & Markets",
+  "importance": 3,
+  "tags": [
+   "cursor",
+   "spacex",
+   "acquisition"
+  ]
+ },
+ {
+  "id": "cb08e9af981e",
+  "title": "Git at any scale",
+  "url": "https://cursor.com/blog/git-at-any-scale",
+  "source": "Cursor",
+  "source_id": "cursor",
+  "group": "ai",
+  "kind": "blog",
+  "published": "2026-11-27T06:15:45+00:00",
+  "summary": "Cursor writes about making Git work at any repository scale for its agents. Mostly relevant as an infrastructure-scaling anecdote.",
+  "category": "Databases & Systems",
+  "importance": 1,
+  "tags": [
+   "git",
+   "scale",
+   "developer-tools"
+  ]
+ },
+ {
+  "id": "26a46cce7cf4",
+  "title": "An update on our recent security incident",
+  "url": "https://cursor.com/blog/security-incident-update",
+  "source": "Cursor",
+  "source_id": "cursor",
+  "group": "ai",
+  "kind": "blog",
+  "published": "2026-11-27T06:15:45+00:00",
+  "summary": "Cursor shares findings from a two-week investigation of a recent attack and its impact. Useful case study on supply-chain risk for AI coding tools.",
+  "category": "AI Engineering",
+  "importance": 2,
+  "tags": [
+   "security",
+   "incident",
+   "cursor"
+  ]
+ },
+ {
+  "id": "2cb4f31b0883",
+  "title": "Cursor Projects is now multiplayer",
+  "url": "https://cursor.com/blog/projects-multiplayer",
+  "source": "Cursor",
+  "source_id": "cursor",
+  "group": "ai",
+  "kind": "blog",
+  "published": "2026-11-27T06:15:45+00:00",
+  "summary": "Cursor Projects now lets teammates join a shared Project and work alongside agents. A product-update view of multiplayer agent workflows.",
+  "category": "AI Engineering",
+  "importance": 1,
+  "tags": [
+   "cursor",
+   "collaboration",
+   "agents"
+  ]
+ },
+ {
+  "id": "f5c413d73956",
+  "title": "Security notice: malicious Claude Code extension versions in Cursor marketplace",
+  "url": "https://cursor.com/blog/claude-code-extension-security-notice",
+  "source": "Cursor",
+  "source_id": "cursor",
+  "group": "ai",
+  "kind": "blog",
+  "published": "2026-11-27T06:15:45+00:00",
+  "summary": "Cursor flags malicious versions 2.1.312 and 2.1.313 of the Claude Code extension in its VS Code marketplace. A reminder that agent tooling is a live supply-chain target.",
+  "category": "AI Engineering",
+  "importance": 2,
+  "tags": [
+   "security",
+   "claude-code",
+   "supply-chain"
+  ]
+ },
+ {
+  "id": "f40066880a48",
+  "title": "Introducing the Agent SDK",
+  "url": "https://cursor.com/blog/agent-sdk",
+  "source": "Cursor",
+  "source_id": "cursor",
+  "group": "ai",
+  "kind": "blog",
+  "published": "2026-11-27T06:15:45+00:00",
+  "summary": "Cursor releases the Agent SDK it uses internally for managed agents like Bugbot, letting you define agents in code and deploy with one command. Signals how agent platforms are being productized.",
+  "category": "AI Engineering",
+  "importance": 2,
+  "tags": [
+   "agent-sdk",
+   "cursor",
+   "agents"
+  ]
+ },
+ {
+  "id": "2b7d8b0fe4f3",
+  "title": "Introducing SWE-2.1",
+  "url": "https://cognition.com/blog/swe-2-1",
+  "source": "Cognition",
+  "source_id": "cognition",
+  "group": "ai",
+  "kind": "blog",
+  "published": "2026-11-27T06:15:45+00:00",
+  "summary": "Cognition releases SWE-2.1, a major upgrade over SWE-2 trained with pure reinforcement learning. Worth tracking for where coding-agent models are heading.",
+  "category": "AI Models & Research",
+  "importance": 2,
+  "tags": [
+   "coding-models",
+   "rl",
+   "cognition"
+  ]
+ },
+ {
+  "id": "77e192b7dd2a",
+  "title": "Introducing SWE-2 Flash",
+  "url": "https://cognition.com/blog/swe-2-flash",
+  "source": "Cognition",
+  "source_id": "cognition",
+  "group": "ai",
+  "kind": "blog",
+  "published": "2026-11-27T06:15:45+00:00",
+  "summary": "Cognition introduces SWE-2 Flash, a fast, low-cost coding model. Mainly a model-release note for coding agents.",
+  "category": "AI Models & Research",
+  "importance": 1,
+  "tags": [
+   "coding-models",
+   "cognition",
+   "latency"
+  ]
+ },
+ {
+  "id": "6390b97ded36",
+  "title": "A Practical Guide to Security in November 2026",
+  "url": "https://cognition.com/blog/practical-guide-to-security-november-2026",
+  "source": "Cognition",
+  "source_id": "cognition",
+  "group": "ai",
+  "kind": "blog",
+  "published": "2026-11-27T06:15:45+00:00",
+  "summary": "A recap of recent security incidents with a practical checklist of long-standing best practices. Useful but generic guidance.",
+  "category": "AI Engineering",
+  "importance": 1,
+  "tags": [
+   "security",
+   "best-practices"
+  ]
+ },
+ {
+  "id": "f0e0cc04d2c6",
+  "title": "Corridor is Joining Cognition",
+  "url": "https://cognition.com/blog/corridor-joining-cognition",
+  "source": "Cognition",
+  "source_id": "cognition",
+  "group": "ai",
+  "kind": "blog",
+  "published": "2026-11-27T06:15:45+00:00",
+  "summary": "Security startup Corridor is joining Cognition to build out Devin Security. A small acqui-hire move.",
+  "category": "AI Industry",
+  "importance": 1,
+  "tags": [
+   "acquisition",
+   "security",
+   "cognition"
+  ]
+ },
+ {
+  "id": "559c640b831a",
+  "title": "FrontierCode 2.0",
+  "url": "https://cognition.com/blog/frontier-code-2.0",
+  "source": "Cognition",
+  "source_id": "cognition",
+  "group": "ai",
+  "kind": "blog",
+  "published": "2026-11-27T06:15:45+00:00",
+  "summary": "Cognition launches FrontierCode 2.0, a benchmark with more diverse, harder tasks across more repositories. Helpful for judging coding-agent claims.",
+  "category": "AI Models & Research",
+  "importance": 2,
+  "tags": [
+   "benchmarks",
+   "coding",
+   "evals"
+  ]
+ },
+ {
+  "id": "2a6eaa4c2ea1",
+  "title": "Devin Security: Find and fix your most dangerous vulnerabilities",
+  "url": "https://cognition.com/blog/devin-security",
+  "source": "Cognition",
+  "source_id": "cognition",
+  "group": "ai",
+  "kind": "blog",
+  "published": "2026-11-27T06:15:45+00:00",
+  "summary": "Cognition upgrades Devin Security with deep scans from frontier cyber models and large credit grants. Vendor launch, limited relevance.",
+  "category": "AI Engineering",
+  "importance": 1,
+  "tags": [
+   "security",
+   "devin",
+   "vulnerabilities"
+  ]
+ },
+ {
   "id": "25c96fa5a216",
   "title": "Anthropic prices initial public offering",
   "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
@@ -881,6 +1096,24 @@
   ]
  },
  {
+  "id": "9527dd371e58",
+  "title": "datasette-charts 0.3a0",
+  "url": "https://simonwillison.net/2026/Nov/25/datasette-charts/",
+  "source": "Simon Willison",
+  "source_id": "simonw",
+  "group": "ai",
+  "kind": "blog",
+  "published": "2026-11-25T18:16:50+00:00",
+  "summary": "Simon Willison adds chart annotations (lines, shaded areas) to datasette-charts 0.3a0. A small plugin release.",
+  "category": "Data Engineering",
+  "importance": 1,
+  "tags": [
+   "datasette",
+   "charts",
+   "release"
+  ]
+ },
+ {
   "id": "8bc07deb0c8a",
   "title": "How Anthropic builds software in 2026 with Katelyn Lesse",
   "url": "https://newsletter.pragmaticengineer.com/p/how-anthropic-builds-software-in",
@@ -1504,6 +1737,26 @@
   ]
  },
  {
+  "id": "204a3b5c5043",
+  "title": "Anthropic stock sinks below IPO price",
+  "url": "https://www.msn.com/en-us/money/top-stocks/anthropic-stock-sinks-below-ipo-price-why-that-s-happened-so-fast/ar-AA2i7rqa",
+  "source": "Hacker News",
+  "source_id": "hackernews",
+  "group": "community",
+  "kind": "community",
+  "published": "2026-11-24T14:41:15+00:00",
+  "summary": "Reports that Anthropic's stock has fallen below its IPO price shortly after listing. Relevant market signal on investor sentiment toward frontier AI vendors.",
+  "category": "AI Industry",
+  "importance": 2,
+  "tags": [
+   "anthropic",
+   "ipo",
+   "markets"
+  ],
+  "discussion_url": "https://news.ycombinator.com/item?id=50628932",
+  "points": 130
+ },
+ {
   "id": "360f4418c875",
   "title": "Mommy Magic Show",
   "url": "https://thepointmag.com/examined-life/mommy-magic-show/",
@@ -1721,6 +1974,24 @@
    "ceph",
    "nvme",
    "storage"
+  ]
+ },
+ {
+  "id": "c052286a80b2",
+  "title": "Using AI Without Losing Your Humanity",
+  "url": "https://www.dbreunig.com/2026/11/24/using-ai-without-losing-your-humanity.html",
+  "source": "Drew Breunig",
+  "source_id": "dbreunig",
+  "group": "ai",
+  "kind": "blog",
+  "published": "2026-11-24T09:00:00-08:00",
+  "summary": "Drew Breunig argues AI models trade diversity for reliability and bury us in the average, so humans must push them off the well-worn path. A thoughtful take on working with AI without flattening your output.",
+  "category": "AI Industry",
+  "importance": 2,
+  "tags": [
+   "ai",
+   "creativity",
+   "essay"
   ]
  },
  {
