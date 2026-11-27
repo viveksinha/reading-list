@@ -100,12 +100,10 @@
     const disc = it.discussion_url
       ? `<a class="act" href="${esc(it.discussion_url)}" target="_blank" rel="noopener">${ICON.chat}${it.points ? esc(it.points) + " pts" : "Discussion"}</a>` : "";
     const img = pic(it);
-    const feature = img && it.importance === 3;
     const imgTag = img ? `<img src="${esc(img)}" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer">` : "";
-    return `<article class="card${isRead ? " read" : ""}${feature ? " feature" : img ? " has-thumb" : ""}" data-id="${esc(it.id)}" data-imp="${it.importance}">
+    return `<article class="card${isRead ? " read" : ""}${img ? " has-thumb" : ""}" data-id="${esc(it.id)}" data-imp="${it.importance}">
       <div class="bar" aria-hidden="true"></div>
       <div class="body">
-        ${feature ? `<a class="hero" href="${esc(it.url)}" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true" data-open>${imgTag}</a>` : ""}
         <div class="meta">${sourceMark(it)}<span class="src">${esc(it.source)}</span><span>·</span><span class="cat">${esc(it.category)}</span><span>·</span><time datetime="${esc(it.published)}">${rel(it.published)}</time>${it.importance === 3 ? '<span class="imp">Must read</span>' : ""}</div>
         <a class="title" href="${esc(it.url)}" target="_blank" rel="noopener" data-open>${esc(it.title)}</a>
         <p class="summary">${esc(it.summary)}</p>
@@ -114,7 +112,7 @@
           <button class="act" data-read aria-pressed="${isRead}" aria-label="${isRead ? "Mark unread" : "Mark read"}">${ICON.check}<span>${isRead ? "Read" : "Mark read"}</span></button>
         </div>
       </div>
-      ${img && !feature ? `<a class="thumb" href="${esc(it.url)}" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true" data-open>${imgTag}</a>` : ""}
+      ${img ? `<a class="thumb" href="${esc(it.url)}" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true" data-open>${imgTag}</a>` : ""}
     </article>`;
   }
 
@@ -215,8 +213,8 @@
       const it = items.find((i) => i.id === card?.dataset.id);
       if (it) { delete logos[logoKey(it)]; img.outerHTML = sourceMark(it); }
     } else if (card) {
-      img.closest(".thumb, .hero")?.remove();
-      card.classList.remove("has-thumb", "feature");
+      img.closest(".thumb")?.remove();
+      card.classList.remove("has-thumb");
     }
   }, true);
   matchMedia("(prefers-color-scheme: dark)").addEventListener?.("change", applyPrefs);

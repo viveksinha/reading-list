@@ -42,5 +42,5 @@ python3 -m http.server -d docs 8000      # preview the site at http://localhost:
 ## Reader features
 
 Filters by importance, time range, read state, type and category; search (press `/`); star and
-mark-as-read; source logos and article preview images (Must reads get a large one); sepia/light/dark/black/system theme, four text sizes, sans or serif, compact spacing. Reading
+mark-as-read; source logos and article preview thumbnails; sepia/light/dark/black/system theme, four text sizes, sans or serif, compact spacing. Reading
 state and settings stay in your browser.
