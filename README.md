@@ -24,8 +24,9 @@ Gmail "Newsletters" label (email-only sources) ───────────
 ## Folder map
 
 ```
-docs/            the site (GitHub Pages root): index.html, style.css, app.js, data/items.json
-scripts/         fetch.py (collect candidates), merge.py (add scored items to the site)
+docs/            the site (GitHub Pages root): index.html, style.css, app.js, data/items.json, logos/
+scripts/         fetch.py (collect candidates), merge.py (add scored items to the site),
+                 enrich.py (article preview images + source logos)
 sources.json     feeds, listing pages and Hacker News filter
 interests.md     reader profile, categories, importance rubric, summary style
 ROUTINE.md       the daily routine's steps
@@ -41,5 +42,5 @@ python3 -m http.server -d docs 8000      # preview the site at http://localhost:
 ## Reader features
 
 Filters by importance, time range, read state, type and category; search (press `/`); star and
-mark-as-read; light/dark/system theme, four text sizes, sans or serif, compact spacing. Reading
+mark-as-read; source logos and article preview images (Must reads get a large one); sepia/light/dark/black/system theme, four text sizes, sans or serif, compact spacing. Reading
 state and settings stay in your browser.

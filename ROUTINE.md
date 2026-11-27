@@ -14,7 +14,9 @@ Run by a scheduled Claude cloud routine once a day. Steps:
 3. Score every candidate and Gmail item using `interests.md` and write `data/scored.json`
    (`id`, `summary`, `category`, `importance`, `tags`; full item fields for Gmail items; `skip: true`
    for non-articles). Then run `python3 scripts/merge.py`.
+   Then run `python3 scripts/enrich.py` to add each new article's preview image and any new
+   source logo (`docs/logos/`).
 4. Privacy check before committing — this must print nothing:
    `grep -niE '@gmail|wiki\.viveksinha|unsubscribe|substack\.com/redirect|list-manage' docs/data/items.json`
-5. Commit `docs/data/items.json` as `Daily update YYYY-MM-DD` and push to `main`.
+5. Commit `docs/data/items.json` and `docs/logos/` as `Daily update YYYY-MM-DD` and push to `main`.
    GitHub Pages republishes the site on push.

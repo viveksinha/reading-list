@@ -15,7 +15,8 @@
    "cursor",
    "spacex",
    "acquisition"
-  ]
+  ],
+  "image": "https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/uploads/close-og-image-1-B5D1caLmbVsj0JInrL2qKgXzLPMGoU.png"
  },
  {
   "id": "cb08e9af981e",
@@ -33,7 +34,8 @@
    "git",
    "scale",
    "developer-tools"
-  ]
+  ],
+  "image": "https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/blog/blog-demo-animation-2ntJbzDU6xSEoHctbbXf2VUO4b2nxK.gif"
  },
  {
   "id": "26a46cce7cf4",
@@ -51,7 +53,8 @@
    "security",
    "incident",
    "cursor"
-  ]
+  ],
+  "image": "https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/og/opengraph-default.png"
  },
  {
   "id": "2cb4f31b0883",
@@ -69,7 +72,8 @@
    "cursor",
    "collaboration",
    "agents"
-  ]
+  ],
+  "image": "https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/uploads/projects-mp-UBYHzU2mlANxiKl3n44qnRePiRTOgt.jpg"
  },
  {
   "id": "f5c413d73956",
@@ -87,7 +91,8 @@
    "security",
    "claude-code",
    "supply-chain"
-  ]
+  ],
+  "image": "https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/og/opengraph-default.png"
  },
  {
   "id": "f40066880a48",
@@ -105,7 +110,8 @@
    "agent-sdk",
    "cursor",
    "agents"
-  ]
+  ],
+  "image": "https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/OG%20Images/agent-sdk-blog-og-WlJMIsDgzkUUfvyf1R9PJSIfytr7Sx.png"
  },
  {
   "id": "2b7d8b0fe4f3",
@@ -123,7 +129,8 @@
    "coding-models",
    "rl",
    "cognition"
-  ]
+  ],
+  "image": "https://cognition.com/images/swe-2-1/cover.jpg"
  },
  {
   "id": "77e192b7dd2a",
@@ -141,7 +148,8 @@
    "coding-models",
    "cognition",
    "latency"
-  ]
+  ],
+  "image": "https://cognition.com/images/swe-2-flash/cover.jpg"
  },
  {
   "id": "6390b97ded36",
@@ -158,7 +166,8 @@
   "tags": [
    "security",
    "best-practices"
-  ]
+  ],
+  "image": "https://cognition.com/images/practical-guide-to-security-november-2026/cover.png"
  },
  {
   "id": "f0e0cc04d2c6",
@@ -176,7 +185,8 @@
    "acquisition",
    "security",
    "cognition"
-  ]
+  ],
+  "image": "https://cognition.com/images/corridor-joining-cognition/cover.jpg"
  },
  {
   "id": "559c640b831a",
@@ -194,7 +204,8 @@
    "benchmarks",
    "coding",
    "evals"
-  ]
+  ],
+  "image": "https://cognition.com/images/frontier-code/frontier-code-2-0-cover.jpg"
  },
  {
   "id": "2a6eaa4c2ea1",
@@ -212,7 +223,8 @@
    "security",
    "devin",
    "vulnerabilities"
-  ]
+  ],
+  "image": "https://cognition.com/images/devin-security/cover.png"
  },
  {
   "id": "25c96fa5a216",
@@ -230,7 +242,8 @@
    "anthropic",
    "ipo",
    "funding"
-  ]
+  ],
+  "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg"
  },
  {
   "id": "08e9aa519f83",
@@ -248,7 +261,8 @@
    "meta",
    "muse",
    "models"
-  ]
+  ],
+  "image": ""
  },
  {
   "id": "fc8c187b735b",
@@ -266,7 +280,8 @@
    "meta",
    "robotics",
    "open-source"
-  ]
+  ],
+  "image": ""
  },
  {
   "id": "503b9986b40d",
@@ -284,7 +299,8 @@
    "meta",
    "science",
    "open-source"
-  ]
+  ],
+  "image": ""
  },
  {
   "id": "0d1a03f568f1",
@@ -302,7 +318,8 @@
    "meta",
    "image",
    "video"
-  ]
+  ],
+  "image": ""
  },
  {
   "id": "86bc9e281379",
@@ -320,7 +337,8 @@
    "meta",
    "research",
    "brain"
-  ]
+  ],
+  "image": ""
  },
  {
   "id": "17a523d995a6",
@@ -338,7 +356,8 @@
    "meta",
    "muse",
    "models"
-  ]
+  ],
+  "image": ""
  },
  {
   "id": "0458149255e6",
@@ -356,7 +375,8 @@
    "newsletter",
    "anthropic",
    "nvidia"
-  ]
+  ],
+  "image": "https://charonhub.deeplearning.ai/content/images/2026/11/Andrew-and-Jensen.webp"
  },
  {
   "id": "2c37a971974c",
@@ -374,7 +394,8 @@
    "newsletter",
    "deepseek",
    "policy"
-  ]
+  ],
+  "image": "https://charonhub.deeplearning.ai/content/images/2025/02/DeepSeek-Byte7_3D-1.jpg"
  },
  {
   "id": "81f098ac2727",
@@ -392,7 +413,8 @@
    "newsletter",
    "agents",
    "retrieval"
-  ]
+  ],
+  "image": "https://charonhub.deeplearning.ai/content/images/2026/11/agentic-harness.webp"
  },
  {
   "id": "0ec2e6081857",
@@ -410,7 +432,8 @@
    "newsletter",
    "gemini",
    "anthropic-ipo"
-  ]
+  ],
+  "image": "https://charonhub.deeplearning.ai/content/images/2026/11/Most-Common-AI-Builder-Occupations.webp"
  },
  {
   "id": "6a7843cb55ac",
@@ -427,7 +450,8 @@
   "tags": [
    "newsletter",
    "ai-risk"
-  ]
+  ],
+  "image": "https://charonhub.deeplearning.ai/content/images/2026/10/Cozy-Halloween-Storytime-Circle.webp"
  },
  {
   "id": "b35242019b77",
@@ -445,7 +469,8 @@
    "newsletter",
    "meta",
    "chatgpt"
-  ]
+  ],
+  "image": "https://charonhub.deeplearning.ai/content/images/2026/10/Futuristic-Space-Station-Classroom-Crew.webp"
  },
  {
   "id": "66d5720ec836",
@@ -462,7 +487,8 @@
   "tags": [
    "anthropic",
    "governance"
-  ]
+  ],
+  "image": "https://assets.claude.com/f3afec5c5951eebed280125c907ef53524024eba.jpg"
  },
  {
   "id": "8a77e646571b",
@@ -480,7 +506,8 @@
    "anthropic",
    "ipo",
    "s-1"
-  ]
+  ],
+  "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg"
  },
  {
   "id": "e7354365dbd8",
@@ -497,7 +524,8 @@
   "tags": [
    "anthropic",
    "ipo"
-  ]
+  ],
+  "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg"
  },
  {
   "id": "3d118c7ed5ae",
@@ -515,7 +543,8 @@
    "agents",
    "lakehouse",
    "databases"
-  ]
+  ],
+  "image": "https://www.kai-waehner.de/wp-content/uploads/2026/11/converged-database-versus-lakehouse-platform-thumbnail.png"
  },
  {
   "id": "f809947e587d",
@@ -534,7 +563,8 @@
    "pricing"
   ],
   "discussion_url": "https://news.ycombinator.com/item?id=50661646",
-  "points": 194
+  "points": 194,
+  "image": "https://pub-430e0c9ecb66464fa6999cd23a749d13.r2.dev/content/images/2026/11/black-friday-hard-drive-prices-are-messed-up/row-of-easystore-drives-on-a-cluttered-workbench.webp"
  },
  {
   "id": "00bb51c293be",
@@ -552,7 +582,8 @@
    "agents",
    "gtm",
    "clay"
-  ]
+  ],
+  "image": "https://i.ytimg.com/vi/qjPcaZf_plo/maxresdefault.jpg"
  },
  {
   "id": "19dd4641586d",
@@ -569,7 +600,8 @@
   "tags": [
    "self-hosting",
    "ai-coding"
-  ]
+  ],
+  "image": ""
  },
  {
   "id": "280fc6b8ee71",
@@ -588,7 +620,8 @@
    "health"
   ],
   "discussion_url": "https://news.ycombinator.com/item?id=50657307",
-  "points": 307
+  "points": 307,
+  "image": ""
  },
  {
   "id": "74178995a4e6",
@@ -606,7 +639,8 @@
    "kafka",
    "postgres",
    "links"
-  ]
+  ],
+  "image": "https://rmoff.net/images/2026/11/h_IMG_9301.webp"
  },
  {
   "id": "069f94445fa0",
@@ -623,7 +657,8 @@
   "tags": [
    "ai-writing",
    "culture"
-  ]
+  ],
+  "image": ""
  },
  {
   "id": "46cd86bf0efb",
@@ -641,7 +676,8 @@
    "verification",
    "llm",
    "software-quality"
-  ]
+  ],
+  "image": ""
  },
  {
   "id": "462a4e67aa25",
@@ -659,7 +695,8 @@
    "lakebase",
    "postgres",
    "replicas"
-  ]
+  ],
+  "image": "https://www.databricks.com/sites/default/files/2026-11/read-replicas-lakebase.png"
  },
  {
   "id": "02a088434703",
@@ -677,7 +714,8 @@
    "llama.cpp",
    "benchmarks",
    "amd"
-  ]
+  ],
+  "image": "https://cdn-uploads.huggingface.co/production/uploads/67289c93ff90038d9a6e5675/tbIvyMSISXCm64WYP3atl.png"
  },
  {
   "id": "f4e4840a9f08",
@@ -695,7 +733,8 @@
    "identity",
    "ethics",
    "society"
-  ]
+  ],
+  "image": "https://images.aeonmedia.co/images/e68a91ac-5959-4ae2-9d6b-7320076b26c7/grey-owl-feather-essay.jpg?width=1200&quality=75&format=jpeg"
  },
  {
   "id": "abfcb376bbab",
@@ -713,7 +752,8 @@
    "history",
    "exile",
    "identity"
-  ]
+  ],
+  "image": "https://images.aeonmedia.co/images/68ada2f7-60e3-4dde-8222-99fab8ecc80a/sz-rp-p-1896-a-19368-1049.jpg?top=130&left=0&cropWidth=2480&cropHeight=1395&width=1200&quality=75&format=jpeg"
  },
  {
   "id": "21481b3fb89d",
@@ -730,7 +770,8 @@
   "tags": [
    "memory",
    "home"
-  ]
+  ],
+  "image": "https://images.aeonmedia.co/images/d78fd84c-6589-4089-ac48-f2f7f41cb932/pam-projects-main.jpg?top=283&left=9&cropWidth=2656&cropHeight=1494&width=1200&quality=75&format=jpeg"
  },
  {
   "id": "6f6a6b07f17a",
@@ -750,7 +791,8 @@
    "agents"
   ],
   "discussion_url": "https://news.ycombinator.com/item?id=50653477",
-  "points": 296
+  "points": 296,
+  "image": "https://techstackups.com/img/articles/google-workspace-agent-api/cover.jpg"
  },
  {
   "id": "82a13b62ffcb",
@@ -770,7 +812,8 @@
    "costs"
   ],
   "discussion_url": "https://news.ycombinator.com/item?id=50652527",
-  "points": 308
+  "points": 308,
+  "image": ""
  },
  {
   "id": "05e5ec19ffd0",
@@ -787,7 +830,8 @@
   "tags": [
    "garage",
    "object-storage"
-  ]
+  ],
+  "image": "https://garagehq.deuxfleurs.fr/images/og-default.png"
  },
  {
   "id": "7fcbebbe6634",
@@ -804,7 +848,8 @@
   "tags": [
    "sqlite",
    "replication"
-  ]
+  ],
+  "image": ""
  },
  {
   "id": "a29e74b8be2d",
@@ -821,7 +866,8 @@
   "tags": [
    "careers",
    "leadership"
-  ]
+  ],
+  "image": "https://substackcdn.com/image/fetch/$s_!D686!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,$fp_!0.5:0.6364!/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc3ba84f5-edc2-4346-856a-02ba56ce9477_2788x3717.heic"
  },
  {
   "id": "4faaa3acd738",
@@ -839,7 +885,8 @@
    "adobe",
    "ai-backlash",
    "products"
-  ]
+  ],
+  "image": ""
  },
  {
   "id": "d3aa48daa62d",
@@ -856,7 +903,8 @@
   "tags": [
    "nvidia",
    "document-parsing"
-  ]
+  ],
+  "image": "https://cdn-uploads.huggingface.co/production/uploads/6365c3f398da81987e2753f2/zArpuP9uLsLz9luMW0K2g.png"
  },
  {
   "id": "244a3e8cb4f1",
@@ -876,7 +924,8 @@
    "pricing"
   ],
   "discussion_url": "https://news.ycombinator.com/item?id=50651117",
-  "points": 475
+  "points": 475,
+  "image": "https://pbs.twimg.com/profile_images/2093807917833281537/2yBgpwVV_400x400.jpg"
  },
  {
   "id": "23df49456422",
@@ -895,7 +944,8 @@
    "tooling"
   ],
   "discussion_url": "https://news.ycombinator.com/item?id=50650892",
-  "points": 291
+  "points": 291,
+  "image": ""
  },
  {
   "id": "137c64b2d0d9",
@@ -912,7 +962,8 @@
   "tags": [
    "gratitude",
    "art"
-  ]
+  ],
+  "image": "https://www.themarginalian.org/wp-content/uploads/2025/11/Cloud_Hebert1.jpg?fit=1200%2C630&ssl=1"
  },
  {
   "id": "e0f082ca4fd4",
@@ -930,7 +981,8 @@
    "podcast",
    "mcp",
    "product"
-  ]
+  ],
+  "image": "https://substackcdn.com/image/fetch/$s_!HJbo!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0950b443-3155-43e2-8429-ec42b6be1a09_1456x971.png"
  },
  {
   "id": "c01600d41603",
@@ -948,7 +1000,8 @@
    "multi-agent",
    "training",
    "evals"
-  ]
+  ],
+  "image": "https://huggingface.co/blog/assets/training-swarms/thumbnail.png"
  },
  {
   "id": "04a9805dfa55",
@@ -965,7 +1018,8 @@
   "tags": [
    "math",
    "ai-proofs"
-  ]
+  ],
+  "image": ""
  },
  {
   "id": "f0cbca428972",
@@ -983,7 +1037,8 @@
    "self",
    "identity",
    "poetry"
-  ]
+  ],
+  "image": "https://www.themarginalian.org/wp-content/uploads/2017/05/robertpennwarren.jpg?fit=600%2C315&ssl=1"
  },
  {
   "id": "c7e5de5fee49",
@@ -1001,7 +1056,8 @@
    "coding-agents",
    "craft",
    "openai"
-  ]
+  ],
+  "image": "https://i.ytimg.com/vi/Qe9d9dWyED0/maxresdefault.jpg"
  },
  {
   "id": "c7c801f91e25",
@@ -1019,7 +1075,8 @@
    "math",
    "openai",
    "proofs"
-  ]
+  ],
+  "image": "https://latent.space/og/card/post/ainews-math-proofs-are-landing-faster-than-we-can-read-them/a8d88191c53bdfffb796ec34d8bd3d83a9031dc0a6d34673e0da1fb9264aec06.png"
  },
  {
   "id": "d6a138330fba",
@@ -1037,7 +1094,8 @@
    "grants",
    "ai-safety",
    "rationalism"
-  ]
+  ],
+  "image": "https://substackcdn.com/image/fetch/$s_!nvu9!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcdccffd1-41de-4e8e-accb-40e0236373a6_364x268.png"
  },
  {
   "id": "19f2f984a80d",
@@ -1057,7 +1115,8 @@
    "trust"
   ],
   "discussion_url": "https://news.ycombinator.com/item?id=50647673",
-  "points": 661
+  "points": 661,
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2289911637.jpg?quality=90&strip=all&crop=0%2C10.232235952618%2C100%2C79.535528094764&w=1200"
  },
  {
   "id": "c45dad0755da",
@@ -1075,7 +1134,8 @@
    "postgres",
    "query-planning",
    "clickhouse"
-  ]
+  ],
+  "image": "https://clickhouse.com/_next/image?url=%2Fuploads%2FIMG_6403_61a671fbea.png&w=1200&h=630&q=75"
  },
  {
   "id": "37b5c9ba9326",
@@ -1093,7 +1153,8 @@
    "ai2",
    "science",
    "agents"
-  ]
+  ],
+  "image": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/F32BgZC_rj0kg99apJlto.png"
  },
  {
   "id": "9527dd371e58",
@@ -1111,7 +1172,8 @@
    "datasette",
    "charts",
    "release"
-  ]
+  ],
+  "image": "https://static.simonwillison.net/static/2026/chart-annotate.gif"
  },
  {
   "id": "8bc07deb0c8a",
@@ -1129,7 +1191,8 @@
    "anthropic",
    "engineering",
    "ai-coding"
-  ]
+  ],
+  "image": "https://substackcdn.com/image/fetch/$s_!MUG0!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff7f42984-2bb8-4041-bee8-3c81b2fa48ab_1280x720.png"
  },
  {
   "id": "1b2e78da4c9f",
@@ -1147,7 +1210,8 @@
    "clickhouse",
    "testing",
    "ci"
-  ]
+  ],
+  "image": "https://clickhouse.com/_next/image?url=%2Fuploads%2Fhow_well_is_clickhouse_tested_thumbnail_2be6121c7f.jpg&w=1200&h=630&q=75"
  },
  {
   "id": "170ba12c1bad",
@@ -1165,7 +1229,8 @@
    "cloudflare",
    "search",
    "agents"
-  ]
+  ],
+  "image": "https://blog.cloudflare.com/_emdash/api/media/file/01M87EHBMCJY691A3ADBXCMG6A.png"
  },
  {
   "id": "fa9827167ead",
@@ -1183,7 +1248,8 @@
    "benchmarks",
    "gemini",
    "gpt"
-  ]
+  ],
+  "image": "https://substackcdn.com/image/fetch/$s_!Z4Di!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F89dd9fca-6931-4bea-94b4-e3531b57f89a_728x524.png"
  },
  {
   "id": "e4828c4fc469",
@@ -1201,7 +1267,8 @@
    "autonomy",
    "gender",
    "home"
-  ]
+  ],
+  "image": "https://images.aeonmedia.co/images/2c93b1cd-a5bf-4097-8468-9c953c8367c7/v4-badarcommercial4.jpg?top=138&left=0&cropWidth=2624&cropHeight=1476&width=1200&quality=75&format=jpeg"
  },
  {
   "id": "d0a3a7f662b5",
@@ -1219,7 +1286,8 @@
    "voice-agent",
    "ibm",
    "indic"
-  ]
+  ],
+  "image": "https://cdn-uploads.huggingface.co/production/uploads/67fe070a4e8cc28ba346f53c/-QNcrxSDbjI8VOCBlhi-C.png"
  },
  {
   "id": "045130688435",
@@ -1237,7 +1305,8 @@
    "rust",
    "compilers",
    "performance"
-  ]
+  ],
+  "image": ""
  },
  {
   "id": "190619a69a1b",
@@ -1255,7 +1324,8 @@
    "gemini",
    "google",
    "frontier"
-  ]
+  ],
+  "image": "https://latent.space/og/card/post/ainews-gemini-4-neon-marks-gdm-s-full-return-as-a-frontier-lab/cbe347eb1fb1cb87c986d8fbe2e2206521e0bdecbfd20fbb16e0c4595e118daa.png"
  },
  {
   "id": "dc30af1becdb",
@@ -1275,7 +1345,8 @@
    "benchmarks"
   ],
   "discussion_url": "https://news.ycombinator.com/item?id=50637871",
-  "points": 105
+  "points": 105,
+  "image": ""
  },
  {
   "id": "c89d4bfb36a9",
@@ -1295,7 +1366,8 @@
    "sandboxing"
   ],
   "discussion_url": "https://news.ycombinator.com/item?id=50637686",
-  "points": 465
+  "points": 465,
+  "image": "https://res.cloudinary.com/lesswrong-2-0/image/upload/c_limit,w_1200,q_auto,f_jpg/f_auto,q_auto/v1/mirroredImages/7wzWuLP3HhyBLmKfo/ilkdsamuxja1dvu4uah2"
  },
  {
   "id": "a58808d0bc10",
@@ -1315,7 +1387,8 @@
    "research"
   ],
   "discussion_url": "https://news.ycombinator.com/item?id=50637056",
-  "points": 406
+  "points": 406,
+  "image": "https://greydanus.github.io/assets/pengpt/thumbnail.png"
  },
  {
   "id": "fa8097569f7c",
@@ -1333,7 +1406,8 @@
    "search",
    "indie",
    "project-update"
-  ]
+  ],
+  "image": ""
  },
  {
   "id": "8389e744fa38",
@@ -1351,7 +1425,8 @@
    "duckdb",
    "claude",
    "sql"
-  ]
+  ],
+  "image": "https://duckdb.org/images/blog/thumbs/star-trek.png"
  },
  {
   "id": "d8d6777ecf09",
@@ -1369,7 +1444,8 @@
    "inference",
    "gpu",
    "optimization"
-  ]
+  ],
+  "image": "https://huggingface.co/blog/assets/inkling-2-mini-inference-hillclimb/thumbnail.png"
  },
  {
   "id": "f0387738029f",
@@ -1386,7 +1462,8 @@
   "tags": [
    "engineering-blogs",
    "culture"
-  ]
+  ],
+  "image": ""
  },
  {
   "id": "6ff348e652c9",
@@ -1404,7 +1481,8 @@
    "coding-agents",
    "llm",
    "inflection"
-  ]
+  ],
+  "image": "https://img.youtube.com/vi/9RKrSF9d2SE/maxresdefault.jpg"
  },
  {
   "id": "01140b05e4d0",
@@ -1421,7 +1499,8 @@
   "tags": [
    "music",
    "silence"
-  ]
+  ],
+  "image": "https://www.themarginalian.org/wp-content/uploads/2026/11/Silence_by_MariaPopova_cropped.jpg?fit=1200%2C630&ssl=1"
  },
  {
   "id": "4105b6529962",
@@ -1439,7 +1518,8 @@
    "self",
    "gibran",
    "mind"
-  ]
+  ],
+  "image": "https://www.themarginalian.org/wp-content/uploads/2023/04/KahlilGibran_TheMarginalian1.jpg?fit=1200%2C630&ssl=1"
  },
  {
   "id": "3c8900ad5c96",
@@ -1457,7 +1537,8 @@
    "superintelligence",
    "timelines",
    "dwarkesh"
-  ]
+  ],
+  "image": "https://substackcdn.com/image/fetch/$s_!2aR1!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-video.s3.amazonaws.com%2Fvideo_upload%2Fpost%2F226413128%2F0876bdd3-98e3-474a-a39e-d09110b3307e%2Ftranscoded-1795556656.png"
  },
  {
   "id": "03e2279915cc",
@@ -1475,7 +1556,8 @@
    "math",
    "openai",
    "complexity"
-  ]
+  ],
+  "image": ""
  },
  {
   "id": "ca7efd0c9bb9",
@@ -1494,7 +1576,8 @@
    "quantization"
   ],
   "discussion_url": "https://news.ycombinator.com/item?id=50633922",
-  "points": 540
+  "points": 540,
+  "image": "https://cdn.prod.website-files.com/699604cc2b9dd89bdbda0608/6a6d0e0bc0d5f9a97a5164c0_69cc089669ab0df26e921aac_prism-og-img%2520(2).png"
  },
  {
   "id": "4c92b4223b9f",
@@ -1512,7 +1595,8 @@
    "dbos",
    "postgres",
    "clickhouse"
-  ]
+  ],
+  "image": "https://clickhouse.com/_next/image?url=%2Fuploads%2FDurable_and_Auditable_Workflows_with_DBOS_and_Click_House_45d820bd7b.png&w=1200&h=630&q=75"
  },
  {
   "id": "7038e65ffad2",
@@ -1530,7 +1614,8 @@
    "cdp",
    "medallion",
    "databricks"
-  ]
+  ],
+  "image": "https://www.databricks.com/sites/default/files/2026-11/Blog-Data-Modeling-Best-Practices-for-an-Agentic-CDP-Part-1-The-Data-Foundation.png"
  },
  {
   "id": "e1da16352396",
@@ -1548,7 +1633,8 @@
    "engineering",
    "writing",
    "newsletter"
-  ]
+  ],
+  "image": "https://substackcdn.com/image/fetch/$s_!nbv5!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F710bc15b-efad-4643-bb7d-fd4748f219ff_1672x941.png"
  },
  {
   "id": "8d144b61c17a",
@@ -1566,7 +1652,8 @@
    "data-warehouse",
    "data-teams",
    "value"
-  ]
+  ],
+  "image": "https://substackcdn.com/image/fetch/$s_!7fPY!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F244d9014-cfe9-4ea0-903a-f80f24f2cc1a_1024x768.jpeg"
  },
  {
   "id": "a4f11831f774",
@@ -1584,7 +1671,8 @@
    "parquet",
    "java",
    "s3"
-  ]
+  ],
+  "image": ""
  },
  {
   "id": "0a51980ba760",
@@ -1601,7 +1689,8 @@
   "tags": [
    "writing",
    "thinking"
-  ]
+  ],
+  "image": "https://substackcdn.com/image/fetch/$s_!iPGG!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8a146776-b8d2-4c2e-816a-e303163b18d6_1840x1201.jpeg"
  },
  {
   "id": "ff915f70f4b7",
@@ -1619,7 +1708,8 @@
    "code-review",
    "genai",
    "verification"
-  ]
+  ],
+  "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQy1u-kWFglEfAJ2OYEIhEXZC_X14MOxXS4IELOycuIk7cJIX5_ahesF0tNh3Ezde6LeTrpaN7pfCHy0OB_jfPdfSW75pkVtBxEzWfIiEx2lxDqN4QCYBsYW7l6SJ7ij2oyUCOcbPJRK5ktxfQi2l3gzWWyMFiC0FlX426PbmfIlLBiQq0tDmuHpGM-9I/w1200-h630-p-k-no-nu/Screenshot%202026-11-24%20at%202.05.48%E2%80%AFPM.png"
  },
  {
   "id": "002bc4ff2409",
@@ -1639,7 +1729,8 @@
    "criticism"
   ],
   "discussion_url": "https://news.ycombinator.com/item?id=50631210",
-  "points": 225
+  "points": 225,
+  "image": "https://novaramedia.com/wp-content/uploads/2026/11/Screenshot-2026-11-24-at-2.42.06-pm-e1795535439679-1200x630.png"
  },
  {
   "id": "f796e127a00b",
@@ -1657,7 +1748,8 @@
    "gpt",
    "research",
    "history"
-  ]
+  ],
+  "image": ""
  },
  {
   "id": "bbef1e94d167",
@@ -1677,7 +1769,8 @@
    "api"
   ],
   "discussion_url": "https://news.ycombinator.com/item?id=50630809",
-  "points": 466
+  "points": 466,
+  "image": ""
  },
  {
   "id": "8e9b94fee057",
@@ -1697,7 +1790,8 @@
    "analytics"
   ],
   "discussion_url": "https://news.ycombinator.com/item?id=50630294",
-  "points": 108
+  "points": 108,
+  "image": "https://masondata.ai/og.png"
  },
  {
   "id": "197dc8b3ac4d",
@@ -1716,7 +1810,8 @@
    "training"
   ],
   "discussion_url": "https://news.ycombinator.com/item?id=50629231",
-  "points": 238
+  "points": 238,
+  "image": "https://repository-images.githubusercontent.com/1465322684/f6c97c41-6e40-4e48-83c6-1b20210672d6"
  },
  {
   "id": "a0310481985e",
@@ -1734,7 +1829,8 @@
    "snowflake",
    "healthcare",
    "fhir"
-  ]
+  ],
+  "image": ""
  },
  {
   "id": "204a3b5c5043",
@@ -1754,7 +1850,8 @@
    "markets"
   ],
   "discussion_url": "https://news.ycombinator.com/item?id=50628932",
-  "points": 130
+  "points": 130,
+  "image": ""
  },
  {
   "id": "360f4418c875",
@@ -1772,7 +1869,8 @@
    "theranos",
    "startups",
    "fraud"
-  ]
+  ],
+  "image": "https://thepointmag.com/wp-content/uploads/2026/11/Screenshot-2026-11-01-at-8.44.33-AM.png"
  },
  {
   "id": "374488396458",
@@ -1790,7 +1888,8 @@
    "ai-products",
    "bugs",
    "quality"
-  ]
+  ],
+  "image": "https://storage.ghost.io/c/57/9b/579b6dca-f48a-4307-844f-f0533595d058/content/images/size/w1200/2026/10/bugs-atp.webp"
  },
  {
   "id": "e628c0b2649e",
@@ -1810,7 +1909,8 @@
    "stock"
   ],
   "discussion_url": "https://news.ycombinator.com/item?id=50627836",
-  "points": 433
+  "points": 433,
+  "image": ""
  },
  {
   "id": "f14a6f6dfd19",
@@ -1828,7 +1928,8 @@
    "deepmind",
    "science",
    "chemistry"
-  ]
+  ],
+  "image": ""
  },
  {
   "id": "3c6728c1bfd1",
@@ -1846,7 +1947,8 @@
    "openai",
    "protein",
    "gpt-6"
-  ]
+  ],
+  "image": "https://images.ctfassets.net/kftzwdyauwt9/Eg5mCwwaA3KqnznOVCh0n/8e6deaef25fd508d9853ff86a95187c1/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities-social.png?w=1600&h=900&fit=fill"
  },
  {
   "id": "ef8096d74f5d",
@@ -1866,7 +1968,8 @@
    "anthropic"
   ],
   "discussion_url": "https://news.ycombinator.com/item?id=50627340",
-  "points": 1031
+  "points": 1031,
+  "image": "https://michaelharley.net/assets/images/open-graph-image.png"
  },
  {
   "id": "33e5526099fd",
@@ -1884,7 +1987,8 @@
    "avx-512",
    "parsing",
    "performance"
-  ]
+  ],
+  "image": ""
  },
  {
   "id": "20705cda544d",
@@ -1902,7 +2006,8 @@
    "postgres",
    "clickhouse",
    "managed"
-  ]
+  ],
+  "image": "https://clickhouse.com/_next/image?url=%2Fuploads%2FPostgres_19_on_day_one_2_09f9ed54ca.png&w=1200&h=630&q=75"
  },
  {
   "id": "f3aa9260f109",
@@ -1920,7 +2025,8 @@
    "openai",
    "astronomy",
    "case-study"
-  ]
+  ],
+  "image": "https://images.ctfassets.net/kftzwdyauwt9/318YLaAKlMKQFzOdMutjeX/8b6e4e516fd1a7894c97318838f43a0f/searching-for-distant-planets-with-astra-social.png?w=1600&h=900&fit=fill"
  },
  {
   "id": "7afaa8128bf8",
@@ -1938,7 +2044,8 @@
    "psychiatry",
    "culture",
    "mind"
-  ]
+  ],
+  "image": "https://images.aeonmedia.co/images/52cd7554-7970-47c1-b2e1-b1f2609d4c56/essay-2011-04-26t120000z_177609120_gm1e74q1iax01_rtrmadp_3_china.jpg?width=1200&quality=75&format=jpeg"
  },
  {
   "id": "312f55b632b2",
@@ -1956,7 +2063,8 @@
    "migration",
    "home",
    "identity"
-  ]
+  ],
+  "image": "https://images.aeonmedia.co/images/4ed838c6-53f7-49a6-aa7b-40598a28fc00/sz-final-par305491.jpg?top=120&left=0&cropWidth=2288&cropHeight=1287&width=1200&quality=75&format=jpeg"
  },
  {
   "id": "3e573b092674",
@@ -1974,7 +2082,8 @@
    "ceph",
    "nvme",
    "storage"
-  ]
+  ],
+  "image": ""
  },
  {
   "id": "c052286a80b2",
@@ -1992,7 +2101,8 @@
    "ai",
    "creativity",
    "essay"
-  ]
+  ],
+  "image": "https://www.dbreunig.com/img/cng_2026/cng_2026.006.jpeg"
  },
  {
   "id": "53ecd8bdb026",
@@ -2010,7 +2120,8 @@
    "agents",
    "real-time",
    "olap"
-  ]
+  ],
+  "image": "https://clickhouse.com/_next/image?url=%2Fuploads%2Fyour_agents_dont_care_that_youre_a_batch_shop_cover_e4655f7b6b.png&w=1200&h=630&q=75"
  },
  {
   "id": "5c003d30472b",
@@ -2028,7 +2139,8 @@
    "performance",
    "profiling",
    "ai"
-  ]
+  ],
+  "image": ""
  },
  {
   "id": "3b1f8072ba29",
@@ -2046,7 +2158,8 @@
    "datasette",
    "charts",
    "agents"
-  ]
+  ],
+  "image": ""
  },
  {
   "id": "a43a2373bab7",
@@ -2064,7 +2177,8 @@
    "newsletter",
    "glm",
    "openai"
-  ]
+  ],
+  "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/2d949515-988e-46e3-83cb-c3a9118cb699/Screenshot_2026-11-24_at_12.54.41b.png?t=1795525308"
  },
  {
   "id": "1951d3d0aee3",
@@ -2084,7 +2198,8 @@
    "ai"
   ],
   "discussion_url": "https://news.ycombinator.com/item?id=50622854",
-  "points": 122
+  "points": 122,
+  "image": "https://davidtemkin.github.io/declarelang/assets/og-image.png"
  },
  {
   "id": "a53e25c34fef",
@@ -2102,7 +2217,8 @@
    "iceberg",
    "catalog",
    "databricks"
-  ]
+  ],
+  "image": "https://www.databricks.com/sites/default/files/2026-11/blog-og-Sharing-catalog-metadata-across-data-platforms-engines-and-agents.png"
  },
  {
   "id": "0dd133049a77",
@@ -2120,7 +2236,8 @@
    "ai-evals",
    "pm",
    "agents"
-  ]
+  ],
+  "image": "https://substackcdn.com/image/fetch/$s_!PIVJ!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F96906a85-c573-4c8a-8d2c-3afbcff69111_1280x720.jpeg"
  },
  {
   "id": "3e8dc5b86d2d",
@@ -2138,7 +2255,8 @@
    "iceberg",
    "snowflake",
    "governance"
-  ]
+  ],
+  "image": ""
  },
  {
   "id": "b99b43256cba",
@@ -2156,7 +2274,8 @@
    "clickhouse",
    "siem",
    "observability"
-  ]
+  ],
+  "image": "https://clickhouse.com/_next/image?url=%2Fuploads%2Fclickhouse_security_nov2026_banner_b561b84619.jpg&w=1200&h=630&q=75"
  },
  {
   "id": "80659a0fea2a",
@@ -2173,7 +2292,8 @@
   "tags": [
    "duckdb",
    "newsletter"
-  ]
+  ],
+  "image": "https://motherduck-com-web-prod.s3.us-east-1.amazonaws.com/assets/img/articles/duckdb-ecosystem-newsletter-november-2026/duckdb_ecosystem_newsletter_november_2026_thumbnail_b0e559d818.png"
  },
  {
   "id": "ca6247e2be65",
@@ -2191,7 +2311,8 @@
    "duckdb",
    "testing",
    "ci"
-  ]
+  ],
+  "image": "https://duckdb.org/images/blog/thumbs/sproutme.png"
  },
  {
   "id": "ec442b764e04",
@@ -2209,7 +2330,8 @@
    "openai",
    "customer-story",
    "agents"
-  ]
+  ],
+  "image": "https://images.ctfassets.net/kftzwdyauwt9/2DH2aby1xmlzvADCraI7Xi/bbe8b8956578492f2c3fd7326ecbd9e1/intentful-dots-social-c.png?w=1600&h=900&fit=fill"
  },
  {
   "id": "7a6462e387eb",
@@ -2227,7 +2349,8 @@
    "coding-agents",
    "openai",
    "scale"
-  ]
+  ],
+  "image": "https://images.ctfassets.net/kftzwdyauwt9/4Ts7RsLLSU4iEOxQwBkGgg/cbf56c075004a9ae2c41af4d5f7b428b/ifood-customer-story-social.png?w=1600&h=900&fit=fill"
  },
  {
   "id": "99b93f3e1098",
@@ -2245,7 +2368,8 @@
    "clay",
    "openai",
    "gtm"
-  ]
+  ],
+  "image": "https://images.ctfassets.net/kftzwdyauwt9/24rUSNlLR8iXQysKA6dq12/38954f25812d30bf772691824f747b84/clay-seo-1920.png?w=1600&h=900&fit=fill"
  },
  {
   "id": "cd79b5cf3ca4",
@@ -2263,7 +2387,8 @@
    "ai-economics",
    "jevons",
    "pricing"
-  ]
+  ],
+  "image": "https://res.cloudinary.com/dzawgnnlr/image/upload/c_fill,g_auto,w_1200,h_630/analysis/ai-token-demand-inflation-vs-price-deflation/chart-01-indexed-divergence-ramp-v2-93144705160f.png"
  },
  {
   "id": "ef3910f6a7af",
@@ -2281,7 +2406,8 @@
    "glm",
    "loop-transformer",
    "coding"
-  ]
+  ],
+  "image": "https://static.simonwillison.net/static/2026/glm-family-4.webp"
  },
  {
   "id": "b7fc35d5ccf0",
@@ -2298,7 +2424,8 @@
   "tags": [
    "browser",
    "open-source"
-  ]
+  ],
+  "image": "https://static.simonwillison.net/static/2026/ladybird-ffmpeg.webp"
  },
  {
   "id": "1d0c151fefed",
@@ -2316,7 +2443,8 @@
    "openai",
    "cisco",
    "security"
-  ]
+  ],
+  "image": "https://images.ctfassets.net/kftzwdyauwt9/5K7gFDr3r8vgjdIcsW6RVY/aba5325ce7902e5d1499b907f8e78f0b/shirudo-partner-logos-landscape-2x.png?w=1600&h=900&fit=fill"
  },
  {
   "id": "76688e73cec3",
@@ -2334,7 +2462,8 @@
    "npm",
    "supply-chain",
    "databricks"
-  ]
+  ],
+  "image": "https://www.databricks.com/sites/default/files/2026-11/cover-notext.png"
  },
  {
   "id": "3c69fd56490c",
@@ -2354,7 +2483,8 @@
    "lecun"
   ],
   "discussion_url": "https://news.ycombinator.com/item?id=50615308",
-  "points": 2021
+  "points": 2021,
+  "image": "https://pbs.twimg.com/profile_images/1483577865056702469/rWA-3_T7_400x400.jpg"
  },
  {
   "id": "d1d3915e5322",
@@ -2372,7 +2502,8 @@
    "bigquery",
    "snowflake",
    "migration"
-  ]
+  ],
+  "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/Data_Analytics_JooYPJr.max-2500x2500.jpg"
  },
  {
   "id": "61dcf1169479",
@@ -2390,7 +2521,8 @@
    "deepmind",
    "quantum",
    "formal-verification"
-  ]
+  ],
+  "image": ""
  },
  {
   "id": "072458d77f66",
@@ -2408,7 +2540,8 @@
    "spark",
    "lakebase",
    "streaming"
-  ]
+  ],
+  "image": "https://www.databricks.com/sites/default/files/2026-11/lakebase-sink-optB-pipeline-2400x1256.png"
  },
  {
   "id": "a4dbe453ad16",
@@ -2426,7 +2559,8 @@
    "records",
    "immutability",
    "history"
-  ]
+  ],
+  "image": "https://web.archive.org/web/20210329070928im_/https://crux-blog-images.s3.eu-west-2.amazonaws.com/blog-thumbnails/gameboy/mid.png"
  },
  {
   "id": "db5ec702beee",
@@ -2444,7 +2578,8 @@
    "clickhouse",
    "aws",
    "partnership"
-  ]
+  ],
+  "image": "https://clickhouse.com/_next/image?url=%2Fuploads%2FSCA_Banner_bf4eda1389.png&w=1200&h=630&q=75"
  },
  {
   "id": "eeeccf5ef933",
@@ -2462,7 +2597,8 @@
    "snowflake",
    "agents",
    "governance"
-  ]
+  ],
+  "image": ""
  },
  {
   "id": "3120537bb3c8",
@@ -2480,7 +2616,8 @@
    "newsletter",
    "research",
    "huawei"
-  ]
+  ],
+  "image": "https://substackcdn.com/image/fetch/$s_!3yYS!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6d17996-2bef-40a4-abe3-be72a0e8a227_258x258.png"
  },
  {
   "id": "17cce5727050",
@@ -2500,7 +2637,8 @@
    "skills"
   ],
   "discussion_url": "https://news.ycombinator.com/item?id=50611593",
-  "points": 131
+  "points": 131,
+  "image": "https://chszlab.github.io/AgenticAlgorithmEngineering/assets/social-preview.png"
  },
  {
   "id": "9f50a7fbeba1",
@@ -2518,7 +2656,8 @@
    "cloudflare",
    "dns",
    "testing"
-  ]
+  ],
+  "image": "https://blog.cloudflare.com/_emdash/api/media/file/01M7XNS6Z54W4GPXME90VX9S44.png"
  },
  {
   "id": "c2e00314602d",
@@ -2536,7 +2675,8 @@
    "lakebase",
    "databricks",
    "databases"
-  ]
+  ],
+  "image": "https://substackcdn.com/image/fetch/$s_!KV9K!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbca935bd-8b0c-4f19-94c5-d523ffc5c39c_1672x941.png"
  },
  {
   "id": "a7df8bf18b52",
@@ -2554,7 +2694,8 @@
    "snowflake",
    "manufacturing",
    "agents"
-  ]
+  ],
+  "image": ""
  },
  {
   "id": "df9acd756c94",
@@ -2572,7 +2713,8 @@
    "agents",
    "executives",
    "productivity"
-  ]
+  ],
+  "image": "https://substackcdn.com/image/fetch/$s_!1BzH!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F03f79175-4d7d-4d7c-b919-21d0540b125a_728x524.png"
  },
  {
   "id": "e4e02944b3e0",
@@ -2590,7 +2732,8 @@
    "orchestration",
    "insurance",
    "agents"
-  ]
+  ],
+  "image": "https://www.kai-waehner.de/wp-content/uploads/2026/11/unified-orchestration-insurance-thumbnail.png"
  },
  {
   "id": "f8a4e02f4212",
@@ -2608,7 +2751,8 @@
    "openai",
    "legal",
    "workflows"
-  ]
+  ],
+  "image": "https://images.ctfassets.net/kftzwdyauwt9/40q0vnGDp1zwWuJrVjXtu6/79ebb13b84e11ce1711a27adfd6ffafe/connected-intelligence-for-in-house-legal-cover.png?w=1600&h=900&fit=fill"
  },
  {
   "id": "680b35173b97",
@@ -2626,7 +2770,8 @@
    "openai",
    "support",
    "customer-story"
-  ]
+  ],
+  "image": "https://images.ctfassets.net/kftzwdyauwt9/4aVhQ1EicxWg7i6lIkBrLQ/cdabc180f7e5f780dbb43c302e7163d8/richpanel-social.png?w=1600&h=900&fit=fill"
  },
  {
   "id": "10de49f569d3",
@@ -2645,7 +2790,8 @@
    "physics"
   ],
   "discussion_url": "https://news.ycombinator.com/item?id=50607849",
-  "points": 297
+  "points": 297,
+  "image": ""
  },
  {
   "id": "41d4ad8c2794",
@@ -2663,7 +2809,8 @@
    "newsletter",
    "data-engineering",
    "verification"
-  ]
+  ],
+  "image": "https://substackcdn.com/image/fetch/$s_!AdQk!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F6f51c1bf-abc9-4cd3-ad69-22cc8e3f1ef2_1080x1080.png"
  },
  {
   "id": "289c8aeddacd",
@@ -2681,7 +2828,8 @@
    "datasette",
    "charts",
    "claude"
-  ]
+  ],
+  "image": "https://static.simonwillison.net/static/2026/datasette-charts-0.1a0.webp"
  },
  {
   "id": "0061038fb64e",
@@ -2699,7 +2847,8 @@
    "stripe",
    "saas",
    "ai"
-  ]
+  ],
+  "image": "https://images.stripeassets.com/fzn2n1nzq965/1KkWeWPosG15eHjC4Zwp2J/40c4870c1bceb5921c966cbe82c2651e/Option_2_Social__1_.jpg?q=80"
  },
  {
   "id": "6fd4c32fe34a",
@@ -2717,7 +2866,8 @@
    "agents",
    "evals",
    "huggingface"
-  ]
+  ],
+  "image": "https://huggingface.co/blog/assets/agentic-evals/thumbnail.png"
  },
  {
   "id": "1ba4d31258de",
@@ -2736,7 +2886,8 @@
    "tutorial"
   ],
   "discussion_url": "https://news.ycombinator.com/item?id=50603845",
-  "points": 780
+  "points": 780,
+  "image": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth/opengraph-image-17m7t5?6653c98c6cd84ba6"
  },
  {
   "id": "c0f9b5be5e22",
@@ -2756,7 +2907,8 @@
    "gpt"
   ],
   "discussion_url": "https://news.ycombinator.com/item?id=50601280",
-  "points": 466
+  "points": 466,
+  "image": ""
  },
  {
   "id": "0045010b29f8",
@@ -2774,7 +2926,8 @@
    "product-management",
    "ai",
    "leadership"
-  ]
+  ],
+  "image": "https://substackcdn.com/image/fetch/$s_!jBdu!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F59e8c8e2-feda-485d-9f9b-db56d31dfd80_2048x2048.png"
  },
  {
   "id": "315e82c2f910",
@@ -2793,7 +2946,8 @@
    "data-centers"
   ],
   "discussion_url": "https://news.ycombinator.com/item?id=50598961",
-  "points": 135
+  "points": 135,
+  "image": "https://substackcdn.com/image/fetch/$s_!MW3Y!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,$fp_!0.3439:1!/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5d71c583-fbcc-4b20-91c7-e1bdabe47973_4978x3319.jpeg"
  },
  {
   "id": "38c61351fe0d",
@@ -2813,7 +2967,8 @@
    "emissions"
   ],
   "discussion_url": "https://news.ycombinator.com/item?id=50597612",
-  "points": 1043
+  "points": 1043,
+  "image": ""
  },
  {
   "id": "ce0bcf2918b4",
@@ -2833,7 +2988,8 @@
    "privacy"
   ],
   "discussion_url": "https://news.ycombinator.com/item?id=50596511",
-  "points": 110
+  "points": 110,
+  "image": "https://dragos.brightspotcdn.com/dims4/default/41c5c4a/2147483647/strip/true/crop/1307x735+309+0/resize/1440x810!/format/webp/quality/90/?url=https%3A%2F%2Fdragos-production-dragos.s3.us-west-2.amazonaws.com%2Fbrightspot%2Fd4%2Fb6%2Fb4dbcbe348a8b3506fb99c5419e7%2Fxot-hero.webp"
  },
  {
   "id": "528d6924cf9a",
@@ -2852,7 +3008,8 @@
    "ai"
   ],
   "discussion_url": "https://news.ycombinator.com/item?id=50595537",
-  "points": 181
+  "points": 181,
+  "image": "https://noemamag.imgix.net/2026/01/The-Mythology-of-Conscious-AI-scaled.jpg?fit=crop&fm=pjpg&h=628&ixlib=php-3.3.1&w=1200&wpsize=noema-social-facebook&s=ac64b80d34a8583e44429565e7df4a07"
  },
  {
   "id": "de5cd1a6d51d",
@@ -2870,7 +3027,8 @@
    "openai",
    "evals",
    "perplexity"
-  ]
+  ],
+  "image": "https://images.ctfassets.net/kftzwdyauwt9/6rIIhCRSKrhIfe385Onmcz/aca2d190553c62fd5d49efb5d5ce1eb6/perplexity-and-intelligence-social.png?w=1600&h=900&fit=fill"
  },
  {
   "id": "a4ea85254a88",
@@ -2888,7 +3046,8 @@
    "evals",
    "benchmarks",
    "methodology"
-  ]
+  ],
+  "image": "https://eugeneyan.com/assets/og_image/public-evals.jpg"
  },
  {
   "id": "21bd1d482ae2",
@@ -2906,7 +3065,8 @@
    "python",
    "rust",
    "servers"
-  ]
+  ],
+  "image": ""
  },
  {
   "id": "3d1bee2216f8",
@@ -2926,7 +3086,8 @@
    "europe"
   ],
   "discussion_url": "https://news.ycombinator.com/item?id=50593481",
-  "points": 141
+  "points": 141,
+  "image": ""
  },
  {
   "id": "1c83a91ee04f",
@@ -2946,7 +3107,8 @@
    "extensions"
   ],
   "discussion_url": "https://news.ycombinator.com/item?id=50591260",
-  "points": 171
+  "points": 171,
+  "image": "https://jespino.github.io/gopgext/img/social.png"
  },
  {
   "id": "0d3333ef9d9b",
@@ -2964,7 +3126,8 @@
    "agents",
    "community",
    "workflow"
-  ]
+  ],
+  "image": "https://substackcdn.com/image/fetch/$s_!KxHU!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa1ca8352-9571-4b81-b041-52374176f4fc_2912x1456.png"
  },
  {
   "id": "739c2afbe047",
@@ -2982,7 +3145,8 @@
    "postgres",
    "embedded",
    "single-binary"
-  ]
+  ],
+  "image": "https://progrium.xyz/articles/2026/single-binary-postgres.card.png"
  },
  {
   "id": "0861843e14b2",
@@ -3000,7 +3164,8 @@
    "outage",
    "incident",
    "microsoft"
-  ]
+  ],
+  "image": ""
  },
  {
   "id": "2b32d4b379bc",
@@ -3018,7 +3183,8 @@
    "math",
    "anthropic",
    "proofs"
-  ]
+  ],
+  "image": "https://latent.space/og/card/post/ainews-riemann-hypothesis-proved-twice-independently/e5a84487c10f6433d047c718980d15e3da91212ba6d34d2720d3eb1a90a457ba.png"
  },
  {
   "id": "c180aada27bd",
@@ -3036,7 +3202,8 @@
    "agents",
    "production",
    "pm"
-  ]
+  ],
+  "image": "https://substackcdn.com/image/fetch/$s_!kO5T!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-video.s3.amazonaws.com%2Fvideo_upload%2Fpost%2F225777916%2Fb9de1cba-8b1d-4b37-add3-6e2ae0265360%2Ftranscoded-1795171838.png"
  },
  {
   "id": "0e6ffb22cecb",
@@ -3054,7 +3221,8 @@
    "valkey",
    "data-structures",
    "memory"
-  ]
+  ],
+  "image": "https://valkey.io/img/valkey-logo-og.png"
  },
  {
   "id": "c989db0d32fd",
@@ -3072,7 +3240,8 @@
    "formal-verification",
    "slop",
    "coding"
-  ]
+  ],
+  "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/b6f560cd-a37a-4d62-8d6b-da5b59cf4790/formal-verification-feature.png?t=1795207886"
  },
  {
   "id": "f93ea93941f6",
@@ -3090,7 +3259,8 @@
    "cloudflare",
    "waf",
    "ruby"
-  ]
+  ],
+  "image": "https://blog.cloudflare.com/_emdash/api/media/file/01M7X91E3PVQ8147SJ7B05N2WK.png"
  },
  {
   "id": "7066f202a884",
@@ -3108,7 +3278,8 @@
    "cloudflare",
    "waf",
    "php"
-  ]
+  ],
+  "image": "https://blog.cloudflare.com/_emdash/api/media/file/01M7X76FEMSF7NE7RCCQQBHCVN.png"
  },
  {
   "id": "3e30621eb1a8",
@@ -3128,7 +3299,8 @@
    "inference"
   ],
   "discussion_url": "https://news.ycombinator.com/item?id=50579297",
-  "points": 180
+  "points": 180,
+  "image": "https://ankitg.me/assets/fpga-board.png"
  },
  {
   "id": "86db41def986",
@@ -3146,7 +3318,8 @@
    "airflow",
    "agents",
    "google"
-  ]
+  ],
+  "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/Data_Analytics_JooYPJr.max-2500x2500.jpg"
  },
  {
   "id": "7ec62e10e147",
@@ -3164,7 +3337,8 @@
    "data-agents",
    "evals",
    "google"
-  ]
+  ],
+  "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/Data_Analytics_JooYPJr.max-2500x2500.jpg"
  },
  {
   "id": "347053b5b61d",
@@ -3182,7 +3356,8 @@
    "spark",
    "google",
    "agents"
-  ]
+  ],
+  "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/Data_Analytics_JooYPJr.max-2500x2500.jpg"
  },
  {
   "id": "a7c069141e9e",
@@ -3200,7 +3375,8 @@
    "vodafone",
    "bigquery",
    "agents"
-  ]
+  ],
+  "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/Data_Analytics_JooYPJr.max-2500x2500.jpg"
  },
  {
   "id": "83f2b5d135af",
@@ -3220,7 +3396,8 @@
    "ai"
   ],
   "discussion_url": "https://news.ycombinator.com/item?id=50577901",
-  "points": 285
+  "points": 285,
+  "image": "https://www.motherjones.com/wp-content/uploads/2026/11/google-chromebook-la-school-covid.jpg?w=1200&h=630&crop=1"
  },
  {
   "id": "9d9e2c9f2c65",
@@ -3239,7 +3416,8 @@
    "homogenization"
   ],
   "discussion_url": "https://news.ycombinator.com/item?id=50577872",
-  "points": 127
+  "points": 127,
+  "image": "https://a90.com/experiments/same-advice/og.png"
  },
  {
   "id": "b8e1839046bc",
@@ -3257,7 +3435,8 @@
    "math",
    "claude",
    "proofs"
-  ]
+  ],
+  "image": ""
  },
  {
   "id": "9fe3e937f57a",
@@ -3277,7 +3456,8 @@
    "weights"
   ],
   "discussion_url": "https://news.ycombinator.com/item?id=50577265",
-  "points": 494
+  "points": 494,
+  "image": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
  },
  {
   "id": "beff442b3034",
@@ -3295,7 +3475,8 @@
    "databricks",
    "architecture",
    "reference"
-  ]
+  ],
+  "image": "https://www.databricks.com/sites/default/files/2026-11/interactive-databricks-reference-architectures-across-industries-blog-og.png"
  },
  {
   "id": "2ab114abf449",
@@ -3313,7 +3494,8 @@
    "cloud-software",
    "security",
    "saas"
-  ]
+  ],
+  "image": "https://substackcdn.com/image/fetch/$s_!sYba!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4a427dbf-30ce-4621-a891-630fb396fcd8_1731x909.png"
  },
  {
   "id": "94ae0207bc3c",
@@ -3331,7 +3513,8 @@
    "optimism",
    "newsletter",
    "tech"
-  ]
+  ],
+  "image": "https://substackcdn.com/image/fetch/$s_!PPUN!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F27d68c14-5cc8-42fd-afe9-cbd625d8687a_960x540.gif"
  },
  {
   "id": "fda5004e845f",
@@ -3351,7 +3534,8 @@
    "nasdaq"
   ],
   "discussion_url": "https://news.ycombinator.com/item?id=50574383",
-  "points": 531
+  "points": 531,
+  "image": "https://i.guim.co.uk/img/media/578833ee207aab76c1b6a542f17226703dbd735b/686_0_5336_4269/master/5336.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=a36857abb7bd0660d819105186f898a0"
  },
  {
   "id": "000028228240",
@@ -3371,7 +3555,8 @@
    "hardware"
   ],
   "discussion_url": "https://news.ycombinator.com/item?id=50572503",
-  "points": 686
+  "points": 686,
+  "image": "https://main--gleeful-begonia-6bb5f3.netlify.app/_next/static/media/frostbite-cover.3n9ytugnquhlr.jpg"
  },
  {
   "id": "3ea993db7e3c",
@@ -3389,7 +3574,8 @@
    "openai",
    "distillation",
    "security"
-  ]
+  ],
+  "image": "https://images.ctfassets.net/kftzwdyauwt9/5SUtPGdssrttC7LfP1yoJ1/b6b000846ab3576c1735c29534ab20b0/combatting-adversarial-distillation-social.png?w=1600&h=900&fit=fill"
  },
  {
   "id": "50d6027fa155",
@@ -3407,7 +3593,8 @@
    "clickhouse",
    "newsletter",
    "launches"
-  ]
+  ],
+  "image": "https://clickhouse.com/_next/image?url=%2Fuploads%2Fnov2026_nl_image1_32f768551e.png&w=1200&h=630&q=75"
  },
  {
   "id": "c4ca83ba5741",
@@ -3427,7 +3614,8 @@
    "agents"
   ],
   "discussion_url": "https://news.ycombinator.com/item?id=50572348",
-  "points": 584
+  "points": 584,
+  "image": "https://signal.org/blog/images/protecting-your-privacy-opengraph.png"
  },
  {
   "id": "2577a740a4e0",
@@ -3445,7 +3633,8 @@
    "anthropic",
    "ipo",
    "agents"
-  ]
+  ],
+  "image": "https://www.kai-waehner.de/wp-content/uploads/2026/11/anthropic-s1-ai-agent-orchestration-thumbnail.png"
  },
  {
   "id": "1177dfbd92c1",
@@ -3463,7 +3652,8 @@
    "anthropic",
    "ipo",
    "market"
-  ]
+  ],
+  "image": "https://latent.space/og/card/post/ainews-anthropic-successfully-completes-largest-ipo-in-history-valued-at-1-5t/f8e51dd638504d7f5c621226c8a155ca94849fa49ed6a1d5ff9e8b82b0176ea9.png"
  },
  {
   "id": "d23cd7e9b4c1",
@@ -3481,6 +3671,7 @@
    "snowflake",
    "sap",
    "forecasting"
-  ]
+  ],
+  "image": ""
  }
 ]

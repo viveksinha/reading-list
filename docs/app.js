@@ -13,6 +13,8 @@
   const DEFAULT_PREFS = { v: 2, theme: "sepia", size: "m", font: "sans", density: "comfortable" };
 
   let items = [];
+  let logos = {};
+  const genericImages = new Set(); // share images reused by 3+ posts are site banners, not article art
   let filters = { ...DEFAULT_FILTERS, ...store.get("rl.filters", {}), q: "" };
   const saved = store.get("rl.prefs", {});
   if (saved.v !== 2) { delete saved.theme; saved.v = 2; } // Sepia became the default in v2
@@ -83,15 +85,28 @@
     store.set("rl.filters", { ...filters, q: "" });
   }
 
+  const logoKey = (it) => it.source_id || it.source.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+  function sourceMark(it) {
+    const src = logos[logoKey(it)];
+    return src
+      ? `<img class="logo" src="${esc(src)}" alt="" width="20" height="20" loading="lazy">`
+      : `<span class="logo mono" aria-hidden="true">${esc((it.source.match(/[A-Za-z0-9]/) || ["?"])[0].toUpperCase())}</span>`;
+  }
+  const pic = (it) => (it.image && !genericImages.has(it.image) ? it.image : "");
+
   function card(it) {
     const isRead = read.has(it.id), isStar = starred.has(it.id);
     const tags = (it.tags || []).map((t) => `<button class="tag" data-tag="${esc(t)}">${esc(t)}</button>`).join("");
     const disc = it.discussion_url
       ? `<a class="act" href="${esc(it.discussion_url)}" target="_blank" rel="noopener">${ICON.chat}${it.points ? esc(it.points) + " pts" : "Discussion"}</a>` : "";
-    return `<article class="card${isRead ? " read" : ""}" data-id="${esc(it.id)}" data-imp="${it.importance}">
+    const img = pic(it);
+    const feature = img && it.importance === 3;
+    const imgTag = img ? `<img src="${esc(img)}" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer">` : "";
+    return `<article class="card${isRead ? " read" : ""}${feature ? " feature" : img ? " has-thumb" : ""}" data-id="${esc(it.id)}" data-imp="${it.importance}">
       <div class="bar" aria-hidden="true"></div>
-      <div>
-        <div class="meta"><span class="cat">${esc(it.category)}</span><span>·</span><span>${esc(it.source)}</span><span>·</span><time datetime="${esc(it.published)}">${rel(it.published)}</time>${it.importance === 3 ? '<span>·</span><span class="imp">Must read</span>' : ""}</div>
+      <div class="body">
+        ${feature ? `<a class="hero" href="${esc(it.url)}" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true" data-open>${imgTag}</a>` : ""}
+        <div class="meta">${sourceMark(it)}<span class="src">${esc(it.source)}</span><span>·</span><span class="cat">${esc(it.category)}</span><span>·</span><time datetime="${esc(it.published)}">${rel(it.published)}</time>${it.importance === 3 ? '<span class="imp">Must read</span>' : ""}</div>
         <a class="title" href="${esc(it.url)}" target="_blank" rel="noopener" data-open>${esc(it.title)}</a>
         <p class="summary">${esc(it.summary)}</p>
         <div class="foot-row">${tags}<span class="spacer"></span>${disc}
@@ -99,6 +114,7 @@
           <button class="act" data-read aria-pressed="${isRead}" aria-label="${isRead ? "Mark unread" : "Mark read"}">${ICON.check}<span>${isRead ? "Read" : "Mark read"}</span></button>
         </div>
       </div>
+      ${img && !feature ? `<a class="thumb" href="${esc(it.url)}" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true" data-open>${imgTag}</a>` : ""}
     </article>`;
   }
 
@@ -190,13 +206,30 @@
   });
   let qTimer;
   $("#q").addEventListener("input", (e) => { clearTimeout(qTimer); qTimer = setTimeout(() => { filters.q = e.target.value.trim(); render(); }, 120); });
+  // Broken pictures: drop the article image, fall back to the source's initial for logos.
+  document.addEventListener("error", (e) => {
+    const img = e.target;
+    if (!(img instanceof HTMLImageElement)) return;
+    const card = img.closest(".card");
+    if (img.classList.contains("logo")) {
+      const it = items.find((i) => i.id === card?.dataset.id);
+      if (it) { delete logos[logoKey(it)]; img.outerHTML = sourceMark(it); }
+    } else if (card) {
+      img.closest(".thumb, .hero")?.remove();
+      card.classList.remove("has-thumb", "feature");
+    }
+  }, true);
   matchMedia("(prefers-color-scheme: dark)").addEventListener?.("change", applyPrefs);
 
   // ---------- boot ----------
   applyPrefs();
-  fetch("data/items.json", { cache: "no-cache" })
-    .then((r) => r.json())
-    .then((data) => {
+  const logosReady = fetch("logos/index.json", { cache: "no-cache" }).then((r) => r.json()).catch(() => ({}));
+  Promise.all([fetch("data/items.json", { cache: "no-cache" }).then((r) => r.json()), logosReady])
+    .then(([data, logoIndex]) => {
+      logos = Object.fromEntries(Object.entries(logoIndex).filter(([, v]) => v));
+      const uses = new Map();
+      for (const it of data) if (it.image) uses.set(it.image, (uses.get(it.image) || 0) + 1);
+      for (const [src, n] of uses) if (n >= 3) genericImages.add(src);
       items = data.sort((a, b) => b.published.localeCompare(a.published));
       const latest = items[0];
       $("#updated").textContent = latest ? `${items.length} articles · newest from ${day(latest.published)}` : "";
