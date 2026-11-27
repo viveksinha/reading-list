@@ -1,0 +1,7 @@
+data/candidates.json
+data/scored.json
+data/gmail.json
+__pycache__/
+.DS_Store
+*.xml
+!docs/**/*.xml

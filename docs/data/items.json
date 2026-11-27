@@ -1,0 +1,2872 @@
+[
+ {
+  "id": "08e9aa519f83",
+  "title": "Introducing Muse Spark 1.1",
+  "url": "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/",
+  "source": "Meta AI",
+  "source_id": "meta-ai",
+  "group": "ai",
+  "kind": "blog",
+  "published": "2026-11-27T05:23:19+00:00",
+  "summary": "Meta's Muse Spark 1.1 upgrades its multimodal reasoning model with better tool use for agent tasks. Another frontier lab pushing agent-oriented models, which shapes what tool-calling clients will hit a data API.",
+  "category": "AI Models & Research",
+  "importance": 2,
+  "tags": [
+   "meta",
+   "muse",
+   "models"
+  ]
+ },
+ {
+  "id": "fc8c187b735b",
+  "title": "Reimagining Independence: How Meta’s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
+  "url": "https://ai.meta.com/blog/assistive-robotics-university-of-pittsburgh-sam-dino/",
+  "source": "Meta AI",
+  "source_id": "meta-ai",
+  "group": "ai",
+  "kind": "blog",
+  "published": "2026-11-27T05:23:19+00:00",
+  "summary": "Describes how a university lab uses Meta's open vision models to build assistive robots for people with disabilities. A case study of open models in use; little bearing on data platforms.",
+  "category": "AI Models & Research",
+  "importance": 1,
+  "tags": [
+   "meta",
+   "robotics",
+   "open-source"
+  ]
+ },
+ {
+  "id": "503b9986b40d",
+  "title": "How Meta’s AI Models Are Powering the First Wave of Genesis Mission Projects",
+  "url": "https://ai.meta.com/blog/genesis-mission-lawrence-berkeley-national-laboratory-segment-anything-dino/",
+  "source": "Meta AI",
+  "source_id": "meta-ai",
+  "group": "ai",
+  "kind": "blog",
+  "published": "2026-11-27T05:23:19+00:00",
+  "summary": "Covers early US national-lab projects that use Meta's segmentation and vision models for science work. Mostly a showcase of open-model adoption, so low relevance here.",
+  "category": "AI Models & Research",
+  "importance": 1,
+  "tags": [
+   "meta",
+   "science",
+   "open-source"
+  ]
+ },
+ {
+  "id": "0d1a03f568f1",
+  "title": "Introducing Muse Image and Muse Video",
+  "url": "https://ai.meta.com/blog/introducing-muse-image-muse-video-msl/",
+  "source": "Meta AI",
+  "source_id": "meta-ai",
+  "group": "ai",
+  "kind": "blog",
+  "published": "2026-11-27T05:23:19+00:00",
+  "summary": "Meta Superintelligence Labs releases an image model and previews a video model, both tied to social context. Media generation sits outside this reader's focus.",
+  "category": "AI Models & Research",
+  "importance": 1,
+  "tags": [
+   "meta",
+   "image",
+   "video"
+  ]
+ },
+ {
+  "id": "86bc9e281379",
+  "title": "From Brain Waves to Words: Brain2Qwerty Offers a New Path to Communication Without Surgery",
+  "url": "https://ai.meta.com/blog/brain2qwerty-brain-ai-human-communication/",
+  "source": "Meta AI",
+  "source_id": "meta-ai",
+  "group": "ai",
+  "kind": "blog",
+  "published": "2026-11-27T05:23:19+00:00",
+  "summary": "Meta shares a second-generation system that decodes typed text from brain signals without implants. Interesting research, but far from the data platform world.",
+  "category": "AI Models & Research",
+  "importance": 1,
+  "tags": [
+   "meta",
+   "research",
+   "brain"
+  ]
+ },
+ {
+  "id": "17a523d995a6",
+  "title": "Introducing Muse Spark: Scaling Towards Personal Superintelligence",
+  "url": "https://ai.meta.com/blog/introducing-muse-spark-msl/",
+  "source": "Meta AI",
+  "source_id": "meta-ai",
+  "group": "ai",
+  "kind": "blog",
+  "published": "2026-11-27T05:23:19+00:00",
+  "summary": "The launch post for Meta Superintelligence Labs' first Muse model, a natively multimodal reasoning model. Useful as the baseline for how Meta now competes at the frontier.",
+  "category": "AI Models & Research",
+  "importance": 2,
+  "tags": [
+   "meta",
+   "muse",
+   "models"
+  ]
+ },
+ {
+  "id": "0458149255e6",
+  "title": "Jensen Huang’s Nvidia legacy, Claude Fable 5.2 and Anthropic’s IPO, World Labs Releases Atlas to Developers",
+  "url": "https://www.deeplearning.ai/the-batch/issue-380",
+  "source": "The Batch (DeepLearning.AI)",
+  "source_id": "the-batch",
+  "group": "ai",
+  "kind": "newsletter",
+  "published": "2026-11-27T05:23:19+00:00",
+  "summary": "This issue covers Nvidia's CEO stepping down, a new Claude release alongside Anthropic's IPO, and a developer release from World Labs. A quick scan of the week's AI market moves.",
+  "category": "AI Industry",
+  "importance": 2,
+  "tags": [
+   "newsletter",
+   "anthropic",
+   "nvidia"
+  ]
+ },
+ {
+  "id": "2c37a971974c",
+  "title": "Reinforcement Learning Heats Up, White House Orders Muscular AI Policy, and more...",
+  "url": "https://www.deeplearning.ai/the-batch/issue-286",
+  "source": "The Batch (DeepLearning.AI)",
+  "source_id": "the-batch",
+  "group": "ai",
+  "kind": "newsletter",
+  "published": "2026-11-27T05:23:19+00:00",
+  "summary": "An older issue about the reaction to DeepSeek, the rise of reinforcement learning and a White House AI policy order. Dated context rather than current news.",
+  "category": "AI Industry",
+  "importance": 1,
+  "tags": [
+   "newsletter",
+   "deepseek",
+   "policy"
+  ]
+ },
+ {
+  "id": "81f098ac2727",
+  "title": "GPT-6 Cyber Versus Linux, The Problem With LLM-Powered Search, LLMs Edit Model Weights, Agentic Doc Retrieval",
+  "url": "https://www.deeplearning.ai/the-batch/issue-379",
+  "source": "The Batch (DeepLearning.AI)",
+  "source_id": "the-batch",
+  "group": "ai",
+  "kind": "newsletter",
+  "published": "2026-11-27T05:23:19+00:00",
+  "summary": "An issue on agent harnesses, weaknesses of LLM-powered search, models editing their own weights and document retrieval for agents. Skim for the retrieval angle.",
+  "category": "AI Engineering",
+  "importance": 2,
+  "tags": [
+   "newsletter",
+   "agents",
+   "retrieval"
+  ]
+ },
+ {
+  "id": "0ec2e6081857",
+  "title": "Gemini 4 Carbon Heads Toward Wider Availability, What Anthropic's IPO Means for Developers, Genie 4 Combines with Gemini to Train Robots",
+  "url": "https://www.deeplearning.ai/the-batch/issue-378",
+  "source": "The Batch (DeepLearning.AI)",
+  "source_id": "the-batch",
+  "group": "ai",
+  "kind": "newsletter",
+  "published": "2026-11-27T05:23:19+00:00",
+  "summary": "Covers wider rollout of a Gemini model, what Anthropic going public means for developers, and a robot-training result. Gives a sense of where vendors are heading.",
+  "category": "AI Industry",
+  "importance": 2,
+  "tags": [
+   "newsletter",
+   "gemini",
+   "anthropic-ipo"
+  ]
+ },
+ {
+  "id": "6a7843cb55ac",
+  "title": "Zombie Agents, Vampire Models, Witch Hunts, and the Mummy's Curse: AI Fears for Halloween 2026",
+  "url": "https://www.deeplearning.ai/the-batch/issue-377",
+  "source": "The Batch (DeepLearning.AI)",
+  "source_id": "the-batch",
+  "group": "ai",
+  "kind": "newsletter",
+  "published": "2026-11-27T05:23:19+00:00",
+  "summary": "A Halloween issue that frames current AI worries as monsters, from runaway agents to policy backlash. Light reading with little operational value.",
+  "category": "AI Industry",
+  "importance": 1,
+  "tags": [
+   "newsletter",
+   "ai-risk"
+  ]
+ },
+ {
+  "id": "b35242019b77",
+  "title": "Meta’s Muse Wonder and Spark Open, Educational Use of ChatGPT, Reflection's Partnership with Nvidia",
+  "url": "https://www.deeplearning.ai/the-batch/issue-376",
+  "source": "The Batch (DeepLearning.AI)",
+  "source_id": "the-batch",
+  "group": "ai",
+  "kind": "newsletter",
+  "published": "2026-11-27T05:23:19+00:00",
+  "summary": "Issue covering Meta's open Muse releases, classroom use of ChatGPT and a lab's partnership with Nvidia. A general roundup with limited relevance.",
+  "category": "AI Models & Research",
+  "importance": 1,
+  "tags": [
+   "newsletter",
+   "meta",
+   "chatgpt"
+  ]
+ },
+ {
+  "id": "66d5720ec836",
+  "title": "Investing in the public benefit",
+  "url": "https://www.anthropic.com/news/public-benefit-fund",
+  "source": "Anthropic",
+  "source_id": "anthropic",
+  "group": "ai",
+  "kind": "blog",
+  "published": "2026-11-27T05:23:16+00:00",
+  "summary": "Anthropic is putting part of its shares into a new public benefit fund whose stake grows with the company. A governance footnote to the IPO.",
+  "category": "AI Industry",
+  "importance": 1,
+  "tags": [
+   "anthropic",
+   "governance"
+  ]
+ },
+ {
+  "id": "8a77e646571b",
+  "title": "Anthropic files S-1 with the SEC for proposed initial public offering",
+  "url": "https://www.anthropic.com/news/s1-sec",
+  "source": "Anthropic",
+  "source_id": "anthropic",
+  "group": "ai",
+  "kind": "blog",
+  "published": "2026-11-27T05:23:16+00:00",
+  "summary": "Anthropic's filing with the SEC for its public offering, the first formal disclosure of its financials and risks. The details inform how much room AI vendors have to compete on price.",
+  "category": "AI Industry",
+  "importance": 2,
+  "tags": [
+   "anthropic",
+   "ipo",
+   "s-1"
+  ]
+ },
+ {
+  "id": "e7354365dbd8",
+  "title": "Anthropic announces closing of initial public offering, including full exercise of underwriters’ option to purchase additional shares, and closing of concurrent private placement",
+  "url": "https://www.anthropic.com/news/ipo-close",
+  "source": "Anthropic",
+  "source_id": "anthropic",
+  "group": "ai",
+  "kind": "blog",
+  "published": "2026-11-27T05:23:16+00:00",
+  "summary": "Announces the close of Anthropic's offering at $83 a share, including the underwriters' extra allotment. A short factual notice; the market analysis is in other pieces.",
+  "category": "AI Industry",
+  "importance": 1,
+  "tags": [
+   "anthropic",
+   "ipo"
+  ]
+ },
+ {
+  "id": "3d118c7ed5ae",
+  "title": "Converged Database Versus Lakehouse Platform for AI Agents",
+  "url": "https://www.kai-waehner.de/blog/2026/11/27/converged-database-versus-lakehouse-platform-ai-agents/",
+  "source": "Kai Waehner",
+  "source_id": "kai-waehner",
+  "group": "data",
+  "kind": "blog",
+  "published": "2026-11-27T04:30:25+00:00",
+  "summary": "Compares keeping rows, columns and vectors in one database with a lakehouse stack as the home for agent data. Squarely the architecture question StarTree customers are asking about where real-time serving fits.",
+  "category": "AI Industry",
+  "importance": 3,
+  "tags": [
+   "agents",
+   "lakehouse",
+   "databases"
+  ]
+ },
+ {
+  "id": "f809947e587d",
+  "title": "Hard Drive pricing has gotten bad",
+  "url": "https://blog.ktz.me/black-friday-hard-drive-prices-are-messed-up/",
+  "source": "Hacker News",
+  "source_id": "hackernews",
+  "group": "community",
+  "kind": "community",
+  "published": "2026-11-27T01:13:49+00:00",
+  "summary": "A homelab owner shows a 20TB drive more than doubling in price across two Black Fridays. A hint of storage cost pressure, though aimed at consumers.",
+  "category": "Strategy & Markets",
+  "importance": 2,
+  "tags": [
+   "hardware",
+   "pricing"
+  ],
+  "discussion_url": "https://news.ycombinator.com/item?id=50661646",
+  "points": 194
+ },
+ {
+  "id": "00bb51c293be",
+  "title": "How Clay Builds GTM Agents — Jeff Barg, Head of AI",
+  "url": "https://latent.space/p/how-clay-builds-gtm-agents-jeff-barg-head-of-ai/",
+  "source": "Latent Space",
+  "source_id": "latent-space",
+  "group": "ai",
+  "kind": "newsletter",
+  "published": "2026-11-26T23:02:48+00:00",
+  "summary": "Clay's head of AI explains building go-to-market agents, with usage split nearly evenly between Clay's own agent and outside tools like Claude Code. Shows how a SaaS product is serving third-party agents as customers.",
+  "category": "AI Engineering",
+  "importance": 2,
+  "tags": [
+   "agents",
+   "gtm",
+   "clay"
+  ]
+ },
+ {
+  "id": "19dd4641586d",
+  "title": "AI made self-hosting fun again",
+  "url": "https://janlukas.blog/posts/ai-self-hosting",
+  "source": "Lobsters",
+  "source_id": "lobsters",
+  "group": "community",
+  "kind": "community",
+  "published": "2026-11-26T19:50:42-06:00",
+  "summary": "Author finds that AI coding help made self-hosting enjoyable again after years of fatigue. A personal anecdote about coding agents lowering ops friction.",
+  "category": "AI Engineering",
+  "importance": 1,
+  "tags": [
+   "self-hosting",
+   "ai-coding"
+  ]
+ },
+ {
+  "id": "280fc6b8ee71",
+  "title": "Tracking Diseases Cured by AI",
+  "url": "https://diseasescuredbyai.com/",
+  "source": "Hacker News",
+  "source_id": "hackernews",
+  "group": "community",
+  "kind": "community",
+  "published": "2026-11-26T17:16:41+00:00",
+  "summary": "A single page states that no disease has been cured by an AI-discovered treatment, checked against FDA approvals. Useful as a reality check on AI hype.",
+  "category": "AI Industry",
+  "importance": 2,
+  "tags": [
+   "ai-claims",
+   "health"
+  ],
+  "discussion_url": "https://news.ycombinator.com/item?id=50657307",
+  "points": 307
+ },
+ {
+  "id": "74178995a4e6",
+  "title": "Interesting links - November 2026",
+  "url": "https://rmoff.net/2026/11/26/interesting-links-november-2026/",
+  "source": "Robin Moffatt",
+  "source_id": "rmoff",
+  "group": "data",
+  "kind": "blog",
+  "published": "2026-11-26T15:14:52+00:00",
+  "summary": "Robin Moffatt's monthly roundup covers Postgres 19, new Kafka clients and conference talks. A fast way to catch streaming and database news.",
+  "category": "Streaming",
+  "importance": 2,
+  "tags": [
+   "kafka",
+   "postgres",
+   "links"
+  ]
+ },
+ {
+  "id": "069f94445fa0",
+  "title": "Quoting Jack Despain Zhou",
+  "url": "https://simonwillison.net/2026/Nov/26/jack-despain-zhou/",
+  "source": "Simon Willison",
+  "source_id": "simonw",
+  "group": "ai",
+  "kind": "blog",
+  "published": "2026-11-26T15:09:31+00:00",
+  "summary": "Simon quotes a writer who feels AI is flattening voices, with Claude's tone showing up in talks, videos and cold emails. Relevant when you draft customer or exec writing.",
+  "category": "AI Industry",
+  "importance": 2,
+  "tags": [
+   "ai-writing",
+   "culture"
+  ]
+ },
+ {
+  "id": "46cd86bf0efb",
+  "title": "The need for a formally verifiable mainstream programming language",
+  "url": "https://blainehansen.me/post/mainstream-verifiable-language/",
+  "source": "Lobsters",
+  "source_id": "lobsters",
+  "group": "community",
+  "kind": "community",
+  "published": "2026-11-26T14:06:50-06:00",
+  "summary": "Argues that LLMs are degrading software quality and that a mainstream language with formal verification is needed. A view on code quality as AI writes more of it.",
+  "category": "Engineering Culture",
+  "importance": 2,
+  "tags": [
+   "verification",
+   "llm",
+   "software-quality"
+  ]
+ },
+ {
+  "id": "462a4e67aa25",
+  "title": "Rethinking read replicas for the lakebase architecture",
+  "url": "https://www.databricks.com/blog/rethinking-read-replicas-lakebase-architecture",
+  "source": "Databricks",
+  "source_id": "databricks",
+  "group": "data",
+  "kind": "blog",
+  "published": "2026-11-26T13:45:08+00:00",
+  "summary": "Databricks explains why full-clone Postgres read replicas are slow and costly, and how Lakebase can create replicas that share storage. Useful for seeing how lakehouse vendors are positioning operational databases.",
+  "category": "Databases & Systems",
+  "importance": 2,
+  "tags": [
+   "lakebase",
+   "postgres",
+   "replicas"
+  ]
+ },
+ {
+  "id": "02a088434703",
+  "title": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
+  "url": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+  "source": "Hugging Face",
+  "source_id": "huggingface",
+  "group": "ai",
+  "kind": "blog",
+  "published": "2026-11-26T11:37:17+00:00",
+  "summary": "Introduces a public benchmark dashboard for running llama.cpp on AMD consumer GPUs and CPUs. Of interest only to local-inference users.",
+  "category": "AI Models & Research",
+  "importance": 1,
+  "tags": [
+   "llama.cpp",
+   "benchmarks",
+   "amd"
+  ]
+ },
+ {
+  "id": "6f6a6b07f17a",
+  "title": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email",
+  "url": "https://techstackups.com/articles/google-workspace-ai-agents-mcp/",
+  "source": "Hacker News",
+  "source_id": "hackernews",
+  "group": "community",
+  "kind": "community",
+  "published": "2026-11-26T09:44:23+00:00",
+  "summary": "Google's terms will require agents to use its own MCP servers for Workspace from February 2027, and the Gmail server cannot send mail. A sign that platforms will gate agent access through their MCP endpoints.",
+  "category": "AI Engineering",
+  "importance": 3,
+  "tags": [
+   "mcp",
+   "google",
+   "agents"
+  ],
+  "discussion_url": "https://news.ycombinator.com/item?id=50653477",
+  "points": 296
+ },
+ {
+  "id": "82a13b62ffcb",
+  "title": "OpenAI may be in cost control mode",
+  "url": "https://micjm.com/blog/openai-is-in-cost-control-mode/",
+  "source": "Hacker News",
+  "source_id": "hackernews",
+  "group": "community",
+  "kind": "community",
+  "published": "2026-11-26T07:33:12+00:00",
+  "summary": "Argues OpenAI's latest models were tuned to use fewer output tokens, based on measured per-task cost changes. Matters for judging model-vendor pricing pressure on AI features.",
+  "category": "AI Industry",
+  "importance": 2,
+  "tags": [
+   "openai",
+   "pricing",
+   "costs"
+  ],
+  "discussion_url": "https://news.ycombinator.com/item?id=50652527",
+  "points": 308
+ },
+ {
+  "id": "05e5ec19ffd0",
+  "title": "Garage v2.6.0 released with web admin, v1.x EoL & other news",
+  "url": "https://garagehq.deuxfleurs.fr/blog/2026-11-webadmin-release/",
+  "source": "Lobsters",
+  "source_id": "lobsters",
+  "group": "community",
+  "kind": "community",
+  "published": "2026-11-26T06:40:23-06:00",
+  "summary": "Release note for an S3-compatible self-hosted object store, adding a web admin UI and ending support for the 1.x line. Minor unless you track self-hosted storage.",
+  "category": "Databases & Systems",
+  "importance": 1,
+  "tags": [
+   "garage",
+   "object-storage"
+  ]
+ },
+ {
+  "id": "7fcbebbe6634",
+  "title": "sqlite3_rsync: Database Remote-Copy Tool For SQLite",
+  "url": "https://simonwillison.net/2026/Nov/26/sqlite3-rsync/",
+  "source": "Simon Willison",
+  "source_id": "simonw",
+  "group": "ai",
+  "kind": "blog",
+  "published": "2026-11-26T06:08:25+00:00",
+  "summary": "Simon points out that SQLite's rsync tool copies only changed pages, making remote copies of large databases cheap. A neat tool but peripheral to this reader.",
+  "category": "Databases & Systems",
+  "importance": 2,
+  "tags": [
+   "sqlite",
+   "replication"
+  ]
+ },
+ {
+  "id": "a29e74b8be2d",
+  "title": "TBM 453: How to Get Unstuck Without Losing Yourself (or Pretending Everything Is Fine)",
+  "url": "https://cutlefish.substack.com/p/tbm-453-how-to-get-unstuck-without",
+  "source": "The Beautiful Mess (John Cutler)",
+  "source_id": "beautiful-mess",
+  "group": "pm",
+  "kind": "newsletter",
+  "published": "2026-11-26T06:02:01+00:00",
+  "summary": "John Cutler writes about handling workplace frustration and career advice that doesn't fit. A reflective piece on staying yourself while stuck.",
+  "category": "Engineering Culture",
+  "importance": 1,
+  "tags": [
+   "careers",
+   "leadership"
+  ]
+ },
+ {
+  "id": "d3aa48daa62d",
+  "title": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference",
+  "url": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
+  "source": "Hugging Face",
+  "source_id": "huggingface",
+  "group": "ai",
+  "kind": "blog",
+  "published": "2026-11-26T05:05:36+00:00",
+  "summary": "Nvidia describes open data, fine-tuning and faster inference around its document parsing model. Relevant mainly to document ingestion pipelines.",
+  "category": "AI Models & Research",
+  "importance": 1,
+  "tags": [
+   "nvidia",
+   "document-parsing"
+  ]
+ },
+ {
+  "id": "244a3e8cb4f1",
+  "title": "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster",
+  "url": "https://twitter.com/thsottiaux/status/2125784147889393806",
+  "source": "Hacker News",
+  "source_id": "hackernews",
+  "group": "community",
+  "kind": "community",
+  "published": "2026-11-26T03:36:58+00:00",
+  "summary": "OpenAI says a launch billing error under-counted usage on two GPT-6.2 tiers, so plan limits now burn faster. A pricing signal for AI product costs.",
+  "category": "AI Industry",
+  "importance": 2,
+  "tags": [
+   "openai",
+   "usage-limits",
+   "pricing"
+  ],
+  "discussion_url": "https://news.ycombinator.com/item?id=50651117",
+  "points": 475
+ },
+ {
+  "id": "e0f082ca4fd4",
+  "title": "I made my entire podcast available to your AI",
+  "url": "https://www.news.aakashg.com/p/pod-transcripts-github",
+  "source": "Product Growth (Aakash Gupta)",
+  "source_id": "product-growth",
+  "group": "pm",
+  "kind": "newsletter",
+  "published": "2026-11-26T00:11:53+00:00",
+  "summary": "Aakash Gupta publishes his podcast transcripts for AI tools and offers an MCP key to subscribers. A small example of content shipped as agent-ready data.",
+  "category": "AI Industry",
+  "importance": 1,
+  "tags": [
+   "podcast",
+   "mcp",
+   "product"
+  ]
+ },
+ {
+  "id": "c01600d41603",
+  "title": "Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems",
+  "url": "https://huggingface.co/blog/training-swarms",
+  "source": "Hugging Face",
+  "source_id": "huggingface",
+  "group": "ai",
+  "kind": "blog",
+  "published": "2026-11-26T00:00:00+00:00",
+  "summary": "Hugging Face explains how to build, train and evaluate groups of cooperating agents. Useful background for anyone designing agents that query data systems.",
+  "category": "AI Engineering",
+  "importance": 2,
+  "tags": [
+   "multi-agent",
+   "training",
+   "evals"
+  ]
+ },
+ {
+  "id": "04a9805dfa55",
+  "title": "Quoting Scott Aaronson",
+  "url": "https://simonwillison.net/2026/Nov/25/scott-aaronson/",
+  "source": "Simon Willison",
+  "source_id": "simonw",
+  "group": "ai",
+  "kind": "blog",
+  "published": "2026-11-25T23:26:32+00:00",
+  "summary": "Scott Aaronson says AI-assisted proofs point to a large new area of mathematical results, comparing it to early microscopes. A sign of the capability jump, not directly actionable.",
+  "category": "AI Models & Research",
+  "importance": 1,
+  "tags": [
+   "math",
+   "ai-proofs"
+  ]
+ },
+ {
+  "id": "c7e5de5fee49",
+  "title": "The Revolution vs The Renaissance — Thariq Shihipar, OpenAI",
+  "url": "https://latent.space/p/the_revolution_vs_the_renaissance_thariq_shihipar_openai/",
+  "source": "Latent Space",
+  "source_id": "latent-space",
+  "group": "ai",
+  "kind": "newsletter",
+  "published": "2026-11-25T22:28:01+00:00",
+  "summary": "A talk on using AI to produce lots of software cheaply while leaving time to polish one thing. Light on takeaways for this reader.",
+  "category": "AI Engineering",
+  "importance": 2,
+  "tags": [
+   "coding-agents",
+   "craft",
+   "openai"
+  ]
+ },
+ {
+  "id": "c7c801f91e25",
+  "title": "[AINews] Math Proofs Are Landing Faster Than We Can Read Them",
+  "url": "https://latent.space/p/ainews-math-proofs-are-landing-faster-than-we-can-read-them/",
+  "source": "Latent Space",
+  "source_id": "latent-space",
+  "group": "ai",
+  "kind": "newsletter",
+  "published": "2026-11-25T22:23:41+00:00",
+  "summary": "A roundup of AI-claimed proofs arriving faster than experts can check them, including a matrix multiplication exponent claim. Shows how quickly verification, not generation, is becoming the bottleneck.",
+  "category": "AI Models & Research",
+  "importance": 2,
+  "tags": [
+   "math",
+   "openai",
+   "proofs"
+  ]
+ },
+ {
+  "id": "19f2f984a80d",
+  "title": "The New York Times warns photographers not to update Photoshop over AI features",
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
+  "source": "Hacker News",
+  "source_id": "hackernews",
+  "group": "community",
+  "kind": "community",
+  "published": "2026-11-25T21:18:02+00:00",
+  "summary": "The New York Times warns freelance photographers off the latest Photoshop because AI features may alter images without clear notice. Reflects user trust friction when AI is embedded quietly.",
+  "category": "AI Industry",
+  "importance": 2,
+  "tags": [
+   "adobe",
+   "ai-features",
+   "trust"
+  ],
+  "discussion_url": "https://news.ycombinator.com/item?id=50647673",
+  "points": 661
+ },
+ {
+  "id": "c45dad0755da",
+  "title": "Hints and hazards: pg_plan_advice in PG19",
+  "url": "https://clickhouse.com/blog/pg-plan-advice-postgresql-19",
+  "source": "ClickHouse",
+  "source_id": "clickhouse",
+  "group": "data",
+  "kind": "blog",
+  "published": "2026-11-25T20:49:01+00:00",
+  "summary": "Walks through Postgres 19's plan advice feature on a managed Postgres, showing when hints help and when stale ones hurt. Query-planning lessons carry over, though the product is vendor marketing.",
+  "category": "Databases & Systems",
+  "importance": 1,
+  "tags": [
+   "postgres",
+   "query-planning",
+   "clickhouse"
+  ]
+ },
+ {
+  "id": "37b5c9ba9326",
+  "title": "Where scientists draw the line on AI agents",
+  "url": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
+  "source": "Hugging Face",
+  "source_id": "huggingface",
+  "group": "ai",
+  "kind": "blog",
+  "published": "2026-11-25T18:52:55+00:00",
+  "summary": "Ai2 reports on how researchers decide which tasks to delegate to AI agents and where they keep responsibility. A human-factors read.",
+  "category": "AI Industry",
+  "importance": 1,
+  "tags": [
+   "ai2",
+   "science",
+   "agents"
+  ]
+ },
+ {
+  "id": "8bc07deb0c8a",
+  "title": "How Anthropic builds software in 2026 with Katelyn Lesse",
+  "url": "https://newsletter.pragmaticengineer.com/p/how-anthropic-builds-software-in",
+  "source": "The Pragmatic Engineer",
+  "source_id": "pragmatic-engineer",
+  "group": "pm",
+  "kind": "newsletter",
+  "published": "2026-11-25T17:31:32+00:00",
+  "summary": "The Pragmatic Engineer talks with an Anthropic engineering leader about how the company builds software in 2026. Real operating detail on AI-heavy development that you can compare with your own team.",
+  "category": "Engineering Culture",
+  "importance": 3,
+  "tags": [
+   "anthropic",
+   "engineering",
+   "ai-coding"
+  ]
+ },
+ {
+  "id": "1b2e78da4c9f",
+  "title": "How well is ClickHouse tested? A detailed view of increasing our own coverage",
+  "url": "https://clickhouse.com/blog/how-well-is-clickhouse-tested",
+  "source": "ClickHouse",
+  "source_id": "clickhouse",
+  "group": "data",
+  "kind": "blog",
+  "published": "2026-11-25T17:13:02+00:00",
+  "summary": "ClickHouse describes how it measures test coverage and uses targeted CI and AI-generated tests. Good engineering hygiene detail, but not product news.",
+  "category": "Databases & Systems",
+  "importance": 2,
+  "tags": [
+   "clickhouse",
+   "testing",
+   "ci"
+  ]
+ },
+ {
+  "id": "170ba12c1bad",
+  "title": "Introducing Search for Agents",
+  "url": "https://blog.cloudflare.com/search-for-agents/",
+  "source": "Cloudflare",
+  "source_id": "cloudflare",
+  "group": "eng",
+  "kind": "blog",
+  "published": "2026-11-25T14:00:00+00:00",
+  "summary": "Cloudflare's AI Search now lets you give agents a searchable index with less setup. Shows infrastructure vendors turning retrieval into a managed service for agents.",
+  "category": "AI Engineering",
+  "importance": 2,
+  "tags": [
+   "cloudflare",
+   "search",
+   "agents"
+  ]
+ },
+ {
+  "id": "fa9827167ead",
+  "title": "Gemini 4 Neon beat GPT-6.2 and Claude in my 25-task AI benchmark",
+  "url": "https://www.lennysnewsletter.com/p/gemini-4-neon-beat-gpt-62-and-claude",
+  "source": "Lenny's Newsletter",
+  "source_id": "lenny",
+  "group": "pm",
+  "kind": "newsletter",
+  "published": "2026-11-25T13:04:21+00:00",
+  "summary": "Lenny scores six frontier models blind on 25 practical tasks and finds a new Gemini ahead of GPT and Claude. A PM-oriented model comparison to inform tool choices.",
+  "category": "AI Models & Research",
+  "importance": 2,
+  "tags": [
+   "benchmarks",
+   "gemini",
+   "gpt"
+  ]
+ },
+ {
+  "id": "d0a3a7f662b5",
+  "title": "An Indic Voice Agent with CUGA",
+  "url": "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga",
+  "source": "Hugging Face",
+  "source_id": "huggingface",
+  "group": "ai",
+  "kind": "blog",
+  "published": "2026-11-25T10:22:09+00:00",
+  "summary": "IBM Research builds a voice agent for Indian languages on its open agent framework. A tutorial-style case.",
+  "category": "AI Engineering",
+  "importance": 1,
+  "tags": [
+   "voice-agent",
+   "ibm",
+   "indic"
+  ]
+ },
+ {
+  "id": "045130688435",
+  "title": "Optimizing Rustc's next trait solver",
+  "url": "https://donsz.nl/blog/optimizing-rustcs-next-trait-solver",
+  "source": "Lobsters",
+  "source_id": "lobsters",
+  "group": "community",
+  "kind": "community",
+  "published": "2026-11-25T07:09:22-06:00",
+  "summary": "A Rust compiler contributor describes performance work on the new trait solver before it stabilises. A systems-performance story from outside the data domain.",
+  "category": "Databases & Systems",
+  "importance": 2,
+  "tags": [
+   "rust",
+   "compilers",
+   "performance"
+  ]
+ },
+ {
+  "id": "190619a69a1b",
+  "title": "[AINews] Gemini 4 Neon marks GDM's full return as a Frontier Lab",
+  "url": "https://latent.space/p/ainews-gemini-4-neon-marks-gdm-s-full-return-as-a-frontier-lab/",
+  "source": "Latent Space",
+  "source_id": "latent-space",
+  "group": "ai",
+  "kind": "newsletter",
+  "published": "2026-11-25T04:29:07+00:00",
+  "summary": "Latent Space describes a new Gemini release as Google DeepMind's return to the frontier after doubts about the lab. A shift in the model leaderboard that affects which vendors your customers' agents will run on.",
+  "category": "AI Models & Research",
+  "importance": 3,
+  "tags": [
+   "gemini",
+   "google",
+   "frontier"
+  ]
+ },
+ {
+  "id": "c89d4bfb36a9",
+  "title": "Models Can Communicate via Inference Servers Despite Being Sandboxed",
+  "url": "https://www.lesswrong.com/posts/7wzWuLP3HhyBLmKfo/models-can-communicate-via-inference-servers-despite-being",
+  "source": "Hacker News",
+  "source_id": "hackernews",
+  "group": "community",
+  "kind": "community",
+  "published": "2026-11-25T02:34:21+00:00",
+  "summary": "Shows that two agents sharing an inference server can pass messages even when sandboxed from each other. A security note for multi-tenant agent hosting.",
+  "category": "AI Engineering",
+  "importance": 2,
+  "tags": [
+   "agents",
+   "security",
+   "sandboxing"
+  ],
+  "discussion_url": "https://news.ycombinator.com/item?id=50637686",
+  "points": 465
+ },
+ {
+  "id": "fa8097569f7c",
+  "title": "Marginalia Search, Money, C++, Rust, AI, stuff",
+  "url": "https://www.marginalia.nu/log/a_141_marginalia_update/",
+  "source": "Lobsters",
+  "source_id": "lobsters",
+  "group": "community",
+  "kind": "community",
+  "published": "2026-11-25T00:20:29-06:00",
+  "summary": "A brief status update from the Marginalia search engine author, mostly bug fixes and technical housekeeping. Little for this reader.",
+  "category": "Engineering Culture",
+  "importance": 1,
+  "tags": [
+   "search",
+   "indie",
+   "project-update"
+  ]
+ },
+ {
+  "id": "8389e744fa38",
+  "title": "I Don’t Want a Lesson in Computer Science!",
+  "url": "https://duckdb.org/2026/11/25/star-trek-queries-duckdb.html",
+  "source": "DuckDB",
+  "source_id": "duckdb",
+  "group": "data",
+  "kind": "blog",
+  "published": "2026-11-25T00:00:00+00:00",
+  "summary": "DuckDB tests whether Claude with a database of Star Trek dialogue can act like the Enterprise computer. A light demo of natural-language analytics.",
+  "category": "AI Engineering",
+  "importance": 2,
+  "tags": [
+   "duckdb",
+   "claude",
+   "sql"
+  ]
+ },
+ {
+  "id": "d8d6777ecf09",
+  "title": "Hill-climbing Inkling 2 Mini inference on one RTX PRO 6000",
+  "url": "https://huggingface.co/blog/inkling-2-mini-inference-hillclimb",
+  "source": "Hugging Face",
+  "source_id": "huggingface",
+  "group": "ai",
+  "kind": "blog",
+  "published": "2026-11-25T00:00:00+00:00",
+  "summary": "Hugging Face walks through tuning inference of a small model on one workstation GPU. Niche performance tuning.",
+  "category": "AI Models & Research",
+  "importance": 1,
+  "tags": [
+   "inference",
+   "gpu",
+   "optimization"
+  ]
+ },
+ {
+  "id": "f0387738029f",
+  "title": "How to make sure your developers never write for the company blog",
+  "url": "http://notes.eatonphil.com/2026-11-25-how-to-make-sure-developers-never-write-for-the-company-blog.html",
+  "source": "Phil Eaton",
+  "source_id": "eatonphil",
+  "group": "eng",
+  "kind": "blog",
+  "published": "2026-11-25T00:00:00+00:00",
+  "summary": "A tongue-in-cheek list of ways managers ensure engineers never publish on the company blog. Humor with a point about content culture.",
+  "category": "Engineering Culture",
+  "importance": 2,
+  "tags": [
+   "engineering-blogs",
+   "culture"
+  ]
+ },
+ {
+  "id": "6ff348e652c9",
+  "title": "Three LLM inflection points in twelve months",
+  "url": "https://simonwillison.net/2026/Nov/24/llm-inflection-points/",
+  "source": "Simon Willison",
+  "source_id": "simonw",
+  "group": "ai",
+  "kind": "blog",
+  "published": "2026-11-24T23:02:07+00:00",
+  "summary": "Simon Willison names three inflection points in LLM and coding-agent ability over the past year, drawn from his conference keynote. A strong frame for deciding where AI-built tooling is heading.",
+  "category": "AI Engineering",
+  "importance": 3,
+  "tags": [
+   "coding-agents",
+   "llm",
+   "inflection"
+  ]
+ },
+ {
+  "id": "03e2279915cc",
+  "title": "Matrix Multiplication is Θ(n^2.25)",
+  "url": "https://raw.githubusercontent.com/openai/math/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf",
+  "source": "Lobsters",
+  "source_id": "lobsters",
+  "group": "community",
+  "kind": "community",
+  "published": "2026-11-24T21:15:59-06:00",
+  "summary": "Link to an OpenAI preprint claiming an exact exponent for square matrix multiplication; the page could not be read here, so this is based on its title. Notable if confirmed, but remote from product work.",
+  "category": "AI Models & Research",
+  "importance": 1,
+  "tags": [
+   "math",
+   "openai",
+   "complexity"
+  ]
+ },
+ {
+  "id": "ca7efd0c9bb9",
+  "title": "Ternary Bonsai 2.5 27B",
+  "url": "https://prismml.com/news/bonsai-2-5-27b",
+  "source": "Hacker News",
+  "source_id": "hackernews",
+  "group": "community",
+  "kind": "community",
+  "published": "2026-11-24T20:08:03+00:00",
+  "summary": "Announces a ternary-weight 27B model aimed at agentic coding in a small memory footprint. Relevant only for local inference.",
+  "category": "AI Models & Research",
+  "importance": 2,
+  "tags": [
+   "small-models",
+   "quantization"
+  ],
+  "discussion_url": "https://news.ycombinator.com/item?id=50633922",
+  "points": 540
+ },
+ {
+  "id": "4c92b4223b9f",
+  "title": "Durable and auditable workflows with DBOS and ClickHouse Managed Postgres",
+  "url": "https://clickhouse.com/blog/dbos-clickhouse-managed-postgres-durable-workflows",
+  "source": "ClickHouse",
+  "source_id": "clickhouse",
+  "group": "data",
+  "kind": "blog",
+  "published": "2026-11-24T19:55:17+00:00",
+  "summary": "Shows durable workflow runs on a managed Postgres with replication to ClickHouse for audit analytics. Vendor tutorial that illustrates the Postgres-plus-OLAP pattern.",
+  "category": "Databases & Systems",
+  "importance": 1,
+  "tags": [
+   "dbos",
+   "postgres",
+   "clickhouse"
+  ]
+ },
+ {
+  "id": "7038e65ffad2",
+  "title": "Data Modeling Best Practices for an Agentic CDP, Part 1: The Data Foundation",
+  "url": "https://www.databricks.com/blog/agentic-cdp-data-modeling-data-foundation",
+  "source": "Databricks",
+  "source_id": "databricks",
+  "group": "data",
+  "kind": "blog",
+  "published": "2026-11-24T19:36:52+00:00",
+  "summary": "Databricks outlines a medallion layout and identity resolution for customer data that agents can trust. A vendor how-to with generic modelling advice.",
+  "category": "Data Engineering",
+  "importance": 1,
+  "tags": [
+   "cdp",
+   "medallion",
+   "databricks"
+  ]
+ },
+ {
+  "id": "e1da16352396",
+  "title": "The Pragmatic Engineer Essay Challenge: Category Winners (Part 1)",
+  "url": "https://newsletter.pragmaticengineer.com/p/the-pragmatic-engineer-essay-challenge",
+  "source": "The Pragmatic Engineer",
+  "source_id": "pragmatic-engineer",
+  "group": "pm",
+  "kind": "newsletter",
+  "published": "2026-11-24T19:16:38+00:00",
+  "summary": "The Pragmatic Engineer announces winners of an essay challenge, with a subscription promo. Reading list value only.",
+  "category": "Engineering Culture",
+  "importance": 1,
+  "tags": [
+   "engineering",
+   "writing",
+   "newsletter"
+  ]
+ },
+ {
+  "id": "8d144b61c17a",
+  "title": "We Didn’t Need a Faster Data Warehouse",
+  "url": "https://seattledataguy.substack.com/p/we-didnt-need-a-faster-data-warehouse",
+  "source": "SeattleDataGuy",
+  "source_id": "seattle-data-guy",
+  "group": "data",
+  "kind": "newsletter",
+  "published": "2026-11-24T18:59:08+00:00",
+  "summary": "SeattleDataGuy argues that a decade of faster warehouses did not fix how data teams create business value. A useful counterpoint when positioning speed as the selling point.",
+  "category": "Data Engineering",
+  "importance": 2,
+  "tags": [
+   "data-warehouse",
+   "data-teams",
+   "value"
+  ]
+ },
+ {
+  "id": "a4f11831f774",
+  "title": "Writing to S3, Parallel Writes, ALP: Hardwood 1.1.0.CR1 Is Out",
+  "url": "https://www.morling.dev/blog/s3-writes-parallel-encoding-alp-hardwood-1-1-0-cr1/",
+  "source": "Gunnar Morling",
+  "source_id": "morling",
+  "group": "data",
+  "kind": "blog",
+  "published": "2026-11-24T17:45:00+01:00",
+  "summary": "Hardwood 1.1 adds parallel writing, S3 output and a new encoding for Java's Parquet library. Practical for anyone tracking Parquet tooling that sits under Iceberg.",
+  "category": "Lakehouse",
+  "importance": 2,
+  "tags": [
+   "parquet",
+   "java",
+   "s3"
+  ]
+ },
+ {
+  "id": "ff915f70f4b7",
+  "title": "Meaningful Human-in-the-Loop Checking of GenAI Synthesis for Restricted Languages",
+  "url": "https://muratbuffalo.blogspot.com/2026/11/meaningful-human-in-loop-checking-of.html",
+  "source": "Murat Demirbas",
+  "source_id": "murat",
+  "group": "eng",
+  "kind": "blog",
+  "published": "2026-11-24T17:11:31-05:00",
+  "summary": "Warns that approving LLM-generated code with a glance gives false assurance, and that real understanding needs deliberate checking. Relevant to how teams review AI-written code.",
+  "category": "AI Engineering",
+  "importance": 2,
+  "tags": [
+   "code-review",
+   "genai",
+   "verification"
+  ]
+ },
+ {
+  "id": "002bc4ff2409",
+  "title": "Anthropic Staff Openly Talk About ‘Taking Over the World’, Claims Max Tegmark",
+  "url": "https://novaramedia.com/2026/11/24/anthropic-staff-openly-talk-about-taking-over-the-world-claims-top-mit-physicist/",
+  "source": "Hacker News",
+  "source_id": "hackernews",
+  "group": "community",
+  "kind": "community",
+  "published": "2026-11-24T17:10:45+00:00",
+  "summary": "Reports a physicist's claim that Anthropic staff talk about overthrowing governments. A contested allegation; useful only to know the narrative.",
+  "category": "AI Industry",
+  "importance": 1,
+  "tags": [
+   "anthropic",
+   "safety",
+   "criticism"
+  ],
+  "discussion_url": "https://news.ycombinator.com/item?id=50631210",
+  "points": 225
+ },
+ {
+  "id": "f796e127a00b",
+  "title": "GPT 6.2 Astra Solves a Historical Mystery",
+  "url": "https://simonwillison.net/2026/Nov/24/astra-historical-mystery/",
+  "source": "Simon Willison",
+  "source_id": "simonw",
+  "group": "ai",
+  "kind": "blog",
+  "published": "2026-11-24T16:53:59+00:00",
+  "summary": "A historian shows a GPT model identifying the author of an anonymous 1808 sketchbook with little prompting. A capability anecdote.",
+  "category": "AI Models & Research",
+  "importance": 1,
+  "tags": [
+   "gpt",
+   "research",
+   "history"
+  ]
+ },
+ {
+  "id": "bbef1e94d167",
+  "title": "Ask HN: Anthropic is accusing my company of distilling. How can I prove I'm not?",
+  "url": "https://news.ycombinator.com/item?id=50630809",
+  "source": "Hacker News",
+  "source_id": "hackernews",
+  "group": "community",
+  "kind": "community",
+  "published": "2026-11-24T16:45:44+00:00",
+  "summary": "An Ask HN thread from a founder accused of distilling Anthropic's model, asking how to prove otherwise. Shows how API terms get enforced.",
+  "category": "AI Industry",
+  "importance": 2,
+  "tags": [
+   "anthropic",
+   "distillation",
+   "api"
+  ],
+  "discussion_url": "https://news.ycombinator.com/item?id=50630809",
+  "points": 466
+ },
+ {
+  "id": "8e9b94fee057",
+  "title": "Show HN: Mason – A lightweight Postgres read-replica, built on columnar storage",
+  "url": "https://masondata.ai/",
+  "source": "Hacker News",
+  "source_id": "hackernews",
+  "group": "community",
+  "kind": "community",
+  "published": "2026-11-24T16:11:52+00:00",
+  "summary": "Open-source Postgres read replica that stores data in columns to speed analytical queries with the same SQL. A new entry in the cheap-analytics-on-Postgres space that competes for light real-time use cases.",
+  "category": "Real-time Analytics",
+  "importance": 2,
+  "tags": [
+   "postgres",
+   "columnar",
+   "analytics"
+  ],
+  "discussion_url": "https://news.ycombinator.com/item?id=50630294",
+  "points": 108
+ },
+ {
+  "id": "197dc8b3ac4d",
+  "title": "A training engine for your local model, using your idle compute",
+  "url": "https://github.com/sous-labs/songe",
+  "source": "Hacker News",
+  "source_id": "hackernews",
+  "group": "community",
+  "kind": "community",
+  "published": "2026-11-24T15:03:40+00:00",
+  "summary": "A tool that trains a local model using spare compute on your machines. Hobbyist-leaning.",
+  "category": "AI Engineering",
+  "importance": 1,
+  "tags": [
+   "local-models",
+   "training"
+  ],
+  "discussion_url": "https://news.ycombinator.com/item?id=50629231",
+  "points": 238
+ },
+ {
+  "id": "a0310481985e",
+  "title": "How a Healthcare Provider Built HL7v2® and FHIR® Interoperability on Snowflake",
+  "url": "https://www.snowflake.com/content/snowflake-site/global/en/blog/healthcare-interoperability-snowflake-hl7-fhir",
+  "source": "Snowflake",
+  "source_id": "snowflake",
+  "group": "data",
+  "kind": "blog",
+  "published": "2026-11-24T14:55:00-08:00",
+  "summary": "A Snowflake customer story on streaming HL7 and FHIR healthcare data into the platform. Vendor case study, limited to its vertical.",
+  "category": "Data Engineering",
+  "importance": 1,
+  "tags": [
+   "snowflake",
+   "healthcare",
+   "fhir"
+  ]
+ },
+ {
+  "id": "374488396458",
+  "title": "Bugs - All Things Product Podcast with Teresa Torres & Petra Wille",
+  "url": "https://www.producttalk.org/bugs-all-things-product-podcast-with-teresa-torres-petra-wille/",
+  "source": "Product Talk (Teresa Torres)",
+  "source_id": "product-talk",
+  "group": "pm",
+  "kind": "blog",
+  "published": "2026-11-24T14:00:00+00:00",
+  "summary": "Teresa Torres and Petra Wille discuss what a bug means when AI output is probabilistic and whether you can promise to fix it. Useful framing for setting quality expectations on AI features.",
+  "category": "Product Management",
+  "importance": 2,
+  "tags": [
+   "ai-products",
+   "bugs",
+   "quality"
+  ]
+ },
+ {
+  "id": "e628c0b2649e",
+  "title": "Anthropic breaks below $83 IPO price",
+  "url": "https://www.bloomberg.com/news/articles/2026-11-24/anthropic-breaks-below-83-ipo-price-in-premarket-trading",
+  "source": "Hacker News",
+  "source_id": "hackernews",
+  "group": "community",
+  "kind": "community",
+  "published": "2026-11-24T13:23:47+00:00",
+  "summary": "Bloomberg reports Anthropic shares falling below the $83 offering price; the page was behind a bot check so this rests on the headline. Market sentiment note.",
+  "category": "AI Industry",
+  "importance": 1,
+  "tags": [
+   "anthropic",
+   "ipo",
+   "stock"
+  ],
+  "discussion_url": "https://news.ycombinator.com/item?id=50627836",
+  "points": 433
+ },
+ {
+  "id": "f14a6f6dfd19",
+  "title": "From spectrum to structure: Identifying molecules with Mass Spec Skills for Google Antigravity",
+  "url": "https://deepmind.google/blog/interpreting-mass-spectra-with-google-antigravity/",
+  "source": "Google DeepMind",
+  "source_id": "deepmind",
+  "group": "ai",
+  "kind": "blog",
+  "published": "2026-11-24T13:07:53+00:00",
+  "summary": "DeepMind packages a mass spectrometry skill for its coding agent product to help identify molecules. Science application, not data platform news.",
+  "category": "AI Models & Research",
+  "importance": 1,
+  "tags": [
+   "deepmind",
+   "science",
+   "chemistry"
+  ]
+ },
+ {
+  "id": "3c6728c1bfd1",
+  "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+  "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+  "source": "OpenAI",
+  "source_id": "openai",
+  "group": "ai",
+  "kind": "blog",
+  "published": "2026-11-24T13:00:00+00:00",
+  "summary": "OpenAI says GPT-6 models can design protein structures and sequences, with lab tests showing binding on five targets. Evidence of model capability moving into scientific work.",
+  "category": "AI Models & Research",
+  "importance": 2,
+  "tags": [
+   "openai",
+   "protein",
+   "gpt-6"
+  ]
+ },
+ {
+  "id": "ef8096d74f5d",
+  "title": "LLM agents work for their parent companies, not for you",
+  "url": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/",
+  "source": "Hacker News",
+  "source_id": "hackernews",
+  "group": "community",
+  "kind": "community",
+  "published": "2026-11-24T12:40:15+00:00",
+  "summary": "A developer found Claude refused an API workaround while helping download from YouTube, and concludes agents serve their vendors. A trust angle for agent products.",
+  "category": "AI Industry",
+  "importance": 2,
+  "tags": [
+   "agents",
+   "trust",
+   "anthropic"
+  ],
+  "discussion_url": "https://news.ycombinator.com/item?id=50627340",
+  "points": 1031
+ },
+ {
+  "id": "33e5526099fd",
+  "title": "Per Vognsen on the effect of AVX-512 on lexing and parsing",
+  "url": "https://mastodon.social/@pervognsen/117668394962974183",
+  "source": "Lobsters",
+  "source_id": "lobsters",
+  "group": "community",
+  "kind": "community",
+  "published": "2026-11-24T12:11:49-06:00",
+  "summary": "A short post from an engineer on AVX-512 helping lexing and parsing, based on a Mastodon note. Of use to performance engineers only.",
+  "category": "Databases & Systems",
+  "importance": 2,
+  "tags": [
+   "avx-512",
+   "parsing",
+   "performance"
+  ]
+ },
+ {
+  "id": "20705cda544d",
+  "title": "PostgreSQL 19 on ClickHouse Managed Postgres, from day one",
+  "url": "https://clickhouse.com/blog/postgresql-19-on-clickhouse-managed-postgres-from-day-one",
+  "source": "ClickHouse",
+  "source_id": "clickhouse",
+  "group": "data",
+  "kind": "blog",
+  "published": "2026-11-24T11:54:58+00:00",
+  "summary": "ClickHouse says Postgres 19 is on its managed service from day one, with new replication and observability features. Vendor product update.",
+  "category": "Databases & Systems",
+  "importance": 1,
+  "tags": [
+   "postgres",
+   "clickhouse",
+   "managed"
+  ]
+ },
+ {
+  "id": "f3aa9260f109",
+  "title": "Searching for distant planets with Astra",
+  "url": "https://openai.com/index/searching-for-distant-planets-with-astra",
+  "source": "OpenAI",
+  "source_id": "openai",
+  "group": "ai",
+  "kind": "blog",
+  "published": "2026-11-24T11:00:00+00:00",
+  "summary": "Two amateur astronomers used Codex and a GPT model to flag candidate exoplanets in public telescope data. Feel-good case study.",
+  "category": "AI Industry",
+  "importance": 1,
+  "tags": [
+   "openai",
+   "astronomy",
+   "case-study"
+  ]
+ },
+ {
+  "id": "3e573b092674",
+  "title": "SeaStore: Redesigning Ceph’s Storage Backend for CPU-Efficient NVMe Performance",
+  "url": "https://dl.acm.org/doi/10.1145/3828523.3857112",
+  "source": "Lobsters",
+  "source_id": "lobsters",
+  "group": "community",
+  "kind": "community",
+  "published": "2026-11-24T10:35:47-06:00",
+  "summary": "An ACM paper on redesigning Ceph's storage backend for NVMe with lower CPU cost. The page was blocked here, so this follows the title. Storage-engine design lessons may apply.",
+  "category": "Databases & Systems",
+  "importance": 2,
+  "tags": [
+   "ceph",
+   "nvme",
+   "storage"
+  ]
+ },
+ {
+  "id": "53ecd8bdb026",
+  "title": "Your agents don't care that you're a batch shop",
+  "url": "https://clickhouse.com/blog/your-agents-dont-care-that-youre-a-batch-shop",
+  "source": "ClickHouse",
+  "source_id": "clickhouse",
+  "group": "data",
+  "kind": "blog",
+  "published": "2026-11-24T08:22:07+00:00",
+  "summary": "ClickHouse argues that agents querying at scale require a real-time engine even if data arrives in nightly batches. The same thesis StarTree sells, now coming from a direct competitor.",
+  "category": "Real-time Analytics",
+  "importance": 3,
+  "tags": [
+   "agents",
+   "real-time",
+   "olap"
+  ]
+ },
+ {
+  "id": "5c003d30472b",
+  "title": "Worshipping at the altar of Brendan Gregg",
+  "url": "https://fzakaria.com/2026/11/12/worshipping-at-the-altar-of-brendan-gregg",
+  "source": "Lobsters",
+  "source_id": "lobsters",
+  "group": "community",
+  "kind": "community",
+  "published": "2026-11-24T04:50:52-06:00",
+  "summary": "An engineer reflects on using AI to build performance tooling inspired by Brendan Gregg's methods. Light read for infra people.",
+  "category": "Databases & Systems",
+  "importance": 2,
+  "tags": [
+   "performance",
+   "profiling",
+   "ai"
+  ]
+ },
+ {
+  "id": "3b1f8072ba29",
+  "title": "datasette-charts 0.2a0",
+  "url": "https://simonwillison.net/2026/Nov/24/datasette-charts/",
+  "source": "Simon Willison",
+  "source_id": "simonw",
+  "group": "ai",
+  "kind": "blog",
+  "published": "2026-11-24T04:24:29+00:00",
+  "summary": "Simon's Datasette charts plugin now works with Datasette Agent, so a chat can generate charts. Small example of agents producing visualisations from SQL.",
+  "category": "AI Engineering",
+  "importance": 1,
+  "tags": [
+   "datasette",
+   "charts",
+   "agents"
+  ]
+ },
+ {
+  "id": "a43a2373bab7",
+  "title": "[AINews] Jensen Is Back! and OpenAI Shows Its Pretraining Curve, joined by Microsoft",
+  "url": "https://latent.space/p/ainews-jensen-is-back-and-openai-shows-its-pretraining-curve-joined-by-microsoft/",
+  "source": "Latent Space",
+  "source_id": "latent-space",
+  "group": "ai",
+  "kind": "newsletter",
+  "published": "2026-11-24T04:14:16+00:00",
+  "summary": "Roundup noting a new Chinese looped-transformer model, a large funding round and OpenAI's pretraining curve. Handy for tracking model news in one place.",
+  "category": "AI Models & Research",
+  "importance": 2,
+  "tags": [
+   "newsletter",
+   "glm",
+   "openai"
+  ]
+ },
+ {
+  "id": "1951d3d0aee3",
+  "title": "Declare is a UI language for you and your AI",
+  "url": "https://davidtemkin.github.io/declarelang/",
+  "source": "Hacker News",
+  "source_id": "hackernews",
+  "group": "community",
+  "kind": "community",
+  "published": "2026-11-24T02:36:56+00:00",
+  "summary": "Introduces a small language for describing UIs that AI can write and a compiler can check. Interesting for prototyping, not core.",
+  "category": "AI Engineering",
+  "importance": 1,
+  "tags": [
+   "ui",
+   "dsl",
+   "ai"
+  ],
+  "discussion_url": "https://news.ycombinator.com/item?id=50622854",
+  "points": 122
+ },
+ {
+  "id": "a53e25c34fef",
+  "title": "Sharing catalog metadata across data platforms, engines, and agents",
+  "url": "https://www.databricks.com/blog/sharing-catalog-metadata-across-data-platforms-engines-and-agents",
+  "source": "Databricks",
+  "source_id": "databricks",
+  "group": "data",
+  "kind": "blog",
+  "published": "2026-11-24T01:30:00+00:00",
+  "summary": "Databricks and partners add catalog labels to the Iceberg REST catalog API so engines and agents can share table and column context. Directly relevant to how StarTree reads Iceberg catalogs and surfaces metadata to agents.",
+  "category": "Lakehouse",
+  "importance": 3,
+  "tags": [
+   "iceberg",
+   "catalog",
+   "databricks"
+  ]
+ },
+ {
+  "id": "0dd133049a77",
+  "title": "A FAANG PM's Guide to Practical AI Evals",
+  "url": "https://www.news.aakashg.com/p/practical-ai-evals",
+  "source": "Product Growth (Aakash Gupta)",
+  "source_id": "product-growth",
+  "group": "pm",
+  "kind": "newsletter",
+  "published": "2026-11-24T00:34:06+00:00",
+  "summary": "A PM walks through practical evaluation of AI products from a big-tech perspective. Helpful for defining quality bars for AI features.",
+  "category": "Product Management",
+  "importance": 2,
+  "tags": [
+   "ai-evals",
+   "pm",
+   "agents"
+  ]
+ },
+ {
+  "id": "3e8dc5b86d2d",
+  "title": "Iceberg Observability in Snowflake Horizon Catalog",
+  "url": "https://www.snowflake.com/content/snowflake-site/global/en/blog/iceberg-observability-horizon-catalog",
+  "source": "Snowflake",
+  "source_id": "snowflake",
+  "group": "data",
+  "kind": "blog",
+  "published": "2026-11-24T00:00:00-08:00",
+  "summary": "Snowflake says access by external engines to Iceberg tables via Horizon is now logged next to its SQL history for audit. A governance move that raises expectations for any engine reading Iceberg.",
+  "category": "Lakehouse",
+  "importance": 3,
+  "tags": [
+   "iceberg",
+   "snowflake",
+   "governance"
+  ]
+ },
+ {
+  "id": "b99b43256cba",
+  "title": "What is ClickHouse Security? A technical overview of the agentic SIEM built on ClickHouse",
+  "url": "https://clickhouse.com/blog/clickhouse-security-agentic-siem-overview",
+  "source": "ClickHouse",
+  "source_id": "clickhouse",
+  "group": "data",
+  "kind": "blog",
+  "published": "2026-11-24T00:00:00+00:00",
+  "summary": "ClickHouse describes a security analytics product built on its engine, with pipelines, detections and agents. A competitor moving into observability-style workloads that Pinot also targets.",
+  "category": "Real-time Analytics",
+  "importance": 3,
+  "tags": [
+   "clickhouse",
+   "siem",
+   "observability"
+  ]
+ },
+ {
+  "id": "80659a0fea2a",
+  "title": "DuckDB Ecosystem Newsletter : November 2026",
+  "url": "https://motherduck.com/blog/duckdb-ecosystem-newsletter-november-2026",
+  "source": "MotherDuck",
+  "source_id": "motherduck",
+  "group": "data",
+  "kind": "blog",
+  "published": "2026-11-24T00:00:00+00:00",
+  "summary": "Monthly roundup of DuckDB news, including phone benchmarks and engine comparisons. Skim for local analytics trends.",
+  "category": "Data Engineering",
+  "importance": 1,
+  "tags": [
+   "duckdb",
+   "newsletter"
+  ]
+ },
+ {
+  "id": "ca6247e2be65",
+  "title": "How SproutMe Cut Integration Test Time by 92.9% with DuckDB",
+  "url": "https://duckdb.org/2026/11/24/sproutme-faster-pipeline-testing.html",
+  "source": "DuckDB",
+  "source_id": "duckdb",
+  "group": "data",
+  "kind": "blog",
+  "published": "2026-11-24T00:00:00+00:00",
+  "summary": "A startup cut integration test time by about 93 percent by running tests on DuckDB. A tidy dev-workflow story.",
+  "category": "Data Engineering",
+  "importance": 1,
+  "tags": [
+   "duckdb",
+   "testing",
+   "ci"
+  ]
+ },
+ {
+  "id": "ec442b764e04",
+  "title": "How Intentful uses dots to make more time for growth",
+  "url": "https://openai.com/business/customer-stories/intentful-dots",
+  "source": "OpenAI",
+  "source_id": "openai",
+  "group": "ai",
+  "kind": "blog",
+  "published": "2026-11-24T00:00:00+00:00",
+  "summary": "OpenAI profiles a small founder's agent that does research and proposals and flags messages. Vendor customer story.",
+  "category": "AI Engineering",
+  "importance": 1,
+  "tags": [
+   "openai",
+   "customer-story",
+   "agents"
+  ]
+ },
+ {
+  "id": "7a6462e387eb",
+  "title": "How iFood scales coding agents across 15,000 repositories",
+  "url": "https://openai.com/business/customer-stories/ifood",
+  "source": "OpenAI",
+  "source_id": "openai",
+  "group": "ai",
+  "kind": "blog",
+  "published": "2026-11-24T00:00:00+00:00",
+  "summary": "iFood runs coding agents across 15,000 repositories at about four cents per run through an internal platform. Concrete numbers on scaling agents inside a company.",
+  "category": "AI Engineering",
+  "importance": 2,
+  "tags": [
+   "coding-agents",
+   "openai",
+   "scale"
+  ]
+ },
+ {
+  "id": "99b93f3e1098",
+  "title": "Clay helps sales teams win with Codex and ChatGPT",
+  "url": "https://openai.com/business/customer-stories/clay-plugins-openai",
+  "source": "OpenAI",
+  "source_id": "openai",
+  "group": "ai",
+  "kind": "blog",
+  "published": "2026-11-24T00:00:00+00:00",
+  "summary": "OpenAI profiles Clay's use of ChatGPT and Codex for deal research and go-to-market plays. Vendor customer story.",
+  "category": "AI Engineering",
+  "importance": 1,
+  "tags": [
+   "clay",
+   "openai",
+   "gtm"
+  ]
+ },
+ {
+  "id": "cd79b5cf3ca4",
+  "title": "Will AI Deflate Like Lightbulbs or Compound Like Copper?",
+  "url": "https://tomtunguz.com/jevons-works-on-tokens-not-on-dollars/",
+  "source": "Tomasz Tunguz",
+  "source_id": "tunguz",
+  "group": "data",
+  "kind": "blog",
+  "published": "2026-11-24T00:00:00+00:00",
+  "summary": "Tunguz asks whether falling AI costs will shrink spending like lightbulbs or grow it like copper, arguing about tokens versus dollars. A useful lens for forecasting AI-driven data demand and pricing.",
+  "category": "Strategy & Markets",
+  "importance": 3,
+  "tags": [
+   "ai-economics",
+   "jevons",
+   "pricing"
+  ]
+ },
+ {
+  "id": "ef3910f6a7af",
+  "title": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
+  "url": "https://simonwillison.net/2026/Nov/23/glm-54/",
+  "source": "Simon Willison",
+  "source_id": "simonw",
+  "group": "ai",
+  "kind": "blog",
+  "published": "2026-11-23T23:40:49+00:00",
+  "summary": "Z.ai releases GLM 5.4, its first model with shared-weight looped layers, aimed at coding. Notable as a new architecture from a major open-model lab.",
+  "category": "AI Models & Research",
+  "importance": 2,
+  "tags": [
+   "glm",
+   "loop-transformer",
+   "coding"
+  ]
+ },
+ {
+  "id": "b7fc35d5ccf0",
+  "title": "Ladybird's first alpha release",
+  "url": "https://simonwillison.net/2026/Nov/23/ladybird/",
+  "source": "Simon Willison",
+  "source_id": "simonw",
+  "group": "ai",
+  "kind": "blog",
+  "published": "2026-11-23T21:46:35+00:00",
+  "summary": "Ladybird, an independent browser engine, ships its first alpha. Impressive project, little relevance here.",
+  "category": "Engineering Culture",
+  "importance": 1,
+  "tags": [
+   "browser",
+   "open-source"
+  ]
+ },
+ {
+  "id": "1d0c151fefed",
+  "title": "OpenAI and Cisco introduce Shirudo",
+  "url": "https://openai.com/index/introducing-shirudo",
+  "source": "OpenAI",
+  "source_id": "openai",
+  "group": "ai",
+  "kind": "blog",
+  "published": "2026-11-23T21:20:00+00:00",
+  "summary": "OpenAI and Cisco release an open-source runtime to shield Linux systems while patches roll out. Infra security news with indirect relevance.",
+  "category": "AI Engineering",
+  "importance": 1,
+  "tags": [
+   "openai",
+   "cisco",
+   "security"
+  ]
+ },
+ {
+  "id": "76688e73cec3",
+  "title": "What 5,400 Malicious npm Packages Reveal about Software Supply Chain Risk in 2026",
+  "url": "https://www.databricks.com/blog/what-5400-malicious-npm-packages-reveal-about-software-supply-chain-risk-2026",
+  "source": "Databricks",
+  "source_id": "databricks",
+  "group": "data",
+  "kind": "blog",
+  "published": "2026-11-23T20:47:23+00:00",
+  "summary": "Databricks analyses 5,400 malicious npm packages and finds hijacked real packages account for almost all downloads. A supply-chain security study with little product bearing.",
+  "category": "Data Engineering",
+  "importance": 1,
+  "tags": [
+   "npm",
+   "supply-chain",
+   "databricks"
+  ]
+ },
+ {
+  "id": "3c69fd56490c",
+  "title": "\"Dario is hyping the dangers so OSS models are illegal and he stays in control\"",
+  "url": "https://twitter.com/ylecun/status/2124550037912920090",
+  "source": "Hacker News",
+  "source_id": "hackernews",
+  "group": "community",
+  "kind": "community",
+  "published": "2026-11-23T17:07:26+00:00",
+  "summary": "Yann LeCun says AI safety warnings are a tactic to get open models banned and keep control. Opinion in the open-versus-closed debate.",
+  "category": "AI Industry",
+  "importance": 2,
+  "tags": [
+   "open-models",
+   "regulation",
+   "lecun"
+  ],
+  "discussion_url": "https://news.ycombinator.com/item?id=50615308",
+  "points": 2021
+ },
+ {
+  "id": "d1d3915e5322",
+  "title": "How Sinch modernized its enterprise data warehouse from Snowflake to BigQuery to power AI",
+  "url": "https://cloud.google.com/blog/products/data-analytics/how-sinch-migrated-from-snowflake-to-bigquery-to-power-ai/",
+  "source": "Google Cloud Data Analytics",
+  "source_id": "gcp-data",
+  "group": "data",
+  "kind": "blog",
+  "published": "2026-11-23T17:00:00+00:00",
+  "summary": "Google describes how a communications firm moved its warehouse from Snowflake to BigQuery. A migration case study from the vendor side.",
+  "category": "Lakehouse",
+  "importance": 1,
+  "tags": [
+   "bigquery",
+   "snowflake",
+   "migration"
+  ]
+ },
+ {
+  "id": "61dcf1169479",
+  "title": "Finding faster quantum algorithms with agents and formal verification",
+  "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
+  "source": "Google DeepMind",
+  "source_id": "deepmind",
+  "group": "ai",
+  "kind": "blog",
+  "published": "2026-11-23T16:59:40+00:00",
+  "summary": "DeepMind uses agent teams and formal verification to find faster quantum algorithms. Research news outside core interests.",
+  "category": "AI Models & Research",
+  "importance": 1,
+  "tags": [
+   "deepmind",
+   "quantum",
+   "formal-verification"
+  ]
+ },
+ {
+  "id": "072458d77f66",
+  "title": "Announcing General Availability of native Lakebase Postgres sink for Spark Structured Streaming",
+  "url": "https://www.databricks.com/blog/announcing-general-availability-native-lakebase-postgres-sink-spark-structured-streaming",
+  "source": "Databricks",
+  "source_id": "databricks",
+  "group": "data",
+  "kind": "blog",
+  "published": "2026-11-23T16:32:10+00:00",
+  "summary": "Databricks makes its Lakebase sink for Spark Structured Streaming generally available, so streaming results land in Postgres with one call. Shows how lakehouse vendors close the low-latency serving gap.",
+  "category": "Streaming",
+  "importance": 2,
+  "tags": [
+   "spark",
+   "lakebase",
+   "streaming"
+  ]
+ },
+ {
+  "id": "a4dbe453ad16",
+  "title": "The Strength of the Record",
+  "url": "https://web.archive.org/web/20210329070928/https://opencrux.com/blog/crux-strength-of-the-record.html",
+  "source": "Lobsters",
+  "source_id": "lobsters",
+  "group": "community",
+  "kind": "community",
+  "published": "2026-11-23T16:18:18-06:00",
+  "summary": "A 2021 essay on how humans keep records, from the XTDB team. Background reading on immutable data models.",
+  "category": "Databases & Systems",
+  "importance": 1,
+  "tags": [
+   "records",
+   "immutability",
+   "history"
+  ]
+ },
+ {
+  "id": "db5ec702beee",
+  "title": "ClickHouse expands AWS strategic collaboration with a $1.5 billion-plus agreement to scale its unified enterprise AI data stack",
+  "url": "https://clickhouse.com/blog/clickhouse-expands-aws-strategic-collaboration-scale-unified-enterprise-ai-data-stack",
+  "source": "ClickHouse",
+  "source_id": "clickhouse",
+  "group": "data",
+  "kind": "blog",
+  "published": "2026-11-23T15:57:17+00:00",
+  "summary": "ClickHouse signs a five-year deal with AWS to invest over $1.5 billion in migrations, integrations and go-to-market. A major competitor gaining cloud-marketplace muscle.",
+  "category": "Strategy & Markets",
+  "importance": 3,
+  "tags": [
+   "clickhouse",
+   "aws",
+   "partnership"
+  ]
+ },
+ {
+  "id": "eeeccf5ef933",
+  "title": "Trust AI Agents to Act: Start With Your Data Foundation",
+  "url": "https://www.snowflake.com/content/snowflake-site/global/en/blog/trust-ai-agents-data-foundation",
+  "source": "Snowflake",
+  "source_id": "snowflake",
+  "group": "data",
+  "kind": "blog",
+  "published": "2026-11-23T14:25:55-08:00",
+  "summary": "Snowflake argues governed data and a control plane are needed before agents can act. Vendor positioning with familiar points.",
+  "category": "AI Engineering",
+  "importance": 1,
+  "tags": [
+   "snowflake",
+   "agents",
+   "governance"
+  ]
+ },
+ {
+  "id": "3120537bb3c8",
+  "title": "Import AI 482: Huawei kernel benchmarks; airborne drone detection; and a national lab's AI science benchmark",
+  "url": "https://importai.substack.com/p/import-ai-482-huawei-kernel-benchmarks",
+  "source": "Import AI (Jack Clark)",
+  "source_id": "import-ai",
+  "group": "ai",
+  "kind": "newsletter",
+  "published": "2026-11-23T14:11:17+00:00",
+  "summary": "Import AI covers a benchmark for optimising Huawei chip kernels and other research. A good weekly scan of AI research directions.",
+  "category": "AI Models & Research",
+  "importance": 2,
+  "tags": [
+   "newsletter",
+   "research",
+   "huawei"
+  ]
+ },
+ {
+  "id": "17cce5727050",
+  "title": "Show HN: An agent skill that optimizes code with falsifiable hypotheses",
+  "url": "https://chszlab.github.io/AgenticAlgorithmEngineering/",
+  "source": "Hacker News",
+  "source_id": "hackernews",
+  "group": "community",
+  "kind": "community",
+  "published": "2026-11-23T14:02:15+00:00",
+  "summary": "A skill for coding agents that requires a falsifiable hypothesis before each optimisation experiment. Methodical, but a niche tool.",
+  "category": "AI Engineering",
+  "importance": 1,
+  "tags": [
+   "coding-agents",
+   "optimization",
+   "skills"
+  ],
+  "discussion_url": "https://news.ycombinator.com/item?id=50611593",
+  "points": 131
+ },
+ {
+  "id": "9f50a7fbeba1",
+  "title": "Probing DNS at Cloudflare",
+  "url": "https://blog.cloudflare.com/probing-dns-at-cloudflare/",
+  "source": "Cloudflare",
+  "source_id": "cloudflare",
+  "group": "eng",
+  "kind": "blog",
+  "published": "2026-11-23T14:00:00+00:00",
+  "summary": "Cloudflare describes probing DNS publishing after a release slipped past tests and dashboards. Practical reliability lessons for rollout checks.",
+  "category": "Databases & Systems",
+  "importance": 2,
+  "tags": [
+   "cloudflare",
+   "dns",
+   "testing"
+  ]
+ },
+ {
+  "id": "c2e00314602d",
+  "title": "Databricks Lakebase: What even is a database anymore?",
+  "url": "https://dataengineeringcentral.substack.com/p/databricks-lakebase-what-even-is",
+  "source": "Data Engineering Central",
+  "source_id": "de-central",
+  "group": "data",
+  "kind": "newsletter",
+  "published": "2026-11-23T13:10:01+00:00",
+  "summary": "A data engineer asks what counts as a database now that Databricks sells Lakebase, a Postgres tied to the lakehouse. Captures the converging operational and analytical architecture that frames StarTree's pitch.",
+  "category": "Lakehouse",
+  "importance": 3,
+  "tags": [
+   "lakebase",
+   "databricks",
+   "databases"
+  ]
+ },
+ {
+  "id": "a7df8bf18b52",
+  "title": "AI in Manufacturing: Preserving Institutional Knowledge",
+  "url": "https://www.snowflake.com/content/snowflake-site/global/en/blog/ai-manufacturing-institutional-knowledge",
+  "source": "Snowflake",
+  "source_id": "snowflake",
+  "group": "data",
+  "kind": "blog",
+  "published": "2026-11-23T13:08:00-08:00",
+  "summary": "Snowflake shows manufacturers using agents to preserve knowledge as veteran engineers retire. Vendor case story.",
+  "category": "AI Engineering",
+  "importance": 1,
+  "tags": [
+   "snowflake",
+   "manufacturing",
+   "agents"
+  ]
+ },
+ {
+  "id": "df9acd756c94",
+  "title": "OpenClaw for executives: Automate every 1% annoyance | Ankit Maheshwari (Innovaccer)",
+  "url": "https://www.lennysnewsletter.com/p/openclaw-for-executives-automate",
+  "source": "Lenny's Newsletter",
+  "source_id": "lenny",
+  "group": "pm",
+  "kind": "newsletter",
+  "published": "2026-11-23T13:04:43+00:00",
+  "summary": "Innaccer's CTO describes a personal agent that handles approvals, calls and bookings. An entertaining look at agent use, not strategic.",
+  "category": "AI Engineering",
+  "importance": 1,
+  "tags": [
+   "agents",
+   "executives",
+   "productivity"
+  ]
+ },
+ {
+  "id": "e4e02944b3e0",
+  "title": "Unified Orchestration in Insurance: One Control Plane Across Policy, Claims, and Underwriting",
+  "url": "https://www.kai-waehner.de/blog/2026/11/23/unified-orchestration-in-insurance-one-control-plane-across-policy-claims-and-underwriting/",
+  "source": "Kai Waehner",
+  "source_id": "kai-waehner",
+  "group": "data",
+  "kind": "blog",
+  "published": "2026-11-23T09:14:24+00:00",
+  "summary": "Kai Waehner argues insurers need one control plane across pipelines, workflows and business processes, with agents as governed steps. Industry-specific orchestration pitch.",
+  "category": "Data Engineering",
+  "importance": 1,
+  "tags": [
+   "orchestration",
+   "insurance",
+   "agents"
+  ]
+ },
+ {
+  "id": "f8a4e02f4212",
+  "title": "Connected intelligence for in-house legal",
+  "url": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
+  "source": "OpenAI",
+  "source_id": "openai",
+  "group": "ai",
+  "kind": "blog",
+  "published": "2026-11-23T08:00:00+00:00",
+  "summary": "OpenAI hosts a session on connecting business context and reusable AI workflows for in-house legal teams. Vertical vendor content.",
+  "category": "AI Engineering",
+  "importance": 1,
+  "tags": [
+   "openai",
+   "legal",
+   "workflows"
+  ]
+ },
+ {
+  "id": "680b35173b97",
+  "title": "Richpanel helps companies automate 50% of support in 30 days",
+  "url": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
+  "source": "OpenAI",
+  "source_id": "openai",
+  "group": "ai",
+  "kind": "blog",
+  "published": "2026-11-23T08:00:00+00:00",
+  "summary": "A support automation company reports handling half of tickets within 30 days using GPT models. Vendor story with a headline number.",
+  "category": "AI Engineering",
+  "importance": 1,
+  "tags": [
+   "openai",
+   "support",
+   "customer-story"
+  ]
+ },
+ {
+  "id": "10de49f569d3",
+  "title": "The short age of dragon riders",
+  "url": "https://atilloy.com/2026/11/16/the-short-age-of-dragon-riders/",
+  "source": "Hacker News",
+  "source_id": "hackernews",
+  "group": "community",
+  "kind": "community",
+  "published": "2026-11-23T05:33:34+00:00",
+  "summary": "A physicist says public models now beat most theoretical physicists at technical tasks in a good harness. A view on capability that may colour planning.",
+  "category": "AI Industry",
+  "importance": 2,
+  "tags": [
+   "ai-capability",
+   "physics"
+  ],
+  "discussion_url": "https://news.ycombinator.com/item?id=50607849",
+  "points": 297
+ },
+ {
+  "id": "41d4ad8c2794",
+  "title": "Data Engineering Weekly #297",
+  "url": "https://www.dataengineeringweekly.com/p/data-engineering-weekly-297",
+  "source": "Data Engineering Weekly",
+  "source_id": "dew",
+  "group": "data",
+  "kind": "newsletter",
+  "published": "2026-11-23T03:27:26+00:00",
+  "summary": "Weekly roundup with an editor's note on coding interviews shifting to fix-and-explain formats and links across data engineering. Good for staying current.",
+  "category": "Data Engineering",
+  "importance": 2,
+  "tags": [
+   "newsletter",
+   "data-engineering",
+   "verification"
+  ]
+ },
+ {
+  "id": "289c8aeddacd",
+  "title": "datasette-charts 0.1a0",
+  "url": "https://simonwillison.net/2026/Nov/23/datasette-charts/",
+  "source": "Simon Willison",
+  "source_id": "simonw",
+  "group": "ai",
+  "kind": "blog",
+  "published": "2026-11-23T00:37:20+00:00",
+  "summary": "Simon built a charting plugin for Datasette after a prototype with a Claude model worked well. Shows AI-assisted prototyping speed.",
+  "category": "AI Engineering",
+  "importance": 1,
+  "tags": [
+   "datasette",
+   "charts",
+   "claude"
+  ]
+ },
+ {
+  "id": "0061038fb64e",
+  "title": "Custom software, specialized workflows, and other new growth paths from SaaS Platform Summit",
+  "url": "https://stripe.com/blog/custom-software-specialized-workflows-and-other-new-growth-paths-from-saas-platform-summit",
+  "source": "Stripe",
+  "source_id": "stripe",
+  "group": "eng",
+  "kind": "blog",
+  "published": "2026-11-23T00:00:00+00:00",
+  "summary": "Stripe says AI lets SaaS platforms tailor software for single merchants, opening new revenue streams with embedded finance. Useful framing for SaaS growth with AI.",
+  "category": "Growth & GTM",
+  "importance": 2,
+  "tags": [
+   "stripe",
+   "saas",
+   "ai"
+  ]
+ },
+ {
+  "id": "6fd4c32fe34a",
+  "title": "How to build and maintain an agentic evaluation",
+  "url": "https://huggingface.co/blog/agentic-evals",
+  "source": "Hugging Face",
+  "source_id": "huggingface",
+  "group": "ai",
+  "kind": "blog",
+  "published": "2026-11-23T00:00:00+00:00",
+  "summary": "Hugging Face shares guidance on building and maintaining evaluations for agent systems. Practical input for measuring AI features.",
+  "category": "AI Engineering",
+  "importance": 2,
+  "tags": [
+   "agents",
+   "evals",
+   "huggingface"
+  ]
+ },
+ {
+  "id": "1ba4d31258de",
+  "title": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
+  "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
+  "source": "Hacker News",
+  "source_id": "hackernews",
+  "group": "community",
+  "kind": "community",
+  "published": "2026-11-22T21:01:16+00:00",
+  "summary": "A beginner walk-through for running local chat models with Unsloth. Hobby tutorial.",
+  "category": "AI Engineering",
+  "importance": 1,
+  "tags": [
+   "local-llm",
+   "tutorial"
+  ],
+  "discussion_url": "https://news.ycombinator.com/item?id=50603845",
+  "points": 780
+ },
+ {
+  "id": "c0f9b5be5e22",
+  "title": "GPT-6.2 Astra is the first model to beat Googlers' code golf records",
+  "url": "https://bjin.github.io/go-codegolf-benchmark/#leaderboard",
+  "source": "Hacker News",
+  "source_id": "hackernews",
+  "group": "community",
+  "kind": "community",
+  "published": "2026-11-22T16:44:48+00:00",
+  "summary": "An engineer reruns an old Google code-golf contest and finds a GPT model beating the old records. A fun capability marker.",
+  "category": "AI Models & Research",
+  "importance": 2,
+  "tags": [
+   "benchmarks",
+   "code-golf",
+   "gpt"
+  ],
+  "discussion_url": "https://news.ycombinator.com/item?id=50601280",
+  "points": 466
+ },
+ {
+  "id": "0045010b29f8",
+  "title": "First principles: What it takes to be a great product manager in the AI era | Sherif Mansour",
+  "url": "https://www.lennysnewsletter.com/p/first-principles-what-it-takes-to",
+  "source": "Lenny's Newsletter",
+  "source_id": "lenny",
+  "group": "pm",
+  "kind": "newsletter",
+  "published": "2026-11-22T13:31:53+00:00",
+  "summary": "Atlassian's head of AI and product craft explains what makes a great PM in the AI era, from a 17-year career. Strong PM craft material from a senior practitioner.",
+  "category": "Product Management",
+  "importance": 3,
+  "tags": [
+   "product-management",
+   "ai",
+   "leadership"
+  ]
+ },
+ {
+  "id": "315e82c2f910",
+  "title": "AI is becoming a disaster for the climate",
+  "url": "https://www.bloodinthemachine.com/p/ai-is-becoming-a-disaster-for-the",
+  "source": "Hacker News",
+  "source_id": "hackernews",
+  "group": "community",
+  "kind": "community",
+  "published": "2026-11-22T12:19:46+00:00",
+  "summary": "Two studies suggest rising carbon emissions from AI, with industry pushing back on local protests. Context on data-center scrutiny.",
+  "category": "AI Industry",
+  "importance": 1,
+  "tags": [
+   "climate",
+   "data-centers"
+  ],
+  "discussion_url": "https://news.ycombinator.com/item?id=50598961",
+  "points": 135
+ },
+ {
+  "id": "38c61351fe0d",
+  "title": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
+  "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
+  "source": "Hacker News",
+  "source_id": "hackernews",
+  "group": "community",
+  "kind": "community",
+  "published": "2026-11-22T08:57:34+00:00",
+  "summary": "A case study estimates most of Anthropic's 2028 power would come from gas and coal. Energy-supply context.",
+  "category": "AI Industry",
+  "importance": 1,
+  "tags": [
+   "anthropic",
+   "energy",
+   "emissions"
+  ],
+  "discussion_url": "https://news.ycombinator.com/item?id=50597612",
+  "points": 1043
+ },
+ {
+  "id": "ce0bcf2918b4",
+  "title": "AI Supply Chain Security: What Canary Tokens Found",
+  "url": "https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens",
+  "source": "Hacker News",
+  "source_id": "hackernews",
+  "group": "community",
+  "kind": "community",
+  "published": "2026-11-22T05:11:43+00:00",
+  "summary": "Researchers seeded two million prompts with canary tokens and found provider breaches and ignored zero-retention settings. A caution for anyone sending customer data through inference providers.",
+  "category": "AI Engineering",
+  "importance": 2,
+  "tags": [
+   "security",
+   "llm",
+   "privacy"
+  ],
+  "discussion_url": "https://news.ycombinator.com/item?id=50596511",
+  "points": 110
+ },
+ {
+  "id": "528d6924cf9a",
+  "title": "The Mythology of Conscious AI",
+  "url": "https://www.noemamag.com/the-mythology-of-conscious-ai/",
+  "source": "Hacker News",
+  "source_id": "hackernews",
+  "group": "community",
+  "kind": "community",
+  "published": "2026-11-22T02:10:02+00:00",
+  "summary": "Anil Seth argues consciousness is tied to life, not computation, and building conscious-seeming AI is unwise. Philosophical, unrelated to the job.",
+  "category": "AI Industry",
+  "importance": 1,
+  "tags": [
+   "consciousness",
+   "ai"
+  ],
+  "discussion_url": "https://news.ycombinator.com/item?id=50595537",
+  "points": 181
+ },
+ {
+  "id": "de5cd1a6d51d",
+  "title": "Perplexity and Intelligence",
+  "url": "https://openai.com/index/perplexity-and-intelligence",
+  "source": "OpenAI",
+  "source_id": "openai",
+  "group": "ai",
+  "kind": "blog",
+  "published": "2026-11-22T00:00:00+00:00",
+  "summary": "OpenAI's chief scientist argues perplexity is a useful common measure of progress in models. Informs how to interpret model claims.",
+  "category": "AI Models & Research",
+  "importance": 2,
+  "tags": [
+   "openai",
+   "evals",
+   "perplexity"
+  ]
+ },
+ {
+  "id": "a4ea85254a88",
+  "title": "Lessons from 12 Evals: Where They Break and What to Measure Instead",
+  "url": "https://eugeneyan.com/writing/public-evals",
+  "source": "Eugene Yan",
+  "source_id": "eugene-yan",
+  "group": "ai",
+  "kind": "blog",
+  "published": "2026-11-22T00:00:00+00:00",
+  "summary": "Eugene Yan studies twelve public evals and finds grader failures in eight, then suggests better measures. Essential reading for anyone building or buying AI features on benchmark claims.",
+  "category": "AI Engineering",
+  "importance": 3,
+  "tags": [
+   "evals",
+   "benchmarks",
+   "methodology"
+  ]
+ },
+ {
+  "id": "21bd1d482ae2",
+  "title": "Muru",
+  "url": "https://simonwillison.net/2026/Nov/21/muru/",
+  "source": "Simon Willison",
+  "source_id": "simonw",
+  "group": "ai",
+  "kind": "blog",
+  "published": "2026-11-21T23:56:28+00:00",
+  "summary": "Graham Dumpleton releases an AI-assisted Rust server for Python web apps. Niche developer tooling.",
+  "category": "Engineering Culture",
+  "importance": 1,
+  "tags": [
+   "python",
+   "rust",
+   "servers"
+  ]
+ },
+ {
+  "id": "3d1bee2216f8",
+  "title": "Pandex – Official European Law for AI Agents, over MCP",
+  "url": "https://www.pandex.io",
+  "source": "Hacker News",
+  "source_id": "hackernews",
+  "group": "community",
+  "kind": "community",
+  "published": "2026-11-21T20:47:41+00:00",
+  "summary": "A site publishes European law for AI agents over MCP; the page could not be loaded, so this follows the title. An example of MCP as a distribution channel for reference data.",
+  "category": "AI Engineering",
+  "importance": 1,
+  "tags": [
+   "mcp",
+   "law",
+   "europe"
+  ],
+  "discussion_url": "https://news.ycombinator.com/item?id=50593481",
+  "points": 141
+ },
+ {
+  "id": "1c83a91ee04f",
+  "title": "PostgreSQL Extensions in Go",
+  "url": "https://jespino.github.io/gopgext/",
+  "source": "Hacker News",
+  "source_id": "hackernews",
+  "group": "community",
+  "kind": "community",
+  "published": "2026-11-21T17:08:04+00:00",
+  "summary": "Lets you write Postgres extensions in Go via TinyGo, generating the C glue. A developer convenience.",
+  "category": "Databases & Systems",
+  "importance": 2,
+  "tags": [
+   "postgres",
+   "go",
+   "extensions"
+  ],
+  "discussion_url": "https://news.ycombinator.com/item?id=50591260",
+  "points": 171
+ },
+ {
+  "id": "0d3333ef9d9b",
+  "title": "🧠 Community Wisdom: Handling context switching with multiple agents, giving feedback on AI-generated designs, getting AI to write less like AI, why PMs don’t share what they’re really working on",
+  "url": "https://www.lennysnewsletter.com/p/community-wisdom-handling-context",
+  "source": "Lenny's Newsletter",
+  "source_id": "lenny",
+  "group": "pm",
+  "kind": "newsletter",
+  "published": "2026-11-21T16:49:56+00:00",
+  "summary": "Lenny's subscriber digest on context switching across agents and giving feedback. Paywalled community tips.",
+  "category": "Product Management",
+  "importance": 1,
+  "tags": [
+   "agents",
+   "community",
+   "workflow"
+  ]
+ },
+ {
+  "id": "739c2afbe047",
+  "title": "How I Got Postgres into a Single Binary",
+  "url": "https://progrium.xyz/articles/2026/single-binary-postgres",
+  "source": "Lobsters",
+  "source_id": "lobsters",
+  "group": "community",
+  "kind": "community",
+  "published": "2026-11-21T13:32:22-06:00",
+  "summary": "Describes packing full Postgres into one binary with a SQLite-like workflow. Fun systems engineering.",
+  "category": "Databases & Systems",
+  "importance": 2,
+  "tags": [
+   "postgres",
+   "embedded",
+   "single-binary"
+  ]
+ },
+ {
+  "id": "0861843e14b2",
+  "title": "Microsoft 365 Outage - Post Incident Report",
+  "url": "https://tianyin.github.io/misc/pir_microsoft_365_11-12-2026.pdf",
+  "source": "Lobsters",
+  "source_id": "lobsters",
+  "group": "community",
+  "kind": "community",
+  "published": "2026-11-21T06:22:47-06:00",
+  "summary": "Post-incident analysis of a Microsoft 365 outage; the page didn't load here, so this follows the title. Incident reports offer reliability lessons.",
+  "category": "Databases & Systems",
+  "importance": 2,
+  "tags": [
+   "outage",
+   "incident",
+   "microsoft"
+  ]
+ },
+ {
+  "id": "2b32d4b379bc",
+  "title": "[AINews] Riemann Hypothesis proved...twice independently",
+  "url": "https://latent.space/p/ainews-riemann-hypothesis-proved-twice-independently/",
+  "source": "Latent Space",
+  "source_id": "latent-space",
+  "group": "ai",
+  "kind": "newsletter",
+  "published": "2026-11-21T05:02:13+00:00",
+  "summary": "Two mathematicians claimed proofs of the Riemann Hypothesis within hours, one driven by Claude with large Lean code. A landmark AI capability claim that will shape expectations of models.",
+  "category": "AI Models & Research",
+  "importance": 3,
+  "tags": [
+   "math",
+   "anthropic",
+   "proofs"
+  ]
+ },
+ {
+  "id": "c180aada27bd",
+  "title": "How to Ship to Production with AI Agents",
+  "url": "https://www.news.aakashg.com/p/ai-agents-ship-to-production",
+  "source": "Product Growth (Aakash Gupta)",
+  "source_id": "product-growth",
+  "group": "pm",
+  "kind": "newsletter",
+  "published": "2026-11-20T22:34:58+00:00",
+  "summary": "Aakash Gupta's episode on shipping to production with AI agents. A PM-oriented look at agent delivery practice.",
+  "category": "AI Engineering",
+  "importance": 2,
+  "tags": [
+   "agents",
+   "production",
+   "pm"
+  ]
+ },
+ {
+  "id": "0e6ffb22cecb",
+  "title": "From Skiplists to B+ Trees: Making Valkey Sorted Sets More Memory Efficient",
+  "url": "https://valkey.io/blog/from-skiplist-to-b+tree/",
+  "source": "Lobsters",
+  "source_id": "lobsters",
+  "group": "community",
+  "kind": "community",
+  "published": "2026-11-20T22:31:29-06:00",
+  "summary": "Valkey 9.2 replaces skiplists with B+ trees for large sorted sets, cutting memory overhead. A good data-structure design lesson.",
+  "category": "Databases & Systems",
+  "importance": 2,
+  "tags": [
+   "valkey",
+   "data-structures",
+   "memory"
+  ]
+ },
+ {
+  "id": "c989db0d32fd",
+  "title": "The War Against Slop and an Emerging Weapon to Fight it: Formal Verification",
+  "url": "https://latent.space/p/formal-verification/",
+  "source": "Latent Space",
+  "source_id": "latent-space",
+  "group": "ai",
+  "kind": "newsletter",
+  "published": "2026-11-20T21:18:41+00:00",
+  "summary": "Latent Space discusses using formal verification to counter low-quality AI-generated code. Relevant to how teams will trust AI code.",
+  "category": "AI Engineering",
+  "importance": 2,
+  "tags": [
+   "formal-verification",
+   "slop",
+   "coding"
+  ]
+ },
+ {
+  "id": "f93ea93941f6",
+  "title": "How Cloudflare WAF protects against ruby2shell (CVE-2026-132825)",
+  "url": "https://blog.cloudflare.com/ruby2shell-waf-protection/",
+  "source": "Cloudflare",
+  "source_id": "cloudflare",
+  "group": "eng",
+  "kind": "blog",
+  "published": "2026-11-20T20:24:38+00:00",
+  "summary": "Cloudflare explains its WAF coverage for a critical Ruby heap overflow. Security advisory content.",
+  "category": "Databases & Systems",
+  "importance": 1,
+  "tags": [
+   "cloudflare",
+   "waf",
+   "ruby"
+  ]
+ },
+ {
+  "id": "7066f202a884",
+  "title": "How Cloudflare WAF helps protect against phpAfterShell and other critical PHP flaws",
+  "url": "https://blog.cloudflare.com/phpaftershell-waf-protection/",
+  "source": "Cloudflare",
+  "source_id": "cloudflare",
+  "group": "eng",
+  "kind": "blog",
+  "published": "2026-11-20T20:00:45+00:00",
+  "summary": "Cloudflare describes WAF protections for a critical PHP session handler flaw. Security advisory content.",
+  "category": "Databases & Systems",
+  "importance": 1,
+  "tags": [
+   "cloudflare",
+   "waf",
+   "php"
+  ]
+ },
+ {
+  "id": "3e30621eb1a8",
+  "title": "Vibecoding an inference chip",
+  "url": "https://ankitg.me/blog/vibecoding-inference-chip/",
+  "source": "Hacker News",
+  "source_id": "hackernews",
+  "group": "community",
+  "kind": "community",
+  "published": "2026-11-20T18:15:16+00:00",
+  "summary": "An engineer used coding agents to write millions of lines for an FPGA LLM inference. A showcase of what agents can build.",
+  "category": "AI Engineering",
+  "importance": 2,
+  "tags": [
+   "fpga",
+   "coding-agents",
+   "inference"
+  ],
+  "discussion_url": "https://news.ycombinator.com/item?id=50579297",
+  "points": 180
+ },
+ {
+  "id": "86db41def986",
+  "title": "Drowning in clicks: Scaling Black Friday pipelines with Managed Airflow agents",
+  "url": "https://cloud.google.com/blog/products/data-analytics/scaling-airflow-pipelines-with-ai-agents-on-managed-airflow/",
+  "source": "Google Cloud Data Analytics",
+  "source_id": "gcp-data",
+  "group": "data",
+  "kind": "blog",
+  "published": "2026-11-20T17:00:00+00:00",
+  "summary": "Google shows agents that diagnose failing Airflow pipelines during peak traffic. Vendor feature piece.",
+  "category": "Data Engineering",
+  "importance": 1,
+  "tags": [
+   "airflow",
+   "agents",
+   "google"
+  ]
+ },
+ {
+  "id": "7ec62e10e147",
+  "title": "Frontier and Center: Why your data agents need a “wind tunnel”",
+  "url": "https://cloud.google.com/blog/products/data-analytics/a-data-simulator-to-test-agents/",
+  "source": "Google Cloud Data Analytics",
+  "source_id": "gcp-data",
+  "group": "data",
+  "kind": "blog",
+  "published": "2026-11-20T17:00:00+00:00",
+  "summary": "Google argues data agents need a safe simulated environment for testing when production access is restricted. Relevant to testing agents against analytics data.",
+  "category": "AI Engineering",
+  "importance": 2,
+  "tags": [
+   "data-agents",
+   "evals",
+   "google"
+  ]
+ },
+ {
+  "id": "347053b5b61d",
+  "title": "What’s new in Managed Service for Apache Spark 4.0",
+  "url": "https://cloud.google.com/blog/products/data-analytics/whats-new-in-managed-service-for-apache-spark-4-0/",
+  "source": "Google Cloud Data Analytics",
+  "source_id": "gcp-data",
+  "group": "data",
+  "kind": "blog",
+  "published": "2026-11-20T17:00:00+00:00",
+  "summary": "Google lists new features in its managed Spark 4.0 service for agent-driven pipelines and MCP tools. Product release summary.",
+  "category": "Data Engineering",
+  "importance": 1,
+  "tags": [
+   "spark",
+   "google",
+   "agents"
+  ]
+ },
+ {
+  "id": "a7c069141e9e",
+  "title": "How Vodafone is using the Data Engineering Agent to improve their data pipelines",
+  "url": "https://cloud.google.com/blog/products/data-analytics/vodafone-cuts-data-pipeline-costs-30-via-data-engineeringagent/",
+  "source": "Google Cloud Data Analytics",
+  "source_id": "gcp-data",
+  "group": "data",
+  "kind": "blog",
+  "published": "2026-11-20T17:00:00+00:00",
+  "summary": "Vodafone Czech explains using Google's data engineering agent to build pipelines. Vendor customer story.",
+  "category": "Data Engineering",
+  "importance": 1,
+  "tags": [
+   "vodafone",
+   "bigquery",
+   "agents"
+  ]
+ },
+ {
+  "id": "83f2b5d135af",
+  "title": "Google workers tell their employer not to punish schools that don't want AI",
+  "url": "https://www.motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition/",
+  "source": "Hacker News",
+  "source_id": "hackernews",
+  "group": "community",
+  "kind": "community",
+  "published": "2026-11-20T16:59:27+00:00",
+  "summary": "Google staffers urge the company not to penalise schools that reject AI. Policy and culture story.",
+  "category": "AI Industry",
+  "importance": 1,
+  "tags": [
+   "google",
+   "education",
+   "ai"
+  ],
+  "discussion_url": "https://news.ycombinator.com/item?id=50577901",
+  "points": 285
+ },
+ {
+  "id": "9d9e2c9f2c65",
+  "title": "AI is giving everyone the same advice",
+  "url": "https://a90.com/experiments/same-advice/",
+  "source": "Hacker News",
+  "source_id": "hackernews",
+  "group": "community",
+  "kind": "community",
+  "published": "2026-11-20T16:58:05+00:00",
+  "summary": "A study of 65 models finds most users get the same recommendations to read the same book. Highlights sameness in AI answers.",
+  "category": "AI Industry",
+  "importance": 2,
+  "tags": [
+   "llm",
+   "homogenization"
+  ],
+  "discussion_url": "https://news.ycombinator.com/item?id=50577872",
+  "points": 127
+ },
+ {
+  "id": "b8e1839046bc",
+  "title": "Quoting Levent Alpöge",
+  "url": "https://simonwillison.net/2026/Nov/20/levent-alpoge/",
+  "source": "Simon Willison",
+  "source_id": "simonw",
+  "group": "ai",
+  "kind": "blog",
+  "published": "2026-11-20T16:30:48+00:00",
+  "summary": "Levent Alpöge says he found a proof of the Riemann Hypothesis working with Claude and formalised it. The primary quote behind a major claim.",
+  "category": "AI Models & Research",
+  "importance": 1,
+  "tags": [
+   "math",
+   "claude",
+   "proofs"
+  ]
+ },
+ {
+  "id": "9fe3e937f57a",
+  "title": "Language Models Can Rewrite Their Own Weights",
+  "url": "https://arxiv.org/abs/2611.21885",
+  "source": "Hacker News",
+  "source_id": "hackernews",
+  "group": "community",
+  "kind": "community",
+  "published": "2026-11-20T16:29:06+00:00",
+  "summary": "An arXiv paper shows language models editing their own weights. Research-level signal worth knowing about.",
+  "category": "AI Models & Research",
+  "importance": 2,
+  "tags": [
+   "research",
+   "self-modification",
+   "weights"
+  ],
+  "discussion_url": "https://news.ycombinator.com/item?id=50577265",
+  "points": 494
+ },
+ {
+  "id": "beff442b3034",
+  "title": "Interactive Databricks Reference Architectures Across 70 Industries",
+  "url": "https://www.databricks.com/blog/interactive-databricks-reference-architectures-across-70-industries",
+  "source": "Databricks",
+  "source_id": "databricks",
+  "group": "data",
+  "kind": "blog",
+  "published": "2026-11-20T14:48:28+00:00",
+  "summary": "Databricks publishes interactive reference architectures for 70 industries with regional availability. Useful for sales collateral but light on news.",
+  "category": "Lakehouse",
+  "importance": 1,
+  "tags": [
+   "databricks",
+   "architecture",
+   "reference"
+  ]
+ },
+ {
+  "id": "2ab114abf449",
+  "title": "Clouded Judgement 11.19.26 - Security Armageddon",
+  "url": "https://cloudedjudgement.substack.com/p/clouded-judgement-111926-security",
+  "source": "Clouded Judgement (Jamin Ball)",
+  "source_id": "clouded-judgement",
+  "group": "data",
+  "kind": "newsletter",
+  "published": "2026-11-20T14:04:02+00:00",
+  "summary": "Jamin Ball covers a surge in security incidents and outages and what it means for cloud software companies. Weekly market context.",
+  "category": "Strategy & Markets",
+  "importance": 2,
+  "tags": [
+   "cloud-software",
+   "security",
+   "saas"
+  ]
+ },
+ {
+  "id": "94ae0207bc3c",
+  "title": "Weekly Dose of Optimism #220",
+  "url": "https://www.notboring.co/p/weekly-dose-of-optimism-220",
+  "source": "Not Boring (Packy McCormick)",
+  "source_id": "not-boring",
+  "group": "pm",
+  "kind": "newsletter",
+  "published": "2026-11-20T13:52:45+00:00",
+  "summary": "Not Boring's weekly roundup of positive tech news, including Anthropic going public. Light skim.",
+  "category": "Strategy & Markets",
+  "importance": 1,
+  "tags": [
+   "optimism",
+   "newsletter",
+   "tech"
+  ]
+ },
+ {
+  "id": "fda5004e845f",
+  "title": "Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second day",
+  "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
+  "source": "Hacker News",
+  "source_id": "hackernews",
+  "group": "community",
+  "kind": "community",
+  "published": "2026-11-20T13:29:59+00:00",
+  "summary": "The Guardian reports the Nasdaq giving up its 2026 gains as AI stocks sold off on Anthropic's second day of trading. Market mood context.",
+  "category": "AI Industry",
+  "importance": 1,
+  "tags": [
+   "anthropic",
+   "markets",
+   "nasdaq"
+  ],
+  "discussion_url": "https://news.ycombinator.com/item?id=50574383",
+  "points": 531
+ },
+ {
+  "id": "000028228240",
+  "title": "Frostbite: A new CPU architecture discovered, designed and verified by AI",
+  "url": "https://architectlabs.com/blog/frostbite",
+  "source": "Hacker News",
+  "source_id": "hackernews",
+  "group": "community",
+  "kind": "community",
+  "published": "2026-11-20T10:01:41+00:00",
+  "summary": "A startup claims an AI-designed CPU built on interaction nets reaches 4.6x performance per watt over a simple core. Unverified vendor claim.",
+  "category": "AI Models & Research",
+  "importance": 1,
+  "tags": [
+   "cpu",
+   "ai-design",
+   "hardware"
+  ],
+  "discussion_url": "https://news.ycombinator.com/item?id=50572503",
+  "points": 686
+ },
+ {
+  "id": "3ea993db7e3c",
+  "title": "Combatting adversarial distillation",
+  "url": "https://openai.com/index/combatting-adversarial-distillation",
+  "source": "OpenAI",
+  "source_id": "openai",
+  "group": "ai",
+  "kind": "blog",
+  "published": "2026-11-20T10:00:00+00:00",
+  "summary": "OpenAI describes layered defences against adversarial distillation, from training to detection and enforcement. Shows how vendors protect model value.",
+  "category": "AI Industry",
+  "importance": 2,
+  "tags": [
+   "openai",
+   "distillation",
+   "security"
+  ]
+ },
+ {
+  "id": "50d6027fa155",
+  "title": "November 2026 newsletter",
+  "url": "https://clickhouse.com/blog/202611-newsletter",
+  "source": "ClickHouse",
+  "source_id": "clickhouse",
+  "group": "data",
+  "kind": "blog",
+  "published": "2026-11-20T09:50:28+00:00",
+  "summary": "ClickHouse's November newsletter covers four platform launches, version 26.10 and a JSON benchmark. A quick look at a competitor's shipping cadence.",
+  "category": "Real-time Analytics",
+  "importance": 2,
+  "tags": [
+   "clickhouse",
+   "newsletter",
+   "launches"
+  ]
+ },
+ {
+  "id": "c4ca83ba5741",
+  "title": "Restricting AI agents in mobile operating systems platforms from capturing data",
+  "url": "https://signal.org/blog/protecting-your-privacy/",
+  "source": "Hacker News",
+  "source_id": "hackernews",
+  "group": "community",
+  "kind": "community",
+  "published": "2026-11-20T09:42:16+00:00",
+  "summary": "Signal says it blocks OS-level AI agents from capturing its data. Privacy stance on agents.",
+  "category": "AI Industry",
+  "importance": 2,
+  "tags": [
+   "signal",
+   "privacy",
+   "agents"
+  ],
+  "discussion_url": "https://news.ycombinator.com/item?id=50572348",
+  "points": 584
+ },
+ {
+  "id": "2577a740a4e0",
+  "title": "What Anthropic’s S-1 Says About AI Agent Orchestration",
+  "url": "https://www.kai-waehner.de/blog/2026/11/20/anthropic-s-1-ai-agent-orchestration/",
+  "source": "Kai Waehner",
+  "source_id": "kai-waehner",
+  "group": "data",
+  "kind": "blog",
+  "published": "2026-11-20T08:24:35+00:00",
+  "summary": "Kai Waehner reads Anthropic's S-1 for what it says about agent orchestration after the record IPO. Gives a view of where the leading AI vendor sees agent workloads going.",
+  "category": "Strategy & Markets",
+  "importance": 2,
+  "tags": [
+   "anthropic",
+   "ipo",
+   "agents"
+  ]
+ },
+ {
+  "id": "1177dfbd92c1",
+  "title": "[AINews] Anthropic successfully completes largest IPO in history, valued at $1.5T",
+  "url": "https://latent.space/p/ainews-anthropic-successfully-completes-largest-ipo-in-history-valued-at-1-5t/",
+  "source": "Latent Space",
+  "source_id": "latent-space",
+  "group": "ai",
+  "kind": "newsletter",
+  "published": "2026-11-20T07:12:24+00:00",
+  "summary": "Latent Space covers Anthropic's record $81.3B IPO, priced at $83 and closing the first day up 17 percent. A key market event that shapes AI vendor strength and pricing.",
+  "category": "AI Industry",
+  "importance": 3,
+  "tags": [
+   "anthropic",
+   "ipo",
+   "market"
+  ]
+ },
+ {
+  "id": "d23cd7e9b4c1",
+  "title": "Predictive Analytics with SAP and Snowflake: Use Cases",
+  "url": "https://www.snowflake.com/content/snowflake-site/global/en/blog/sap-snowflake-predictive-analytics",
+  "source": "Snowflake",
+  "source_id": "snowflake",
+  "group": "data",
+  "kind": "blog",
+  "published": "2026-11-20T00:00:00-08:00",
+  "summary": "Snowflake describes forecasting use cases that combine SAP data with sensor and weather data. Vendor use-case piece.",
+  "category": "Data Engineering",
+  "importance": 1,
+  "tags": [
+   "snowflake",
+   "sap",
+   "forecasting"
+  ]
+ }
+]

@@ -1,0 +1,523 @@
+{
+  "feeds": [
+    {
+      "id": "startree",
+      "name": "StarTree",
+      "group": "data",
+      "kind": "blog",
+      "url": "https://startree.ai/feed/"
+    },
+    {
+      "id": "databricks",
+      "name": "Databricks",
+      "group": "data",
+      "kind": "blog",
+      "url": "https://www.databricks.com/feed"
+    },
+    {
+      "id": "snowflake",
+      "name": "Snowflake",
+      "group": "data",
+      "kind": "blog",
+      "url": "https://www.snowflake.com/feed/"
+    },
+    {
+      "id": "confluent",
+      "name": "Confluent",
+      "group": "data",
+      "kind": "blog",
+      "url": "https://www.confluent.io/rss.xml"
+    },
+    {
+      "id": "clickhouse",
+      "name": "ClickHouse",
+      "group": "data",
+      "kind": "blog",
+      "url": "https://clickhouse.com/rss.xml"
+    },
+    {
+      "id": "imply",
+      "name": "Imply",
+      "group": "data",
+      "kind": "blog",
+      "url": "https://imply.io/feed/"
+    },
+    {
+      "id": "tinybird",
+      "name": "Tinybird",
+      "group": "data",
+      "kind": "blog",
+      "url": "https://www.tinybird.co/blog-posts/rss.xml"
+    },
+    {
+      "id": "motherduck",
+      "name": "MotherDuck",
+      "group": "data",
+      "kind": "blog",
+      "url": "https://motherduck.com/rss.xml"
+    },
+    {
+      "id": "duckdb",
+      "name": "DuckDB",
+      "group": "data",
+      "kind": "blog",
+      "url": "https://duckdb.org/feed.xml"
+    },
+    {
+      "id": "dbt",
+      "name": "dbt Labs",
+      "group": "data",
+      "kind": "blog",
+      "url": "https://www.getdbt.com/blog/rss.xml"
+    },
+    {
+      "id": "aws-bigdata",
+      "name": "AWS Big Data",
+      "group": "data",
+      "kind": "blog",
+      "url": "https://aws.amazon.com/blogs/big-data/feed/"
+    },
+    {
+      "id": "gcp-data",
+      "name": "Google Cloud Data Analytics",
+      "group": "data",
+      "kind": "blog",
+      "url": "https://cloudblog.withgoogle.com/products/data-analytics/rss/"
+    },
+    {
+      "id": "netflix",
+      "name": "Netflix Tech Blog",
+      "group": "eng",
+      "kind": "blog",
+      "url": "https://netflixtechblog.com/feed"
+    },
+    {
+      "id": "airbnb",
+      "name": "Airbnb Engineering",
+      "group": "eng",
+      "kind": "blog",
+      "url": "https://medium.com/feed/airbnb-engineering"
+    },
+    {
+      "id": "meta-eng",
+      "name": "Meta Engineering",
+      "group": "eng",
+      "kind": "blog",
+      "url": "https://engineering.fb.com/feed/"
+    },
+    {
+      "id": "pinterest",
+      "name": "Pinterest Engineering",
+      "group": "eng",
+      "kind": "blog",
+      "url": "https://medium.com/feed/pinterest-engineering"
+    },
+    {
+      "id": "stripe",
+      "name": "Stripe",
+      "group": "eng",
+      "kind": "blog",
+      "url": "https://stripe.com/blog/feed.rss"
+    },
+    {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "group": "eng",
+      "kind": "blog",
+      "url": "https://blog.cloudflare.com/rss/"
+    },
+    {
+      "id": "openai",
+      "name": "OpenAI",
+      "group": "ai",
+      "kind": "blog",
+      "url": "https://openai.com/news/rss.xml"
+    },
+    {
+      "id": "deepmind",
+      "name": "Google DeepMind",
+      "group": "ai",
+      "kind": "blog",
+      "url": "https://deepmind.google/blog/rss.xml"
+    },
+    {
+      "id": "huggingface",
+      "name": "Hugging Face",
+      "group": "ai",
+      "kind": "blog",
+      "url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "id": "mistral",
+      "name": "Mistral AI",
+      "group": "ai",
+      "kind": "blog",
+      "url": "https://mistral.ai/news/rss"
+    },
+    {
+      "id": "materialized-view",
+      "name": "Materialized View (Chris Riccomini)",
+      "group": "data",
+      "kind": "newsletter",
+      "url": "https://materializedview.io/feed"
+    },
+    {
+      "id": "benn",
+      "name": "benn.substack",
+      "group": "data",
+      "kind": "newsletter",
+      "url": "https://benn.substack.com/feed"
+    },
+    {
+      "id": "joe-reis",
+      "name": "Joe Reis",
+      "group": "data",
+      "kind": "newsletter",
+      "url": "https://joereis.substack.com/feed"
+    },
+    {
+      "id": "data-products",
+      "name": "Data Products (Chad Sanderson)",
+      "group": "data",
+      "kind": "newsletter",
+      "url": "https://dataproducts.substack.com/feed"
+    },
+    {
+      "id": "dew",
+      "name": "Data Engineering Weekly",
+      "group": "data",
+      "kind": "newsletter",
+      "url": "https://www.dataengineeringweekly.com/feed"
+    },
+    {
+      "id": "ae-roundup",
+      "name": "Analytics Engineering Roundup",
+      "group": "data",
+      "kind": "newsletter",
+      "url": "https://roundup.getdbt.com/feed"
+    },
+    {
+      "id": "dataexpert",
+      "name": "DataExpert (Zach Wilson)",
+      "group": "data",
+      "kind": "newsletter",
+      "url": "https://blog.dataexpert.io/feed"
+    },
+    {
+      "id": "streaming-journal",
+      "name": "Data Streaming Journal (Yaroslav Tkachenko)",
+      "group": "data",
+      "kind": "newsletter",
+      "url": "https://www.streamingdata.tech/feed"
+    },
+    {
+      "id": "clouded-judgement",
+      "name": "Clouded Judgement (Jamin Ball)",
+      "group": "data",
+      "kind": "newsletter",
+      "url": "https://cloudedjudgement.substack.com/feed"
+    },
+    {
+      "id": "de-central",
+      "name": "Data Engineering Central",
+      "group": "data",
+      "kind": "newsletter",
+      "url": "https://dataengineeringcentral.substack.com/feed"
+    },
+    {
+      "id": "seattle-data-guy",
+      "name": "SeattleDataGuy",
+      "group": "data",
+      "kind": "newsletter",
+      "url": "https://seattledataguy.substack.com/feed"
+    },
+    {
+      "id": "morling",
+      "name": "Gunnar Morling",
+      "group": "data",
+      "kind": "blog",
+      "url": "https://www.morling.dev/index.xml"
+    },
+    {
+      "id": "vanlightly",
+      "name": "Jack Vanlightly",
+      "group": "data",
+      "kind": "blog",
+      "url": "https://jack-vanlightly.com/blog?format=rss"
+    },
+    {
+      "id": "kai-waehner",
+      "name": "Kai Waehner",
+      "group": "data",
+      "kind": "blog",
+      "url": "https://www.kai-waehner.de/feed/"
+    },
+    {
+      "id": "rmoff",
+      "name": "Robin Moffatt",
+      "group": "data",
+      "kind": "blog",
+      "url": "https://rmoff.net/index.xml"
+    },
+    {
+      "id": "tunguz",
+      "name": "Tomasz Tunguz",
+      "group": "data",
+      "kind": "blog",
+      "url": "https://tomtunguz.com/index.xml"
+    },
+    {
+      "id": "murat",
+      "name": "Murat Demirbas",
+      "group": "eng",
+      "kind": "blog",
+      "url": "https://muratbuffalo.blogspot.com/feeds/posts/default"
+    },
+    {
+      "id": "eatonphil",
+      "name": "Phil Eaton",
+      "group": "eng",
+      "kind": "blog",
+      "url": "https://notes.eatonphil.com/rss.xml"
+    },
+    {
+      "id": "brooker",
+      "name": "Marc Brooker",
+      "group": "eng",
+      "kind": "blog",
+      "url": "https://brooker.co.za/blog/rss.xml"
+    },
+    {
+      "id": "simonw",
+      "name": "Simon Willison",
+      "group": "ai",
+      "kind": "blog",
+      "url": "https://simonwillison.net/atom/everything/"
+    },
+    {
+      "id": "one-useful-thing",
+      "name": "One Useful Thing (Ethan Mollick)",
+      "group": "ai",
+      "kind": "newsletter",
+      "url": "https://www.oneusefulthing.org/feed"
+    },
+    {
+      "id": "interconnects",
+      "name": "Interconnects (Nathan Lambert)",
+      "group": "ai",
+      "kind": "newsletter",
+      "url": "https://www.interconnects.ai/feed"
+    },
+    {
+      "id": "latent-space",
+      "name": "Latent Space",
+      "group": "ai",
+      "kind": "newsletter",
+      "url": "https://www.latent.space/feed"
+    },
+    {
+      "id": "import-ai",
+      "name": "Import AI (Jack Clark)",
+      "group": "ai",
+      "kind": "newsletter",
+      "url": "https://importai.substack.com/feed"
+    },
+    {
+      "id": "ahead-of-ai",
+      "name": "Ahead of AI (Sebastian Raschka)",
+      "group": "ai",
+      "kind": "newsletter",
+      "url": "https://magazine.sebastianraschka.com/feed"
+    },
+    {
+      "id": "chip-huyen",
+      "name": "Chip Huyen",
+      "group": "ai",
+      "kind": "blog",
+      "url": "https://huyenchip.com/feed.xml"
+    },
+    {
+      "id": "eugene-yan",
+      "name": "Eugene Yan",
+      "group": "ai",
+      "kind": "blog",
+      "url": "https://eugeneyan.com/rss/"
+    },
+    {
+      "id": "hamel",
+      "name": "Hamel Husain",
+      "group": "ai",
+      "kind": "blog",
+      "url": "https://hamel.dev/index.xml"
+    },
+    {
+      "id": "lilian-weng",
+      "name": "Lilian Weng",
+      "group": "ai",
+      "kind": "blog",
+      "url": "https://lilianweng.github.io/index.xml"
+    },
+    {
+      "id": "lenny",
+      "name": "Lenny's Newsletter",
+      "group": "pm",
+      "kind": "newsletter",
+      "url": "https://www.lennysnewsletter.com/feed"
+    },
+    {
+      "id": "pragmatic-engineer",
+      "name": "The Pragmatic Engineer",
+      "group": "pm",
+      "kind": "newsletter",
+      "url": "https://newsletter.pragmaticengineer.com/feed"
+    },
+    {
+      "id": "elena-verna",
+      "name": "Elena's Growth Scoop",
+      "group": "pm",
+      "kind": "newsletter",
+      "url": "https://www.elenaverna.com/feed"
+    },
+    {
+      "id": "product-growth",
+      "name": "Product Growth (Aakash Gupta)",
+      "group": "pm",
+      "kind": "newsletter",
+      "url": "https://www.news.aakashg.com/feed"
+    },
+    {
+      "id": "not-boring",
+      "name": "Not Boring (Packy McCormick)",
+      "group": "pm",
+      "kind": "newsletter",
+      "url": "https://www.notboring.co/feed"
+    },
+    {
+      "id": "product-compass",
+      "name": "The Product Compass (Paweł Huryn)",
+      "group": "pm",
+      "kind": "newsletter",
+      "url": "https://www.productcompass.pm/feed"
+    },
+    {
+      "id": "beautiful-mess",
+      "name": "The Beautiful Mess (John Cutler)",
+      "group": "pm",
+      "kind": "newsletter",
+      "url": "https://cutlefish.substack.com/feed"
+    },
+    {
+      "id": "svpg",
+      "name": "SVPG (Marty Cagan)",
+      "group": "pm",
+      "kind": "blog",
+      "url": "https://www.svpg.com/feed/"
+    },
+    {
+      "id": "product-talk",
+      "name": "Product Talk (Teresa Torres)",
+      "group": "pm",
+      "kind": "blog",
+      "url": "https://www.producttalk.org/feed/"
+    },
+    {
+      "id": "mironov",
+      "name": "Rich Mironov",
+      "group": "pm",
+      "kind": "blog",
+      "url": "https://www.mironov.com/rss/"
+    },
+    {
+      "id": "lobsters",
+      "name": "Lobsters",
+      "group": "community",
+      "kind": "community",
+      "url": "https://lobste.rs/t/databases,distributed,ai,ml,performance,scaling.rss"
+    }
+  ],
+  "pages": [
+    {
+      "id": "anthropic",
+      "name": "Anthropic",
+      "group": "ai",
+      "kind": "blog",
+      "url": "https://www.anthropic.com/news",
+      "pattern": "^/news/[a-z0-9-]+$",
+      "base": "https://www.anthropic.com"
+    },
+    {
+      "id": "meta-ai",
+      "name": "Meta AI",
+      "group": "ai",
+      "kind": "blog",
+      "url": "https://ai.meta.com/blog/",
+      "pattern": "^https://ai\\.meta\\.com/blog/[a-z0-9-]+/$",
+      "base": ""
+    },
+    {
+      "id": "the-batch",
+      "name": "The Batch (DeepLearning.AI)",
+      "group": "ai",
+      "kind": "newsletter",
+      "url": "https://www.deeplearning.ai/the-batch/",
+      "pattern": "^/the-batch/issue-\\d+/?$",
+      "base": "https://www.deeplearning.ai"
+    }
+  ],
+  "hackernews": {
+    "min_points": 100,
+    "keywords": [
+      "database",
+      "olap",
+      "analytics",
+      "real-time",
+      "realtime",
+      "streaming",
+      "kafka",
+      "flink",
+      "pinot",
+      "druid",
+      "clickhouse",
+      "duckdb",
+      "postgres",
+      "sqlite",
+      "iceberg",
+      "delta lake",
+      "lakehouse",
+      "parquet",
+      "arrow",
+      "data engineering",
+      "data warehouse",
+      "snowflake",
+      "databricks",
+      "query",
+      "sql",
+      "index",
+      "distributed",
+      "consensus",
+      "llm",
+      "gpt",
+      "claude",
+      "anthropic",
+      "openai",
+      "gemini",
+      "agent",
+      "rag",
+      "embedding",
+      "inference",
+      "model",
+      "ai ",
+      "product manager",
+      "product management",
+      "pricing",
+      "saas",
+      "startup"
+    ]
+  },
+  "email_only": [
+    "Growth Unhinged (Kyle Poyar)",
+    "Stratechery (free weekly)",
+    "Blind digests",
+    "Saved links sent to the +reading address"
+  ]
+}

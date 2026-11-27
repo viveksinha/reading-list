@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Reading List</title>
+<meta name="description" content="A daily, scored digest of data infrastructure, AI and product management writing.">
+<meta name="theme-color" content="#f7f5f0" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#16171a" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%232f6f5e'/><path d='M9 8h10a4 4 0 0 1 4 4v12H13a4 4 0 0 1-4-4z' fill='%23fff'/></svg>">
+<script>
+  // Apply saved reader settings before first paint to avoid a flash.
+  (function () {
+    try {
+      var p = JSON.parse(localStorage.getItem("rl.prefs") || "{}");
+      var d = document.documentElement;
+      if (p.theme && p.theme !== "system") d.dataset.theme = p.theme;
+      d.dataset.size = p.size || "m";
+      d.dataset.font = p.font || "sans";
+      d.dataset.density = p.density || "comfortable";
+    } catch (e) {}
+  })();
+</script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#list">Skip to articles</a>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="./" aria-label="Reading List home">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="7"/><path d="M9 8h10a4 4 0 0 1 4 4v12H13a4 4 0 0 1-4-4z"/></svg>
+      <span>Reading List</span>
+    </a>
+    <label class="search">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      <input id="q" type="search" placeholder="Search titles, summaries, tags" autocomplete="off" aria-label="Search">
+    </label>
+    <button class="icon-btn only-mobile" id="openFilters" aria-label="Filters" aria-haspopup="dialog">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M7 12h10M10 18h4"/></svg>
+      <span class="badge" id="filterBadge" hidden></span>
+    </button>
+    <button class="icon-btn" id="openSettings" aria-label="Reading settings" aria-haspopup="dialog">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 19 9.5 5h1L16 19M6.2 14h7.6"/><path d="M17 19l2.5-6.5h.5L22.5 19M18 17h4"/></svg>
+    </button>
+  </div>
+</header>
+
+<div class="layout">
+  <aside class="filters" id="filters" aria-label="Filters">
+    <div class="sheet-head only-mobile">
+      <h2>Filters</h2>
+      <button class="link-btn" id="resetFilters">Reset</button>
+    </div>
+    <section>
+      <h3>Importance</h3>
+      <div class="seg" data-filter="importance" role="group" aria-label="Importance">
+        <button data-v="3">Must read</button>
+        <button data-v="2">Worth it</button>
+        <button data-v="1">All</button>
+      </div>
+    </section>
+    <section>
+      <h3>When</h3>
+      <div class="seg" data-filter="when" role="group" aria-label="Time range">
+        <button data-v="7">7 days</button>
+        <button data-v="30">30 days</button>
+        <button data-v="all">All time</button>
+      </div>
+    </section>
+    <section>
+      <h3>Show</h3>
+      <div class="seg" data-filter="show" role="group" aria-label="Read state">
+        <button data-v="all">All</button>
+        <button data-v="unread">Unread</button>
+        <button data-v="starred">Starred</button>
+      </div>
+    </section>
+    <section>
+      <h3>Type</h3>
+      <div class="chips" id="kindChips"></div>
+    </section>
+    <section>
+      <h3>Category</h3>
+      <div class="chips" id="catChips"></div>
+    </section>
+    <section>
+      <h3>Sort</h3>
+      <div class="seg" data-filter="sort" role="group" aria-label="Sort">
+        <button data-v="new">Newest</button>
+        <button data-v="imp">Most important</button>
+      </div>
+    </section>
+    <div class="sheet-foot only-mobile">
+      <button class="primary-btn" id="closeFilters">Show results</button>
+    </div>
+  </aside>
+
+  <main id="list" tabindex="-1">
+    <div class="list-head">
+      <p id="count" aria-live="polite"></p>
+      <button class="link-btn desktop-only" id="resetFilters2">Reset filters</button>
+    </div>
+    <div id="items"></div>
+    <footer class="foot">
+      <p id="updated"></p>
+      <p>Summaries are machine-written; follow the link for the original. <a href="https://github.com/viveksinha/reading-list">Source</a></p>
+    </footer>
+  </main>
+</div>
+
+<div class="scrim" id="scrim" hidden></div>
+
+<div class="settings" id="settings" role="dialog" aria-modal="true" aria-labelledby="settingsTitle" hidden>
+  <div class="sheet-head">
+    <h2 id="settingsTitle">Reading settings</h2>
+    <button class="icon-btn" id="closeSettings" aria-label="Close settings">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
+    </button>
+  </div>
+  <section>
+    <h3>Theme</h3>
+    <div class="seg" data-pref="theme" role="group" aria-label="Theme">
+      <button data-v="system">System</button>
+      <button data-v="light">Light</button>
+      <button data-v="dark">Dark</button>
+    </div>
+  </section>
+  <section>
+    <h3>Text size</h3>
+    <div class="seg" data-pref="size" role="group" aria-label="Text size">
+      <button data-v="s" style="font-size:.8rem">A</button>
+      <button data-v="m" style="font-size:.95rem">A</button>
+      <button data-v="l" style="font-size:1.1rem">A</button>
+      <button data-v="xl" style="font-size:1.25rem">A</button>
+    </div>
+  </section>
+  <section>
+    <h3>Font</h3>
+    <div class="seg" data-pref="font" role="group" aria-label="Font">
+      <button data-v="sans" class="f-sans">Sans</button>
+      <button data-v="serif" class="f-serif">Serif</button>
+    </div>
+  </section>
+  <section>
+    <h3>Spacing</h3>
+    <div class="seg" data-pref="density" role="group" aria-label="Spacing">
+      <button data-v="comfortable">Comfortable</button>
+      <button data-v="compact">Compact</button>
+    </div>
+  </section>
+  <p class="hint">Saved on this device only.</p>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
