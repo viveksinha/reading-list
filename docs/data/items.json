@@ -1,5 +1,23 @@
 [
  {
+  "id": "25c96fa5a216",
+  "title": "Anthropic prices initial public offering",
+  "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+  "source": "Anthropic",
+  "source_id": "anthropic",
+  "group": "ai",
+  "kind": "blog",
+  "published": "2026-11-27T05:41:29+00:00",
+  "summary": "Anthropic has priced its IPO of Class A common stock, a landmark capital-markets event for a frontier AI lab. It signals how much money and scrutiny now surround the AI platform vendors your product integrates with.",
+  "category": "AI Industry",
+  "importance": 3,
+  "tags": [
+   "anthropic",
+   "ipo",
+   "funding"
+  ]
+ },
+ {
   "id": "08e9aa519f83",
   "title": "Introducing Muse Spark 1.1",
   "url": "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/",
@@ -447,6 +465,59 @@
   ]
  },
  {
+  "id": "f4e4840a9f08",
+  "title": "The pretendian wars",
+  "url": "https://aeon.co/essays/falsely-claiming-indigenous-identity-is-a-grave-form-of-theft",
+  "source": "Aeon",
+  "source_id": "aeon",
+  "group": "ideas",
+  "kind": "blog",
+  "published": "2026-11-26T11:00:00+00:00",
+  "summary": "Argues that falsely claiming Indigenous identity is a serious theft of belonging and resources, not a harmless mistake. A thoughtful essay on identity, authenticity and who gets to claim a heritage.",
+  "category": "Philosophy & Ideas",
+  "importance": 2,
+  "tags": [
+   "identity",
+   "ethics",
+   "society"
+  ]
+ },
+ {
+  "id": "abfcb376bbab",
+  "title": "What exile was like for the first people called ‘refugees’",
+  "url": "https://psyche.co/ideas/what-exile-was-like-for-the-first-people-called-refugees",
+  "source": "Psyche",
+  "source_id": "psyche",
+  "group": "ideas",
+  "kind": "blog",
+  "published": "2026-11-26T11:00:00+00:00",
+  "summary": "Uses the memoirs of exiled French Huguenots to show what being a refugee felt like in the 17th century. A historical lens on displacement, belonging and loss.",
+  "category": "Philosophy & Ideas",
+  "importance": 1,
+  "tags": [
+   "history",
+   "exile",
+   "identity"
+  ]
+ },
+ {
+  "id": "21481b3fb89d",
+  "title": "There and back",
+  "url": "https://psyche.co/notes-to-self/im-moving-back-where-i-grew-up-i-know-it-wont-be-the-same",
+  "source": "Psyche",
+  "source_id": "psyche",
+  "group": "ideas",
+  "kind": "blog",
+  "published": "2026-11-26T11:00:00+00:00",
+  "summary": "A short personal note on moving back to a childhood home and how memory reshapes a lost place. Light reflection on longing and nostalgia.",
+  "category": "Philosophy & Ideas",
+  "importance": 1,
+  "tags": [
+   "memory",
+   "home"
+  ]
+ },
+ {
   "id": "6f6a6b07f17a",
   "title": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email",
   "url": "https://techstackups.com/articles/google-workspace-ai-agents-mcp/",
@@ -538,6 +609,24 @@
   ]
  },
  {
+  "id": "4faaa3acd738",
+  "title": "The New York Times warns photographers not to update Photoshop over AI features",
+  "url": "https://simonwillison.net/2026/Nov/26/hn-50651685/",
+  "source": "Simon Willison",
+  "source_id": "simonw",
+  "group": "ai",
+  "kind": "blog",
+  "published": "2026-11-26T05:08:46+00:00",
+  "summary": "Simon Willison comments on a report that the New York Times warned photographers against updating Photoshop because of new AI features. A small signal of user backlash when AI is bolted onto existing products.",
+  "category": "AI Industry",
+  "importance": 1,
+  "tags": [
+   "adobe",
+   "ai-backlash",
+   "products"
+  ]
+ },
+ {
   "id": "d3aa48daa62d",
   "title": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference",
   "url": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
@@ -573,6 +662,42 @@
   ],
   "discussion_url": "https://news.ycombinator.com/item?id=50651117",
   "points": 475
+ },
+ {
+  "id": "23df49456422",
+  "title": "Minipg: PostgreSQL as a Single Executable",
+  "url": "https://progrium.github.io/minipg/",
+  "source": "Hacker News",
+  "source_id": "hackernews",
+  "group": "community",
+  "kind": "community",
+  "published": "2026-11-26T03:00:48+00:00",
+  "summary": "Minipg packages PostgreSQL as one self-contained executable, making it trivial to run and embed. Interesting for simple dev and test setups, but peripheral to real-time analytics.",
+  "category": "Databases & Systems",
+  "importance": 1,
+  "tags": [
+   "postgres",
+   "tooling"
+  ],
+  "discussion_url": "https://news.ycombinator.com/item?id=50650892",
+  "points": 291
+ },
+ {
+  "id": "137c64b2d0d9",
+  "title": "How to Love the World More: Artist and Poet Rachel Hébert’s Breathtaking Catalogue of Gratitudes",
+  "url": "https://www.themarginalian.org/2026/11/25/rachel-hebert-thanks/",
+  "source": "The Marginalian (Maria Popova)",
+  "source_id": "marginalian",
+  "group": "ideas",
+  "kind": "blog",
+  "published": "2026-11-26T02:29:10+00:00",
+  "summary": "The Marginalian presents Rachel Hébert's illustrated catalogue of gratitudes, reflecting on the improbability of being alive. A gentle, contemplative piece.",
+  "category": "Philosophy & Ideas",
+  "importance": 1,
+  "tags": [
+   "gratitude",
+   "art"
+  ]
  },
  {
   "id": "e0f082ca4fd4",
@@ -628,6 +753,24 @@
   ]
  },
  {
+  "id": "f0cbca428972",
+  "title": "The Paradox of “Finding Yourself”",
+  "url": "https://www.themarginalian.org/2026/11/25/robert-penn-warren-democracy-poetry-finding-yourself/",
+  "source": "The Marginalian (Maria Popova)",
+  "source_id": "marginalian",
+  "group": "ideas",
+  "kind": "blog",
+  "published": "2026-11-25T23:15:57+00:00",
+  "summary": "Draws on Robert Penn Warren to argue the self is a continually revised style of being rather than something you find. A reflective essay on identity and growth.",
+  "category": "Philosophy & Ideas",
+  "importance": 2,
+  "tags": [
+   "self",
+   "identity",
+   "poetry"
+  ]
+ },
+ {
   "id": "c7e5de5fee49",
   "title": "The Revolution vs The Renaissance — Thariq Shihipar, OpenAI",
   "url": "https://latent.space/p/the_revolution_vs_the_renaissance_thariq_shihipar_openai/",
@@ -661,6 +804,24 @@
    "math",
    "openai",
    "proofs"
+  ]
+ },
+ {
+  "id": "d6a138330fba",
+  "title": "Anima, Bicameral",
+  "url": "https://www.astralcodexten.com/p/anima-bicameral",
+  "source": "Astral Codex Ten",
+  "source_id": "acx",
+  "group": "ideas",
+  "kind": "newsletter",
+  "published": "2026-11-25T21:20:38+00:00",
+  "summary": "Scott Alexander profiles two grant recipients from the Lightcone Commons round that he finds brilliant and quixotic, and contrasts them. Gives a view into how the rationalist and AI-safety funding world picks bets.",
+  "category": "AI Industry",
+  "importance": 1,
+  "tags": [
+   "grants",
+   "ai-safety",
+   "rationalism"
   ]
  },
  {
@@ -792,6 +953,24 @@
   ]
  },
  {
+  "id": "e4828c4fc469",
+  "title": "Alone-together in Karachi",
+  "url": "https://psyche.co/turning-points/the-streets-of-karachi-scared-me-less-than-home-did",
+  "source": "Psyche",
+  "source_id": "psyche",
+  "group": "ideas",
+  "kind": "blog",
+  "published": "2026-11-25T11:00:00+00:00",
+  "summary": "A Pakistani woman recounts renting her own apartment in Karachi with a friend instead of moving from father's house to husband's. A personal story about autonomy and what home means.",
+  "category": "Philosophy & Ideas",
+  "importance": 1,
+  "tags": [
+   "autonomy",
+   "gender",
+   "home"
+  ]
+ },
+ {
   "id": "d0a3a7f662b5",
   "title": "An Indic Voice Agent with CUGA",
   "url": "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga",
@@ -846,6 +1025,26 @@
   ]
  },
  {
+  "id": "dc30af1becdb",
+  "title": "Top open problems in mathematics ranked by LLM-assessed importance",
+  "url": "https://www.proofatlas.ai/open-problems/",
+  "source": "Hacker News",
+  "source_id": "hackernews",
+  "group": "community",
+  "kind": "community",
+  "published": "2026-11-25T03:01:36+00:00",
+  "summary": "ProofAtlas ranks the top 500 open math problems by LLM-assessed importance, with exact statements and status notes. Interesting as an example of using models for judgment calls, though far from your core work.",
+  "category": "AI Models & Research",
+  "importance": 1,
+  "tags": [
+   "math",
+   "llm",
+   "benchmarks"
+  ],
+  "discussion_url": "https://news.ycombinator.com/item?id=50637871",
+  "points": 105
+ },
+ {
   "id": "c89d4bfb36a9",
   "title": "Models Can Communicate via Inference Servers Despite Being Sandboxed",
   "url": "https://www.lesswrong.com/posts/7wzWuLP3HhyBLmKfo/models-can-communicate-via-inference-servers-despite-being",
@@ -864,6 +1063,26 @@
   ],
   "discussion_url": "https://news.ycombinator.com/item?id=50637686",
   "points": 465
+ },
+ {
+  "id": "a58808d0bc10",
+  "title": "PenGPT: A Generative Transformer for Handwriting and Sketches",
+  "url": "https://greydanus.github.io/2026/11/12/pengpt/",
+  "source": "Hacker News",
+  "source_id": "hackernews",
+  "group": "community",
+  "kind": "community",
+  "published": "2026-11-25T00:54:49+00:00",
+  "summary": "PenGPT is a generative transformer that produces handwriting and sketches as pen strokes. A neat research demo of sequence models on non-text data.",
+  "category": "AI Models & Research",
+  "importance": 1,
+  "tags": [
+   "transformers",
+   "generative",
+   "research"
+  ],
+  "discussion_url": "https://news.ycombinator.com/item?id=50637056",
+  "points": 406
  },
  {
   "id": "fa8097569f7c",
@@ -952,6 +1171,59 @@
    "coding-agents",
    "llm",
    "inflection"
+  ]
+ },
+ {
+  "id": "01140b05e4d0",
+  "title": "Silence and Love",
+  "url": "https://www.themarginalian.org/2026/11/24/silence-and-love/",
+  "source": "The Marginalian (Maria Popova)",
+  "source_id": "marginalian",
+  "group": "ideas",
+  "kind": "blog",
+  "published": "2026-11-24T22:02:53+00:00",
+  "summary": "Reflects on how silence gives music its shape and ties that to love and feeling alive. A short lyrical essay.",
+  "category": "Philosophy & Ideas",
+  "importance": 1,
+  "tags": [
+   "music",
+   "silence"
+  ]
+ },
+ {
+  "id": "4105b6529962",
+  "title": "How to Touch the Nothingness Behind Everything: Kahlil Gibran on the Seven Selves",
+  "url": "https://www.themarginalian.org/2026/11/24/the-seven-selves-kahlil-gibran/",
+  "source": "The Marginalian (Maria Popova)",
+  "source_id": "marginalian",
+  "group": "ideas",
+  "kind": "blog",
+  "published": "2026-11-24T22:01:31+00:00",
+  "summary": "Explores Kahlil Gibran's idea of the seven selves and the nothingness behind them. A contemplative take on the plurality of the self.",
+  "category": "Philosophy & Ideas",
+  "importance": 1,
+  "tags": [
+   "self",
+   "gibran",
+   "mind"
+  ]
+ },
+ {
+  "id": "3c8900ad5c96",
+  "title": "Responding to objections to recursive self-improvement",
+  "url": "https://www.dwarkesh.com/p/rsiobjections",
+  "source": "Dwarkesh Patel",
+  "source_id": "dwarkesh",
+  "group": "ai",
+  "kind": "newsletter",
+  "published": "2026-11-24T21:45:30+00:00",
+  "summary": "Dwarkesh Patel answers objections to his argument that recursive self-improvement leads to superintelligence by 2030. A key voice on AI timelines, useful for judging where AI-on-data demand is heading.",
+  "category": "AI Industry",
+  "importance": 3,
+  "tags": [
+   "superintelligence",
+   "timelines",
+   "dwarkesh"
   ]
  },
  {
@@ -1079,6 +1351,23 @@
    "parquet",
    "java",
    "s3"
+  ]
+ },
+ {
+  "id": "0a51980ba760",
+  "title": "Everything I know about writing",
+  "url": "https://www.experimental-history.com/p/everything-i-know-about-writing",
+  "source": "Experimental History (Adam Mastroianni)",
+  "source_id": "experimental-history",
+  "group": "ideas",
+  "kind": "newsletter",
+  "published": "2026-11-24T17:18:25+00:00",
+  "summary": "Adam Mastroianni distills what he has learned about writing, opening with an ants-versus-humans experiment. Practical advice on clear thinking and prose that applies to PM and strategy docs.",
+  "category": "Philosophy & Ideas",
+  "importance": 2,
+  "tags": [
+   "writing",
+   "thinking"
   ]
  },
  {
@@ -1212,6 +1501,24 @@
    "snowflake",
    "healthcare",
    "fhir"
+  ]
+ },
+ {
+  "id": "360f4418c875",
+  "title": "Mommy Magic Show",
+  "url": "https://thepointmag.com/examined-life/mommy-magic-show/",
+  "source": "The Point",
+  "source_id": "the-point",
+  "group": "ideas",
+  "kind": "blog",
+  "published": "2026-11-24T14:00:47+00:00",
+  "summary": "A look at Theranos's earliest days as Real-Time Cures, drawing on John Carreyrou's reporting, including small telling details like misprinted paychecks. A cautionary story about hype and self-deception in startups.",
+  "category": "Strategy & Markets",
+  "importance": 1,
+  "tags": [
+   "theranos",
+   "startups",
+   "fraud"
   ]
  },
  {
@@ -1360,6 +1667,42 @@
    "openai",
    "astronomy",
    "case-study"
+  ]
+ },
+ {
+  "id": "7afaa8128bf8",
+  "title": "Is mental illness universal?",
+  "url": "https://aeon.co/essays/are-mental-illnesses-universal-or-are-they-culturally-specific",
+  "source": "Aeon",
+  "source_id": "aeon",
+  "group": "ideas",
+  "kind": "blog",
+  "published": "2026-11-24T11:00:00+00:00",
+  "summary": "Asks whether mental illnesses are universal or shaped by culture, surveying how diagnosis varies across societies. Raises useful questions about how we define and measure mind.",
+  "category": "Philosophy & Ideas",
+  "importance": 2,
+  "tags": [
+   "psychiatry",
+   "culture",
+   "mind"
+  ]
+ },
+ {
+  "id": "312f55b632b2",
+  "title": "Feeling at home in a new country makes you a stranger in the old",
+  "url": "https://psyche.co/ideas/feeling-at-home-in-a-new-country-makes-you-a-stranger-in-the-old",
+  "source": "Psyche",
+  "source_id": "psyche",
+  "group": "ideas",
+  "kind": "blog",
+  "published": "2026-11-24T11:00:00+00:00",
+  "summary": "A writer reflects on nine years in Berlin turning a short stay into a new home, and how that left them a stranger to their old one. A personal essay on belonging.",
+  "category": "Philosophy & Ideas",
+  "importance": 1,
+  "tags": [
+   "migration",
+   "home",
+   "identity"
   ]
  },
  {
