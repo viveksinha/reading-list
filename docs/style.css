@@ -9,6 +9,7 @@
   --accent: #2f6f5e;
   --accent-soft: #dcebe5;
   --star: #b7791f;
+  --spark: #f6c560;
   --imp3: #b4462e;
   --imp2: #2f6f5e;
   --imp1: #a3a7ad;
@@ -26,13 +27,23 @@
   :root:not([data-theme="light"]) {
     --bg: #16171a; --surface: #1f2125; --surface-2: #2a2d32; --text: #e9e7e2; --muted: #a9adb3;
     --faint: #7d828a; --border: #33363c; --accent: #7cc4ad; --accent-soft: #233a33; --star: #e0b25a;
-    --imp3: #ef8a6f; --imp2: #7cc4ad; --imp1: #6b7078; --shadow: none; color-scheme: dark;
+    --imp3: #ef8a6f; --imp2: #7cc4ad; --imp1: #6b7078; --spark: #c2410c; --shadow: none; color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
   --bg: #16171a; --surface: #1f2125; --surface-2: #2a2d32; --text: #e9e7e2; --muted: #a9adb3;
   --faint: #7d828a; --border: #33363c; --accent: #7cc4ad; --accent-soft: #233a33; --star: #e0b25a;
-  --imp3: #ef8a6f; --imp2: #7cc4ad; --imp1: #6b7078; --shadow: none; color-scheme: dark;
+  --imp3: #ef8a6f; --imp2: #7cc4ad; --imp1: #6b7078; --spark: #c2410c; --shadow: none; color-scheme: dark;
+}
+:root[data-theme="sepia"] {
+  --bg: #f3ead6; --surface: #fbf6ea; --surface-2: #ebe0c6; --text: #3a2e21; --muted: #6a5944;
+  --faint: #93826a; --border: #e0d2b2; --accent: #8a5a2b; --accent-soft: #efdcc0; --star: #b7791f;
+  --imp3: #b0452a; --imp2: #8a5a2b; --imp1: #b5a68b; color-scheme: light;
+}
+:root[data-theme="black"] {
+  --bg: #000000; --surface: #0e0f11; --surface-2: #1b1c1f; --text: #e8e6e1; --muted: #a2a6ac;
+  --faint: #767a81; --border: #24262a; --accent: #7cc4ad; --accent-soft: #1b2e28; --star: #e0b25a;
+  --imp3: #ef8a6f; --imp2: #7cc4ad; --imp1: #5d6168; --spark: #c2410c; --shadow: none; color-scheme: dark;
 }
 :root[data-size="s"] { --fs: 15px; }
 :root[data-size="m"] { --fs: 17px; }
@@ -68,6 +79,7 @@ svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width:
 .brand svg { width: 26px; height: 26px; stroke: none; }
 .brand svg rect { fill: var(--accent); }
 .brand svg path { fill: var(--bg); }
+.brand svg .spark { fill: var(--spark); }
 .search { flex: 1; display: flex; align-items: center; gap: 8px; background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 0 12px; min-width: 0; }
 .search svg { color: var(--faint); flex: none; width: 18px; height: 18px; }
 .search input { flex: 1; min-width: 0; border: 0; background: transparent; color: var(--text); font: inherit; font-size: .9rem; padding: 10px 0; outline: none; }

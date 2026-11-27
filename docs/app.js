@@ -10,11 +10,13 @@
 
   const KINDS = { newsletter: "Newsletters", blog: "Blogs", community: "HN & Lobsters", saved: "Saved" };
   const DEFAULT_FILTERS = { importance: "2", when: "30", show: "all", sort: "new", kinds: [], cats: [], q: "" };
-  const DEFAULT_PREFS = { theme: "system", size: "m", font: "sans", density: "comfortable" };
+  const DEFAULT_PREFS = { v: 2, theme: "sepia", size: "m", font: "sans", density: "comfortable" };
 
   let items = [];
   let filters = { ...DEFAULT_FILTERS, ...store.get("rl.filters", {}), q: "" };
-  let prefs = { ...DEFAULT_PREFS, ...store.get("rl.prefs", {}) };
+  const saved = store.get("rl.prefs", {});
+  if (saved.v !== 2) { delete saved.theme; saved.v = 2; } // Sepia became the default in v2
+  let prefs = { ...DEFAULT_PREFS, ...saved };
   const read = new Set(store.get("rl.read", []));
   const starred = new Set(store.get("rl.starred", []));
 
