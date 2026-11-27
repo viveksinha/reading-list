@@ -433,6 +433,153 @@
       "group": "community",
       "kind": "community",
       "url": "https://lobste.rs/t/databases,distributed,ai,ml,performance,scaling.rss"
+    },
+    {
+      "id": "karpathy",
+      "name": "Andrej Karpathy",
+      "group": "ai",
+      "kind": "blog",
+      "url": "https://karpathy.bearblog.dev/feed/"
+    },
+    {
+      "id": "sama",
+      "name": "Sam Altman",
+      "group": "ai",
+      "kind": "blog",
+      "url": "https://blog.samaltman.com/posts.atom"
+    },
+    {
+      "id": "dwarkesh",
+      "name": "Dwarkesh Patel",
+      "group": "ai",
+      "kind": "newsletter",
+      "url": "https://www.dwarkesh.com/feed"
+    },
+    {
+      "id": "jxnl",
+      "name": "Jason Liu",
+      "group": "ai",
+      "kind": "blog",
+      "url": "https://jxnl.co/feed_rss_created.xml"
+    },
+    {
+      "id": "fidji",
+      "name": "Fidji Simo",
+      "group": "ai",
+      "kind": "newsletter",
+      "url": "https://fidjisimo.substack.com/feed"
+    },
+    {
+      "id": "julie-zhuo",
+      "name": "The Looking Glass (Julie Zhuo)",
+      "group": "pm",
+      "kind": "newsletter",
+      "url": "https://lg.substack.com/feed"
+    },
+    {
+      "id": "shreyas",
+      "name": "Shreyas Doshi",
+      "group": "pm",
+      "kind": "newsletter",
+      "url": "https://shreyasdoshi.substack.com/feed"
+    },
+    {
+      "id": "andrew-chen",
+      "name": "Andrew Chen",
+      "group": "pm",
+      "kind": "newsletter",
+      "url": "https://andrewchen.substack.com/feed"
+    },
+    {
+      "id": "casey-winters",
+      "name": "Casey Winters",
+      "group": "pm",
+      "kind": "blog",
+      "url": "https://caseyaccidental.com/feed"
+    },
+    {
+      "id": "april-dunford",
+      "name": "April Dunford",
+      "group": "pm",
+      "kind": "newsletter",
+      "url": "https://aprildunford.substack.com/feed"
+    },
+    {
+      "id": "aeon",
+      "name": "Aeon",
+      "group": "ideas",
+      "kind": "blog",
+      "url": "https://aeon.co/feed.rss"
+    },
+    {
+      "id": "psyche",
+      "name": "Psyche",
+      "group": "ideas",
+      "kind": "blog",
+      "url": "https://psyche.co/feed"
+    },
+    {
+      "id": "noema",
+      "name": "Noema",
+      "group": "ideas",
+      "kind": "blog",
+      "url": "https://www.noemamag.com/feed/"
+    },
+    {
+      "id": "marginalian",
+      "name": "The Marginalian (Maria Popova)",
+      "group": "ideas",
+      "kind": "blog",
+      "url": "https://www.themarginalian.org/feed/"
+    },
+    {
+      "id": "the-point",
+      "name": "The Point",
+      "group": "ideas",
+      "kind": "blog",
+      "url": "https://thepointmag.com/feed/"
+    },
+    {
+      "id": "intrinsic-perspective",
+      "name": "The Intrinsic Perspective (Erik Hoel)",
+      "group": "ideas",
+      "kind": "newsletter",
+      "url": "https://www.theintrinsicperspective.com/feed"
+    },
+    {
+      "id": "good-thoughts",
+      "name": "Good Thoughts (Richard Y. Chappell)",
+      "group": "ideas",
+      "kind": "newsletter",
+      "url": "https://rychappell.substack.com/feed"
+    },
+    {
+      "id": "acx",
+      "name": "Astral Codex Ten",
+      "group": "ideas",
+      "kind": "newsletter",
+      "url": "https://www.astralcodexten.com/feed"
+    },
+    {
+      "id": "philosophy-bear",
+      "name": "Philosophy Bear",
+      "group": "ideas",
+      "kind": "newsletter",
+      "url": "https://philosophybear.substack.com/feed"
+    },
+    {
+      "id": "experimental-history",
+      "name": "Experimental History (Adam Mastroianni)",
+      "group": "ideas",
+      "kind": "newsletter",
+      "url": "https://experimentalhistory.substack.com/feed"
+    },
+    {
+      "id": "escaping-flatland",
+      "name": "Escaping Flatland (Henrik Karlsson)",
+      "group": "ideas",
+      "kind": "newsletter",
+      "url": "https://www.henrikkarlsson.xyz/feed"
     }
   ],
   "pages": [

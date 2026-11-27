@@ -17,7 +17,7 @@ from fetch import canon, item_id  # noqa: E402
 CATEGORIES = {
     "Real-time Analytics", "Streaming", "Lakehouse", "Data Engineering", "Databases & Systems",
     "AI Models & Research", "AI Engineering", "AI Industry", "Product Management",
-    "Growth & GTM", "Strategy & Markets", "Engineering Culture",
+    "Growth & GTM", "Strategy & Markets", "Engineering Culture", "Philosophy & Ideas",
 }
 KEEP = ("id", "title", "url", "source", "source_id", "group", "kind", "published",
         "summary", "category", "importance", "tags", "discussion_url", "points")

@@ -5,6 +5,7 @@ Their work touches: real-time OLAP, streaming ingestion (Kafka, Kinesis, Flink),
 open table formats (Iceberg, Delta, Hudi, Unity / Polaris / Glue catalogs), query performance,
 indexing, cloud data platform UX, and AI on top of data (agents, MCP, text-to-SQL, observability).
 They also care about product management craft, B2B SaaS growth and pricing, and where AI is heading.
+Outside work they read philosophy and big-idea essays (ethics, mind, meaning, science and society).
 
 ## Categories (pick exactly one)
 
@@ -22,6 +23,7 @@ They also care about product management craft, B2B SaaS growth and pricing, and 
 | Growth & GTM | pricing, PLG, marketing, sales, SaaS metrics |
 | Strategy & Markets | tech strategy, market analysis, cloud/SaaS market, competitive moves |
 | Engineering Culture | eng management, careers, org design, developer productivity |
+| Philosophy & Ideas | philosophy, ethics, mind and consciousness, meaning, history of ideas, essays on science and society |
 
 ## Importance (1-3)
 
@@ -33,13 +35,24 @@ They also care about product management craft, B2B SaaS growth and pricing, and 
 
 Vendor marketing posts default to 1 unless they announce something material.
 
+Philosophy & Ideas is scored on its own terms, not work relevance: a deep, original essay is 2,
+an exceptional one (or one on AI and mind/ethics) is 3; book reviews, news and light pieces are 1.
+
 ## People to watch
 
-Anything written by, or a substantial interview with, these people is importance 3:
+Original essays, talks and long interviews by these people are importance 3. Link posts, short
+notes and reposts from prolific writers (e.g. Simon Willison) keep normal scoring.
 
-- **Cat Wu** (product lead for Claude Code and Cowork at Anthropic; leads Core Products PM at OpenAI
-  from Nov 2026). No personal blog; her writing shows up on the OpenAI and Anthropic blogs, Simon
-  Willison's blog and PM podcasts/newsletters (Lenny, Every, Behind the Craft).
+**AI**
+- Cat Wu (Claude Code / Cowork product lead at Anthropic; Core Products PM lead at OpenAI from Nov 2026)
+- Andrej Karpathy, Sam Altman, Dario Amodei, Demis Hassabis, Ilya Sutskever
+- Mike Krieger, Kevin Weil, Fidji Simo, Boris Cherny (AI product leaders)
+- Simon Willison, Ethan Mollick, Nathan Lambert, Jack Clark, Dwarkesh Patel, swyx
+- Chip Huyen, Eugene Yan, Hamel Husain, Jason Liu, Lilian Weng, Andrew Ng, Sebastian Raschka
+
+**Product**
+- Marty Cagan, Teresa Torres, Lenny Rachitsky, Shreyas Doshi, Julie Zhuo, John Cutler
+- April Dunford, Elena Verna, Kyle Poyar, Andrew Chen, Casey Winters, Ben Thompson
 
 ## Summary style
 
