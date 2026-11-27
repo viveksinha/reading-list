@@ -118,7 +118,9 @@ h3 { font-size: .72rem; letter-spacing: .06em; text-transform: uppercase; color:
   padding: var(--pad); margin-bottom: var(--gap); box-shadow: var(--shadow);
   display: grid; grid-template-columns: 4px minmax(0, 1fr); gap: 14px;
 }
-.card .bar { border-radius: 4px; background: var(--imp1); }
+.card { row-gap: 0; }
+.card .bar { border-radius: 4px; background: var(--imp1); grid-row: 1 / span 2; }
+.card .foot-row { grid-column: 2 / -1; }
 .card[data-imp="2"] .bar { background: var(--imp2); }
 .card[data-imp="3"] .bar { background: var(--imp3); }
 .meta { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 8px; font-family: var(--font-sans); font-size: .74rem; color: var(--faint); }
@@ -143,7 +145,7 @@ h3 { font-size: .72rem; letter-spacing: .06em; text-transform: uppercase; color:
 .summary { margin: 0; color: var(--muted); font-size: .94rem; line-height: 1.6; text-wrap: pretty; }
 .foot-row { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin-top: 10px; font-family: var(--font-sans); }
 .tag { font-size: .72rem; color: var(--muted); background: var(--surface-2); border-radius: 6px; padding: 2px 7px; border: 0; cursor: pointer; }
-.spacer { flex: 1; }
+.acts { display: flex; gap: 2px; margin-left: auto; white-space: nowrap; }
 .act { display: inline-flex; align-items: center; gap: 5px; border: 0; background: none; color: var(--faint); font-size: .76rem; cursor: pointer; padding: 6px 6px; border-radius: 8px; text-decoration: none; min-height: 36px; }
 .act:hover { background: var(--surface-2); color: var(--text); }
 .act svg { width: 17px; height: 17px; }
@@ -188,7 +190,7 @@ h3 { font-size: .72rem; letter-spacing: .06em; text-transform: uppercase; color:
   .filters.open, .settings.open { transform: none; visibility: visible; }
   .settings[hidden] { display: block !important; }
   .sheet-foot { position: sticky; bottom: 0; background: var(--surface); padding-top: 8px; }
-  .card { grid-template-columns: 3px minmax(0, 1fr); gap: 12px; padding: var(--pad) 14px; }
+  .card { grid-template-columns: 3px minmax(0, 1fr); gap: 0 12px; padding: var(--pad) 14px; }
   .card.has-thumb { grid-template-columns: 3px minmax(0, 1fr); position: relative; }
   .thumb { position: absolute; top: var(--pad); right: 14px; width: 68px; height: 68px; border-radius: 8px; }
   .has-thumb .meta, .has-thumb .title { margin-right: 80px; }

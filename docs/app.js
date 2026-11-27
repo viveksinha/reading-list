@@ -107,12 +107,12 @@
         <div class="meta">${sourceMark(it)}<span class="src">${esc(it.source)}</span><span>·</span><span class="cat">${esc(it.category)}</span><span>·</span><time datetime="${esc(it.published)}">${rel(it.published)}</time>${it.importance === 3 ? '<span class="imp">Must read</span>' : ""}</div>
         <a class="title" href="${esc(it.url)}" target="_blank" rel="noopener" data-open>${esc(it.title)}</a>
         <p class="summary">${esc(it.summary)}</p>
-        <div class="foot-row">${tags}<span class="spacer"></span>${disc}
-          <button class="act star" data-star aria-pressed="${isStar}" aria-label="${isStar ? "Unstar" : "Star"}">${ICON.star}<span>${isStar ? "Starred" : "Star"}</span></button>
-          <button class="act" data-read aria-pressed="${isRead}" aria-label="${isRead ? "Mark unread" : "Mark read"}">${ICON.check}<span>${isRead ? "Read" : "Mark read"}</span></button>
-        </div>
       </div>
       ${img ? `<a class="thumb" href="${esc(it.url)}" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true" data-open>${imgTag}</a>` : ""}
+      <div class="foot-row">${tags}<span class="acts">${disc}
+        <button class="act star" data-star aria-pressed="${isStar}" aria-label="${isStar ? "Unstar" : "Star"}">${ICON.star}<span>${isStar ? "Starred" : "Star"}</span></button>
+        <button class="act" data-read aria-pressed="${isRead}" aria-label="${isRead ? "Mark unread" : "Mark read"}">${ICON.check}<span>${isRead ? "Read" : "Mark read"}</span></button></span>
+      </div>
     </article>`;
   }
 
