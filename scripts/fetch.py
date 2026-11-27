@@ -152,6 +152,8 @@ def fetch_page(src):
         return src, [], f"{type(exc).__name__}: {exc}"
     seen, out = set(), []
     for href in re.findall(r'href="([^"#?]+)"', body):
+        if src.get("exclude") and re.match(src["exclude"], href):
+            continue
         if re.match(src["pattern"], href) and href not in seen:
             seen.add(href)
             url = src.get("base", "") + href

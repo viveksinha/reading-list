@@ -580,6 +580,27 @@
       "group": "ideas",
       "kind": "newsletter",
       "url": "https://www.henrikkarlsson.xyz/feed"
+    },
+    {
+      "id": "ramp-builders",
+      "name": "Ramp Builders",
+      "group": "eng",
+      "kind": "blog",
+      "url": "https://builders.ramp.com/rss.xml"
+    },
+    {
+      "id": "dbreunig",
+      "name": "Drew Breunig",
+      "group": "ai",
+      "kind": "blog",
+      "url": "https://www.dbreunig.com/feed.xml"
+    },
+    {
+      "id": "a16z",
+      "name": "a16z",
+      "group": "pm",
+      "kind": "newsletter",
+      "url": "https://www.a16z.news/feed"
     }
   ],
   "pages": [
@@ -609,6 +630,34 @@
       "url": "https://www.deeplearning.ai/the-batch/",
       "pattern": "^/the-batch/issue-\\d+/?$",
       "base": "https://www.deeplearning.ai"
+    },
+    {
+      "id": "cursor",
+      "name": "Cursor",
+      "group": "ai",
+      "kind": "blog",
+      "url": "https://cursor.com/blog",
+      "pattern": "^/blog/[a-z0-9-]+$",
+      "base": "https://cursor.com"
+    },
+    {
+      "id": "cognition",
+      "name": "Cognition",
+      "group": "ai",
+      "kind": "blog",
+      "url": "https://cognition.com/blog",
+      "pattern": "^/blog/[a-z0-9.-]+$",
+      "base": "https://cognition.com"
+    },
+    {
+      "id": "paul-graham",
+      "name": "Paul Graham",
+      "group": "pm",
+      "kind": "blog",
+      "url": "https://paulgraham.com/articles.html",
+      "pattern": "^[a-z0-9]+\\.html$",
+      "exclude": "^(index|articles|books|arc|bel|lisp|antispam|kedrosky|faq|raq|quo|rss|bio)\\.html$",
+      "base": "https://paulgraham.com/"
     }
   ],
   "hackernews": {
