@@ -33,6 +33,14 @@ They also care about product management craft, B2B SaaS growth and pricing, and 
 
 Vendor marketing posts default to 1 unless they announce something material.
 
+## People to watch
+
+Anything written by, or a substantial interview with, these people is importance 3:
+
+- **Cat Wu** (product lead for Claude Code and Cowork at Anthropic; leads Core Products PM at OpenAI
+  from Nov 2026). No personal blog; her writing shows up on the OpenAI and Anthropic blogs, Simon
+  Willison's blog and PM podcasts/newsletters (Lenny, Every, Behind the Craft).
+
 ## Summary style
 
 Two sentences, max ~45 words, in plain words: what it says, then why it matters to this reader.
