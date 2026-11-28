@@ -5,7 +5,9 @@ Their work touches: real-time OLAP, streaming ingestion (Kafka, Kinesis, Flink),
 open table formats (Iceberg, Delta, Hudi, Unity / Polaris / Glue catalogs), query performance,
 indexing, cloud data platform UX, and AI on top of data (agents, MCP, text-to-SQL, observability).
 They also care about product management craft, B2B SaaS growth and pricing, and where AI is heading.
-Outside work they read philosophy and big-idea essays (ethics, mind, meaning, science and society).
+Outside work they read philosophy and big-idea essays (ethics, mind, meaning, science and society),
+and how AI is changing the wider world: defence, medicine, the economy and jobs, welfare and social
+security, poverty and opportunity, and what it means to be human.
 
 ## Categories (pick exactly one)
 
@@ -24,7 +26,8 @@ Outside work they read philosophy and big-idea essays (ethics, mind, meaning, sc
 | Strategy & Markets | tech strategy, market analysis, cloud/SaaS market, competitive moves |
 | Engineering Culture | eng management, careers, org design, developer productivity |
 | Science & Progress | science news, energy, chips and hardware, biotech, progress studies, how technology changes the economy |
-| Philosophy & Ideas | philosophy, ethics, mind and consciousness, meaning, history of ideas, essays on science and society |
+| AI & Society | how AI changes defence and security, medicine and health, the economy and jobs, welfare and social security, poverty and opportunity, governance and law |
+| Philosophy & Ideas | philosophy, ethics, mind and consciousness, meaning, history of ideas, AI and what it means to be human |
 
 ## Importance (1-3)
 
@@ -36,11 +39,35 @@ Outside work they read philosophy and big-idea essays (ethics, mind, meaning, sc
 
 Vendor marketing posts default to 1 unless they announce something material.
 
+## Keep it high level (skip low-level posts)
+
+The site is for big-picture reading, not implementation detail. Mark these `skip: true`:
+
+- Implementation internals: compilers, CPU instructions, SIMD, data-structure tweaks, kernel and
+  storage-engine code, benchmarks of one function, debugging war stories.
+- Version bumps and release notes of tools and libraries (e.g. `datasette-charts 0.4a0`).
+- Tutorials, how-tos, setup guides, "beginner's guide", single-feature walkthroughs.
+- Security advisories and CVE write-ups; incident post-mortems unless the outage was industry news.
+- Customer case studies and integration posts ("How X cut test time with Y").
+- Show HN side projects, unless the idea itself is a notable shift.
+
+Keep architecture shifts, product and platform launches, market and strategy moves, and essays on
+where a field is going.
+
+**ClickHouse** posts are kept only when high level: company strategy, funding and partnerships,
+major product launches, and essays on where analytics is heading. Skip their engineering deep
+dives, Postgres feature notes, testing and tooling posts, integrations and tutorials.
+
 Science & Progress is scored like Philosophy & Ideas: a deep piece on where technology, science or
 the economy is heading is 2, an exceptional one is 3; routine science news is 1.
 
 Papers (Hugging Face daily papers) are 2 when the result could change how AI systems are built or
 used, 3 only for a clear step change; incremental benchmark papers are 1.
+
+AI & Society is scored on depth, not work relevance: a serious analysis of how AI is changing a
+part of society (defence, medicine, jobs, welfare, inequality, law) is 2; an exceptional or widely
+consequential one is 3; news items, op-eds without evidence and pieces where AI is incidental are 1.
+Defence pieces with no technology angle are skipped.
 
 Philosophy & Ideas is scored on its own terms, not work relevance: a deep, original essay is 2,
 an exceptional one (or one on AI and mind/ethics) is 3; book reviews, news and light pieces are 1.
@@ -66,7 +93,10 @@ notes and reposts from prolific writers (e.g. Simon Willison) keep normal scorin
 Two sentences, max ~45 words, in plain words: what it says, then why it matters. The site is
 public, so write for any technical reader: no "this reader", "your product" or "your team".
 No hype, no "this article explores". Don't copy the source text.
-Tags: 2-4 lowercase keywords (e.g. `iceberg`, `pricing`, `agents`).
+Tags: 2-4 lowercase keywords (e.g. `iceberg`, `pricing`, `agents`). For AI & Society, the first tag
+is the area: `defence`, `medicine`, `economics`, `jobs`, `welfare`, `inequality`, `education`, `climate`,
+`governance` or
+`humanity`. For Philosophy & Ideas on AI, include `ai-philosophy`.
 
 ## Same story, several sources
 

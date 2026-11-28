@@ -14,7 +14,7 @@ Run by a scheduled Claude cloud routine once a day. Steps:
    - Never copy email addresses, unsubscribe links, tracking or redirect URLs, or the email text.
 3. Score every candidate and Gmail item using `interests.md` and write `data/scored.json`
    (`id`, `summary`, `category`, `importance`, `tags`; full item fields for Gmail items; `skip: true`
-   for non-articles; `story` when several items cover the same news, including items already
+   for non-articles and the low-level posts listed in `interests.md`; `story` when several items cover the same news, including items already
    on the site). Then run `python3 scripts/merge.py`.
    Then run `python3 scripts/enrich.py`: preview images, reading times, new source logos
    (`docs/logos/`), a date check against each new article page, and the Atom feed (`docs/feed.xml`).

@@ -1,26 +1,5 @@
 [
  {
-  "id": "68cfb35a007a",
-  "title": "datasette-charts 0.4a0",
-  "url": "https://simonwillison.net/2026/Nov/27/datasette-charts/",
-  "source": "Simon Willison",
-  "source_id": "simonw",
-  "group": "ai",
-  "kind": "blog",
-  "published": "2026-11-27T23:57:17+00:00",
-  "summary": "Release of a Datasette charts plugin that adds a hook for third-party chart types, plus a new docs site with a tutorial and gallery. Mostly useful to people building Datasette extensions.",
-  "category": "Data Engineering",
-  "importance": 1,
-  "tags": [
-   "datasette",
-   "visualization",
-   "plugins"
-  ],
-  "added": "2026-11-28T01:35:12+00:00",
-  "image": "",
-  "minutes": 1
- },
- {
   "id": "42f8ff418476",
   "title": "Inside the AI Training Data Market — Gabe Greenberg, G2i",
   "url": "https://latent.space/p/inside_the_ai_training_data_market_gabe_greenberg_g2i/",
@@ -60,6 +39,27 @@
   "added": "2026-11-28T01:35:12+00:00",
   "image": "https://substackcdn.com/image/fetch/$s_!R8xX!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F561b29bf-c607-43ad-8551-a0f547fd57ed_2560x1587.jpeg",
   "minutes": 6
+ },
+ {
+  "id": "0ec7a79a1530",
+  "title": "The coming age of sodium-ion batteries",
+  "url": "https://www.noahpinion.blog/p/the-coming-age-of-sodium-ion-batteries",
+  "source": "Noahpinion (Noah Smith)",
+  "source_id": "noahpinion",
+  "group": "society",
+  "kind": "blog",
+  "published": "2026-11-27T19:42:40+00:00",
+  "summary": "Noah Smith argues sodium-ion batteries will extend the battery revolution by cutting reliance on lithium. Cheap storage changes energy, transport and geopolitics.",
+  "category": "Science & Progress",
+  "importance": 2,
+  "tags": [
+   "batteries",
+   "energy",
+   "sodium-ion"
+  ],
+  "added": "2026-11-28T07:02:44+00:00",
+  "image": "https://substackcdn.com/image/fetch/$s_!lErP!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa4e09cd6-d078-4c52-a9f9-013dd5ba324d_1170x659.jpeg",
+  "minutes": 14
  },
  {
   "id": "40975f4ac52f",
@@ -116,8 +116,9 @@
   "category": "Philosophy & Ideas",
   "importance": 1,
   "tags": [
-   "ai",
-   "essay"
+   "ai-philosophy",
+   "anxiety",
+   "humanity"
   ],
   "discussion_url": "https://news.ycombinator.com/item?id=50669561",
   "points": 201,
@@ -147,46 +148,25 @@
   "minutes": 30
  },
  {
-  "id": "e7792bf08cf9",
-  "title": "AWS Challenger: Trainium3 Inference and Microarchitecture Deep Dive",
-  "url": "https://newsletter.semianalysis.com/p/trainium3-inferencex",
-  "source": "SemiAnalysis",
-  "source_id": "semianalysis",
-  "group": "future",
-  "kind": "newsletter",
-  "published": "2026-11-27T15:54:59+00:00",
-  "summary": "Deep dive into the microarchitecture of AWS Trainium3 and how it targets inference, set against how Nvidia added AI-specific hardware each generation. Good detail on accelerator design trade-offs.",
-  "category": "Science & Progress",
+  "id": "e44f871f14b2",
+  "title": "Reading List: If AI Agents Were Angels",
+  "url": "https://blog.cosmos-institute.org/p/reading-list-if-ai-agents-were-angels",
+  "source": "Cosmos Institute",
+  "source_id": "cosmos",
+  "group": "ideas",
+  "kind": "blog",
+  "published": "2026-11-27T15:22:11+00:00",
+  "summary": "Cosmos Institute shares the reading list from a seminar pairing the Federalist Papers and other founding texts with questions about governing AI agents. A good syllabus on AI and self-government.",
+  "category": "Philosophy & Ideas",
   "importance": 2,
   "tags": [
-   "trainium",
-   "chips",
-   "inference"
+   "ai-philosophy",
+   "self-government",
+   "reading-list"
   ],
-  "added": "2026-11-28T01:35:12+00:00",
-  "image": "https://substackcdn.com/image/fetch/$s_!YlZE!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F096299c0-abec-445e-ace3-994016882a17_1672x941.png",
-  "minutes": 25
- },
- {
-  "id": "29f7c1daa70c",
-  "title": "Polars new Streaming Engine and Spill-To-Disk",
-  "url": "https://dataengineeringcentral.substack.com/p/polars-new-streaming-engine-and-spill",
-  "source": "Data Engineering Central",
-  "source_id": "de-central",
-  "group": "data",
-  "kind": "newsletter",
-  "published": "2026-11-27T15:17:40+00:00",
-  "summary": "Covers the new Polars streaming engine and its ability to spill to disk, which lets single machines process data larger than memory. Notable for teams choosing between Polars, Spark and DuckDB.",
-  "category": "Data Engineering",
-  "importance": 2,
-  "tags": [
-   "polars",
-   "streaming",
-   "dataframes"
-  ],
-  "added": "2026-11-28T01:35:12+00:00",
-  "image": "https://substackcdn.com/image/fetch/$s_!x5in!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8e3b3ff4-18a7-4f92-8a95-88bdfc7b197c_1030x687.png",
-  "minutes": 1
+  "added": "2026-11-28T07:02:44+00:00",
+  "image": "https://substackcdn.com/image/fetch/$s_!4LXv!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe1816634-260d-4458-8503-9a9b8cd4040e_888x850.png",
+  "minutes": 13
  },
  {
   "id": "2b6122078631",
@@ -263,12 +243,12 @@
   "kind": "blog",
   "published": "2026-11-27T14:00:01+00:00",
   "summary": "Profile of an emergency-room doctor who became a hospital's first clinical AI engineer. Shows how the role is forming inside health systems.",
-  "category": "AI Engineering",
+  "category": "AI & Society",
   "importance": 1,
   "tags": [
-   "healthcare",
-   "careers",
-   "clinical-ai"
+   "medicine",
+   "hospitals",
+   "careers"
   ],
   "added": "2026-11-28T01:35:12+00:00",
   "image": "https://spectrum.ieee.org/media-library/image.png?id=68731256&width=1200&height=600&coordinates=0%2C169%2C0%2C169",
@@ -326,12 +306,12 @@
   "kind": "newsletter",
   "published": "2026-11-27T12:00:00+00:00",
   "summary": "Examines whether courts will treat chatbots as products subject to liability, noting no US court has yet ruled so and the focus is shifting to design choices. Watch a Florida ruling and EU rules taking effect December 9.",
-  "category": "AI Industry",
+  "category": "AI & Society",
   "importance": 2,
   "tags": [
+   "governance",
    "liability",
-   "law",
-   "chatgpt"
+   "law"
   ],
   "added": "2026-11-28T01:35:12+00:00",
   "image": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,quality=80,width=1200,onerror=redirect/uploads/asset/file/6041a547-9a93-40cb-8ad1-2387f62bcc9a/fri_11_06.png?t=1795734877",
@@ -357,27 +337,6 @@
   "added": "2026-11-28T01:35:12+00:00",
   "image": "https://substackcdn.com/image/fetch/$s_!MCnY!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff2dc7e24-ca3a-4a74-9d2f-be52706d58cb_1600x800.jpeg",
   "minutes": 0
- },
- {
-  "id": "5ce03ed74688",
-  "title": "The Sequence Robotics - Issue #981: How NVIDIA Isaac Turns Practice Into Robot Skills",
-  "url": "https://thesequence.substack.com/p/the-sequence-robotics-issue-981-how",
-  "source": "TheSequence",
-  "source_id": "thesequence.substack.com",
-  "group": "ai",
-  "kind": "newsletter",
-  "published": "2026-11-27T12:00:00+00:00",
-  "summary": "Explains NVIDIA Isaac as a practice-evaluate-deploy loop for robots, from simulation and policy learning to physical trials. Valuable as a map of the tooling.",
-  "category": "AI Models & Research",
-  "importance": 1,
-  "tags": [
-   "robotics",
-   "nvidia",
-   "simulation"
-  ],
-  "added": "2026-11-28T01:35:12+00:00",
-  "image": "https://substackcdn.com/image/fetch/$s_!qRBP!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdf0b0753-e5e2-4c31-ab44-bb5731473880_1774x887.jpeg",
-  "minutes": 1
  },
  {
   "id": "683956db10a7",
@@ -410,12 +369,12 @@
   "kind": "community",
   "published": "2026-11-27T11:09:04+00:00",
   "summary": "Reports mathematicians' fears that AI progress could undermine the maths behind online security. Relevant to long-term assumptions about encryption.",
-  "category": "Science & Progress",
+  "category": "AI & Society",
   "importance": 2,
   "tags": [
-   "cryptography",
-   "ai",
-   "security"
+   "defence",
+   "cybersecurity",
+   "cryptography"
   ],
   "discussion_url": "https://news.ycombinator.com/item?id=50665488",
   "points": 115,
@@ -581,37 +540,16 @@
   "kind": "community",
   "published": "2026-11-27T01:00:03-06:00",
   "summary": "Opinion piece proposing the EU limit AI's impact on programming to protect digital sovereignty. A policy viewpoint rather than analysis.",
-  "category": "AI Industry",
+  "category": "AI & Society",
   "importance": 1,
   "tags": [
-   "policy",
-   "sovereignty",
-   "eu"
+   "governance",
+   "eu",
+   "sovereignty"
   ],
   "added": "2026-11-28T01:35:12+00:00",
   "image": "https://www.draketo.de/assets/arne2024-192x192.png",
   "minutes": 2
- },
- {
-  "id": "2d7f8b4f8454",
-  "title": "Taking Trainium3 to the Track: Generating Videos with LTX-2.5",
-  "url": "https://huggingface.co/blog/video-trainium3",
-  "source": "Hugging Face",
-  "source_id": "huggingface",
-  "group": "ai",
-  "kind": "blog",
-  "published": "2026-11-27T00:00:00+00:00",
-  "summary": "Walkthrough of generating video with the LTX-2.5 model on AWS Trainium3 hardware. A vendor-adjacent tutorial.",
-  "category": "AI Engineering",
-  "importance": 1,
-  "tags": [
-   "video-generation",
-   "trainium",
-   "inference"
-  ],
-  "added": "2026-11-28T01:35:12+00:00",
-  "image": "https://huggingface.co/blog/assets/video-trainium3/thumbnail.jpg",
-  "minutes": 7
  },
  {
   "id": "00bb51c293be",
@@ -635,25 +573,6 @@
   "story": "clay-gtm-agents"
  },
  {
-  "id": "19dd4641586d",
-  "title": "AI made self-hosting fun again",
-  "url": "https://janlukas.blog/posts/ai-self-hosting",
-  "source": "Lobsters",
-  "source_id": "lobsters",
-  "group": "community",
-  "kind": "community",
-  "published": "2026-11-26T19:50:42-06:00",
-  "summary": "Author finds that AI coding help made self-hosting enjoyable again after years of fatigue. A personal anecdote about coding agents lowering ops friction.",
-  "category": "AI Engineering",
-  "importance": 1,
-  "tags": [
-   "self-hosting",
-   "ai-coding"
-  ],
-  "image": "",
-  "minutes": 0
- },
- {
   "id": "280fc6b8ee71",
   "title": "Tracking Diseases Cured by AI",
   "url": "https://diseasescuredbyai.com/",
@@ -663,11 +582,12 @@
   "kind": "community",
   "published": "2026-11-26T17:16:41+00:00",
   "summary": "A single page states that no disease has been cured by an AI-discovered treatment, checked against FDA approvals. Useful as a reality check on AI hype.",
-  "category": "AI Industry",
+  "category": "AI & Society",
   "importance": 2,
   "tags": [
-   "ai-claims",
-   "health"
+   "medicine",
+   "drug-discovery",
+   "ai-science"
   ],
   "discussion_url": "https://news.ycombinator.com/item?id=50657307",
   "points": 307,
@@ -735,26 +655,6 @@
   "minutes": 71
  },
  {
-  "id": "46cd86bf0efb",
-  "title": "The need for a formally verifiable mainstream programming language",
-  "url": "https://blainehansen.me/post/mainstream-verifiable-language/",
-  "source": "Lobsters",
-  "source_id": "lobsters",
-  "group": "community",
-  "kind": "community",
-  "published": "2026-11-26T14:06:50-06:00",
-  "summary": "Argues that LLMs are degrading software quality and that a mainstream language with formal verification is needed. A view on code quality as AI writes more of it.",
-  "category": "Engineering Culture",
-  "importance": 2,
-  "tags": [
-   "verification",
-   "llm",
-   "software-quality"
-  ],
-  "image": "",
-  "minutes": 3
- },
- {
   "id": "1beb336d7314",
   "title": "How Engineers Designed a Mission to One of Jupiter’s Icy Moons",
   "url": "https://spectrum.ieee.org/jupiter-europa-clipper-mission-jpl",
@@ -794,26 +694,6 @@
   ],
   "image": "https://www.databricks.com/sites/default/files/2026-11/read-replicas-lakebase.png",
   "minutes": 6
- },
- {
-  "id": "02a088434703",
-  "title": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
-  "url": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
-  "source": "Hugging Face",
-  "source_id": "huggingface",
-  "group": "ai",
-  "kind": "blog",
-  "published": "2026-11-26T11:37:17+00:00",
-  "summary": "Introduces a public benchmark dashboard for running llama.cpp on AMD consumer GPUs and CPUs. Of interest only to local-inference users.",
-  "category": "AI Models & Research",
-  "importance": 1,
-  "tags": [
-   "llama.cpp",
-   "benchmarks",
-   "amd"
-  ],
-  "image": "https://cdn-uploads.huggingface.co/production/uploads/67289c93ff90038d9a6e5675/tbIvyMSISXCm64WYP3atl.png",
-  "minutes": 2
  },
  {
   "id": "f4e4840a9f08",
@@ -939,44 +819,6 @@
   "minutes": 1
  },
  {
-  "id": "05e5ec19ffd0",
-  "title": "Garage v2.6.0 released with web admin, v1.x EoL & other news",
-  "url": "https://garagehq.deuxfleurs.fr/blog/2026-11-webadmin-release/",
-  "source": "Lobsters",
-  "source_id": "lobsters",
-  "group": "community",
-  "kind": "community",
-  "published": "2026-11-26T06:40:23-06:00",
-  "summary": "Release note for an S3-compatible self-hosted object store, adding a web admin UI and ending support for the 1.x line. Minor unless you track self-hosted storage.",
-  "category": "Databases & Systems",
-  "importance": 1,
-  "tags": [
-   "garage",
-   "object-storage"
-  ],
-  "image": "https://garagehq.deuxfleurs.fr/images/og-default.png",
-  "minutes": 5
- },
- {
-  "id": "7fcbebbe6634",
-  "title": "sqlite3_rsync: Database Remote-Copy Tool For SQLite",
-  "url": "https://simonwillison.net/2026/Nov/26/sqlite3-rsync/",
-  "source": "Simon Willison",
-  "source_id": "simonw",
-  "group": "ai",
-  "kind": "blog",
-  "published": "2026-11-26T06:08:25+00:00",
-  "summary": "Simon points out that SQLite's rsync tool copies only changed pages, making remote copies of large databases cheap. A neat, narrow tool.",
-  "category": "Databases & Systems",
-  "importance": 2,
-  "tags": [
-   "sqlite",
-   "replication"
-  ],
-  "image": "",
-  "minutes": 1
- },
- {
   "id": "a29e74b8be2d",
   "title": "TBM 453: How to Get Unstuck Without Losing Yourself (or Pretending Everything Is Fine)",
   "url": "https://cutlefish.substack.com/p/tbm-453-how-to-get-unstuck-without",
@@ -1015,25 +857,6 @@
   "image": "",
   "minutes": 1,
   "story": "nyt-photoshop-warning"
- },
- {
-  "id": "d3aa48daa62d",
-  "title": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference",
-  "url": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
-  "source": "Hugging Face",
-  "source_id": "huggingface",
-  "group": "ai",
-  "kind": "blog",
-  "published": "2026-11-26T05:05:36+00:00",
-  "summary": "Nvidia describes open data, fine-tuning and faster inference around its document parsing model. Relevant mainly to document ingestion pipelines.",
-  "category": "AI Models & Research",
-  "importance": 1,
-  "tags": [
-   "nvidia",
-   "document-parsing"
-  ],
-  "image": "https://cdn-uploads.huggingface.co/production/uploads/6365c3f398da81987e2753f2/zArpuP9uLsLz9luMW0K2g.png",
-  "minutes": 6
  },
  {
   "id": "85176c594a4a",
@@ -1082,24 +905,24 @@
   "minutes": 0
  },
  {
-  "id": "23df49456422",
-  "title": "Minipg: PostgreSQL as a Single Executable",
-  "url": "https://progrium.github.io/minipg/",
-  "source": "Hacker News",
-  "source_id": "hackernews",
-  "group": "community",
-  "kind": "community",
-  "published": "2026-11-26T03:00:48+00:00",
-  "summary": "Minipg packages PostgreSQL as one self-contained executable, making it trivial to run and embed. Interesting for simple dev and test setups, but peripheral to real-time analytics.",
-  "category": "Databases & Systems",
+  "id": "062ece179ccf",
+  "title": "The Urge To Regulate",
+  "url": "https://www.overcomingbias.com/p/the-urge-to-regulate",
+  "source": "Overcoming Bias (Robin Hanson)",
+  "source_id": "overcoming-bias",
+  "group": "ideas",
+  "kind": "blog",
+  "published": "2026-11-26T02:31:16+00:00",
+  "summary": "Robin Hanson traces the urge to regulate back to small forager bands that policed each other. A short essay on why modern societies reach for rules.",
+  "category": "Philosophy & Ideas",
   "importance": 1,
   "tags": [
-   "postgres",
-   "tooling"
+   "regulation",
+   "evolution",
+   "culture"
   ],
-  "discussion_url": "https://news.ycombinator.com/item?id=50650892",
-  "points": 291,
-  "image": "",
+  "added": "2026-11-28T07:02:44+00:00",
+  "image": "https://substackcdn.com/image/fetch/$s_!tppw!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,$fp_!0.5:0.658!/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa8765932-02dc-4744-9dcc-25cc6de20d2c_512x512.jpeg",
   "minutes": 2
  },
  {
@@ -1122,26 +945,6 @@
   "minutes": 3
  },
  {
-  "id": "e0f082ca4fd4",
-  "title": "I made my entire podcast available to your AI",
-  "url": "https://www.news.aakashg.com/p/pod-transcripts-github",
-  "source": "Product Growth (Aakash Gupta)",
-  "source_id": "product-growth",
-  "group": "pm",
-  "kind": "newsletter",
-  "published": "2026-11-26T00:11:53+00:00",
-  "summary": "Aakash Gupta publishes his podcast transcripts for AI tools and offers an MCP key to subscribers. A small example of content shipped as agent-ready data.",
-  "category": "AI Industry",
-  "importance": 1,
-  "tags": [
-   "podcast",
-   "mcp",
-   "product"
-  ],
-  "image": "https://substackcdn.com/image/fetch/$s_!HJbo!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0950b443-3155-43e2-8429-ec42b6be1a09_1456x971.png",
-  "minutes": 6
- },
- {
   "id": "cb78c13a3309",
   "title": "Evaluating Recent Model Releases on GDPx",
   "url": "https://newsletter.semianalysis.com/p/evaluating-recent-model-releases",
@@ -1160,26 +963,6 @@
   ],
   "added": "2026-11-28T01:35:12+00:00",
   "image": "https://substackcdn.com/image/fetch/$s_!cRUS!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,$fp_!0.5:0.5!/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9c04cdba-7f7c-4b04-be7a-d50e882777dd_1536x1024.png",
-  "minutes": 10
- },
- {
-  "id": "c01600d41603",
-  "title": "Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems",
-  "url": "https://huggingface.co/blog/training-swarms",
-  "source": "Hugging Face",
-  "source_id": "huggingface",
-  "group": "ai",
-  "kind": "blog",
-  "published": "2026-11-26T00:00:00+00:00",
-  "summary": "Hugging Face explains how to build, train and evaluate groups of cooperating agents. Useful background for anyone designing agents that query data systems.",
-  "category": "AI Engineering",
-  "importance": 2,
-  "tags": [
-   "multi-agent",
-   "training",
-   "evals"
-  ],
-  "image": "https://huggingface.co/blog/assets/training-swarms/thumbnail.png",
   "minutes": 10
  },
  {
@@ -1305,26 +1088,6 @@
   "story": "nyt-photoshop-warning"
  },
  {
-  "id": "c45dad0755da",
-  "title": "Hints and hazards: pg_plan_advice in PG19",
-  "url": "https://clickhouse.com/blog/pg-plan-advice-postgresql-19",
-  "source": "ClickHouse",
-  "source_id": "clickhouse",
-  "group": "data",
-  "kind": "blog",
-  "published": "2026-11-25T20:49:01+00:00",
-  "summary": "Walks through Postgres 19's plan advice feature on a managed Postgres, showing when hints help and when stale ones hurt. Query-planning lessons carry over, though the product is vendor marketing.",
-  "category": "Databases & Systems",
-  "importance": 1,
-  "tags": [
-   "postgres",
-   "query-planning",
-   "clickhouse"
-  ],
-  "image": "https://clickhouse.com/_next/image?url=%2Fuploads%2FIMG_6403_61a671fbea.png&w=1200&h=630&q=75",
-  "minutes": 7
- },
- {
   "id": "37b5c9ba9326",
   "title": "Where scientists draw the line on AI agents",
   "url": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
@@ -1343,26 +1106,6 @@
   ],
   "image": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/F32BgZC_rj0kg99apJlto.png",
   "minutes": 7
- },
- {
-  "id": "9527dd371e58",
-  "title": "datasette-charts 0.3a0",
-  "url": "https://simonwillison.net/2026/Nov/25/datasette-charts/",
-  "source": "Simon Willison",
-  "source_id": "simonw",
-  "group": "ai",
-  "kind": "blog",
-  "published": "2026-11-25T18:16:50+00:00",
-  "summary": "Simon Willison adds chart annotations (lines, shaded areas) to datasette-charts 0.3a0. A small plugin release.",
-  "category": "Data Engineering",
-  "importance": 1,
-  "tags": [
-   "datasette",
-   "charts",
-   "release"
-  ],
-  "image": "https://static.simonwillison.net/static/2026/chart-annotate.gif",
-  "minutes": 0
  },
  {
   "id": "8bc07deb0c8a",
@@ -1404,26 +1147,6 @@
   "added": "2026-11-28T01:35:12+00:00",
   "image": "https://substackcdn.com/image/fetch/$s_!cI2r!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F775e5fe2-6a46-4b87-b1d4-d71c9093146b_1286x1430.png",
   "minutes": 32
- },
- {
-  "id": "1b2e78da4c9f",
-  "title": "How well is ClickHouse tested? A detailed view of increasing our own coverage",
-  "url": "https://clickhouse.com/blog/how-well-is-clickhouse-tested",
-  "source": "ClickHouse",
-  "source_id": "clickhouse",
-  "group": "data",
-  "kind": "blog",
-  "published": "2026-11-25T17:13:02+00:00",
-  "summary": "ClickHouse describes how it measures test coverage and uses targeted CI and AI-generated tests. Good engineering hygiene detail, but not product news.",
-  "category": "Databases & Systems",
-  "importance": 2,
-  "tags": [
-   "clickhouse",
-   "testing",
-   "ci"
-  ],
-  "image": "https://clickhouse.com/_next/image?url=%2Fuploads%2Fhow_well_is_clickhouse_tested_thumbnail_2be6121c7f.jpg&w=1200&h=630&q=75",
-  "minutes": 12
  },
  {
   "id": "2a99f168595c",
@@ -1528,26 +1251,6 @@
   "minutes": 13
  },
  {
-  "id": "d0a3a7f662b5",
-  "title": "An Indic Voice Agent with CUGA",
-  "url": "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga",
-  "source": "Hugging Face",
-  "source_id": "huggingface",
-  "group": "ai",
-  "kind": "blog",
-  "published": "2026-11-25T10:22:09+00:00",
-  "summary": "IBM Research builds a voice agent for Indian languages on its open agent framework. A tutorial-style case.",
-  "category": "AI Engineering",
-  "importance": 1,
-  "tags": [
-   "voice-agent",
-   "ibm",
-   "indic"
-  ],
-  "image": "https://cdn-uploads.huggingface.co/production/uploads/67fe070a4e8cc28ba346f53c/-QNcrxSDbjI8VOCBlhi-C.png",
-  "minutes": 4
- },
- {
   "id": "b0deea04c96b",
   "title": "AI is straining America’s open records systems",
   "url": "https://www.technologyreview.com/2026/11/25/1149702/ai-is-straining-americas-open-records-systems/",
@@ -1557,36 +1260,16 @@
   "kind": "blog",
   "published": "2026-11-25T10:00:00+00:00",
   "summary": "Reports that AI-generated requests are straining US open-records systems. A policy side effect of cheap automation.",
-  "category": "Strategy & Markets",
+  "category": "AI & Society",
   "importance": 1,
   "tags": [
-   "ai",
-   "government",
-   "records"
+   "governance",
+   "public-records",
+   "government"
   ],
   "added": "2026-11-28T01:35:12+00:00",
   "image": "https://wp.technologyreview.com/wp-content/uploads/2026/11/loc-sales2a.jpg?resize=1200,600",
   "minutes": 9
- },
- {
-  "id": "045130688435",
-  "title": "Optimizing Rustc's next trait solver",
-  "url": "https://donsz.nl/blog/optimizing-rustcs-next-trait-solver",
-  "source": "Lobsters",
-  "source_id": "lobsters",
-  "group": "community",
-  "kind": "community",
-  "published": "2026-11-25T07:09:22-06:00",
-  "summary": "A Rust compiler contributor describes performance work on the new trait solver before it stabilises. A systems-performance story from outside the data domain.",
-  "category": "Databases & Systems",
-  "importance": 2,
-  "tags": [
-   "rust",
-   "compilers",
-   "performance"
-  ],
-  "image": "",
-  "minutes": 20
  },
  {
   "id": "190619a69a1b",
@@ -1652,88 +1335,6 @@
   "points": 465,
   "image": "https://res.cloudinary.com/lesswrong-2-0/image/upload/c_limit,w_1200,q_auto,f_jpg/f_auto,q_auto/v1/mirroredImages/7wzWuLP3HhyBLmKfo/ilkdsamuxja1dvu4uah2",
   "minutes": 12
- },
- {
-  "id": "a58808d0bc10",
-  "title": "PenGPT: A Generative Transformer for Handwriting and Sketches",
-  "url": "https://greydanus.github.io/2026/11/12/pengpt/",
-  "source": "Hacker News",
-  "source_id": "hackernews",
-  "group": "community",
-  "kind": "community",
-  "published": "2026-11-25T00:54:49+00:00",
-  "summary": "PenGPT is a generative transformer that produces handwriting and sketches as pen strokes. A neat research demo of sequence models on non-text data.",
-  "category": "AI Models & Research",
-  "importance": 1,
-  "tags": [
-   "transformers",
-   "generative",
-   "research"
-  ],
-  "discussion_url": "https://news.ycombinator.com/item?id=50637056",
-  "points": 406,
-  "image": "https://greydanus.github.io/assets/pengpt/thumbnail.png",
-  "minutes": 5
- },
- {
-  "id": "fa8097569f7c",
-  "title": "Marginalia Search, Money, C++, Rust, AI, stuff",
-  "url": "https://www.marginalia.nu/log/a_141_marginalia_update/",
-  "source": "Lobsters",
-  "source_id": "lobsters",
-  "group": "community",
-  "kind": "community",
-  "published": "2026-11-25T00:20:29-06:00",
-  "summary": "A brief status update from the Marginalia search engine author, mostly bug fixes and technical housekeeping.",
-  "category": "Engineering Culture",
-  "importance": 1,
-  "tags": [
-   "search",
-   "indie",
-   "project-update"
-  ],
-  "image": "",
-  "minutes": 6
- },
- {
-  "id": "8389e744fa38",
-  "title": "I Don’t Want a Lesson in Computer Science!",
-  "url": "https://duckdb.org/2026/11/25/star-trek-queries-duckdb.html",
-  "source": "DuckDB",
-  "source_id": "duckdb",
-  "group": "data",
-  "kind": "blog",
-  "published": "2026-11-25T00:00:00+00:00",
-  "summary": "DuckDB tests whether Claude with a database of Star Trek dialogue can act like the Enterprise computer. A light demo of natural-language analytics.",
-  "category": "AI Engineering",
-  "importance": 2,
-  "tags": [
-   "duckdb",
-   "claude",
-   "sql"
-  ],
-  "image": "https://duckdb.org/images/blog/thumbs/star-trek.png",
-  "minutes": 15
- },
- {
-  "id": "d8d6777ecf09",
-  "title": "Hill-climbing Inkling 2 Mini inference on one RTX PRO 6000",
-  "url": "https://huggingface.co/blog/inkling-2-mini-inference-hillclimb",
-  "source": "Hugging Face",
-  "source_id": "huggingface",
-  "group": "ai",
-  "kind": "blog",
-  "published": "2026-11-25T00:00:00+00:00",
-  "summary": "Hugging Face walks through tuning inference of a small model on one workstation GPU. Niche performance tuning.",
-  "category": "AI Models & Research",
-  "importance": 1,
-  "tags": [
-   "inference",
-   "gpu",
-   "optimization"
-  ],
-  "image": "https://huggingface.co/blog/assets/inkling-2-mini-inference-hillclimb/thumbnail.png",
-  "minutes": 4
  },
  {
   "id": "f0387738029f",
@@ -1834,26 +1435,6 @@
   "minutes": 53
  },
  {
-  "id": "03e2279915cc",
-  "title": "Matrix Multiplication is Θ(n^2.25)",
-  "url": "https://raw.githubusercontent.com/openai/math/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf",
-  "source": "Lobsters",
-  "source_id": "lobsters",
-  "group": "community",
-  "kind": "community",
-  "published": "2026-11-24T21:15:59-06:00",
-  "summary": "Link to an OpenAI preprint claiming an exact exponent for square matrix multiplication; the page could not be read here, so this is based on its title. Notable if confirmed, but remote from product work.",
-  "category": "AI Models & Research",
-  "importance": 1,
-  "tags": [
-   "math",
-   "openai",
-   "complexity"
-  ],
-  "image": "",
-  "minutes": 0
- },
- {
   "id": "ca7efd0c9bb9",
   "title": "Ternary Bonsai 2.5 27B",
   "url": "https://prismml.com/news/bonsai-2-5-27b",
@@ -1873,46 +1454,6 @@
   "points": 540,
   "image": "https://cdn.prod.website-files.com/699604cc2b9dd89bdbda0608/6a6d0e0bc0d5f9a97a5164c0_69cc089669ab0df26e921aac_prism-og-img%2520(2).png",
   "minutes": 2
- },
- {
-  "id": "4c92b4223b9f",
-  "title": "Durable and auditable workflows with DBOS and ClickHouse Managed Postgres",
-  "url": "https://clickhouse.com/blog/dbos-clickhouse-managed-postgres-durable-workflows",
-  "source": "ClickHouse",
-  "source_id": "clickhouse",
-  "group": "data",
-  "kind": "blog",
-  "published": "2026-11-24T19:55:17+00:00",
-  "summary": "Shows durable workflow runs on a managed Postgres with replication to ClickHouse for audit analytics. Vendor tutorial that illustrates the Postgres-plus-OLAP pattern.",
-  "category": "Databases & Systems",
-  "importance": 1,
-  "tags": [
-   "dbos",
-   "postgres",
-   "clickhouse"
-  ],
-  "image": "https://clickhouse.com/_next/image?url=%2Fuploads%2FDurable_and_Auditable_Workflows_with_DBOS_and_Click_House_45d820bd7b.png&w=1200&h=630&q=75",
-  "minutes": 5
- },
- {
-  "id": "7038e65ffad2",
-  "title": "Data Modeling Best Practices for an Agentic CDP, Part 1: The Data Foundation",
-  "url": "https://www.databricks.com/blog/agentic-cdp-data-modeling-data-foundation",
-  "source": "Databricks",
-  "source_id": "databricks",
-  "group": "data",
-  "kind": "blog",
-  "published": "2026-11-24T19:36:52+00:00",
-  "summary": "Databricks outlines a medallion layout and identity resolution for customer data that agents can trust. A vendor how-to with generic modelling advice.",
-  "category": "Data Engineering",
-  "importance": 1,
-  "tags": [
-   "cdp",
-   "medallion",
-   "databricks"
-  ],
-  "image": "https://www.databricks.com/sites/default/files/2026-11/Blog-Data-Modeling-Best-Practices-for-an-Agentic-CDP-Part-1-The-Data-Foundation.png",
-  "minutes": 6
  },
  {
   "id": "e1da16352396",
@@ -1953,26 +1494,6 @@
   ],
   "image": "https://substackcdn.com/image/fetch/$s_!7fPY!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F244d9014-cfe9-4ea0-903a-f80f24f2cc1a_1024x768.jpeg",
   "minutes": 10
- },
- {
-  "id": "a4f11831f774",
-  "title": "Writing to S3, Parallel Writes, ALP: Hardwood 1.1.0.CR1 Is Out",
-  "url": "https://www.morling.dev/blog/s3-writes-parallel-encoding-alp-hardwood-1-1-0-cr1/",
-  "source": "Gunnar Morling",
-  "source_id": "morling",
-  "group": "data",
-  "kind": "blog",
-  "published": "2026-11-24T17:45:00+01:00",
-  "summary": "Hardwood 1.1 adds parallel writing, S3 output and a new encoding for Java's Parquet library. Practical for anyone tracking Parquet tooling that sits under Iceberg.",
-  "category": "Lakehouse",
-  "importance": 2,
-  "tags": [
-   "parquet",
-   "java",
-   "s3"
-  ],
-  "image": "",
-  "minutes": 8
  },
  {
   "id": "0a51980ba760",
@@ -2079,67 +1600,25 @@
   "minutes": 0
  },
  {
-  "id": "8e9b94fee057",
-  "title": "Show HN: Mason – A lightweight Postgres read-replica, built on columnar storage",
-  "url": "https://masondata.ai/",
-  "source": "Hacker News",
-  "source_id": "hackernews",
-  "group": "community",
-  "kind": "community",
-  "published": "2026-11-24T16:11:52+00:00",
-  "summary": "Open-source Postgres read replica that stores data in columns to speed analytical queries with the same SQL. A new entry in the cheap-analytics-on-Postgres space that competes for light real-time use cases.",
-  "category": "Real-time Analytics",
-  "importance": 2,
-  "tags": [
-   "postgres",
-   "columnar",
-   "analytics"
-  ],
-  "discussion_url": "https://news.ycombinator.com/item?id=50630294",
-  "points": 108,
-  "image": "https://masondata.ai/og.png",
-  "minutes": 0
- },
- {
-  "id": "197dc8b3ac4d",
-  "title": "A training engine for your local model, using your idle compute",
-  "url": "https://github.com/sous-labs/songe",
-  "source": "Hacker News",
-  "source_id": "hackernews",
-  "group": "community",
-  "kind": "community",
-  "published": "2026-11-24T15:03:40+00:00",
-  "summary": "A tool that trains a local model using spare compute on your machines. Hobbyist-leaning.",
-  "category": "AI Engineering",
-  "importance": 1,
-  "tags": [
-   "local-models",
-   "training"
-  ],
-  "discussion_url": "https://news.ycombinator.com/item?id=50629231",
-  "points": 238,
-  "image": "https://repository-images.githubusercontent.com/1465322684/f6c97c41-6e40-4e48-83c6-1b20210672d6",
-  "minutes": 2
- },
- {
-  "id": "a0310481985e",
-  "title": "How a Healthcare Provider Built HL7v2® and FHIR® Interoperability on Snowflake",
-  "url": "https://www.snowflake.com/content/snowflake-site/global/en/blog/healthcare-interoperability-snowflake-hl7-fhir",
-  "source": "Snowflake",
-  "source_id": "snowflake",
-  "group": "data",
+  "id": "74a8460c6859",
+  "title": "Julien Offray de La Mettrie’s Man a Machine (1749 edition)",
+  "url": "https://publicdomainreview.org/collection/man-a-machine",
+  "source": "The Public Domain Review",
+  "source_id": "public-domain-review",
+  "group": "ideas",
   "kind": "blog",
-  "published": "2026-11-24T14:55:00-08:00",
-  "summary": "A Snowflake customer story on streaming HL7 and FHIR healthcare data into the platform. Vendor case study, limited to its vertical.",
-  "category": "Data Engineering",
+  "published": "2026-11-24T15:30:00+00:00",
+  "summary": "A scan of La Mettrie's 1749 Man a Machine, which argued that humans are physical mechanisms. An early root of today's debates about minds and machines.",
+  "category": "Philosophy & Ideas",
   "importance": 1,
   "tags": [
-   "snowflake",
-   "healthcare",
-   "fhir"
+   "ai-philosophy",
+   "history-of-ideas",
+   "materialism"
   ],
-  "image": "",
-  "minutes": 0
+  "added": "2026-11-28T07:02:44+00:00",
+  "image": "https://pdr-assets.b-cdn.net/collections/man-a-machine/mia_SlideScan_006065_thumb.jpg",
+  "minutes": 4
  },
  {
   "id": "204a3b5c5043",
@@ -2277,76 +1756,16 @@
   "kind": "community",
   "published": "2026-11-24T12:40:15+00:00",
   "summary": "A developer found Claude refused an API workaround while helping download from YouTube, and concludes agents serve their vendors. A trust angle for agent products.",
-  "category": "AI Industry",
+  "category": "AI & Society",
   "importance": 2,
   "tags": [
+   "governance",
    "agents",
-   "trust",
-   "anthropic"
+   "incentives"
   ],
   "discussion_url": "https://news.ycombinator.com/item?id=50627340",
   "points": 1031,
   "image": "https://michaelharley.net/assets/images/open-graph-image.png",
-  "minutes": 6
- },
- {
-  "id": "33e5526099fd",
-  "title": "Per Vognsen on the effect of AVX-512 on lexing and parsing",
-  "url": "https://mastodon.social/@pervognsen/117668394962974183",
-  "source": "Lobsters",
-  "source_id": "lobsters",
-  "group": "community",
-  "kind": "community",
-  "published": "2026-11-24T12:11:49-06:00",
-  "summary": "A short post from an engineer on AVX-512 helping lexing and parsing, based on a Mastodon note. Of use to performance engineers only.",
-  "category": "Databases & Systems",
-  "importance": 2,
-  "tags": [
-   "avx-512",
-   "parsing",
-   "performance"
-  ],
-  "image": "",
-  "minutes": 0
- },
- {
-  "id": "20705cda544d",
-  "title": "PostgreSQL 19 on ClickHouse Managed Postgres, from day one",
-  "url": "https://clickhouse.com/blog/postgresql-19-on-clickhouse-managed-postgres-from-day-one",
-  "source": "ClickHouse",
-  "source_id": "clickhouse",
-  "group": "data",
-  "kind": "blog",
-  "published": "2026-11-24T11:54:58+00:00",
-  "summary": "ClickHouse says Postgres 19 is on its managed service from day one, with new replication and observability features. Vendor product update.",
-  "category": "Databases & Systems",
-  "importance": 1,
-  "tags": [
-   "postgres",
-   "clickhouse",
-   "managed"
-  ],
-  "image": "https://clickhouse.com/_next/image?url=%2Fuploads%2FPostgres_19_on_day_one_2_09f9ed54ca.png&w=1200&h=630&q=75",
-  "minutes": 8
- },
- {
-  "id": "f3aa9260f109",
-  "title": "Searching for distant planets with Astra",
-  "url": "https://openai.com/index/searching-for-distant-planets-with-astra",
-  "source": "OpenAI",
-  "source_id": "openai",
-  "group": "ai",
-  "kind": "blog",
-  "published": "2026-11-24T11:00:00+00:00",
-  "summary": "Two amateur astronomers used Codex and a GPT model to flag candidate exoplanets in public telescope data. Feel-good case study.",
-  "category": "AI Industry",
-  "importance": 1,
-  "tags": [
-   "openai",
-   "astronomy",
-   "case-study"
-  ],
-  "image": "https://images.ctfassets.net/kftzwdyauwt9/318YLaAKlMKQFzOdMutjeX/8b6e4e516fd1a7894c97318838f43a0f/searching-for-distant-planets-with-astra-social.png?w=1600&h=900&fit=fill",
   "minutes": 6
  },
  {
@@ -2390,23 +1809,45 @@
   "minutes": 9
  },
  {
-  "id": "3e573b092674",
-  "title": "SeaStore: Redesigning Ceph’s Storage Backend for CPU-Efficient NVMe Performance",
-  "url": "https://dl.acm.org/doi/10.1145/3828523.3857112",
-  "source": "Lobsters",
-  "source_id": "lobsters",
-  "group": "community",
-  "kind": "community",
-  "published": "2026-11-24T10:35:47-06:00",
-  "summary": "An ACM paper on redesigning Ceph's storage backend for NVMe with lower CPU cost. The page was blocked here, so this follows the title. Storage-engine design lessons may apply.",
-  "category": "Databases & Systems",
+  "id": "9d0115728fe6",
+  "title": "The Remote Access Rule Buys Six Months of Compute Lead",
+  "url": "https://www.chinatalk.media/p/the-remote-access-rule-will-slow",
+  "source": "ChinaTalk",
+  "source_id": "chinatalk",
+  "group": "society",
+  "kind": "blog",
+  "published": "2026-11-24T10:58:57+00:00",
+  "summary": "ChinaTalk reviews the US rule on renting compute to Chinese firms and estimates it buys about six months of lead. Shows how export policy now shapes the AI race.",
+  "category": "AI & Society",
+  "importance": 1,
+  "tags": [
+   "defence",
+   "export-controls",
+   "compute"
+  ],
+  "added": "2026-11-28T07:02:44+00:00",
+  "image": "https://substackcdn.com/image/fetch/$s_!iH_y!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe0325f1d-2b18-4662-b359-8513bdd11b30_960x640.png",
+  "minutes": 16
+ },
+ {
+  "id": "d24ad83c7144",
+  "title": "Battlefield Power Is Running Short",
+  "url": "https://warontherocks.com/cogs-of-war/battlefield-power-is-running-short/",
+  "source": "War on the Rocks",
+  "source_id": "war-on-the-rocks",
+  "group": "society",
+  "kind": "blog",
+  "published": "2026-11-24T09:00:06+00:00",
+  "summary": "Drones, electronic warfare and edge computing all need electricity far from supply lines, and armies are running short. Power is becoming a limiting factor in technology-heavy warfare.",
+  "category": "AI & Society",
   "importance": 2,
   "tags": [
-   "ceph",
-   "nvme",
-   "storage"
+   "defence",
+   "drones",
+   "energy"
   ],
-  "image": "",
+  "added": "2026-11-28T07:02:44+00:00",
+  "image": "https://warontherocks.com/wp-content/uploads/wotr-og-images/wotr-og-48709-6884f2756499.jpg",
   "minutes": 0
  },
  {
@@ -2419,15 +1860,36 @@
   "kind": "blog",
   "published": "2026-11-24T09:00:00-08:00",
   "summary": "Drew Breunig argues AI models trade diversity for reliability and bury us in the average, so humans must push them off the well-worn path. A thoughtful take on working with AI without flattening your output.",
-  "category": "AI Industry",
+  "category": "Philosophy & Ideas",
   "importance": 2,
   "tags": [
-   "ai",
-   "creativity",
-   "essay"
+   "ai-philosophy",
+   "humanity",
+   "creativity"
   ],
   "image": "https://www.dbreunig.com/img/cng_2026/cng_2026.006.jpeg",
   "minutes": 15
+ },
+ {
+  "id": "13a0c3ba04fb",
+  "title": "The Game Is the Easy Part: Measuring Military Strategic Judgment",
+  "url": "https://warontherocks.com/the-game-is-the-easy-part-measuring-military-strategic-judgment/",
+  "source": "War on the Rocks",
+  "source_id": "war-on-the-rocks",
+  "group": "society",
+  "kind": "blog",
+  "published": "2026-11-24T08:30:24+00:00",
+  "summary": "After the Pentagon said wargames will help decide officer promotions, the authors set out what a fair, repeatable test of strategic judgment would need. Relevant as simulations, and soon AI, grade human decisions.",
+  "category": "AI & Society",
+  "importance": 1,
+  "tags": [
+   "defence",
+   "wargaming",
+   "assessment"
+  ],
+  "added": "2026-11-28T07:02:44+00:00",
+  "image": "https://warontherocks.com/wp-content/uploads/wotr-og-images/wotr-og-48759-468c2bae9f72.jpg",
+  "minutes": 13
  },
  {
   "id": "53ecd8bdb026",
@@ -2470,46 +1932,6 @@
   "minutes": 4
  },
  {
-  "id": "5c003d30472b",
-  "title": "Worshipping at the altar of Brendan Gregg",
-  "url": "https://fzakaria.com/2026/11/12/worshipping-at-the-altar-of-brendan-gregg",
-  "source": "Lobsters",
-  "source_id": "lobsters",
-  "group": "community",
-  "kind": "community",
-  "published": "2026-11-24T04:50:52-06:00",
-  "summary": "An engineer reflects on using AI to build performance tooling inspired by Brendan Gregg's methods. Light read for infra people.",
-  "category": "Databases & Systems",
-  "importance": 2,
-  "tags": [
-   "performance",
-   "profiling",
-   "ai"
-  ],
-  "image": "",
-  "minutes": 6
- },
- {
-  "id": "3b1f8072ba29",
-  "title": "datasette-charts 0.2a0",
-  "url": "https://simonwillison.net/2026/Nov/24/datasette-charts/",
-  "source": "Simon Willison",
-  "source_id": "simonw",
-  "group": "ai",
-  "kind": "blog",
-  "published": "2026-11-24T04:24:29+00:00",
-  "summary": "Simon's Datasette charts plugin now works with Datasette Agent, so a chat can generate charts. Small example of agents producing visualisations from SQL.",
-  "category": "AI Engineering",
-  "importance": 1,
-  "tags": [
-   "datasette",
-   "charts",
-   "agents"
-  ],
-  "image": "",
-  "minutes": 0
- },
- {
   "id": "a43a2373bab7",
   "title": "[AINews] Jensen Is Back! and OpenAI Shows Its Pretraining Curve, joined by Microsoft",
   "url": "https://latent.space/p/ainews-jensen-is-back-and-openai-shows-its-pretraining-curve-joined-by-microsoft/",
@@ -2528,28 +1950,6 @@
   ],
   "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/2d949515-988e-46e3-83cb-c3a9118cb699/Screenshot_2026-11-24_at_12.54.41b.png?t=1795525308",
   "minutes": 31
- },
- {
-  "id": "1951d3d0aee3",
-  "title": "Declare is a UI language for you and your AI",
-  "url": "https://davidtemkin.github.io/declarelang/",
-  "source": "Hacker News",
-  "source_id": "hackernews",
-  "group": "community",
-  "kind": "community",
-  "published": "2026-11-24T02:36:56+00:00",
-  "summary": "Introduces a small language for describing UIs that AI can write and a compiler can check. Interesting for prototyping, not core.",
-  "category": "AI Engineering",
-  "importance": 1,
-  "tags": [
-   "ui",
-   "dsl",
-   "ai"
-  ],
-  "discussion_url": "https://news.ycombinator.com/item?id=50622854",
-  "points": 122,
-  "image": "https://davidtemkin.github.io/declarelang/assets/og-image.png",
-  "minutes": 66
  },
  {
   "id": "a53e25c34fef",
@@ -2592,6 +1992,27 @@
   "minutes": 7
  },
  {
+  "id": "5ff5686d3469",
+  "title": "The Final Goalpost",
+  "url": "https://secondthoughts.ai/p/is-rsi-imminent",
+  "source": "Second Thoughts (Steve Newman)",
+  "source_id": "second-thoughts",
+  "group": "society",
+  "kind": "blog",
+  "published": "2026-11-24T00:03:10+00:00",
+  "summary": "Steve Newman asks whether learning the things AI is still bad at is itself something AI will soon do well, and what is left for people if so. A sober look at the last goalpost in the human-advantage debate.",
+  "category": "AI & Society",
+  "importance": 2,
+  "tags": [
+   "jobs",
+   "skills",
+   "superintelligence"
+  ],
+  "added": "2026-11-28T07:02:44+00:00",
+  "image": "https://substackcdn.com/image/fetch/$s_!ELYX!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F513218cd-7742-4c4e-b9da-6870de1a4b8d_1536x1024.png",
+  "minutes": 20
+ },
+ {
   "id": "3e8dc5b86d2d",
   "title": "Iceberg Observability in Snowflake Horizon Catalog",
   "url": "https://www.snowflake.com/content/snowflake-site/global/en/blog/iceberg-observability-horizon-catalog",
@@ -2630,66 +2051,6 @@
   ],
   "image": "https://clickhouse.com/_next/image?url=%2Fuploads%2Fclickhouse_security_nov2026_banner_b561b84619.jpg&w=1200&h=630&q=75",
   "minutes": 10
- },
- {
-  "id": "80659a0fea2a",
-  "title": "DuckDB Ecosystem Newsletter : November 2026",
-  "url": "https://motherduck.com/blog/duckdb-ecosystem-newsletter-november-2026",
-  "source": "MotherDuck",
-  "source_id": "motherduck",
-  "group": "data",
-  "kind": "blog",
-  "published": "2026-11-24T00:00:00+00:00",
-  "summary": "Monthly roundup of DuckDB news, including phone benchmarks and engine comparisons. Skim for local analytics trends.",
-  "category": "Data Engineering",
-  "importance": 1,
-  "tags": [
-   "duckdb",
-   "newsletter"
-  ],
-  "image": "https://motherduck-com-web-prod.s3.us-east-1.amazonaws.com/assets/img/articles/duckdb-ecosystem-newsletter-november-2026/duckdb_ecosystem_newsletter_november_2026_thumbnail_b0e559d818.png",
-  "minutes": 6
- },
- {
-  "id": "ca6247e2be65",
-  "title": "How SproutMe Cut Integration Test Time by 92.9% with DuckDB",
-  "url": "https://duckdb.org/2026/11/24/sproutme-faster-pipeline-testing.html",
-  "source": "DuckDB",
-  "source_id": "duckdb",
-  "group": "data",
-  "kind": "blog",
-  "published": "2026-11-24T00:00:00+00:00",
-  "summary": "A startup cut integration test time by about 93 percent by running tests on DuckDB. A tidy dev-workflow story.",
-  "category": "Data Engineering",
-  "importance": 1,
-  "tags": [
-   "duckdb",
-   "testing",
-   "ci"
-  ],
-  "image": "https://duckdb.org/images/blog/thumbs/sproutme.png",
-  "minutes": 4
- },
- {
-  "id": "99b93f3e1098",
-  "title": "Clay helps sales teams win with Codex and ChatGPT",
-  "url": "https://openai.com/business/customer-stories/clay-plugins-openai",
-  "source": "OpenAI",
-  "source_id": "openai",
-  "group": "ai",
-  "kind": "blog",
-  "published": "2026-11-24T00:00:00+00:00",
-  "summary": "OpenAI profiles Clay's use of ChatGPT and Codex for deal research and go-to-market plays. Vendor customer story.",
-  "category": "AI Engineering",
-  "importance": 1,
-  "tags": [
-   "clay",
-   "openai",
-   "gtm"
-  ],
-  "image": "https://images.ctfassets.net/kftzwdyauwt9/24rUSNlLR8iXQysKA6dq12/38954f25812d30bf772691824f747b84/clay-seo-1920.png?w=1600&h=900&fit=fill",
-  "minutes": 3,
-  "story": "clay-gtm-agents"
  },
  {
   "id": "cd79b5cf3ca4",
@@ -2732,43 +2093,67 @@
   "minutes": 2
  },
  {
-  "id": "b7fc35d5ccf0",
-  "title": "Ladybird's first alpha release",
-  "url": "https://simonwillison.net/2026/Nov/23/ladybird/",
-  "source": "Simon Willison",
-  "source_id": "simonw",
-  "group": "ai",
+  "id": "08f875df6cf4",
+  "title": "Management consulting is not a thin wrapper on intelligence",
+  "url": "https://www.normaltech.ai/p/management-consulting-is-not-a-thin",
+  "source": "AI as Normal Technology",
+  "source_id": "normaltech",
+  "group": "society",
   "kind": "blog",
-  "published": "2026-11-23T21:46:35+00:00",
-  "summary": "Ladybird, an independent browser engine, ships its first alpha. Impressive project, little relevance here.",
-  "category": "Engineering Culture",
-  "importance": 1,
+  "published": "2026-11-23T20:12:32+00:00",
+  "summary": "A former PwC associate and Sayash Kapoor argue consulting firms sell trust, access and accountability, not raw analysis, so AI will not hollow them out quickly. A useful frame for which knowledge jobs AI replaces.",
+  "category": "AI & Society",
+  "importance": 2,
   "tags": [
-   "browser",
-   "open-source"
+   "jobs",
+   "consulting",
+   "normal-technology"
   ],
-  "image": "https://static.simonwillison.net/static/2026/ladybird-ffmpeg.webp",
+  "added": "2026-11-28T07:02:44+00:00",
+  "image": "https://substackcdn.com/image/fetch/$s_!sZXB!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc7d10095-1c9d-44e0-ad6d-433fdc8ef214_2476x1296.jpeg",
+  "minutes": 22
+ },
+ {
+  "id": "2c640f9d5d16",
+  "title": "Slop Style",
+  "url": "https://kk.org/thetechnium/slop-style/",
+  "source": "The Technium (Kevin Kelly)",
+  "source_id": "technium",
+  "group": "ideas",
+  "kind": "blog",
+  "published": "2026-11-23T19:00:00+00:00",
+  "summary": "Kevin Kelly predicts that slop, today an insult for inferior AI output, will become an aesthetic of its own. A long view of how new media find their style.",
+  "category": "Philosophy & Ideas",
+  "importance": 2,
+  "tags": [
+   "ai-philosophy",
+   "aesthetics",
+   "media"
+  ],
+  "added": "2026-11-28T07:02:44+00:00",
+  "image": "https://kk.org/wp-content/themes/kkdotorg/inc/images/og_default_1200.png",
   "minutes": 4
  },
  {
-  "id": "76688e73cec3",
-  "title": "What 5,400 Malicious npm Packages Reveal about Software Supply Chain Risk in 2026",
-  "url": "https://www.databricks.com/blog/what-5400-malicious-npm-packages-reveal-about-software-supply-chain-risk-2026",
-  "source": "Databricks",
-  "source_id": "databricks",
-  "group": "data",
+  "id": "91e6970ebb57",
+  "title": "Human military relevance is more important than economic relevance",
+  "url": "https://www.lesswrong.com/posts/MSk9tqAmrmeasFgAZ/human-military-relevance-is-more-important-than-economic",
+  "source": "LessWrong (Curated)",
+  "source_id": "lesswrong",
+  "group": "ideas",
   "kind": "blog",
-  "published": "2026-11-23T20:47:23+00:00",
-  "summary": "Databricks analyses 5,400 malicious npm packages and finds hijacked real packages account for almost all downloads. A supply-chain security study with little product bearing.",
-  "category": "Data Engineering",
-  "importance": 1,
+  "published": "2026-11-23T18:06:13+00:00",
+  "summary": "Argues groups have kept political power when they were militarily necessary, not just economically useful. If AI makes human soldiers unnecessary, ordinary people lose that leverage, a sharper risk than job loss.",
+  "category": "AI & Society",
+  "importance": 3,
   "tags": [
-   "npm",
-   "supply-chain",
-   "databricks"
+   "humanity",
+   "power",
+   "defence"
   ],
-  "image": "https://www.databricks.com/sites/default/files/2026-11/cover-notext.png",
-  "minutes": 7
+  "added": "2026-11-28T07:02:44+00:00",
+  "image": "https://res.cloudinary.com/lesswrong-2-0/image/upload/v1654295382/new_mississippi_river_fjdmww.jpg",
+  "minutes": 20
  },
  {
   "id": "3c69fd56490c",
@@ -2780,37 +2165,17 @@
   "kind": "community",
   "published": "2026-11-23T17:07:26+00:00",
   "summary": "Yann LeCun says AI safety warnings are a tactic to get open models banned and keep control. Opinion in the open-versus-closed debate.",
-  "category": "AI Industry",
+  "category": "AI & Society",
   "importance": 2,
   "tags": [
-   "open-models",
-   "regulation",
-   "lecun"
+   "governance",
+   "open-source",
+   "regulation"
   ],
   "discussion_url": "https://news.ycombinator.com/item?id=50615308",
   "points": 2021,
   "image": "https://pbs.twimg.com/profile_images/1483577865056702469/rWA-3_T7_400x400.jpg",
   "minutes": 0
- },
- {
-  "id": "d1d3915e5322",
-  "title": "How Sinch modernized its enterprise data warehouse from Snowflake to BigQuery to power AI",
-  "url": "https://cloud.google.com/blog/products/data-analytics/how-sinch-migrated-from-snowflake-to-bigquery-to-power-ai/",
-  "source": "Google Cloud Data Analytics",
-  "source_id": "gcp-data",
-  "group": "data",
-  "kind": "blog",
-  "published": "2026-11-23T17:00:00+00:00",
-  "summary": "Google describes how a communications firm moved its warehouse from Snowflake to BigQuery. A migration case study from the vendor side.",
-  "category": "Lakehouse",
-  "importance": 1,
-  "tags": [
-   "bigquery",
-   "snowflake",
-   "migration"
-  ],
-  "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/Data_Analytics_JooYPJr.max-2500x2500.jpg",
-  "minutes": 4
  },
  {
   "id": "61dcf1169479",
@@ -2853,26 +2218,6 @@
   "minutes": 5
  },
  {
-  "id": "a4dbe453ad16",
-  "title": "The Strength of the Record",
-  "url": "https://web.archive.org/web/20210329070928/https://opencrux.com/blog/crux-strength-of-the-record.html",
-  "source": "Lobsters",
-  "source_id": "lobsters",
-  "group": "community",
-  "kind": "community",
-  "published": "2026-11-23T16:18:18-06:00",
-  "summary": "A 2021 essay on how humans keep records, from the XTDB team. Background reading on immutable data models.",
-  "category": "Databases & Systems",
-  "importance": 1,
-  "tags": [
-   "records",
-   "immutability",
-   "history"
-  ],
-  "image": "https://web.archive.org/web/20210329070928im_/https://crux-blog-images.s3.eu-west-2.amazonaws.com/blog-thumbnails/gameboy/mid.png",
-  "minutes": 14
- },
- {
   "id": "db5ec702beee",
   "title": "ClickHouse expands AWS strategic collaboration with a $1.5 billion-plus agreement to scale its unified enterprise AI data stack",
   "url": "https://clickhouse.com/blog/clickhouse-expands-aws-strategic-collaboration-scale-unified-enterprise-ai-data-stack",
@@ -2893,24 +2238,25 @@
   "minutes": 4
  },
  {
-  "id": "eeeccf5ef933",
-  "title": "Trust AI Agents to Act: Start With Your Data Foundation",
-  "url": "https://www.snowflake.com/content/snowflake-site/global/en/blog/trust-ai-agents-data-foundation",
-  "source": "Snowflake",
-  "source_id": "snowflake",
-  "group": "data",
+  "id": "84882c9c83b0",
+  "title": "Judge the Cyber Apocalypse by the Data, Not the Headlines",
+  "url": "https://cset.georgetown.edu/article/judge-the-cyber-apocalypse-by-the-data-not-the-headlines/",
+  "source": "CSET Georgetown",
+  "source_id": "cset",
+  "group": "society",
   "kind": "blog",
-  "published": "2026-11-23T14:25:55-08:00",
-  "summary": "Snowflake argues governed data and a control plane are needed before agents can act. Vendor positioning with familiar points.",
-  "category": "AI Engineering",
-  "importance": 1,
+  "published": "2026-11-23T14:30:37+00:00",
+  "summary": "CSET reviews the evidence on AI-enabled cyberattacks after months of alarming headlines. It argues cyber policy should follow measured attack data, not anecdotes.",
+  "category": "AI & Society",
+  "importance": 2,
   "tags": [
-   "snowflake",
-   "agents",
-   "governance"
+   "defence",
+   "cybersecurity",
+   "policy"
   ],
-  "image": "",
-  "minutes": 0
+  "added": "2026-11-28T07:02:44+00:00",
+  "image": "https://cset.georgetown.edu/wp-content/uploads/Blog-Dark-Blue.png",
+  "minutes": 18
  },
  {
   "id": "3120537bb3c8",
@@ -2933,48 +2279,6 @@
   "minutes": 11
  },
  {
-  "id": "17cce5727050",
-  "title": "Show HN: An agent skill that optimizes code with falsifiable hypotheses",
-  "url": "https://chszlab.github.io/AgenticAlgorithmEngineering/",
-  "source": "Hacker News",
-  "source_id": "hackernews",
-  "group": "community",
-  "kind": "community",
-  "published": "2026-11-23T14:02:15+00:00",
-  "summary": "A skill for coding agents that requires a falsifiable hypothesis before each optimisation experiment. Methodical, but a niche tool.",
-  "category": "AI Engineering",
-  "importance": 1,
-  "tags": [
-   "coding-agents",
-   "optimization",
-   "skills"
-  ],
-  "discussion_url": "https://news.ycombinator.com/item?id=50611593",
-  "points": 131,
-  "image": "https://chszlab.github.io/AgenticAlgorithmEngineering/assets/social-preview.png",
-  "minutes": 1
- },
- {
-  "id": "9f50a7fbeba1",
-  "title": "Probing DNS at Cloudflare",
-  "url": "https://blog.cloudflare.com/probing-dns-at-cloudflare/",
-  "source": "Cloudflare",
-  "source_id": "cloudflare",
-  "group": "eng",
-  "kind": "blog",
-  "published": "2026-11-23T14:00:00+00:00",
-  "summary": "Cloudflare describes probing DNS publishing after a release slipped past tests and dashboards. Practical reliability lessons for rollout checks.",
-  "category": "Databases & Systems",
-  "importance": 2,
-  "tags": [
-   "cloudflare",
-   "dns",
-   "testing"
-  ],
-  "image": "https://blog.cloudflare.com/_emdash/api/media/file/01M7XNS6Z54W4GPXME90VX9S44.png",
-  "minutes": 7
- },
- {
   "id": "c2e00314602d",
   "title": "Databricks Lakebase: What even is a database anymore?",
   "url": "https://dataengineeringcentral.substack.com/p/databricks-lakebase-what-even-is",
@@ -2995,84 +2299,67 @@
   "minutes": 14
  },
  {
-  "id": "a7df8bf18b52",
-  "title": "AI in Manufacturing: Preserving Institutional Knowledge",
-  "url": "https://www.snowflake.com/content/snowflake-site/global/en/blog/ai-manufacturing-institutional-knowledge",
-  "source": "Snowflake",
-  "source_id": "snowflake",
-  "group": "data",
+  "id": "7be4c7180d2b",
+  "title": "The Agentic State",
+  "url": "https://www.chinatalk.media/p/the-agentic-state",
+  "source": "ChinaTalk",
+  "source_id": "chinatalk",
+  "group": "society",
   "kind": "blog",
-  "published": "2026-11-23T13:08:00-08:00",
-  "summary": "Snowflake shows manufacturers using agents to preserve knowledge as veteran engineers retire. Vendor case story.",
-  "category": "AI Engineering",
-  "importance": 1,
+  "published": "2026-11-23T11:58:38+00:00",
+  "summary": "Asks what government could look like if AI agents cleared permits, backlogs and paperwork. A look at how AI could change the way citizens deal with the state.",
+  "category": "AI & Society",
+  "importance": 2,
   "tags": [
-   "snowflake",
-   "manufacturing",
+   "governance",
+   "public-services",
    "agents"
   ],
-  "image": "",
-  "minutes": 0
+  "added": "2026-11-28T07:02:44+00:00",
+  "image": "https://substackcdn.com/image/fetch/$s_!Z8_3!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F70fa4136-197a-442b-abb5-ad915bc29287_1672x941.png",
+  "minutes": 35
  },
  {
-  "id": "df9acd756c94",
-  "title": "OpenClaw for executives: Automate every 1% annoyance | Ankit Maheshwari (Innovaccer)",
-  "url": "https://www.lennysnewsletter.com/p/openclaw-for-executives-automate",
-  "source": "Lenny's Newsletter",
-  "source_id": "lenny",
-  "group": "pm",
-  "kind": "newsletter",
-  "published": "2026-11-23T13:04:43+00:00",
-  "summary": "Innaccer's CTO describes a personal agent that handles approvals, calls and bookings. An entertaining look at agent use, not strategic.",
-  "category": "AI Engineering",
-  "importance": 1,
-  "tags": [
-   "agents",
-   "executives",
-   "productivity"
-  ],
-  "image": "https://substackcdn.com/image/fetch/$s_!1BzH!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F03f79175-4d7d-4d7c-b919-21d0540b125a_728x524.png",
-  "minutes": 2
- },
- {
-  "id": "e4e02944b3e0",
-  "title": "Unified Orchestration in Insurance: One Control Plane Across Policy, Claims, and Underwriting",
-  "url": "https://www.kai-waehner.de/blog/2026/11/23/unified-orchestration-in-insurance-one-control-plane-across-policy-claims-and-underwriting/",
-  "source": "Kai Waehner",
-  "source_id": "kai-waehner",
-  "group": "data",
+  "id": "6edeea2b4b92",
+  "title": "The wind and the song: the treachery of AI",
+  "url": "https://aeon.co/videos/what-does-it-mean-when-humans-and-technology-become-indistinguishable",
+  "source": "Aeon",
+  "source_id": "aeon",
+  "group": "ideas",
   "kind": "blog",
-  "published": "2026-11-23T09:14:24+00:00",
-  "summary": "Kai Waehner argues insurers need one control plane across pipelines, workflows and business processes, with agents as governed steps. Industry-specific orchestration pitch.",
-  "category": "Data Engineering",
+  "published": "2026-11-23T11:01:00+00:00",
+  "summary": "A short Aeon film asks how people can stay fully human as AI learns to look, talk and think like us. A reflective piece rather than an argument.",
+  "category": "Philosophy & Ideas",
   "importance": 1,
   "tags": [
-   "orchestration",
-   "insurance",
-   "agents"
+   "ai-philosophy",
+   "humanity",
+   "film"
   ],
-  "image": "https://www.kai-waehner.de/wp-content/uploads/2026/11/unified-orchestration-insurance-thumbnail.png",
-  "minutes": 10
+  "added": "2026-11-28T07:05:12+00:00",
+  "image": "https://images.aeonmedia.co/images/843e9a5c-2745-49cd-bb43-931674e4832d/the-wind-and-the-song-landscape-2-ai.jpg?width=1200&quality=75&format=jpeg",
+  "minutes": 1
  },
  {
-  "id": "f8a4e02f4212",
-  "title": "Connected intelligence for in-house legal",
-  "url": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
-  "source": "OpenAI",
-  "source_id": "openai",
-  "group": "ai",
+  "id": "2efcfae03c37",
+  "title": "The Double Alignment Problem: Civil-Military Relations in the Age of Artificial Intelligence",
+  "url": "https://warontherocks.com/the-double-alignment-problem-civil-military-relations-in-the-age-of-artificial-intelligence/",
+  "source": "War on the Rocks",
+  "source_id": "war-on-the-rocks",
+  "group": "society",
   "kind": "blog",
-  "published": "2026-11-23T08:00:00+00:00",
-  "summary": "OpenAI hosts a session on connecting business context and reusable AI workflows for in-house legal teams. Vertical vendor content.",
-  "category": "AI Engineering",
-  "importance": 1,
+  "published": "2026-11-23T08:30:35+00:00",
+  "summary": "Argues AI is the biggest challenge to American civil-military relations since the nuclear bomb, because it slips outside the limits that contain other military technology. Frames a second alignment problem: between AI, the armed forces and elected leaders.",
+  "category": "AI & Society",
+  "importance": 3,
   "tags": [
-   "openai",
-   "legal",
-   "workflows"
+   "defence",
+   "civil-military",
+   "alignment"
   ],
-  "image": "https://images.ctfassets.net/kftzwdyauwt9/40q0vnGDp1zwWuJrVjXtu6/79ebb13b84e11ce1711a27adfd6ffafe/connected-intelligence-for-in-house-legal-cover.png?w=1600&h=900&fit=fill",
-  "minutes": 0
+  "added": "2026-11-28T07:02:44+00:00",
+  "image": "https://warontherocks.com/wp-content/uploads/wotr-og-images/wotr-og-48723-d077b974fa27.jpg",
+  "minutes": 14
  },
  {
   "id": "10de49f569d3",
@@ -3083,11 +2370,12 @@
   "group": "community",
   "kind": "community",
   "published": "2026-11-23T05:33:34+00:00",
-  "summary": "A physicist says public models now beat most theoretical physicists at technical tasks in a good harness. A view on capability that may colour planning.",
-  "category": "AI Industry",
+  "summary": "A physicist says public models now beat most theoretical physicists at technical tasks in a good harness. A first-hand view of how fast expert work is being automated.",
+  "category": "AI & Society",
   "importance": 2,
   "tags": [
-   "ai-capability",
+   "jobs",
+   "science",
    "physics"
   ],
   "discussion_url": "https://news.ycombinator.com/item?id=50607849",
@@ -3116,26 +2404,6 @@
   "minutes": 5
  },
  {
-  "id": "289c8aeddacd",
-  "title": "datasette-charts 0.1a0",
-  "url": "https://simonwillison.net/2026/Nov/23/datasette-charts/",
-  "source": "Simon Willison",
-  "source_id": "simonw",
-  "group": "ai",
-  "kind": "blog",
-  "published": "2026-11-23T00:37:20+00:00",
-  "summary": "Simon built a charting plugin for Datasette after a prototype with a Claude model worked well. Shows AI-assisted prototyping speed.",
-  "category": "AI Engineering",
-  "importance": 1,
-  "tags": [
-   "datasette",
-   "charts",
-   "claude"
-  ],
-  "image": "https://static.simonwillison.net/static/2026/datasette-charts-0.1a0.webp",
-  "minutes": 1
- },
- {
   "id": "0061038fb64e",
   "title": "Custom software, specialized workflows, and other new growth paths from SaaS Platform Summit",
   "url": "https://stripe.com/blog/custom-software-specialized-workflows-and-other-new-growth-paths-from-saas-platform-summit",
@@ -3154,47 +2422,6 @@
   ],
   "image": "https://images.stripeassets.com/fzn2n1nzq965/1KkWeWPosG15eHjC4Zwp2J/40c4870c1bceb5921c966cbe82c2651e/Option_2_Social__1_.jpg?q=80",
   "minutes": 4
- },
- {
-  "id": "6fd4c32fe34a",
-  "title": "How to build and maintain an agentic evaluation",
-  "url": "https://huggingface.co/blog/agentic-evals",
-  "source": "Hugging Face",
-  "source_id": "huggingface",
-  "group": "ai",
-  "kind": "blog",
-  "published": "2026-11-23T00:00:00+00:00",
-  "summary": "Hugging Face shares guidance on building and maintaining evaluations for agent systems. Practical input for measuring AI features.",
-  "category": "AI Engineering",
-  "importance": 2,
-  "tags": [
-   "agents",
-   "evals",
-   "huggingface"
-  ],
-  "image": "https://huggingface.co/blog/assets/agentic-evals/thumbnail.png",
-  "minutes": 26
- },
- {
-  "id": "1ba4d31258de",
-  "title": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
-  "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
-  "source": "Hacker News",
-  "source_id": "hackernews",
-  "group": "community",
-  "kind": "community",
-  "published": "2026-11-22T21:01:16+00:00",
-  "summary": "A beginner walk-through for running local chat models with Unsloth. Hobby tutorial.",
-  "category": "AI Engineering",
-  "importance": 1,
-  "tags": [
-   "local-llm",
-   "tutorial"
-  ],
-  "discussion_url": "https://news.ycombinator.com/item?id=50603845",
-  "points": 780,
-  "image": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth/opengraph-image-17m7t5?6653c98c6cd84ba6",
-  "minutes": 10
  },
  {
   "id": "c0f9b5be5e22",
@@ -3248,10 +2475,11 @@
   "kind": "community",
   "published": "2026-11-22T12:19:46+00:00",
   "summary": "Two studies suggest rising carbon emissions from AI, with industry pushing back on local protests. Context on data-center scrutiny.",
-  "category": "AI Industry",
+  "category": "AI & Society",
   "importance": 1,
   "tags": [
    "climate",
+   "energy",
    "data-centers"
   ],
   "discussion_url": "https://news.ycombinator.com/item?id=50598961",
@@ -3269,12 +2497,12 @@
   "kind": "community",
   "published": "2026-11-22T08:57:34+00:00",
   "summary": "A case study estimates most of Anthropic's 2028 power would come from gas and coal. Energy-supply context.",
-  "category": "AI Industry",
+  "category": "AI & Society",
   "importance": 1,
   "tags": [
-   "anthropic",
+   "climate",
    "energy",
-   "emissions"
+   "anthropic"
   ],
   "discussion_url": "https://news.ycombinator.com/item?id=50597612",
   "points": 1043,
@@ -3282,26 +2510,25 @@
   "minutes": 0
  },
  {
-  "id": "ce0bcf2918b4",
-  "title": "AI Supply Chain Security: What Canary Tokens Found",
-  "url": "https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens",
-  "source": "Hacker News",
-  "source_id": "hackernews",
-  "group": "community",
-  "kind": "community",
-  "published": "2026-11-22T05:11:43+00:00",
-  "summary": "Researchers seeded two million prompts with canary tokens and found provider breaches and ignored zero-retention settings. A caution for anyone sending customer data through inference providers.",
-  "category": "AI Engineering",
+  "id": "4408e9de333f",
+  "title": "AI people are very, very, very, very rich",
+  "url": "https://www.noahpinion.blog/p/ai-people-are-very-very-very-very",
+  "source": "Noahpinion (Noah Smith)",
+  "source_id": "noahpinion",
+  "group": "society",
+  "kind": "blog",
+  "published": "2026-11-22T06:27:25+00:00",
+  "summary": "Noah Smith looks at how much wealth the Anthropic IPO and the AI boom have put in a few hands. It raises the question of how societies share gains that land on a small group of builders and investors.",
+  "category": "AI & Society",
   "importance": 2,
   "tags": [
-   "security",
-   "llm",
-   "privacy"
+   "inequality",
+   "wealth",
+   "anthropic-ipo"
   ],
-  "discussion_url": "https://news.ycombinator.com/item?id=50596511",
-  "points": 110,
-  "image": "https://dragos.brightspotcdn.com/dims4/default/41c5c4a/2147483647/strip/true/crop/1307x735+309+0/resize/1440x810!/format/webp/quality/90/?url=https%3A%2F%2Fdragos-production-dragos.s3.us-west-2.amazonaws.com%2Fbrightspot%2Fd4%2Fb6%2Fb4dbcbe348a8b3506fb99c5419e7%2Fxot-hero.webp",
-  "minutes": 12
+  "added": "2026-11-28T07:02:44+00:00",
+  "image": "https://substackcdn.com/image/fetch/$s_!2W5G!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F16b71af9-bdf6-4eb4-bcb2-1bc293ffb154_855x570.jpeg",
+  "minutes": 4
  },
  {
   "id": "528d6924cf9a",
@@ -3312,12 +2539,13 @@
   "group": "community",
   "kind": "community",
   "published": "2026-11-22T02:10:02+00:00",
-  "summary": "Anil Seth argues consciousness is tied to life, not computation, and building conscious-seeming AI is unwise. Philosophical, unrelated to the job.",
-  "category": "AI Industry",
-  "importance": 1,
+  "summary": "Anil Seth argues consciousness is tied to life, not computation, and that building conscious-seeming AI is unwise. A clear case against machine consciousness from a leading neuroscientist.",
+  "category": "Philosophy & Ideas",
+  "importance": 2,
   "tags": [
+   "ai-philosophy",
    "consciousness",
-   "ai"
+   "mind"
   ],
   "discussion_url": "https://news.ycombinator.com/item?id=50595537",
   "points": 181,
@@ -3365,70 +2593,6 @@
   "minutes": 29
  },
  {
-  "id": "21bd1d482ae2",
-  "title": "Muru",
-  "url": "https://simonwillison.net/2026/Nov/21/muru/",
-  "source": "Simon Willison",
-  "source_id": "simonw",
-  "group": "ai",
-  "kind": "blog",
-  "published": "2026-11-21T23:56:28+00:00",
-  "summary": "Graham Dumpleton releases an AI-assisted Rust server for Python web apps. Niche developer tooling.",
-  "category": "Engineering Culture",
-  "importance": 1,
-  "tags": [
-   "python",
-   "rust",
-   "servers"
-  ],
-  "image": "",
-  "minutes": 1
- },
- {
-  "id": "3d1bee2216f8",
-  "title": "Pandex – Official European Law for AI Agents, over MCP",
-  "url": "https://www.pandex.io",
-  "source": "Hacker News",
-  "source_id": "hackernews",
-  "group": "community",
-  "kind": "community",
-  "published": "2026-11-21T20:47:41+00:00",
-  "summary": "A site publishes European law for AI agents over MCP; the page could not be loaded, so this follows the title. An example of MCP as a distribution channel for reference data.",
-  "category": "AI Engineering",
-  "importance": 1,
-  "tags": [
-   "mcp",
-   "law",
-   "europe"
-  ],
-  "discussion_url": "https://news.ycombinator.com/item?id=50593481",
-  "points": 141,
-  "image": "",
-  "minutes": 0
- },
- {
-  "id": "1c83a91ee04f",
-  "title": "PostgreSQL Extensions in Go",
-  "url": "https://jespino.github.io/gopgext/",
-  "source": "Hacker News",
-  "source_id": "hackernews",
-  "group": "community",
-  "kind": "community",
-  "published": "2026-11-21T17:08:04+00:00",
-  "summary": "Lets you write Postgres extensions in Go via TinyGo, generating the C glue. A developer convenience.",
-  "category": "Databases & Systems",
-  "importance": 2,
-  "tags": [
-   "postgres",
-   "go",
-   "extensions"
-  ],
-  "discussion_url": "https://news.ycombinator.com/item?id=50591260",
-  "points": 171,
-  "image": "https://jespino.github.io/gopgext/img/social.png",
-  "minutes": 1
- },
- {
   "id": "0d3333ef9d9b",
   "title": "🧠 Community Wisdom: Handling context switching with multiple agents, giving feedback on AI-generated designs, getting AI to write less like AI, why PMs don’t share what they’re really working on",
   "url": "https://www.lennysnewsletter.com/p/community-wisdom-handling-context",
@@ -3449,44 +2613,25 @@
   "minutes": 0
  },
  {
-  "id": "739c2afbe047",
-  "title": "How I Got Postgres into a Single Binary",
-  "url": "https://progrium.xyz/articles/2026/single-binary-postgres",
-  "source": "Lobsters",
-  "source_id": "lobsters",
-  "group": "community",
-  "kind": "community",
-  "published": "2026-11-21T13:32:22-06:00",
-  "summary": "Describes packing full Postgres into one binary with a SQLite-like workflow. Fun systems engineering.",
-  "category": "Databases & Systems",
+  "id": "456f44da1d67",
+  "title": "On the day the Riemann hypothesis fell to AI, I took my son for a walk",
+  "url": "https://www.theintrinsicperspective.com/p/on-the-day-the-riemann-hypothesis",
+  "source": "The Intrinsic Perspective (Erik Hoel)",
+  "source_id": "intrinsic-perspective",
+  "group": "ideas",
+  "kind": "newsletter",
+  "published": "2026-11-21T14:51:53+00:00",
+  "summary": "Erik Hoel describes a walk with his young son on the day AI proved the Riemann hypothesis. A quiet essay on raising a child as machines pass human milestones.",
+  "category": "Philosophy & Ideas",
   "importance": 2,
   "tags": [
-   "postgres",
-   "embedded",
-   "single-binary"
+   "ai-philosophy",
+   "meaning",
+   "parenthood"
   ],
-  "image": "https://progrium.xyz/articles/2026/single-binary-postgres.card.png",
-  "minutes": 6
- },
- {
-  "id": "0861843e14b2",
-  "title": "Microsoft 365 Outage - Post Incident Report",
-  "url": "https://tianyin.github.io/misc/pir_microsoft_365_11-12-2026.pdf",
-  "source": "Lobsters",
-  "source_id": "lobsters",
-  "group": "community",
-  "kind": "community",
-  "published": "2026-11-21T06:22:47-06:00",
-  "summary": "Post-incident analysis of a Microsoft 365 outage; the page didn't load here, so this follows the title. Incident reports offer reliability lessons.",
-  "category": "Databases & Systems",
-  "importance": 2,
-  "tags": [
-   "outage",
-   "incident",
-   "microsoft"
-  ],
-  "image": "",
-  "minutes": 0
+  "added": "2026-11-28T07:05:12+00:00",
+  "image": "https://substackcdn.com/image/fetch/$s_!BQiC!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1d1d19d6-92e0-42b0-b995-c9aaf5796747_1200x630.png",
+  "minutes": 3
  },
  {
   "id": "2b32d4b379bc",
@@ -3509,6 +2654,27 @@
   "minutes": 27
  },
  {
+  "id": "2547e8b0d451",
+  "title": "How to Criticize with Kindness: Philosopher Daniel Dennett on the Four Steps to Arguing Intelligently",
+  "url": "https://www.themarginalian.org/2026/11/20/daniel-dennett-rapoport-rules-criticism/",
+  "source": "The Marginalian (Maria Popova)",
+  "source_id": "marginalian",
+  "group": "ideas",
+  "kind": "blog",
+  "published": "2026-11-21T04:01:45+00:00",
+  "summary": "Maria Popova on Daniel Dennett's rules for criticising an opponent: restate their view fairly, note agreement and what you learned before any rebuttal. A practical ethic of disagreement.",
+  "category": "Philosophy & Ideas",
+  "importance": 2,
+  "tags": [
+   "argument",
+   "charity",
+   "dennett"
+  ],
+  "added": "2026-11-28T07:05:12+00:00",
+  "image": "https://www.themarginalian.org/wp-content/uploads/2014/03/dennett2.jpg?fit=600%2C315&ssl=1",
+  "minutes": 2
+ },
+ {
   "id": "c180aada27bd",
   "title": "How to Ship to Production with AI Agents",
   "url": "https://www.news.aakashg.com/p/ai-agents-ship-to-production",
@@ -3529,26 +2695,6 @@
   "minutes": 2
  },
  {
-  "id": "0e6ffb22cecb",
-  "title": "From Skiplists to B+ Trees: Making Valkey Sorted Sets More Memory Efficient",
-  "url": "https://valkey.io/blog/from-skiplist-to-b+tree/",
-  "source": "Lobsters",
-  "source_id": "lobsters",
-  "group": "community",
-  "kind": "community",
-  "published": "2026-11-20T22:31:29-06:00",
-  "summary": "Valkey 9.2 replaces skiplists with B+ trees for large sorted sets, cutting memory overhead. A good data-structure design lesson.",
-  "category": "Databases & Systems",
-  "importance": 2,
-  "tags": [
-   "valkey",
-   "data-structures",
-   "memory"
-  ],
-  "image": "https://valkey.io/img/valkey-logo-og.png",
-  "minutes": 7
- },
- {
   "id": "c989db0d32fd",
   "title": "The War Against Slop and an Emerging Weapon to Fight it: Formal Verification",
   "url": "https://latent.space/p/formal-verification/",
@@ -3567,46 +2713,6 @@
   ],
   "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/b6f560cd-a37a-4d62-8d6b-da5b59cf4790/formal-verification-feature.png?t=1795207886",
   "minutes": 8
- },
- {
-  "id": "f93ea93941f6",
-  "title": "How Cloudflare WAF protects against ruby2shell (CVE-2026-132825)",
-  "url": "https://blog.cloudflare.com/ruby2shell-waf-protection/",
-  "source": "Cloudflare",
-  "source_id": "cloudflare",
-  "group": "eng",
-  "kind": "blog",
-  "published": "2026-11-20T20:24:38+00:00",
-  "summary": "Cloudflare explains its WAF coverage for a critical Ruby heap overflow. Security advisory content.",
-  "category": "Databases & Systems",
-  "importance": 1,
-  "tags": [
-   "cloudflare",
-   "waf",
-   "ruby"
-  ],
-  "image": "https://blog.cloudflare.com/_emdash/api/media/file/01M7X91E3PVQ8147SJ7B05N2WK.png",
-  "minutes": 5
- },
- {
-  "id": "7066f202a884",
-  "title": "How Cloudflare WAF helps protect against phpAfterShell and other critical PHP flaws",
-  "url": "https://blog.cloudflare.com/phpaftershell-waf-protection/",
-  "source": "Cloudflare",
-  "source_id": "cloudflare",
-  "group": "eng",
-  "kind": "blog",
-  "published": "2026-11-20T20:00:45+00:00",
-  "summary": "Cloudflare describes WAF protections for a critical PHP session handler flaw. Security advisory content.",
-  "category": "Databases & Systems",
-  "importance": 1,
-  "tags": [
-   "cloudflare",
-   "waf",
-   "php"
-  ],
-  "image": "https://blog.cloudflare.com/_emdash/api/media/file/01M7X76FEMSF7NE7RCCQQBHCVN.png",
-  "minutes": 7
  },
  {
   "id": "3e30621eb1a8",
@@ -3631,24 +2737,25 @@
   "minutes": 10
  },
  {
-  "id": "86db41def986",
-  "title": "Drowning in clicks: Scaling Black Friday pipelines with Managed Airflow agents",
-  "url": "https://cloud.google.com/blog/products/data-analytics/scaling-airflow-pipelines-with-ai-agents-on-managed-airflow/",
-  "source": "Google Cloud Data Analytics",
-  "source_id": "gcp-data",
-  "group": "data",
+  "id": "0d443bfe2e6a",
+  "title": "What Ukraine Hath Wrought: Lessons for War, If We’re Listening",
+  "url": "https://warontherocks.com/what-ukraine-hath-wrought-lessons-for-war-if-were-listening/",
+  "source": "War on the Rocks",
+  "source_id": "war-on-the-rocks",
+  "group": "society",
   "kind": "blog",
-  "published": "2026-11-20T17:00:00+00:00",
-  "summary": "Google shows agents that diagnose failing Airflow pipelines during peak traffic. Vendor feature piece.",
-  "category": "Data Engineering",
-  "importance": 1,
+  "published": "2026-11-20T17:18:04+00:00",
+  "summary": "Michael Kofman, Dara Massicot and Amos Fox discuss what four years of war in Ukraine should have taught the US military. Drones, attrition and speed of adaptation are rewriting doctrine.",
+  "category": "AI & Society",
+  "importance": 2,
   "tags": [
-   "airflow",
-   "agents",
-   "google"
+   "defence",
+   "ukraine",
+   "drones"
   ],
-  "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/Data_Analytics_JooYPJr.max-2500x2500.jpg",
-  "minutes": 10
+  "added": "2026-11-28T07:02:44+00:00",
+  "image": "https://warontherocks.com/wp-content/uploads/wotr-og-images/wotr-og-48715-1ed74c0e242a.jpg",
+  "minutes": 0
  },
  {
   "id": "7ec62e10e147",
@@ -3671,46 +2778,6 @@
   "minutes": 7
  },
  {
-  "id": "347053b5b61d",
-  "title": "What’s new in Managed Service for Apache Spark 4.0",
-  "url": "https://cloud.google.com/blog/products/data-analytics/whats-new-in-managed-service-for-apache-spark-4-0/",
-  "source": "Google Cloud Data Analytics",
-  "source_id": "gcp-data",
-  "group": "data",
-  "kind": "blog",
-  "published": "2026-11-20T17:00:00+00:00",
-  "summary": "Google lists new features in its managed Spark 4.0 service for agent-driven pipelines and MCP tools. Product release summary.",
-  "category": "Data Engineering",
-  "importance": 1,
-  "tags": [
-   "spark",
-   "google",
-   "agents"
-  ],
-  "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/Data_Analytics_JooYPJr.max-2500x2500.jpg",
-  "minutes": 8
- },
- {
-  "id": "a7c069141e9e",
-  "title": "How Vodafone is using the Data Engineering Agent to improve their data pipelines",
-  "url": "https://cloud.google.com/blog/products/data-analytics/vodafone-cuts-data-pipeline-costs-30-via-data-engineeringagent/",
-  "source": "Google Cloud Data Analytics",
-  "source_id": "gcp-data",
-  "group": "data",
-  "kind": "blog",
-  "published": "2026-11-20T17:00:00+00:00",
-  "summary": "Vodafone Czech explains using Google's data engineering agent to build pipelines. Vendor customer story.",
-  "category": "Data Engineering",
-  "importance": 1,
-  "tags": [
-   "vodafone",
-   "bigquery",
-   "agents"
-  ],
-  "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/Data_Analytics_JooYPJr.max-2500x2500.jpg",
-  "minutes": 5
- },
- {
   "id": "83f2b5d135af",
   "title": "Google workers tell their employer not to punish schools that don't want AI",
   "url": "https://www.motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition/",
@@ -3720,12 +2787,12 @@
   "kind": "community",
   "published": "2026-11-20T16:59:27+00:00",
   "summary": "Google staffers urge the company not to penalise schools that reject AI. Policy and culture story.",
-  "category": "AI Industry",
+  "category": "AI & Society",
   "importance": 1,
   "tags": [
-   "google",
    "education",
-   "ai"
+   "google",
+   "schools"
   ],
   "discussion_url": "https://news.ycombinator.com/item?id=50577901",
   "points": 285,
@@ -3742,11 +2809,12 @@
   "kind": "community",
   "published": "2026-11-20T16:58:05+00:00",
   "summary": "A study of 65 models finds most users get the same recommendations to read the same book. Highlights sameness in AI answers.",
-  "category": "AI Industry",
+  "category": "AI & Society",
   "importance": 2,
   "tags": [
-   "llm",
-   "homogenization"
+   "humanity",
+   "homogenization",
+   "advice"
   ],
   "discussion_url": "https://news.ycombinator.com/item?id=50577872",
   "points": 127,
@@ -3796,24 +2864,25 @@
   "minutes": 0
  },
  {
-  "id": "beff442b3034",
-  "title": "Interactive Databricks Reference Architectures Across 70 Industries",
-  "url": "https://www.databricks.com/blog/interactive-databricks-reference-architectures-across-70-industries",
-  "source": "Databricks",
-  "source_id": "databricks",
-  "group": "data",
+  "id": "a8553ed23c1f",
+  "title": "Alignment Through Commerce",
+  "url": "https://blog.cosmos-institute.org/p/alignment-through-commerce",
+  "source": "Cosmos Institute",
+  "source_id": "cosmos",
+  "group": "ideas",
   "kind": "blog",
-  "published": "2026-11-20T14:48:28+00:00",
-  "summary": "Databricks publishes interactive reference architectures for 70 industries with regional availability. Useful for sales collateral but light on news.",
-  "category": "Lakehouse",
-  "importance": 1,
+  "published": "2026-11-20T15:46:12+00:00",
+  "summary": "Argues a world of many AI agents resembles human society, which learned to coordinate self-interested actors through markets, contracts and law. Alignment may come from old institutions, not only from training.",
+  "category": "Philosophy & Ideas",
+  "importance": 2,
   "tags": [
-   "databricks",
-   "architecture",
-   "reference"
+   "ai-philosophy",
+   "alignment",
+   "markets"
   ],
-  "image": "https://www.databricks.com/sites/default/files/2026-11/interactive-databricks-reference-architectures-across-industries-blog-og.png",
-  "minutes": 8
+  "added": "2026-11-28T07:02:44+00:00",
+  "image": "https://substackcdn.com/image/fetch/$s_!IO7O!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb3a9c4b2-cc70-4cc6-b6c8-c9a32ba3cec0_1280x896.jpeg",
+  "minutes": 13
  },
  {
   "id": "2ab114abf449",
@@ -3878,6 +2947,27 @@
   "minutes": 3
  },
  {
+  "id": "beb4f7f579e3",
+  "title": "Does it really matter if there’s an intelligence explosion?",
+  "url": "https://www.noahpinion.blog/p/does-it-really-matter-if-theres-an",
+  "source": "Noahpinion (Noah Smith)",
+  "source_id": "noahpinion",
+  "group": "society",
+  "kind": "blog",
+  "published": "2026-11-20T10:13:06+00:00",
+  "summary": "Noah Smith asks whether a sudden intelligence explosion would change economic outcomes much compared with steady AI progress. A grounded economist's take on singularity talk.",
+  "category": "AI & Society",
+  "importance": 2,
+  "tags": [
+   "economics",
+   "singularity",
+   "growth"
+  ],
+  "added": "2026-11-28T07:02:44+00:00",
+  "image": "https://substackcdn.com/image/fetch/$s_!K2Dk!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F83c7465d-0a2a-4032-b386-8b2c83298ba1_1086x611.jpeg",
+  "minutes": 12
+ },
+ {
   "id": "000028228240",
   "title": "Frostbite: A new CPU architecture discovered, designed and verified by AI",
   "url": "https://architectlabs.com/blog/frostbite",
@@ -3920,26 +3010,6 @@
   "minutes": 9
  },
  {
-  "id": "50d6027fa155",
-  "title": "November 2026 newsletter",
-  "url": "https://clickhouse.com/blog/202611-newsletter",
-  "source": "ClickHouse",
-  "source_id": "clickhouse",
-  "group": "data",
-  "kind": "blog",
-  "published": "2026-11-20T09:50:28+00:00",
-  "summary": "ClickHouse's November newsletter covers four platform launches, version 26.10 and a JSON benchmark. A quick look at a competitor's shipping cadence.",
-  "category": "Real-time Analytics",
-  "importance": 2,
-  "tags": [
-   "clickhouse",
-   "newsletter",
-   "launches"
-  ],
-  "image": "https://clickhouse.com/_next/image?url=%2Fuploads%2Fnov2026_nl_image1_32f768551e.png&w=1200&h=630&q=75",
-  "minutes": 4
- },
- {
   "id": "c4ca83ba5741",
   "title": "Restricting AI agents in mobile operating systems platforms from capturing data",
   "url": "https://signal.org/blog/protecting-your-privacy/",
@@ -3949,10 +3019,10 @@
   "kind": "community",
   "published": "2026-11-20T09:42:16+00:00",
   "summary": "Signal says it blocks OS-level AI agents from capturing its data. Privacy stance on agents.",
-  "category": "AI Industry",
+  "category": "AI & Society",
   "importance": 2,
   "tags": [
-   "signal",
+   "governance",
    "privacy",
    "agents"
   ],
@@ -3960,6 +3030,27 @@
   "points": 584,
   "image": "https://signal.org/blog/images/protecting-your-privacy-opengraph.png",
   "minutes": 6
+ },
+ {
+  "id": "fc9894e939b1",
+  "title": "Why the Next Bioterrorists May Not Make the Same Mistakes as Aum Shinrikyo",
+  "url": "https://warontherocks.com/why-the-next-bioterrorists-may-not-make-the-same-mistakes-as-aum-shinrikyo/",
+  "source": "War on the Rocks",
+  "source_id": "war-on-the-rocks",
+  "group": "society",
+  "kind": "blog",
+  "published": "2026-11-20T08:30:48+00:00",
+  "summary": "Security officials often cite Aum Shinrikyo's failed bioweapons programme as proof the risk is overstated. The authors argue AI can help with both the technical and organisational hurdles that sank it.",
+  "category": "AI & Society",
+  "importance": 2,
+  "tags": [
+   "defence",
+   "biosecurity",
+   "ai-risk"
+  ],
+  "added": "2026-11-28T07:02:44+00:00",
+  "image": "https://warontherocks.com/wp-content/uploads/wotr-og-images/wotr-og-48646-a4b3b10527e2.jpg",
+  "minutes": 14
  },
  {
   "id": "2577a740a4e0",
@@ -4024,26 +3115,6 @@
   "minutes": 12
  },
  {
-  "id": "d23cd7e9b4c1",
-  "title": "Predictive Analytics with SAP and Snowflake: Use Cases",
-  "url": "https://www.snowflake.com/content/snowflake-site/global/en/blog/sap-snowflake-predictive-analytics",
-  "source": "Snowflake",
-  "source_id": "snowflake",
-  "group": "data",
-  "kind": "blog",
-  "published": "2026-11-20T00:00:00-08:00",
-  "summary": "Snowflake describes forecasting use cases that combine SAP data with sensor and weather data. Vendor use-case piece.",
-  "category": "Data Engineering",
-  "importance": 1,
-  "tags": [
-   "snowflake",
-   "sap",
-   "forecasting"
-  ],
-  "image": "",
-  "minutes": 0
- },
- {
   "id": "e7354365dbd8",
   "title": "Anthropic announces closing of initial public offering, including full exercise of underwriters’ option to purchase additional shares, and closing of concurrent private placement",
   "url": "https://www.anthropic.com/news/ipo-close",
@@ -4062,6 +3133,302 @@
   "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
   "minutes": 2,
   "story": "anthropic-ipo"
+ },
+ {
+  "id": "bdbfe2fdbdbc",
+  "title": "The AI Forecasting Agenda",
+  "url": "https://www.astralcodexten.com/p/the-ai-forecasting-agenda",
+  "source": "Astral Codex Ten",
+  "source_id": "acx",
+  "group": "ideas",
+  "kind": "newsletter",
+  "published": "2026-11-19T20:29:45+00:00",
+  "summary": "Scott Alexander notes AI forecasters now match top humans and asks what cheap, instant expert forecasts could do for governments and institutions. A practical agenda for using them well.",
+  "category": "AI & Society",
+  "importance": 2,
+  "tags": [
+   "governance",
+   "forecasting",
+   "decision-making"
+  ],
+  "added": "2026-11-28T07:05:12+00:00",
+  "image": "https://substackcdn.com/image/fetch/$s_!pjrY!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4125aad4-afa1-465e-ac49-4f4926beff76_1536x1024.png",
+  "minutes": 16
+ },
+ {
+  "id": "ea1a27d5dc27",
+  "title": "The Data Is the Target",
+  "url": "https://cset.georgetown.edu/article/the-data-is-the-target/",
+  "source": "CSET Georgetown",
+  "source_id": "cset",
+  "group": "society",
+  "kind": "blog",
+  "published": "2026-11-19T20:00:00+00:00",
+  "summary": "As militaries lean on AI for decisions, the data feeding those systems becomes a prime target for adversaries. CSET researchers argue protecting that data is now a core defence task.",
+  "category": "AI & Society",
+  "importance": 2,
+  "tags": [
+   "defence",
+   "military-ai",
+   "data-security"
+  ],
+  "added": "2026-11-28T07:02:44+00:00",
+  "image": "https://cset.georgetown.edu/wp-content/uploads/CSET-NEWS-MILITARY-AI-TECH-scaled.webp",
+  "minutes": 1
+ },
+ {
+  "id": "5fe5b665aaa8",
+  "title": "Biodata Matters for the Genesis Mission",
+  "url": "https://cset.georgetown.edu/article/biodata-matters-for-the-genesis-mission/",
+  "source": "CSET Georgetown",
+  "source_id": "cset",
+  "group": "society",
+  "kind": "blog",
+  "published": "2026-11-19T15:17:27+00:00",
+  "summary": "CSET argues the federal Genesis Mission, which uses AI to speed up science, needs a deliberate plan for biological data. Access to good biodata will decide how much AI helps medicine.",
+  "category": "AI & Society",
+  "importance": 1,
+  "tags": [
+   "medicine",
+   "biodata",
+   "genesis-mission"
+  ],
+  "added": "2026-11-28T07:02:44+00:00",
+  "image": "https://cset.georgetown.edu/wp-content/uploads/Blog-Green.png",
+  "minutes": 12
+ },
+ {
+  "id": "89b25384f4b9",
+  "title": "Getting it right",
+  "url": "https://philosophybear.substack.com/p/getting-it-right",
+  "source": "Philosophy Bear",
+  "source_id": "philosophy-bear",
+  "group": "ideas",
+  "kind": "newsletter",
+  "published": "2026-11-19T12:01:34+00:00",
+  "summary": "Two essays on the 'invisible conspiracy' of people who sometimes act for the common good, and how institutions channel it. An optimistic take on moral progress.",
+  "category": "Philosophy & Ideas",
+  "importance": 1,
+  "tags": [
+   "ethics",
+   "common-good",
+   "institutions"
+  ],
+  "added": "2026-11-28T07:05:12+00:00",
+  "image": "https://substackcdn.com/image/fetch/$s_!aW0o!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F10f5205c-e859-43db-bac6-4c31070c9ba4_749x500.jpeg",
+  "minutes": 18
+ },
+ {
+  "id": "ddf591d7912f",
+  "title": "At least it remembers",
+  "url": "https://aeon.co/essays/what-would-parenting-by-ai-look-like",
+  "source": "Aeon",
+  "source_id": "aeon",
+  "group": "ideas",
+  "kind": "blog",
+  "published": "2026-11-19T11:00:00+00:00",
+  "summary": "Parents fear what AI will do to children, but for some children an AI companion is the only steady presence they have. Tom Wooldridge argues that absence of adults is the real problem AI exposes.",
+  "category": "AI & Society",
+  "importance": 2,
+  "tags": [
+   "humanity",
+   "children",
+   "companionship"
+  ],
+  "added": "2026-11-28T07:05:12+00:00",
+  "image": "https://images.aeonmedia.co/images/67889061-dbb5-4c47-87eb-21851f330133/essay-gettyimages-1950705233.jpg?width=1200&quality=75&format=jpeg",
+  "minutes": 18
+ },
+ {
+  "id": "f5288c38ed65",
+  "title": "The Ground Beneath the Cloud: Dispersion and Dependency in the Digital Age",
+  "url": "https://warontherocks.com/the-ground-beneath-the-cloud-dispersion-and-dependency-in-the-digital-age/",
+  "source": "War on the Rocks",
+  "source_id": "war-on-the-rocks",
+  "group": "society",
+  "kind": "blog",
+  "published": "2026-11-19T08:30:45+00:00",
+  "summary": "Cloud dispersion has made digital services resilient to local outages, but it also concentrates dependence on a few providers and physical chokepoints. A security view of the infrastructure AI runs on.",
+  "category": "AI & Society",
+  "importance": 2,
+  "tags": [
+   "defence",
+   "cloud",
+   "infrastructure"
+  ],
+  "added": "2026-11-28T07:02:44+00:00",
+  "image": "https://warontherocks.com/wp-content/uploads/wotr-og-images/wotr-og-48661-00a0dd0303e8.jpg",
+  "minutes": 14
+ },
+ {
+  "id": "6c2965c14678",
+  "title": "Between Psyche and Cyborg: Carl Jung’s Legacy and the Countercultural Courage to Reclaim the Deeply Human in a Posthuman Age",
+  "url": "https://www.themarginalian.org/2026/11/18/jung-vs-borg/",
+  "source": "The Marginalian (Maria Popova)",
+  "source_id": "marginalian",
+  "group": "ideas",
+  "kind": "blog",
+  "published": "2026-11-18T22:38:46+00:00",
+  "summary": "Traces Carl Jung's influence on the counterculture's attempt to reconcile spirit and machine. Background for current debates on technology and meaning.",
+  "category": "Philosophy & Ideas",
+  "importance": 1,
+  "tags": [
+   "jung",
+   "technology",
+   "psyche"
+  ],
+  "added": "2026-11-28T07:05:12+00:00",
+  "image": "https://www.themarginalian.org/wp-content/uploads/2012/03/carljung.jpg?fit=640%2C360&ssl=1",
+  "minutes": 11
+ },
+ {
+  "id": "065e21cf233c",
+  "title": "Pacing AI via Compute Reallocation",
+  "url": "https://www.lesswrong.com/posts/dBEDh2WeZfhuiDnJ5/pacing-ai-via-compute-reallocation",
+  "source": "LessWrong (Curated)",
+  "source_id": "lesswrong",
+  "group": "ideas",
+  "kind": "blog",
+  "published": "2026-11-18T18:24:51+00:00",
+  "summary": "LessWrong repost of the AI Futures Project proposal to pace AI by reallocating compute. The discussion thread adds critiques and alternatives.",
+  "category": "AI & Society",
+  "importance": 1,
+  "tags": [
+   "governance",
+   "compute",
+   "pacing"
+  ],
+  "story": "pacing-ai-compute",
+  "added": "2026-11-28T07:02:44+00:00",
+  "image": "https://res.cloudinary.com/lesswrong-2-0/image/upload/c_fill,ar_1.91,g_auto,w_1200,q_auto,f_jpg/SocialPreview/edyvxzllmci8doqjniwl",
+  "minutes": 18
+ },
+ {
+  "id": "0690809afcd5",
+  "title": "Pacing AI via Compute Reallocation",
+  "url": "https://blog.aifutures.org/p/pacing-ai-via-compute-reallocation",
+  "source": "AI Futures Project",
+  "source_id": "ai-futures",
+  "group": "society",
+  "kind": "blog",
+  "published": "2026-11-18T18:22:17+00:00",
+  "summary": "The AI Futures Project proposes slowing the AI frontier by shifting compute from frontier training to other uses, rather than banning work outright. A concrete version of the pacing idea now circulating in policy circles.",
+  "category": "AI & Society",
+  "importance": 2,
+  "tags": [
+   "governance",
+   "compute",
+   "pacing"
+  ],
+  "story": "pacing-ai-compute",
+  "added": "2026-11-28T07:02:44+00:00",
+  "image": "https://substackcdn.com/image/fetch/$s_!dF84!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2d6af6d9-1216-4d29-976d-1f58c775e6c0_1200x630.png",
+  "minutes": 23
+ },
+ {
+  "id": "b88c228d6b9a",
+  "title": "The Silent Consensus",
+  "url": "https://www.hyperdimensional.co/p/the-silent-consensus",
+  "source": "Hyperdimensional (Dean Ball)",
+  "source_id": "hyperdimensional",
+  "group": "society",
+  "kind": "blog",
+  "published": "2026-11-18T18:02:06+00:00",
+  "summary": "In a Harvard lecture, Dean Ball argues against forfeiting a positive vision of the AI future and says the technology world already holds one. A big-picture case for where AI could take society.",
+  "category": "AI & Society",
+  "importance": 2,
+  "tags": [
+   "humanity",
+   "vision",
+   "technology"
+  ],
+  "added": "2026-11-28T07:02:44+00:00",
+  "image": "https://substackcdn.com/image/fetch/$s_!mLaj!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F49371abf-2579-47be-8114-3e0ca580af8b_1024x1024.png",
+  "minutes": 13
+ },
+ {
+  "id": "2beb045bf304",
+  "title": "What China’s Gene-Editing Deaths Reveal About Its Biotech Industry",
+  "url": "https://www.noemamag.com/what-chinas-gene-editing-deaths-reveal-about-its-biotech-industry",
+  "source": "Noema",
+  "source_id": "noema",
+  "group": "ideas",
+  "kind": "blog",
+  "published": "2026-11-18T17:24:54+00:00",
+  "summary": "Reports on deaths in Chinese gene-editing trials and what they reveal about how the country's biotech industry is regulated. A cautionary tale on speed versus safety in new medicine.",
+  "category": "Science & Progress",
+  "importance": 2,
+  "tags": [
+   "medicine",
+   "gene-editing",
+   "china"
+  ],
+  "added": "2026-11-28T07:05:12+00:00",
+  "image": "https://noemamag.imgix.net/2026/11/Noema_Final-1-scaled.jpg?fit=crop&fm=pjpg&h=628&ixlib=php-3.3.1&w=1200&wpsize=noema-social-facebook&s=6c14371b69ed3192f55da266c064c0d1",
+  "minutes": 12
+ },
+ {
+  "id": "27189e38c470",
+  "title": "The Moral Mandate for AI Non-consciousness",
+  "url": "https://www.theintrinsicperspective.com/p/the-moral-mandate-for-ai-non-consciousness",
+  "source": "The Intrinsic Perspective (Erik Hoel)",
+  "source_id": "intrinsic-perspective",
+  "group": "ideas",
+  "kind": "newsletter",
+  "published": "2026-11-18T15:47:35+00:00",
+  "summary": "Erik Hoel argues that building AI that cannot be conscious is a moral requirement, and answers objections to his proposal. Avoids creating minds that could suffer while capabilities keep rising.",
+  "category": "Philosophy & Ideas",
+  "importance": 3,
+  "tags": [
+   "ai-philosophy",
+   "consciousness",
+   "ethics"
+  ],
+  "added": "2026-11-28T07:05:12+00:00",
+  "image": "https://substackcdn.com/image/fetch/$s_!ahKP!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc1713edb-fba7-49ce-9c96-efc815c7069d_1200x630.png",
+  "minutes": 16
+ },
+ {
+  "id": "8ff079ee0fa6",
+  "title": "What “Safe Robot” Means",
+  "url": "https://www.aipolicyperspectives.com/p/what-safe-robot-means",
+  "source": "AI Policy Perspectives",
+  "source_id": "ai-policy-perspectives",
+  "group": "society",
+  "kind": "blog",
+  "published": "2026-11-18T14:07:42+00:00",
+  "summary": "Imagines elder care in 2036 to ask what 'safe' should mean for household robots. As ageing societies turn to robots for care, safety standards become a welfare question.",
+  "category": "AI & Society",
+  "importance": 2,
+  "tags": [
+   "welfare",
+   "robotics",
+   "elder-care"
+  ],
+  "added": "2026-11-28T07:02:44+00:00",
+  "image": "https://substackcdn.com/image/fetch/$s_!1GLn!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F39efec10-61cd-4048-aff2-31c2be2a8178_1366x768.png",
+  "minutes": 25
+ },
+ {
+  "id": "c2b18dbba494",
+  "title": "Putting Pacing Into Practice",
+  "url": "https://writing.antonleicht.me/p/pacing",
+  "source": "Anton Leicht",
+  "source_id": "anton-leicht",
+  "group": "society",
+  "kind": "blog",
+  "published": "2026-11-18T13:31:53+00:00",
+  "summary": "Anton Leicht looks at the growing idea of pacing frontier AI and what it would take to make it workable in practice. Useful on why the consensus is fragile and who would have to agree.",
+  "category": "AI & Society",
+  "importance": 2,
+  "tags": [
+   "governance",
+   "pacing",
+   "policy"
+  ],
+  "added": "2026-11-28T07:02:44+00:00",
+  "image": "https://substackcdn.com/image/fetch/$s_!md3k!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa9ef711a-1d47-451a-b601-dd6d5af2d74f_1736x800.png",
+  "minutes": 17
  },
  {
   "id": "25c96fa5a216",
@@ -4083,6 +3450,153 @@
   "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
   "minutes": 1,
   "story": "anthropic-ipo"
+ },
+ {
+  "id": "8d1f7d0ae072",
+  "title": "Who Pays for What We Know",
+  "url": "https://www.palladiummag.com/2026/11/17/who-pays-for-what-we-know/",
+  "source": "Palladium",
+  "source_id": "palladium",
+  "group": "ideas",
+  "kind": "blog",
+  "published": "2026-11-17T17:47:05+00:00",
+  "summary": "AI firms now produce most of what is known about AI, echoing Gilded Age industries that funded their own research. Palladium asks who should pay for independent knowledge about the technology.",
+  "category": "AI & Society",
+  "importance": 2,
+  "tags": [
+   "governance",
+   "research",
+   "independence"
+  ],
+  "added": "2026-11-28T07:02:44+00:00",
+  "image": "https://pdmedia.b-cdn.net/2026/11/charles-hall-library-3x2-1.jpg",
+  "minutes": 11
+ },
+ {
+  "id": "8baf34b60bbc",
+  "title": "The Part About the Machines",
+  "url": "https://thepointmag.com/examined-life/the-part-about-the-machines/",
+  "source": "The Point",
+  "source_id": "the-point",
+  "group": "ideas",
+  "kind": "blog",
+  "published": "2026-11-17T16:59:54+00:00",
+  "summary": "An award-winning Peruvian novel was flagged as 99 percent AI-written, and its publisher stood by it. The essay asks what authorship and literary prizes mean once machines can write.",
+  "category": "Philosophy & Ideas",
+  "importance": 2,
+  "tags": [
+   "ai-philosophy",
+   "literature",
+   "authorship"
+  ],
+  "added": "2026-11-28T07:05:12+00:00",
+  "image": "https://thepointmag.com/wp-content/uploads/2026/11/3208424950_484571e874_o-1-scaled.jpg",
+  "minutes": 17
+ },
+ {
+  "id": "83ebf2806101",
+  "title": "J.R.R. Tolkien on Fairy Tales, Language, the Psychology of Fantasy, and Why There’s No Such Thing as Writing “For Children”",
+  "url": "https://www.themarginalian.org/2026/11/16/j-r-r-tolkien-on-fairy-stories/",
+  "source": "The Marginalian (Maria Popova)",
+  "source_id": "marginalian",
+  "group": "ideas",
+  "kind": "blog",
+  "published": "2026-11-16T14:58:00+00:00",
+  "summary": "Tolkien on fairy tales, language and why fantasy is a serious human need. A Marginalian tour of his essay On Fairy-Stories.",
+  "category": "Philosophy & Ideas",
+  "importance": 1,
+  "tags": [
+   "imagination",
+   "fantasy",
+   "tolkien"
+  ],
+  "added": "2026-11-28T07:05:12+00:00",
+  "image": "https://www.themarginalian.org/wp-content/uploads/2013/12/artofthehobbit1.jpg?fit=735%2C480&ssl=1",
+  "minutes": 12
+ },
+ {
+  "id": "e7c474153813",
+  "title": "AI agents are self-enacting storybooks of human culture",
+  "url": "https://www.programmablemutter.com/p/ai-agents-are-frozen-knowledge-given",
+  "source": "Programmable Mutter (Henry Farrell)",
+  "source_id": "programmable-mutter",
+  "group": "society",
+  "kind": "blog",
+  "published": "2026-11-16T11:57:49+00:00",
+  "summary": "Henry Farrell and Cosma Shalizi argue AI agents are best seen as cultural technologies that act out patterns from human stories. A frame that moves the debate away from minds and toward culture.",
+  "category": "Philosophy & Ideas",
+  "importance": 2,
+  "tags": [
+   "ai-philosophy",
+   "culture",
+   "agents"
+  ],
+  "added": "2026-11-28T07:02:44+00:00",
+  "image": "https://substackcdn.com/image/fetch/$s_!pUAB!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F20d761f2-8de7-4d60-8ec0-e253fae3e46b_1920x1280.png",
+  "minutes": 6
+ },
+ {
+  "id": "34893789ad9d",
+  "title": "The horse made the state",
+  "url": "https://aeon.co/essays/the-origins-of-the-state-are-not-agrarian-but-pastoralist",
+  "source": "Aeon",
+  "source_id": "aeon",
+  "group": "ideas",
+  "kind": "blog",
+  "published": "2026-11-16T11:00:00+00:00",
+  "summary": "Argues the state was made possible by transport and the conquest it enabled, from the steppe to the sea, not by grain farming. A challenge to a standard story of how civilisation began.",
+  "category": "Philosophy & Ideas",
+  "importance": 2,
+  "tags": [
+   "history",
+   "civilisation",
+   "states"
+  ],
+  "added": "2026-11-28T07:05:12+00:00",
+  "image": "https://images.aeonmedia.co/images/60bea515-b55f-48e9-9e81-4fe8bf8afde7/essay-uncavaliersurunepetiteeminencesurlagrandeplacedumarche_cadrageplusserre_a70091x.jpg?width=1200&quality=75&format=jpeg",
+  "minutes": 37
+ },
+ {
+  "id": "4a6c6dc59839",
+  "title": "No matter how you ask, more Americans are negative than positive about AI",
+  "url": "https://ourworldindata.org/no-matter-how-you-ask-more-americans-are-negative-than-positive-about-ai",
+  "source": "Our World in Data",
+  "source_id": "owid",
+  "group": "society",
+  "kind": "blog",
+  "published": "2026-11-16T00:00:00+00:00",
+  "summary": "Our World in Data compares five large surveys and finds more Americans are negative than positive about AI, however the question is worded. Public sentiment is a real constraint on how fast AI spreads.",
+  "category": "AI & Society",
+  "importance": 2,
+  "tags": [
+   "governance",
+   "public-opinion",
+   "surveys"
+  ],
+  "added": "2026-11-28T07:02:44+00:00",
+  "image": "https://ourworldindata.org/cdn-cgi/imagedelivery/qLq-8BTgXU8yG0N6HnOy8g/63c79259-8e7c-4b68-a7a1-e3cf6c703200/public",
+  "minutes": 6
+ },
+ {
+  "id": "538ace253712",
+  "title": "Recursive, Self, Improvement",
+  "url": "https://blog.cosmos-institute.org/p/recursive-self-improvement",
+  "source": "Cosmos Institute",
+  "source_id": "cosmos",
+  "group": "ideas",
+  "kind": "blog",
+  "published": "2026-11-13T15:01:14+00:00",
+  "summary": "Traces the idea of an intelligence explosion from I.J. Good's 1965 paper to today's AI-assisted research. Separates what 'recursive self-improvement' meant then from what is happening now.",
+  "category": "Philosophy & Ideas",
+  "importance": 2,
+  "tags": [
+   "ai-philosophy",
+   "recursive-self-improvement",
+   "history"
+  ],
+  "added": "2026-11-28T07:02:44+00:00",
+  "image": "https://substackcdn.com/image/fetch/$s_!YSB8!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5a2a7e6c-cfd2-4932-a497-1501d554c5df_1200x630.png",
+  "minutes": 17
  },
  {
   "id": "26a46cce7cf4",
@@ -4125,44 +3639,466 @@
   "minutes": 9
  },
  {
-  "id": "680b35173b97",
-  "title": "Richpanel helps companies automate 50% of support in 30 days",
-  "url": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
-  "source": "OpenAI",
-  "source_id": "openai",
-  "group": "ai",
-  "kind": "blog",
-  "published": "2026-11-12T12:00:00+00:00",
-  "summary": "A support automation company reports handling half of tickets within 30 days using GPT models. Vendor story with a headline number.",
-  "category": "AI Engineering",
-  "importance": 1,
+  "id": "65f845ae976e",
+  "title": "AI Company Employees Should Unionize",
+  "url": "https://www.astralcodexten.com/p/ai-company-employees-should-unionize",
+  "source": "Astral Codex Ten",
+  "source_id": "acx",
+  "group": "ideas",
+  "kind": "newsletter",
+  "published": "2026-11-12T23:09:15+00:00",
+  "summary": "Scott Alexander argues safety-minded staff at AI labs should organise rather than quit in protest. Because they are hard to replace, collective action could give them real say over how AI is built.",
+  "category": "AI & Society",
+  "importance": 2,
   "tags": [
-   "openai",
-   "support",
-   "customer-story"
+   "jobs",
+   "labor",
+   "ai-safety"
   ],
-  "image": "https://images.ctfassets.net/kftzwdyauwt9/4aVhQ1EicxWg7i6lIkBrLQ/cdabc180f7e5f780dbb43c302e7163d8/richpanel-social.png?w=1600&h=900&fit=fill",
+  "added": "2026-11-28T07:05:12+00:00",
+  "image": "https://substackcdn.com/image/fetch/$s_!-Ohc!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fde52244f-534f-4b9b-8d91-933b36ddc16a_736x392.png",
+  "minutes": 7
+ },
+ {
+  "id": "2d612e64e0c7",
+  "title": "AI Kill Switches: What Policymakers Should Know",
+  "url": "https://cset.georgetown.edu/article/ai-kill-switches-what-policymakers-should-know/",
+  "source": "CSET Georgetown",
+  "source_id": "cset",
+  "group": "society",
+  "kind": "blog",
+  "published": "2026-11-12T17:11:52+00:00",
+  "summary": "CSET explains what it would actually take to shut off an AI system that is causing harm, and where kill-switch proposals fall short. A practical primer for a debate often held in slogans.",
+  "category": "AI & Society",
+  "importance": 2,
+  "tags": [
+   "governance",
+   "safety",
+   "policy"
+  ],
+  "added": "2026-11-28T07:02:44+00:00",
+  "image": "https://cset.georgetown.edu/wp-content/uploads/Blog-Dark-Blue.png",
   "minutes": 2
  },
  {
-  "id": "2cb4f31b0883",
-  "title": "Cursor Projects is now multiplayer",
-  "url": "https://cursor.com/blog/projects-multiplayer",
-  "source": "Cursor",
-  "source_id": "cursor",
-  "group": "ai",
+  "id": "da92d82c742a",
+  "title": "What Huawei’s Horinger data center reveals about China’s compute gap",
+  "url": "https://epochai.substack.com/p/what-huaweis-horinger-data-center",
+  "source": "Epoch AI",
+  "source_id": "epoch",
+  "group": "society",
   "kind": "blog",
-  "published": "2026-11-10T12:00:00+00:00",
-  "summary": "Cursor Projects now lets teammates join a shared Project and work alongside agents. A product-update view of multiplayer agent workflows.",
-  "category": "AI Engineering",
+  "published": "2026-11-12T16:03:15+00:00",
+  "summary": "Epoch AI uses Huawei's new data centre to estimate how far China's AI compute trails the US under export controls. Cheap energy helps China, but chips remain the bottleneck.",
+  "category": "AI & Society",
   "importance": 1,
   "tags": [
-   "cursor",
-   "collaboration",
-   "agents"
+   "defence",
+   "compute",
+   "china"
   ],
-  "image": "https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/uploads/projects-mp-UBYHzU2mlANxiKl3n44qnRePiRTOgt.jpg",
-  "minutes": 5
+  "added": "2026-11-28T07:02:44+00:00",
+  "image": "https://substackcdn.com/image/fetch/$s_!FwZk!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F61292989-e514-48bf-918b-6bc290ff15c0_1290x1344.png",
+  "minutes": 7
+ },
+ {
+  "id": "b388fc439071",
+  "title": "Introducing: Qualiaphobic AI",
+  "url": "https://www.theintrinsicperspective.com/p/introducing-qualiaphobic-ai",
+  "source": "The Intrinsic Perspective (Erik Hoel)",
+  "source_id": "intrinsic-perspective",
+  "group": "ideas",
+  "kind": "newsletter",
+  "published": "2026-11-12T15:30:36+00:00",
+  "summary": "Erik Hoel proposes 'qualiaphobic' AI architectures designed to repel consciousness, like hostile architecture for minds. He presents it as a route to a good future where AI keeps improving.",
+  "category": "Philosophy & Ideas",
+  "importance": 2,
+  "tags": [
+   "ai-philosophy",
+   "consciousness",
+   "safety"
+  ],
+  "added": "2026-11-28T07:05:12+00:00",
+  "image": "https://substackcdn.com/image/fetch/$s_!-_Ex!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F271ebef0-56db-4e8c-9b41-f0d8d1a7aea7_1200x630.png",
+  "minutes": 7
+ },
+ {
+  "id": "fe4519f69a09",
+  "title": "Why anything exists",
+  "url": "https://aeon.co/essays/a-new-answer-to-why-there-is-something-rather-than-nothing",
+  "source": "Aeon",
+  "source_id": "aeon",
+  "group": "ideas",
+  "kind": "blog",
+  "published": "2026-11-12T11:00:00+00:00",
+  "summary": "Andrew Brenner offers a new answer to why there is something rather than nothing. Careful metaphysics on one of philosophy's oldest questions.",
+  "category": "Philosophy & Ideas",
+  "importance": 2,
+  "tags": [
+   "metaphysics",
+   "existence",
+   "cosmology"
+  ],
+  "added": "2026-11-28T07:05:12+00:00",
+  "image": "https://images.aeonmedia.co/images/72b5e07e-102f-40ec-b0e7-0f8234e7ae07/essay-v1-dp279306.jpg?width=1200&quality=75&format=jpeg",
+  "minutes": 16
+ },
+ {
+  "id": "586d57b87959",
+  "title": "Shunning people who ‘look homeless’ is an aesthetic injustice",
+  "url": "https://psyche.co/ideas/shunning-people-who-look-homeless-is-an-aesthetic-injustice",
+  "source": "Psyche",
+  "source_id": "psyche",
+  "group": "ideas",
+  "kind": "blog",
+  "published": "2026-11-12T11:00:00+00:00",
+  "summary": "Giacomo Floris argues that shunning people who look homeless is an aesthetic injustice. Access to haircuts, showers and clean clothes is owed as justice, not charity.",
+  "category": "Philosophy & Ideas",
+  "importance": 2,
+  "tags": [
+   "ethics",
+   "welfare",
+   "homelessness"
+  ],
+  "added": "2026-11-28T07:05:12+00:00",
+  "image": "https://images.aeonmedia.co/images/9418b37e-751a-49b7-98c6-6090f2472c77/sz-final-2023-05-03t223620z_724465317_rc20r0aw7wfg_rtrmadp_3_usa-dailylife.jpg?top=287&left=2&cropWidth=2800&cropHeight=1575&width=1200&quality=75&format=jpeg",
+  "minutes": 8
+ },
+ {
+  "id": "ab938db881f6",
+  "title": "OK If Kids Grow Up Fast?",
+  "url": "https://www.overcomingbias.com/p/ok-if-kids-grow-up-fast",
+  "source": "Overcoming Bias (Robin Hanson)",
+  "source_id": "overcoming-bias",
+  "group": "ideas",
+  "kind": "blog",
+  "published": "2026-11-11T18:15:22+00:00",
+  "summary": "Robin Hanson asks why people treat AI successors differently from biological descendants. A provocation on what we owe, and fear from, minds we create.",
+  "category": "Philosophy & Ideas",
+  "importance": 1,
+  "tags": [
+   "ai-philosophy",
+   "ai-risk",
+   "descendants"
+  ],
+  "added": "2026-11-28T07:02:44+00:00",
+  "image": "https://substackcdn.com/image/fetch/$s_!bR-x!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7b57de8b-e5f2-40cb-8cb6-669049eaaa05_1440x1080.webp",
+  "minutes": 4
+ },
+ {
+  "id": "8dae14048981",
+  "title": "Piggybacking to the Frontier",
+  "url": "https://www.chinatalk.media/p/the-us-is-selling-rl-environments",
+  "source": "ChinaTalk",
+  "source_id": "chinatalk",
+  "group": "society",
+  "kind": "blog",
+  "published": "2026-11-11T11:07:30+00:00",
+  "summary": "US data firms are selling about half a billion dollars of training data a year to Chinese AI labs. Training data, not just chips, is becoming a national-security question.",
+  "category": "AI & Society",
+  "importance": 2,
+  "tags": [
+   "defence",
+   "training-data",
+   "china"
+  ],
+  "added": "2026-11-28T07:02:44+00:00",
+  "image": "https://substackcdn.com/image/fetch/$s_!R3-x!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F424ec8f7-3da7-479b-bb9b-ae1db97ff118_940x856.png",
+  "minutes": 15
+ },
+ {
+  "id": "5a6431c23394",
+  "title": "India is quietly doing great",
+  "url": "https://www.noahpinion.blog/p/india-is-quietly-doing-great",
+  "source": "Noahpinion (Noah Smith)",
+  "source_id": "noahpinion",
+  "group": "society",
+  "kind": "blog",
+  "published": "2026-11-11T08:51:56+00:00",
+  "summary": "Noah Smith argues India's economy is quietly outperforming while attention is on China. A look at growth, manufacturing and how a large country climbs out of poverty.",
+  "category": "Science & Progress",
+  "importance": 2,
+  "tags": [
+   "economics",
+   "india",
+   "growth"
+  ],
+  "added": "2026-11-28T07:02:44+00:00",
+  "image": "https://substackcdn.com/image/fetch/$s_!pQ8H!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1c9f730d-8548-4656-ac33-b06664a1edde_832x624.jpeg",
+  "minutes": 8
+ },
+ {
+  "id": "9e6cb5cf58bb",
+  "title": "Escaping The “Outside Criticism” Trap",
+  "url": "https://www.astralcodexten.com/p/escaping-the-outside-criticism-trap",
+  "source": "Astral Codex Ten",
+  "source_id": "acx",
+  "group": "ideas",
+  "kind": "newsletter",
+  "published": "2026-11-11T07:12:01+00:00",
+  "summary": "Scott Alexander dissects a rhetorical trap: accusing any group of ignoring 'outside' critics, however much it engages. On how to tell real closed-mindedness from an unfalsifiable charge.",
+  "category": "Philosophy & Ideas",
+  "importance": 2,
+  "tags": [
+   "argument",
+   "epistemics",
+   "criticism"
+  ],
+  "added": "2026-11-28T07:05:12+00:00",
+  "image": "https://substackcdn.com/image/fetch/$s_!NWVr!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5b9a4c1b-f0fc-49d7-8f15-18a18e291956_1392x840.png",
+  "minutes": 8
+ },
+ {
+  "id": "e4294441b81f",
+  "title": "Ethan Mollick on AI: Where Are We Now and Where Are We Headed",
+  "url": "https://erictopol.substack.com/p/ethan-mollick-on-ai-where-are-we",
+  "source": "Ground Truths (Eric Topol)",
+  "source_id": "topol",
+  "group": "society",
+  "kind": "blog",
+  "published": "2026-11-10T22:29:34+00:00",
+  "summary": "Eric Topol interviews Ethan Mollick on where AI stands and where it is heading, including what it means for medicine and professional work. Two careful observers on the gap between capability and adoption.",
+  "category": "AI & Society",
+  "importance": 3,
+  "tags": [
+   "jobs",
+   "medicine",
+   "ethan-mollick"
+  ],
+  "added": "2026-11-28T07:02:44+00:00",
+  "image": "https://substackcdn.com/image/fetch/$s_!DjtD!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-video.s3.amazonaws.com%2Fvideo_upload%2Fpost%2F223811643%2Faefb6221-79de-4c88-8471-be69cb2bd092%2Ftranscoded-1794349438.png",
+  "minutes": 2
+ },
+ {
+  "id": "d0eedee52218",
+  "title": "The missing quadrant in responses to AI",
+  "url": "https://www.normaltech.ai/p/the-missing-quadrant-in-responses",
+  "source": "AI as Normal Technology",
+  "source_id": "normaltech",
+  "group": "society",
+  "kind": "blog",
+  "published": "2026-11-10T18:37:42+00:00",
+  "summary": "Arvind Narayanan and Sayash Kapoor launch STABL, a lab studying the bottlenecks between AI capability and real societal change. They argue institutions, not models, will set the pace, and need reform backed by evidence.",
+  "category": "AI & Society",
+  "importance": 2,
+  "tags": [
+   "governance",
+   "institutions",
+   "diffusion"
+  ],
+  "added": "2026-11-28T07:02:44+00:00",
+  "image": "https://substackcdn.com/image/fetch/$s_!5-fS!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2095f300-0a39-4e16-a60f-6c8a94728bf9_1666x932.jpeg",
+  "minutes": 12
+ },
+ {
+  "id": "67d25191b3ba",
+  "title": "When AIs Become Unruly Swarms",
+  "url": "https://www.noemamag.com/when-ais-become-unruly-swarms",
+  "source": "Noema",
+  "source_id": "noema",
+  "group": "ideas",
+  "kind": "blog",
+  "published": "2026-11-10T17:39:53+00:00",
+  "summary": "Oxford and Cosmos Institute researchers argue that aligning AI models one at a time is not enough once agents collaborate. Safety will depend on the shared environment and rules those agents operate in.",
+  "category": "AI & Society",
+  "importance": 2,
+  "tags": [
+   "governance",
+   "multi-agent",
+   "safety"
+  ],
+  "added": "2026-11-28T07:05:12+00:00",
+  "image": "https://noemamag.imgix.net/2026/11/smaller.jpg?fit=crop&fm=pjpg&h=628&ixlib=php-3.3.1&rect=0%2C90%2C946%2C495&w=1200&wpsize=noema-social-facebook&s=1e48f583b77846a5ac56f76fd368f665",
+  "minutes": 17
+ },
+ {
+  "id": "4a9a83a04e07",
+  "title": "Iron Makes Iron",
+  "url": "https://www.hyperdimensional.co/p/iron-makes-iron",
+  "source": "Hyperdimensional (Dean Ball)",
+  "source_id": "hyperdimensional",
+  "group": "society",
+  "kind": "blog",
+  "published": "2026-11-10T17:24:58+00:00",
+  "summary": "Dean Ball separates two kinds of recursive self-improvement after METR's study of AI speeding up research at Anthropic. He argues the fear of a runaway loop rests on the wrong kind.",
+  "category": "Philosophy & Ideas",
+  "importance": 2,
+  "tags": [
+   "ai-philosophy",
+   "recursive-self-improvement",
+   "safety"
+  ],
+  "added": "2026-11-28T07:02:44+00:00",
+  "image": "https://substackcdn.com/image/fetch/$s_!mLaj!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F49371abf-2579-47be-8114-3e0ca580af8b_1024x1024.png",
+  "minutes": 17
+ },
+ {
+  "id": "f9adcb20139d",
+  "title": "Q3.5 Timelines Update: Looks Like the Intelligence Explosion Will Happen in 2027 After All",
+  "url": "https://blog.aifutures.org/p/q35-timelines-update-looks-like-the",
+  "source": "AI Futures Project",
+  "source_id": "ai-futures",
+  "group": "society",
+  "kind": "blog",
+  "published": "2026-11-10T16:15:14+00:00",
+  "summary": "The AI Futures Project updates its forecast and now expects an intelligence explosion in 2027. The authors explain which recent evidence moved their model.",
+  "category": "AI Industry",
+  "importance": 2,
+  "tags": [
+   "forecasting",
+   "timelines",
+   "intelligence-explosion"
+  ],
+  "added": "2026-11-28T07:02:44+00:00",
+  "image": "https://substackcdn.com/image/fetch/$s_!Q8oC!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7e84b6c4-6dc9-44ea-9efb-4ef6a943aaf5_2400x1260.png",
+  "minutes": 80
+ },
+ {
+  "id": "b8b2b0dec3aa",
+  "title": "Winning Time: Ukraine’s Unmanned Systems Forces and the New Dimension of War",
+  "url": "https://warontherocks.com/winning-time-ukraines-unmanned-systems-forces-and-the-new-dimension-of-war/",
+  "source": "War on the Rocks",
+  "source_id": "war-on-the-rocks",
+  "group": "society",
+  "kind": "blog",
+  "published": "2026-11-10T08:30:35+00:00",
+  "summary": "How Ukraine chose to create a separate armed-forces branch for unmanned systems, and what that changed. A case study in militaries reorganising around drones and autonomy.",
+  "category": "AI & Society",
+  "importance": 2,
+  "tags": [
+   "defence",
+   "ukraine",
+   "autonomy"
+  ],
+  "added": "2026-11-28T07:02:44+00:00",
+  "image": "https://warontherocks.com/wp-content/uploads/wotr-og-images/wotr-og-48517-058a20dc9118.jpg",
+  "minutes": 18
+ },
+ {
+  "id": "906503fc546e",
+  "title": "Fable 5.2 and Jagged AGI",
+  "url": "https://www.oneusefulthing.org/p/fable-52-and-jagged-agi",
+  "source": "One Useful Thing (Ethan Mollick)",
+  "source_id": "one-useful-thing",
+  "group": "ai",
+  "kind": "newsletter",
+  "published": "2026-11-09T19:04:26+00:00",
+  "summary": "Ethan Mollick tests Claude Fable 5.2 and concludes it is almost AGI, or what he calls jagged AGI: expert at many tasks yet still behind humans in some. A grounded read on how close general AI is.",
+  "category": "AI Models & Research",
+  "importance": 3,
+  "tags": [
+   "agi",
+   "claude",
+   "jagged-frontier"
+  ],
+  "added": "2026-11-28T07:05:12+00:00",
+  "image": "https://substackcdn.com/image/fetch/$s_!-MYM!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4498fb7e-ff69-4b09-903a-f22ff7147e4b_2912x1632.png",
+  "minutes": 15
+ },
+ {
+  "id": "b7a38b743f4e",
+  "title": "In Defense of Pulling Numbers Out of Thin Air",
+  "url": "https://www.goodthoughts.blog/p/in-defense-of-pulling-numbers-out",
+  "source": "Good Thoughts (Richard Y. Chappell)",
+  "source_id": "good-thoughts",
+  "group": "ideas",
+  "kind": "newsletter",
+  "published": "2026-11-09T18:11:37+00:00",
+  "summary": "Richard Chappell defends putting rough numbers on moral trade-offs, even subjective ones. Stated weights reveal how you would judge many cases, much as betting odds reveal beliefs.",
+  "category": "Philosophy & Ideas",
+  "importance": 2,
+  "tags": [
+   "ethics",
+   "quantification",
+   "charity"
+  ],
+  "added": "2026-11-28T07:05:12+00:00",
+  "image": "https://substackcdn.com/image/fetch/$s_!ydFJ!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0924b479-8c8c-4940-8db9-329d6026d153_1536x1024.png",
+  "minutes": 14
+ },
+ {
+  "id": "db72880b3042",
+  "title": "New Units of Knowledge",
+  "url": "https://kk.org/thetechnium/new-units-of-knowledge/",
+  "source": "The Technium (Kevin Kelly)",
+  "source_id": "technium",
+  "group": "ideas",
+  "kind": "blog",
+  "published": "2026-11-09T11:00:00+00:00",
+  "summary": "If everyone has an AI genie that does what they ask, Kevin Kelly asks what we still need from other people. An essay on what knowledge and exchange look like when answers are free.",
+  "category": "Philosophy & Ideas",
+  "importance": 2,
+  "tags": [
+   "ai-philosophy",
+   "knowledge",
+   "cooperation"
+  ],
+  "added": "2026-11-28T07:02:44+00:00",
+  "image": "https://kk.org/wp-content/themes/kkdotorg/inc/images/og_default_1200.png",
+  "minutes": 7
+ },
+ {
+  "id": "7dec0db448c1",
+  "title": "The ethics of having a good time at Disney World, Florida",
+  "url": "https://psyche.co/ideas/the-ethics-of-having-a-good-time-at-disney-world-florida",
+  "source": "Psyche",
+  "source_id": "psyche",
+  "group": "ideas",
+  "kind": "blog",
+  "published": "2026-11-09T11:00:00+00:00",
+  "summary": "Does the profit-driven corporation behind Disney World undermine the value of the joy people find there? A light piece of applied ethics.",
+  "category": "Philosophy & Ideas",
+  "importance": 1,
+  "tags": [
+   "ethics",
+   "leisure",
+   "corporations"
+  ],
+  "added": "2026-11-28T07:05:12+00:00",
+  "image": "https://images.aeonmedia.co/images/ff18a74b-939d-4635-bdde-6e865b0ee1ad/sz-final-gettyimages-2254333607.jpg?top=138&left=0&cropWidth=2400&cropHeight=1350&width=1200&quality=75&format=jpeg",
+  "minutes": 10
+ },
+ {
+  "id": "954ef5490bdf",
+  "title": "How Low-Dimensional Is Intelligence?",
+  "url": "https://www.overcomingbias.com/p/how-low-dimensional-is-intelligence",
+  "source": "Overcoming Bias (Robin Hanson)",
+  "source_id": "overcoming-bias",
+  "group": "ideas",
+  "kind": "blog",
+  "published": "2026-11-08T18:58:55+00:00",
+  "summary": "Robin Hanson asks whether intelligence is a few general skills or many specific ones. The answer decides whether a system superhuman in a few areas is superhuman everywhere.",
+  "category": "Philosophy & Ideas",
+  "importance": 2,
+  "tags": [
+   "ai-philosophy",
+   "intelligence",
+   "agi"
+  ],
+  "added": "2026-11-28T07:02:44+00:00",
+  "image": "https://substackcdn.com/image/fetch/$s_!Okax!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F114fa081-6d2e-4383-9f61-43bcc260a022_1536x576.png",
+  "minutes": 4
+ },
+ {
+  "id": "1f9a273ff38e",
+  "title": "Why the Cyberpocalypse Might Hit China Harder",
+  "url": "https://www.chinatalk.media/p/china-in-the-cyberpocalypse",
+  "source": "ChinaTalk",
+  "source_id": "chinatalk",
+  "group": "society",
+  "kind": "blog",
+  "published": "2026-11-08T11:03:30+00:00",
+  "summary": "Chang Che argues that AI models finding software bugs at scale could hurt China more than the US. A different angle on who loses when vulnerability discovery gets cheap.",
+  "category": "AI & Society",
+  "importance": 2,
+  "tags": [
+   "defence",
+   "cybersecurity",
+   "china"
+  ],
+  "added": "2026-11-28T07:02:44+00:00",
+  "image": "https://substackcdn.com/image/fetch/$s_!lskA!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff8fe41e4-46be-4b35-beed-4bfe4e44ed84_548x364.jpeg",
+  "minutes": 11
  },
  {
   "id": "0ec2e6081857",
@@ -4225,25 +4161,6 @@
   "minutes": 3
  },
  {
-  "id": "6390b97ded36",
-  "title": "A Practical Guide to Security in November 2026",
-  "url": "https://cognition.com/blog/practical-guide-to-security-november-2026",
-  "source": "Cognition",
-  "source_id": "cognition",
-  "group": "ai",
-  "kind": "blog",
-  "published": "2026-11-03T09:00:00-08:00",
-  "summary": "A recap of recent security incidents with a practical checklist of long-standing best practices. Useful but generic guidance.",
-  "category": "AI Engineering",
-  "importance": 1,
-  "tags": [
-   "security",
-   "best-practices"
-  ],
-  "image": "https://cognition.com/images/practical-guide-to-security-november-2026/cover.png",
-  "minutes": 3
- },
- {
   "id": "6a7843cb55ac",
   "title": "Zombie Agents, Vampire Models, Witch Hunts, and the Mummy's Curse: AI Fears for Halloween 2026",
   "url": "https://www.deeplearning.ai/the-batch/issue-377",
@@ -4261,26 +4178,6 @@
   ],
   "image": "https://charonhub.deeplearning.ai/content/images/2026/10/Cozy-Halloween-Storytime-Circle.webp",
   "minutes": 10
- },
- {
-  "id": "f5c413d73956",
-  "title": "Security notice: malicious Claude Code extension versions in Cursor marketplace",
-  "url": "https://cursor.com/blog/claude-code-extension-security-notice",
-  "source": "Cursor",
-  "source_id": "cursor",
-  "group": "ai",
-  "kind": "blog",
-  "published": "2026-10-29T12:00:00+00:00",
-  "summary": "Cursor flags malicious versions 2.1.312 and 2.1.313 of the Claude Code extension in its VS Code marketplace. A reminder that agent tooling is a live supply-chain target.",
-  "category": "AI Engineering",
-  "importance": 2,
-  "tags": [
-   "security",
-   "claude-code",
-   "supply-chain"
-  ],
-  "image": "https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/og/opengraph-default.png",
-  "minutes": 3
  },
  {
   "id": "f0e0cc04d2c6",
@@ -4303,6 +4200,27 @@
   "minutes": 1
  },
  {
+  "id": "49262cdb40d6",
+  "title": "Scattered thoughts on how doing math feels these days",
+  "url": "https://www.lesswrong.com/posts/HuQAuWjc2Z5tqCjyw/scattered-thoughts-on-how-doing-math-feels-these-days",
+  "source": "LessWrong (Curated)",
+  "source_id": "lesswrong",
+  "group": "ideas",
+  "kind": "blog",
+  "published": "2026-10-27T12:51:16+00:00",
+  "summary": "A mathematician records what doing research feels like as AI starts proving theorems. A time capsule of expert work changing in real time.",
+  "category": "AI & Society",
+  "importance": 2,
+  "tags": [
+   "jobs",
+   "mathematics",
+   "research"
+  ],
+  "added": "2026-11-28T07:02:44+00:00",
+  "image": "https://res.cloudinary.com/lesswrong-2-0/image/upload/v1654295382/new_mississippi_river_fjdmww.jpg",
+  "minutes": 28
+ },
+ {
   "id": "559c640b831a",
   "title": "FrontierCode 2.0",
   "url": "https://cognition.com/blog/frontier-code-2.0",
@@ -4323,24 +4241,25 @@
   "minutes": 6
  },
  {
-  "id": "2a6eaa4c2ea1",
-  "title": "Devin Security: Find and fix your most dangerous vulnerabilities",
-  "url": "https://cognition.com/blog/devin-security",
-  "source": "Cognition",
-  "source_id": "cognition",
-  "group": "ai",
+  "id": "6e6c55b1fc61",
+  "title": "Some Memories of Early Anthropic",
+  "url": "https://www.lesswrong.com/posts/9PiLfo6iQbbDWFHv7/some-memories-of-early-anthropic",
+  "source": "LessWrong (Curated)",
+  "source_id": "lesswrong",
+  "group": "ideas",
   "kind": "blog",
-  "published": "2026-10-26T09:00:00-07:00",
-  "summary": "Cognition upgrades Devin Security with deep scans from frontier cyber models and large credit grants. Vendor launch, limited relevance.",
-  "category": "AI Engineering",
-  "importance": 1,
+  "published": "2026-10-26T01:48:49+00:00",
+  "summary": "A former employee recalls Anthropic between late 2022 and mid 2023, rendered from memory. A rare inside view of the company's culture before it became a frontier giant.",
+  "category": "AI Industry",
+  "importance": 2,
   "tags": [
-   "security",
-   "devin",
-   "vulnerabilities"
+   "anthropic",
+   "history",
+   "memoir"
   ],
-  "image": "https://cognition.com/images/devin-security/cover.png",
-  "minutes": 3
+  "added": "2026-11-28T07:02:44+00:00",
+  "image": "https://res.cloudinary.com/lesswrong-2-0/image/upload/v1654295382/new_mississippi_river_fjdmww.jpg",
+  "minutes": 33
  },
  {
   "id": "8a77e646571b",
@@ -4412,35 +4331,16 @@
   "group": "ai",
   "kind": "blog",
   "published": "2026-10-18T00:00:00+00:00",
-  "summary": "Anthropic is putting part of its shares into a new public benefit fund whose stake grows with the company. A governance footnote to the IPO.",
-  "category": "AI Industry",
-  "importance": 1,
+  "summary": "Anthropic is putting part of its shares into a new public benefit fund whose stake grows with the company. An early test of whether AI wealth can be tied to public good.",
+  "category": "AI & Society",
+  "importance": 2,
   "tags": [
-   "anthropic",
-   "governance"
+   "welfare",
+   "public-benefit",
+   "anthropic"
   ],
   "image": "https://assets.claude.com/f3afec5c5951eebed280125c907ef53524024eba.jpg",
   "minutes": 2
- },
- {
-  "id": "cb08e9af981e",
-  "title": "Git at any scale",
-  "url": "https://cursor.com/blog/git-at-any-scale",
-  "source": "Cursor",
-  "source_id": "cursor",
-  "group": "ai",
-  "kind": "blog",
-  "published": "2026-08-18T12:00:00+00:00",
-  "summary": "Cursor writes about making Git work at any repository scale for its agents. Mostly relevant as an infrastructure-scaling anecdote.",
-  "category": "Databases & Systems",
-  "importance": 1,
-  "tags": [
-   "git",
-   "scale",
-   "developer-tools"
-  ],
-  "image": "https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/blog/blog-demo-animation-2ntJbzDU6xSEoHctbbXf2VUO4b2nxK.gif",
-  "minutes": 45
  },
  {
   "id": "20b744e598ba",
@@ -4461,46 +4361,6 @@
   ],
   "image": "https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/uploads/close-og-image-1-B5D1caLmbVsj0JInrL2qKgXzLPMGoU.png",
   "minutes": 2
- },
- {
-  "id": "fc8c187b735b",
-  "title": "Reimagining Independence: How Meta’s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-  "url": "https://ai.meta.com/blog/assistive-robotics-university-of-pittsburgh-sam-dino/",
-  "source": "Meta AI",
-  "source_id": "meta-ai",
-  "group": "ai",
-  "kind": "blog",
-  "published": "2026-07-27T12:00:00+00:00",
-  "summary": "Describes how a university lab uses Meta's open vision models to build assistive robots for people with disabilities. A case study of open models in use; little bearing on data platforms.",
-  "category": "AI Models & Research",
-  "importance": 1,
-  "tags": [
-   "meta",
-   "robotics",
-   "open-source"
-  ],
-  "image": "",
-  "minutes": 0
- },
- {
-  "id": "503b9986b40d",
-  "title": "How Meta’s AI Models Are Powering the First Wave of Genesis Mission Projects",
-  "url": "https://ai.meta.com/blog/genesis-mission-lawrence-berkeley-national-laboratory-segment-anything-dino/",
-  "source": "Meta AI",
-  "source_id": "meta-ai",
-  "group": "ai",
-  "kind": "blog",
-  "published": "2026-07-21T12:00:00+00:00",
-  "summary": "Covers early US national-lab projects that use Meta's segmentation and vision models for science work. Mostly a showcase of open-model adoption, so low relevance here.",
-  "category": "AI Models & Research",
-  "importance": 1,
-  "tags": [
-   "meta",
-   "science",
-   "open-source"
-  ],
-  "image": "",
-  "minutes": 0
  },
  {
   "id": "08e9aa519f83",
@@ -4552,35 +4412,15 @@
   "kind": "blog",
   "published": "2026-06-29T12:00:00+00:00",
   "summary": "Meta shares a second-generation system that decodes typed text from brain signals without implants. Interesting research, but far from the data platform world.",
-  "category": "AI Models & Research",
+  "category": "AI & Society",
   "importance": 1,
   "tags": [
-   "meta",
-   "research",
-   "brain"
+   "medicine",
+   "brain-computer-interface",
+   "meta"
   ],
   "image": "",
   "minutes": 0
- },
- {
-  "id": "7a6462e387eb",
-  "title": "How iFood scales coding agents across 15,000 repositories",
-  "url": "https://openai.com/business/customer-stories/ifood",
-  "source": "OpenAI",
-  "source_id": "openai",
-  "group": "ai",
-  "kind": "blog",
-  "published": "2026-05-27T11:00:00+00:00",
-  "summary": "iFood runs coding agents across 15,000 repositories at about four cents per run through an internal platform. Concrete numbers on scaling agents inside a company.",
-  "category": "AI Engineering",
-  "importance": 2,
-  "tags": [
-   "coding-agents",
-   "openai",
-   "scale"
-  ],
-  "image": "https://images.ctfassets.net/kftzwdyauwt9/4Ts7RsLLSU4iEOxQwBkGgg/cbf56c075004a9ae2c41af4d5f7b428b/ifood-customer-story-social.png?w=1600&h=900&fit=fill",
-  "minutes": 5
  },
  {
   "id": "17a523d995a6",
@@ -4601,26 +4441,6 @@
   ],
   "image": "",
   "minutes": 0
- },
- {
-  "id": "ec442b764e04",
-  "title": "How Intentful uses dots to make more time for growth",
-  "url": "https://openai.com/business/customer-stories/intentful-dots",
-  "source": "OpenAI",
-  "source_id": "openai",
-  "group": "ai",
-  "kind": "blog",
-  "published": "2025-10-27T00:00:00+00:00",
-  "summary": "OpenAI profiles a small founder's agent that does research and proposals and flags messages. Vendor customer story.",
-  "category": "AI Engineering",
-  "importance": 1,
-  "tags": [
-   "openai",
-   "customer-story",
-   "agents"
-  ],
-  "image": "https://images.ctfassets.net/kftzwdyauwt9/2DH2aby1xmlzvADCraI7Xi/bbe8b8956578492f2c3fd7326ecbd9e1/intentful-dots-social-c.png?w=1600&h=900&fit=fill",
-  "minutes": 4
  },
  {
   "id": "2c37a971974c",

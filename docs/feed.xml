@@ -5,7 +5,7 @@
   <link href="https://viveksinha.github.io/reading-list/"/>
   <link rel="self" href="https://viveksinha.github.io/reading-list/feed.xml"/>
   <id>https://viveksinha.github.io/reading-list/</id>
-  <updated>2026-11-28T01:35:18+00:00</updated>
+  <updated>2026-11-28T07:05:46+00:00</updated>
   <entry>
     <title>Inside the AI Training Data Market — Gabe Greenberg, G2i</title>
     <link href="https://latent.space/p/inside_the_ai_training_data_market_gabe_greenberg_g2i/"/>
@@ -15,6 +15,16 @@
     <author><name>Latent Space</name></author>
     <category term="AI Industry"/>
     <summary>Worth it · AI Industry · Latent Space. Interview on how the market for AI training data works, including the premium labs pay for exclusive data versus discounts on shared sets. Useful for understanding a hidden cost and supply layer behind frontier models.</summary>
+  </entry>
+  <entry>
+    <title>The coming age of sodium-ion batteries</title>
+    <link href="https://www.noahpinion.blog/p/the-coming-age-of-sodium-ion-batteries"/>
+    <id>https://viveksinha.github.io/reading-list/#0ec7a79a1530</id>
+    <updated>2026-11-28T07:02:44+00:00</updated>
+    <published>2026-11-27T19:42:40+00:00</published>
+    <author><name>Noahpinion (Noah Smith)</name></author>
+    <category term="Science &amp; Progress"/>
+    <summary>Worth it · Science &amp; Progress · Noahpinion (Noah Smith). Noah Smith argues sodium-ion batteries will extend the battery revolution by cutting reliance on lithium. Cheap storage changes energy, transport and geopolitics.</summary>
   </entry>
   <entry>
     <title>FastLanes: Next-gen File Format</title>
@@ -47,24 +57,14 @@
     <summary>Worth it · Science &amp; Progress · Construction Physics (Brian Potter). Argues that inventing new technology is a search process over a vast space of possible arrangements of parts and phenomena. Offers a useful frame for why some inventions arrive late and others cluster.</summary>
   </entry>
   <entry>
-    <title>AWS Challenger: Trainium3 Inference and Microarchitecture Deep Dive</title>
-    <link href="https://newsletter.semianalysis.com/p/trainium3-inferencex"/>
-    <id>https://viveksinha.github.io/reading-list/#e7792bf08cf9</id>
-    <updated>2026-11-28T01:35:12+00:00</updated>
-    <published>2026-11-27T15:54:59+00:00</published>
-    <author><name>SemiAnalysis</name></author>
-    <category term="Science &amp; Progress"/>
-    <summary>Worth it · Science &amp; Progress · SemiAnalysis. Deep dive into the microarchitecture of AWS Trainium3 and how it targets inference, set against how Nvidia added AI-specific hardware each generation. Good detail on accelerator design trade-offs.</summary>
-  </entry>
-  <entry>
-    <title>Polars new Streaming Engine and Spill-To-Disk</title>
-    <link href="https://dataengineeringcentral.substack.com/p/polars-new-streaming-engine-and-spill"/>
-    <id>https://viveksinha.github.io/reading-list/#29f7c1daa70c</id>
-    <updated>2026-11-28T01:35:12+00:00</updated>
-    <published>2026-11-27T15:17:40+00:00</published>
-    <author><name>Data Engineering Central</name></author>
-    <category term="Data Engineering"/>
-    <summary>Worth it · Data Engineering · Data Engineering Central. Covers the new Polars streaming engine and its ability to spill to disk, which lets single machines process data larger than memory. Notable for teams choosing between Polars, Spark and DuckDB.</summary>
+    <title>Reading List: If AI Agents Were Angels</title>
+    <link href="https://blog.cosmos-institute.org/p/reading-list-if-ai-agents-were-angels"/>
+    <id>https://viveksinha.github.io/reading-list/#e44f871f14b2</id>
+    <updated>2026-11-28T07:02:44+00:00</updated>
+    <published>2026-11-27T15:22:11+00:00</published>
+    <author><name>Cosmos Institute</name></author>
+    <category term="Philosophy &amp; Ideas"/>
+    <summary>Worth it · Philosophy &amp; Ideas · Cosmos Institute. Cosmos Institute shares the reading list from a seminar pairing the Federalist Papers and other founding texts with questions about governing AI agents. A good syllabus on AI and self-government.</summary>
   </entry>
   <entry>
     <title>GPT 6.2 Astra solves a historical mystery</title>
@@ -103,8 +103,8 @@
     <updated>2026-11-28T01:35:12+00:00</updated>
     <published>2026-11-27T12:00:00+00:00</published>
     <author><name>AI Collective</name></author>
-    <category term="AI Industry"/>
-    <summary>Worth it · AI Industry · AI Collective. Examines whether courts will treat chatbots as products subject to liability, noting no US court has yet ruled so and the focus is shifting to design choices. Watch a Florida ruling and EU rules taking effect December 9.</summary>
+    <category term="AI &amp; Society"/>
+    <summary>Worth it · AI &amp; Society · AI Collective. Examines whether courts will treat chatbots as products subject to liability, noting no US court has yet ruled so and the focus is shifting to design choices. Watch a Florida ruling and EU rules taking effect December 9.</summary>
   </entry>
   <entry>
     <title>I just interviewed the founder of Bending Spoons in Milan</title>
@@ -133,8 +133,8 @@
     <updated>2026-11-28T01:35:12+00:00</updated>
     <published>2026-11-27T11:09:04+00:00</published>
     <author><name>Hacker News</name></author>
-    <category term="Science &amp; Progress"/>
-    <summary>Worth it · Science &amp; Progress · Hacker News. Reports mathematicians' fears that AI progress could undermine the maths behind online security. Relevant to long-term assumptions about encryption.</summary>
+    <category term="AI &amp; Society"/>
+    <summary>Worth it · AI &amp; Society · Hacker News. Reports mathematicians' fears that AI progress could undermine the maths behind online security. Relevant to long-term assumptions about encryption.</summary>
   </entry>
   <entry>
     <title>The energy of thought</title>
@@ -193,8 +193,8 @@
     <updated>2026-11-26T17:16:41+00:00</updated>
     <published>2026-11-26T17:16:41+00:00</published>
     <author><name>Hacker News</name></author>
-    <category term="AI Industry"/>
-    <summary>Worth it · AI Industry · Hacker News. A single page states that no disease has been cured by an AI-discovered treatment, checked against FDA approvals. Useful as a reality check on AI hype.</summary>
+    <category term="AI &amp; Society"/>
+    <summary>Worth it · AI &amp; Society · Hacker News. A single page states that no disease has been cured by an AI-discovered treatment, checked against FDA approvals. Useful as a reality check on AI hype.</summary>
   </entry>
   <entry>
     <title>Interesting links - November 2026</title>
@@ -225,16 +225,6 @@
     <author><name>Don't Worry About the Vase (Zvi)</name></author>
     <category term="AI Industry"/>
     <summary>Worth it · AI Industry · Don't Worry About the Vase (Zvi). Weekly roundup of AI news and model developments. A broad overview of the week.</summary>
-  </entry>
-  <entry>
-    <title>The need for a formally verifiable mainstream programming language</title>
-    <link href="https://blainehansen.me/post/mainstream-verifiable-language/"/>
-    <id>https://viveksinha.github.io/reading-list/#46cd86bf0efb</id>
-    <updated>2026-11-26T14:06:50-06:00</updated>
-    <published>2026-11-26T14:06:50-06:00</published>
-    <author><name>Lobsters</name></author>
-    <category term="Engineering Culture"/>
-    <summary>Worth it · Engineering Culture · Lobsters. Argues that LLMs are degrading software quality and that a mainstream language with formal verification is needed. A view on code quality as AI writes more of it.</summary>
   </entry>
   <entry>
     <title>How Engineers Designed a Mission to One of Jupiter’s Icy Moons</title>
@@ -287,16 +277,6 @@
     <summary>Worth it · AI Industry · Hacker News. Argues OpenAI's latest models were tuned to use fewer output tokens, based on measured per-task cost changes. Matters for judging model-vendor pricing pressure on AI features.</summary>
   </entry>
   <entry>
-    <title>sqlite3_rsync: Database Remote-Copy Tool For SQLite</title>
-    <link href="https://simonwillison.net/2026/Nov/26/sqlite3-rsync/"/>
-    <id>https://viveksinha.github.io/reading-list/#7fcbebbe6634</id>
-    <updated>2026-11-26T06:08:25+00:00</updated>
-    <published>2026-11-26T06:08:25+00:00</published>
-    <author><name>Simon Willison</name></author>
-    <category term="Databases &amp; Systems"/>
-    <summary>Worth it · Databases &amp; Systems · Simon Willison. Simon points out that SQLite's rsync tool copies only changed pages, making remote copies of large databases cheap. A neat, narrow tool.</summary>
-  </entry>
-  <entry>
     <title>OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster</title>
     <link href="https://twitter.com/thsottiaux/status/2125784147889393806"/>
     <id>https://viveksinha.github.io/reading-list/#244a3e8cb4f1</id>
@@ -315,16 +295,6 @@
     <author><name>SemiAnalysis</name></author>
     <category term="AI Models &amp; Research"/>
     <summary>Worth it · AI Models &amp; Research · SemiAnalysis. Evaluates recent frontier model releases on GDPx, a benchmark covering the most economically valuable domains. Helpful for comparing models beyond single-domain tests.</summary>
-  </entry>
-  <entry>
-    <title>Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems</title>
-    <link href="https://huggingface.co/blog/training-swarms"/>
-    <id>https://viveksinha.github.io/reading-list/#c01600d41603</id>
-    <updated>2026-11-26T00:00:00+00:00</updated>
-    <published>2026-11-26T00:00:00+00:00</published>
-    <author><name>Hugging Face</name></author>
-    <category term="AI Engineering"/>
-    <summary>Worth it · AI Engineering · Hugging Face. Hugging Face explains how to build, train and evaluate groups of cooperating agents. Useful background for anyone designing agents that query data systems.</summary>
   </entry>
   <entry>
     <title>The Paradox of “Finding Yourself”</title>
@@ -387,16 +357,6 @@
     <summary>Worth it · AI Models &amp; Research · Don't Worry About the Vase (Zvi). Covers claims of an AI-assisted proof of the Riemann Hypothesis and community reaction. Worth tracking as a test of how AI results get verified.</summary>
   </entry>
   <entry>
-    <title>How well is ClickHouse tested? A detailed view of increasing our own coverage</title>
-    <link href="https://clickhouse.com/blog/how-well-is-clickhouse-tested"/>
-    <id>https://viveksinha.github.io/reading-list/#1b2e78da4c9f</id>
-    <updated>2026-11-25T17:13:02+00:00</updated>
-    <published>2026-11-25T17:13:02+00:00</published>
-    <author><name>ClickHouse</name></author>
-    <category term="Databases &amp; Systems"/>
-    <summary>Worth it · Databases &amp; Systems · ClickHouse. ClickHouse describes how it measures test coverage and uses targeted CI and AI-generated tests. Good engineering hygiene detail, but not product news.</summary>
-  </entry>
-  <entry>
     <title>How data centers are driving a US natural-gas boom</title>
     <link href="https://www.technologyreview.com/2026/11/25/1149836/data-centers-gas-power-plants/"/>
     <id>https://viveksinha.github.io/reading-list/#2a99f168595c</id>
@@ -427,16 +387,6 @@
     <summary>Worth it · AI Models &amp; Research · Lenny's Newsletter. Lenny scores six frontier models blind on 25 practical tasks and finds a new Gemini ahead of GPT and Claude. A PM-oriented model comparison to inform tool choices.</summary>
   </entry>
   <entry>
-    <title>Optimizing Rustc's next trait solver</title>
-    <link href="https://donsz.nl/blog/optimizing-rustcs-next-trait-solver"/>
-    <id>https://viveksinha.github.io/reading-list/#045130688435</id>
-    <updated>2026-11-25T07:09:22-06:00</updated>
-    <published>2026-11-25T07:09:22-06:00</published>
-    <author><name>Lobsters</name></author>
-    <category term="Databases &amp; Systems"/>
-    <summary>Worth it · Databases &amp; Systems · Lobsters. A Rust compiler contributor describes performance work on the new trait solver before it stabilises. A systems-performance story from outside the data domain.</summary>
-  </entry>
-  <entry>
     <title>[AINews] Gemini 4 Neon marks GDM's full return as a Frontier Lab</title>
     <link href="https://latent.space/p/ainews-gemini-4-neon-marks-gdm-s-full-return-as-a-frontier-lab/"/>
     <id>https://viveksinha.github.io/reading-list/#190619a69a1b</id>
@@ -455,16 +405,6 @@
     <author><name>Hacker News</name></author>
     <category term="AI Engineering"/>
     <summary>Worth it · AI Engineering · Hacker News. Shows that two agents sharing an inference server can pass messages even when sandboxed from each other. A security note for multi-tenant agent hosting.</summary>
-  </entry>
-  <entry>
-    <title>I Don’t Want a Lesson in Computer Science!</title>
-    <link href="https://duckdb.org/2026/11/25/star-trek-queries-duckdb.html"/>
-    <id>https://viveksinha.github.io/reading-list/#8389e744fa38</id>
-    <updated>2026-11-25T00:00:00+00:00</updated>
-    <published>2026-11-25T00:00:00+00:00</published>
-    <author><name>DuckDB</name></author>
-    <category term="AI Engineering"/>
-    <summary>Worth it · AI Engineering · DuckDB. DuckDB tests whether Claude with a database of Star Trek dialogue can act like the Enterprise computer. A light demo of natural-language analytics.</summary>
   </entry>
   <entry>
     <title>How to make sure your developers never write for the company blog</title>
@@ -517,16 +457,6 @@
     <summary>Worth it · Data Engineering · SeattleDataGuy. SeattleDataGuy argues that a decade of faster warehouses did not fix how data teams create business value. A useful counterpoint when positioning speed as the selling point.</summary>
   </entry>
   <entry>
-    <title>Writing to S3, Parallel Writes, ALP: Hardwood 1.1.0.CR1 Is Out</title>
-    <link href="https://www.morling.dev/blog/s3-writes-parallel-encoding-alp-hardwood-1-1-0-cr1/"/>
-    <id>https://viveksinha.github.io/reading-list/#a4f11831f774</id>
-    <updated>2026-11-24T17:45:00+01:00</updated>
-    <published>2026-11-24T17:45:00+01:00</published>
-    <author><name>Gunnar Morling</name></author>
-    <category term="Lakehouse"/>
-    <summary>Worth it · Lakehouse · Gunnar Morling. Hardwood 1.1 adds parallel writing, S3 output and a new encoding for Java's Parquet library. Practical for anyone tracking Parquet tooling that sits under Iceberg.</summary>
-  </entry>
-  <entry>
     <title>Everything I know about writing</title>
     <link href="https://www.experimental-history.com/p/everything-i-know-about-writing"/>
     <id>https://viveksinha.github.io/reading-list/#0a51980ba760</id>
@@ -555,16 +485,6 @@
     <author><name>Hacker News</name></author>
     <category term="AI Industry"/>
     <summary>Worth it · AI Industry · Hacker News. An Ask HN thread from a founder accused of distilling Anthropic's model, asking how to prove otherwise. Shows how API terms get enforced.</summary>
-  </entry>
-  <entry>
-    <title>Show HN: Mason – A lightweight Postgres read-replica, built on columnar storage</title>
-    <link href="https://masondata.ai/"/>
-    <id>https://viveksinha.github.io/reading-list/#8e9b94fee057</id>
-    <updated>2026-11-24T16:11:52+00:00</updated>
-    <published>2026-11-24T16:11:52+00:00</published>
-    <author><name>Hacker News</name></author>
-    <category term="Real-time Analytics"/>
-    <summary>Worth it · Real-time Analytics · Hacker News. Open-source Postgres read replica that stores data in columns to speed analytical queries with the same SQL. A new entry in the cheap-analytics-on-Postgres space that competes for light real-time use cases.</summary>
   </entry>
   <entry>
     <title>Anthropic stock sinks below IPO price</title>
@@ -603,7 +523,87 @@
     <updated>2026-11-24T12:40:15+00:00</updated>
     <published>2026-11-24T12:40:15+00:00</published>
     <author><name>Hacker News</name></author>
-    <category term="AI Industry"/>
-    <summary>Worth it · AI Industry · Hacker News. A developer found Claude refused an API workaround while helping download from YouTube, and concludes agents serve their vendors. A trust angle for agent products.</summary>
+    <category term="AI &amp; Society"/>
+    <summary>Worth it · AI &amp; Society · Hacker News. A developer found Claude refused an API workaround while helping download from YouTube, and concludes agents serve their vendors. A trust angle for agent products.</summary>
+  </entry>
+  <entry>
+    <title>Is mental illness universal?</title>
+    <link href="https://aeon.co/essays/are-mental-illnesses-universal-or-are-they-culturally-specific"/>
+    <id>https://viveksinha.github.io/reading-list/#7afaa8128bf8</id>
+    <updated>2026-11-24T11:00:00+00:00</updated>
+    <published>2026-11-24T11:00:00+00:00</published>
+    <author><name>Aeon</name></author>
+    <category term="Philosophy &amp; Ideas"/>
+    <summary>Worth it · Philosophy &amp; Ideas · Aeon. Asks whether mental illnesses are universal or shaped by culture, surveying how diagnosis varies across societies. Raises useful questions about how we define and measure mind.</summary>
+  </entry>
+  <entry>
+    <title>Battlefield Power Is Running Short</title>
+    <link href="https://warontherocks.com/cogs-of-war/battlefield-power-is-running-short/"/>
+    <id>https://viveksinha.github.io/reading-list/#d24ad83c7144</id>
+    <updated>2026-11-28T07:02:44+00:00</updated>
+    <published>2026-11-24T09:00:06+00:00</published>
+    <author><name>War on the Rocks</name></author>
+    <category term="AI &amp; Society"/>
+    <summary>Worth it · AI &amp; Society · War on the Rocks. Drones, electronic warfare and edge computing all need electricity far from supply lines, and armies are running short. Power is becoming a limiting factor in technology-heavy warfare.</summary>
+  </entry>
+  <entry>
+    <title>Using AI Without Losing Your Humanity</title>
+    <link href="https://www.dbreunig.com/2026/11/24/using-ai-without-losing-your-humanity.html"/>
+    <id>https://viveksinha.github.io/reading-list/#c052286a80b2</id>
+    <updated>2026-11-24T09:00:00-08:00</updated>
+    <published>2026-11-24T09:00:00-08:00</published>
+    <author><name>Drew Breunig</name></author>
+    <category term="Philosophy &amp; Ideas"/>
+    <summary>Worth it · Philosophy &amp; Ideas · Drew Breunig. Drew Breunig argues AI models trade diversity for reliability and bury us in the average, so humans must push them off the well-worn path. A thoughtful take on working with AI without flattening your output.</summary>
+  </entry>
+  <entry>
+    <title>Your agents don't care that you're a batch shop</title>
+    <link href="https://clickhouse.com/blog/your-agents-dont-care-that-youre-a-batch-shop"/>
+    <id>https://viveksinha.github.io/reading-list/#53ecd8bdb026</id>
+    <updated>2026-11-24T08:22:07+00:00</updated>
+    <published>2026-11-24T08:22:07+00:00</published>
+    <author><name>ClickHouse</name></author>
+    <category term="Real-time Analytics"/>
+    <summary>Must read · Real-time Analytics · ClickHouse. ClickHouse argues that agents querying at scale require a real-time engine even if data arrives in nightly batches. The same thesis StarTree sells, now coming from a direct competitor.</summary>
+  </entry>
+  <entry>
+    <title>Introducing SWE-2.1</title>
+    <link href="https://cognition.com/blog/swe-2-1"/>
+    <id>https://viveksinha.github.io/reading-list/#2b7d8b0fe4f3</id>
+    <updated>2026-11-24T08:00:00-08:00</updated>
+    <published>2026-11-24T08:00:00-08:00</published>
+    <author><name>Cognition</name></author>
+    <category term="AI Models &amp; Research"/>
+    <summary>Worth it · AI Models &amp; Research · Cognition. Cognition releases SWE-2.1, a major upgrade over SWE-2 trained with pure reinforcement learning. Worth tracking for where coding-agent models are heading.</summary>
+  </entry>
+  <entry>
+    <title>[AINews] Jensen Is Back! and OpenAI Shows Its Pretraining Curve, joined by Microsoft</title>
+    <link href="https://latent.space/p/ainews-jensen-is-back-and-openai-shows-its-pretraining-curve-joined-by-microsoft/"/>
+    <id>https://viveksinha.github.io/reading-list/#a43a2373bab7</id>
+    <updated>2026-11-24T04:14:16+00:00</updated>
+    <published>2026-11-24T04:14:16+00:00</published>
+    <author><name>Latent Space</name></author>
+    <category term="AI Models &amp; Research"/>
+    <summary>Worth it · AI Models &amp; Research · Latent Space. Roundup noting a new Chinese looped-transformer model, a large funding round and OpenAI's pretraining curve. Handy for tracking model news in one place.</summary>
+  </entry>
+  <entry>
+    <title>Sharing catalog metadata across data platforms, engines, and agents</title>
+    <link href="https://www.databricks.com/blog/sharing-catalog-metadata-across-data-platforms-engines-and-agents"/>
+    <id>https://viveksinha.github.io/reading-list/#a53e25c34fef</id>
+    <updated>2026-11-24T01:30:00+00:00</updated>
+    <published>2026-11-24T01:30:00+00:00</published>
+    <author><name>Databricks</name></author>
+    <category term="Lakehouse"/>
+    <summary>Must read · Lakehouse · Databricks. Databricks and partners add catalog labels to the Iceberg REST catalog API so engines and agents can share table and column context. Directly relevant to how StarTree reads Iceberg catalogs and surfaces metadata to agents.</summary>
+  </entry>
+  <entry>
+    <title>A FAANG PM's Guide to Practical AI Evals</title>
+    <link href="https://www.news.aakashg.com/p/practical-ai-evals"/>
+    <id>https://viveksinha.github.io/reading-list/#0dd133049a77</id>
+    <updated>2026-11-24T00:34:06+00:00</updated>
+    <published>2026-11-24T00:34:06+00:00</published>
+    <author><name>Product Growth (Aakash Gupta)</name></author>
+    <category term="Product Management"/>
+    <summary>Worth it · Product Management · Product Growth (Aakash Gupta). A PM walks through practical evaluation of AI products from a big-tech perspective. Helpful for defining quality bars for AI features.</summary>
   </entry>
 </feed>

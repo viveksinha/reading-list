@@ -16,9 +16,12 @@ Gmail "Newsletters" label (email-only sources) ───────────
 ```
 
 - **Sources:** company engineering blogs, AI labs, data and PM newsletters, science and
-  progress writing (via RSS), Hacker News (keyword + points filter), Lobsters, Hugging Face daily
+  progress writing, philosophy magazines, and writing on how AI is changing defence, medicine,
+  the economy and welfare (via RSS), Hacker News (keyword + points filter), Hugging Face daily
   papers, and email-only newsletters.
-- **Scoring:** one of 14 categories, importance 1–3 (Must read / Worth it / Skim), 2–4 tags, and a
+- **High level only:** implementation internals, release notes, tutorials, CVE write-ups and
+  customer case studies are skipped (rules in `interests.md`).
+- **Scoring:** one of 15 categories, importance 1–3 (Must read / Worth it / Skim), 2–4 tags, and a
   `story` key when several sources cover the same news. The routine also writes a daily brief.
 - **Dates:** every item carries the article's own publish date. Listing-page posts without one
   are dropped rather than stamped with the day they were found.

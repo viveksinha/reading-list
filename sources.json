@@ -120,13 +120,6 @@
       "url": "https://stripe.com/blog/feed.rss"
     },
     {
-      "id": "cloudflare",
-      "name": "Cloudflare",
-      "group": "eng",
-      "kind": "blog",
-      "url": "https://blog.cloudflare.com/rss/"
-    },
-    {
       "id": "openai",
       "name": "OpenAI",
       "group": "ai",
@@ -232,13 +225,6 @@
       "url": "https://seattledataguy.substack.com/feed"
     },
     {
-      "id": "morling",
-      "name": "Gunnar Morling",
-      "group": "data",
-      "kind": "blog",
-      "url": "https://www.morling.dev/index.xml"
-    },
-    {
       "id": "vanlightly",
       "name": "Jack Vanlightly",
       "group": "data",
@@ -265,20 +251,6 @@
       "group": "data",
       "kind": "blog",
       "url": "https://tomtunguz.com/index.xml"
-    },
-    {
-      "id": "murat",
-      "name": "Murat Demirbas",
-      "group": "eng",
-      "kind": "blog",
-      "url": "https://muratbuffalo.blogspot.com/feeds/posts/default"
-    },
-    {
-      "id": "eatonphil",
-      "name": "Phil Eaton",
-      "group": "eng",
-      "kind": "blog",
-      "url": "https://notes.eatonphil.com/rss.xml"
     },
     {
       "id": "brooker",
@@ -426,13 +398,6 @@
       "group": "pm",
       "kind": "blog",
       "url": "https://www.mironov.com/rss/"
-    },
-    {
-      "id": "lobsters",
-      "name": "Lobsters",
-      "group": "community",
-      "kind": "community",
-      "url": "https://lobste.rs/t/databases,distributed,ai,ml,performance,scaling.rss"
     },
     {
       "id": "karpathy",
@@ -678,6 +643,181 @@
       "group": "ai",
       "kind": "newsletter",
       "url": "https://thezvi.substack.com/feed"
+    },
+    {
+      "id": "noahpinion",
+      "name": "Noahpinion (Noah Smith)",
+      "group": "society",
+      "kind": "blog",
+      "url": "https://www.noahpinion.blog/feed"
+    },
+    {
+      "id": "normaltech",
+      "name": "AI as Normal Technology",
+      "group": "society",
+      "kind": "blog",
+      "url": "https://www.normaltech.ai/feed"
+    },
+    {
+      "id": "cset",
+      "name": "CSET Georgetown",
+      "group": "society",
+      "kind": "blog",
+      "url": "https://cset.georgetown.edu/feed/"
+    },
+    {
+      "id": "war-on-the-rocks",
+      "name": "War on the Rocks",
+      "group": "society",
+      "kind": "blog",
+      "url": "https://warontherocks.com/feed/"
+    },
+    {
+      "id": "owid",
+      "name": "Our World in Data",
+      "group": "society",
+      "kind": "blog",
+      "url": "https://ourworldindata.org/atom.xml"
+    },
+    {
+      "id": "topol",
+      "name": "Ground Truths (Eric Topol)",
+      "group": "society",
+      "kind": "blog",
+      "url": "https://erictopol.substack.com/feed"
+    },
+    {
+      "id": "second-thoughts",
+      "name": "Second Thoughts (Steve Newman)",
+      "group": "society",
+      "kind": "blog",
+      "url": "https://secondthoughts.ai/feed"
+    },
+    {
+      "id": "ai-futures",
+      "name": "AI Futures Project",
+      "group": "society",
+      "kind": "blog",
+      "url": "https://blog.ai-futures.org/feed"
+    },
+    {
+      "id": "hyperdimensional",
+      "name": "Hyperdimensional (Dean Ball)",
+      "group": "society",
+      "kind": "blog",
+      "url": "https://www.hyperdimensional.co/feed"
+    },
+    {
+      "id": "ai-policy-perspectives",
+      "name": "AI Policy Perspectives",
+      "group": "society",
+      "kind": "blog",
+      "url": "https://www.aipolicyperspectives.com/feed"
+    },
+    {
+      "id": "rand",
+      "name": "RAND",
+      "group": "society",
+      "kind": "blog",
+      "url": "https://www.rand.org/pubs/commentary.xml"
+    },
+    {
+      "id": "chinatalk",
+      "name": "ChinaTalk",
+      "group": "society",
+      "kind": "blog",
+      "url": "https://www.chinatalk.media/feed"
+    },
+    {
+      "id": "programmable-mutter",
+      "name": "Programmable Mutter (Henry Farrell)",
+      "group": "society",
+      "kind": "blog",
+      "url": "https://www.programmablemutter.com/feed"
+    },
+    {
+      "id": "epoch",
+      "name": "Epoch AI",
+      "group": "society",
+      "kind": "blog",
+      "url": "https://epochai.substack.com/feed"
+    },
+    {
+      "id": "rising-tide",
+      "name": "Rising Tide (Helen Toner)",
+      "group": "society",
+      "kind": "blog",
+      "url": "https://helentoner.substack.com/feed"
+    },
+    {
+      "id": "anton-leicht",
+      "name": "Anton Leicht",
+      "group": "society",
+      "kind": "blog",
+      "url": "https://writing.antonleicht.me/feed"
+    },
+    {
+      "id": "lesswrong",
+      "name": "LessWrong (Curated)",
+      "group": "ideas",
+      "kind": "blog",
+      "url": "https://www.lesswrong.com/feed.xml?view=curated-rss"
+    },
+    {
+      "id": "cosmos",
+      "name": "Cosmos Institute",
+      "group": "ideas",
+      "kind": "blog",
+      "url": "https://cosmosinstitute.substack.com/feed"
+    },
+    {
+      "id": "vitalik",
+      "name": "Vitalik Buterin",
+      "group": "ideas",
+      "kind": "blog",
+      "url": "https://vitalik.eth.limo/feed.xml"
+    },
+    {
+      "id": "carlsmith",
+      "name": "Joe Carlsmith",
+      "group": "ideas",
+      "kind": "blog",
+      "url": "https://joecarlsmith.com/rss.xml"
+    },
+    {
+      "id": "palladium",
+      "name": "Palladium",
+      "group": "ideas",
+      "kind": "blog",
+      "url": "https://www.palladiummag.com/feed/"
+    },
+    {
+      "id": "overcoming-bias",
+      "name": "Overcoming Bias (Robin Hanson)",
+      "group": "ideas",
+      "kind": "blog",
+      "url": "https://www.overcomingbias.com/feed"
+    },
+    {
+      "id": "technium",
+      "name": "The Technium (Kevin Kelly)",
+      "group": "ideas",
+      "kind": "blog",
+      "url": "https://kk.org/thetechnium/feed/"
+    },
+    {
+      "id": "new-atlantis",
+      "name": "The New Atlantis",
+      "group": "ideas",
+      "kind": "blog",
+      "url": "https://www.thenewatlantis.com/feed"
+    },
+    {
+      "id": "conversation-philosophy",
+      "name": "The Conversation: Philosophy",
+      "group": "ideas",
+      "kind": "blog",
+      "url": "https://theconversation.com/global/topics/philosophy-1157/articles.atom"
     }
   ],
   "pages": [
