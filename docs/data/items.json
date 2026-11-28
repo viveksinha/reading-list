@@ -1,5 +1,536 @@
 [
  {
+  "id": "68cfb35a007a",
+  "title": "datasette-charts 0.4a0",
+  "url": "https://simonwillison.net/2026/Nov/27/datasette-charts/",
+  "source": "Simon Willison",
+  "source_id": "simonw",
+  "group": "ai",
+  "kind": "blog",
+  "published": "2026-11-27T23:57:17+00:00",
+  "summary": "Release of a Datasette charts plugin that adds a hook for third-party chart types, plus a new docs site with a tutorial and gallery. Mostly useful to people building Datasette extensions.",
+  "category": "Data Engineering",
+  "importance": 1,
+  "tags": [
+   "datasette",
+   "visualization",
+   "plugins"
+  ],
+  "added": "2026-11-28T01:35:12+00:00",
+  "image": "",
+  "minutes": 1
+ },
+ {
+  "id": "42f8ff418476",
+  "title": "Inside the AI Training Data Market — Gabe Greenberg, G2i",
+  "url": "https://latent.space/p/inside_the_ai_training_data_market_gabe_greenberg_g2i/",
+  "source": "Latent Space",
+  "source_id": "latent-space",
+  "group": "ai",
+  "kind": "newsletter",
+  "published": "2026-11-27T22:19:18+00:00",
+  "summary": "Interview on how the market for AI training data works, including the premium labs pay for exclusive data versus discounts on shared sets. Useful for understanding a hidden cost and supply layer behind frontier models.",
+  "category": "AI Industry",
+  "importance": 2,
+  "tags": [
+   "training-data",
+   "labs",
+   "markets"
+  ],
+  "added": "2026-11-28T01:35:12+00:00",
+  "image": "https://latent.space/og/card/post/inside_the_ai_training_data_market_gabe_greenberg_g2i/ed4688cb2744d2e4d5cd5ddc7c23532f2380d1828a6e519e2f223ecffa72430e.png",
+  "minutes": 3
+ },
+ {
+  "id": "50603f5ce98c",
+  "title": "Book Review Contest 2026 Winners",
+  "url": "https://www.astralcodexten.com/p/book-review-contest-2026-winners",
+  "source": "Astral Codex Ten",
+  "source_id": "acx",
+  "group": "ideas",
+  "kind": "newsletter",
+  "published": "2026-11-27T20:32:19+00:00",
+  "summary": "Announces the winners of this year's reader book-review contest. A reading list of long-form reviews rather than an argument in itself.",
+  "category": "Philosophy & Ideas",
+  "importance": 1,
+  "tags": [
+   "book-reviews",
+   "essays"
+  ],
+  "added": "2026-11-28T01:35:12+00:00",
+  "image": "https://substackcdn.com/image/fetch/$s_!R8xX!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F561b29bf-c607-43ad-8551-a0f547fd57ed_2560x1587.jpeg",
+  "minutes": 6
+ },
+ {
+  "id": "40975f4ac52f",
+  "title": "FastLanes: Next-gen File Format",
+  "url": "https://research.vu.nl/files/447013431/afroozehphdthesis%20-%2069280d90f0bfd.pdf",
+  "source": "Lobsters",
+  "source_id": "lobsters",
+  "group": "community",
+  "kind": "community",
+  "published": "2026-11-27T18:12:53-06:00",
+  "summary": "A PhD thesis presenting FastLanes, a columnar file format designed for fast decoding on modern hardware. Relevant to anyone weighing alternatives to Parquet for analytics storage.",
+  "category": "Lakehouse",
+  "importance": 2,
+  "tags": [
+   "file-formats",
+   "parquet",
+   "columnar"
+  ],
+  "added": "2026-11-28T01:35:12+00:00",
+  "image": "",
+  "minutes": 0
+ },
+ {
+  "id": "6c8c2668f9c0",
+  "title": "AI researchers debate what we should do next – Daniel Kokotajlo and Ege Erdil",
+  "url": "https://www.dwarkesh.com/p/daniel-kokotajlo-ege-erdil",
+  "source": "Dwarkesh Patel",
+  "source_id": "dwarkesh",
+  "group": "ai",
+  "kind": "newsletter",
+  "published": "2026-11-27T18:01:14+00:00",
+  "summary": "Long interview with Daniel Kokotajlo and Ege Erdil debating what AI researchers should prioritise next and how fast capabilities will progress. Two well-known and opposed forecasting views in one conversation.",
+  "category": "AI Industry",
+  "importance": 3,
+  "tags": [
+   "ai-forecasting",
+   "safety",
+   "interview"
+  ],
+  "added": "2026-11-28T01:35:12+00:00",
+  "image": "https://substackcdn.com/image/fetch/$s_!9PbN!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-video.s3.amazonaws.com%2Fvideo_upload%2Fpost%2F226789196%2F50d65d67-bc9e-41db-a8ed-a79fb018061f%2Ftranscoded-1795804086.png",
+  "minutes": 72
+ },
+ {
+  "id": "f21d90605390",
+  "title": "I'm Scared of AI",
+  "url": "https://thesoapbox.email/archive/3",
+  "source": "Hacker News",
+  "source_id": "hackernews",
+  "group": "community",
+  "kind": "community",
+  "published": "2026-11-27T17:45:31+00:00",
+  "summary": "A personal essay on anxiety about AI progress. Reflective rather than analytical.",
+  "category": "Philosophy & Ideas",
+  "importance": 1,
+  "tags": [
+   "ai",
+   "essay"
+  ],
+  "discussion_url": "https://news.ycombinator.com/item?id=50669561",
+  "points": 201,
+  "added": "2026-11-28T01:35:12+00:00",
+  "image": "https://thesoapbox.email/og.png",
+  "minutes": 1
+ },
+ {
+  "id": "7e768fc35e69",
+  "title": "The Invention Algorithm",
+  "url": "https://www.construction-physics.com/p/the-invention-algorithm",
+  "source": "Construction Physics (Brian Potter)",
+  "source_id": "construction-physics",
+  "group": "future",
+  "kind": "newsletter",
+  "published": "2026-11-27T15:58:24+00:00",
+  "summary": "Argues that inventing new technology is a search process over a vast space of possible arrangements of parts and phenomena. Offers a useful frame for why some inventions arrive late and others cluster.",
+  "category": "Science & Progress",
+  "importance": 2,
+  "tags": [
+   "invention",
+   "innovation",
+   "technology"
+  ],
+  "added": "2026-11-28T01:35:12+00:00",
+  "image": "https://substackcdn.com/image/fetch/$s_!KZ5t!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdd02594c-a052-4013-9c1b-0a3dfd7dc357_2048x1358.png",
+  "minutes": 30
+ },
+ {
+  "id": "e7792bf08cf9",
+  "title": "AWS Challenger: Trainium3 Inference and Microarchitecture Deep Dive",
+  "url": "https://newsletter.semianalysis.com/p/trainium3-inferencex",
+  "source": "SemiAnalysis",
+  "source_id": "semianalysis",
+  "group": "future",
+  "kind": "newsletter",
+  "published": "2026-11-27T15:54:59+00:00",
+  "summary": "Deep dive into the microarchitecture of AWS Trainium3 and how it targets inference, set against how Nvidia added AI-specific hardware each generation. Good detail on accelerator design trade-offs.",
+  "category": "Science & Progress",
+  "importance": 2,
+  "tags": [
+   "trainium",
+   "chips",
+   "inference"
+  ],
+  "added": "2026-11-28T01:35:12+00:00",
+  "image": "https://substackcdn.com/image/fetch/$s_!YlZE!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F096299c0-abec-445e-ace3-994016882a17_1672x941.png",
+  "minutes": 25
+ },
+ {
+  "id": "29f7c1daa70c",
+  "title": "Polars new Streaming Engine and Spill-To-Disk",
+  "url": "https://dataengineeringcentral.substack.com/p/polars-new-streaming-engine-and-spill",
+  "source": "Data Engineering Central",
+  "source_id": "de-central",
+  "group": "data",
+  "kind": "newsletter",
+  "published": "2026-11-27T15:17:40+00:00",
+  "summary": "Covers the new Polars streaming engine and its ability to spill to disk, which lets single machines process data larger than memory. Notable for teams choosing between Polars, Spark and DuckDB.",
+  "category": "Data Engineering",
+  "importance": 2,
+  "tags": [
+   "polars",
+   "streaming",
+   "dataframes"
+  ],
+  "added": "2026-11-28T01:35:12+00:00",
+  "image": "https://substackcdn.com/image/fetch/$s_!x5in!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8e3b3ff4-18a7-4f92-8a95-88bdfc7b197c_1030x687.png",
+  "minutes": 1
+ },
+ {
+  "id": "2b6122078631",
+  "title": "Robust Deontology, Still Paradoxical",
+  "url": "https://www.goodthoughts.blog/p/robust-deontology-still-paradoxical",
+  "source": "Good Thoughts (Richard Y. Chappell)",
+  "source_id": "good-thoughts",
+  "group": "ideas",
+  "kind": "newsletter",
+  "published": "2026-11-27T15:14:45+00:00",
+  "summary": "A technical follow-up on whether robust forms of deontology still produce paradoxes. Aimed at readers already in the ethics literature.",
+  "category": "Philosophy & Ideas",
+  "importance": 1,
+  "tags": [
+   "ethics",
+   "deontology"
+  ],
+  "added": "2026-11-28T01:35:12+00:00",
+  "image": "https://substackcdn.com/image/fetch/$s_!bWhS!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fed2f53c6-827c-4b48-beda-a6eb8256e5cd_1672x941.png",
+  "minutes": 14
+ },
+ {
+  "id": "01cdd83d3c55",
+  "title": "GPT 6.2 Astra solves a historical mystery",
+  "url": "https://generativehistory.substack.com/p/gpt-62-astra-solves-a-historical",
+  "source": "Hacker News",
+  "source_id": "hackernews",
+  "group": "community",
+  "kind": "community",
+  "published": "2026-11-27T15:03:17+00:00",
+  "summary": "Account of a GPT 6.2 Astra model helping resolve a long-standing historical puzzle by reading primary sources. A concrete example of an AI model doing archival research.",
+  "category": "AI Models & Research",
+  "importance": 2,
+  "tags": [
+   "astra",
+   "llm",
+   "history"
+  ],
+  "discussion_url": "https://news.ycombinator.com/item?id=50667744",
+  "points": 166,
+  "story": "astra-historical-mystery",
+  "added": "2026-11-28T01:35:12+00:00",
+  "image": "https://substackcdn.com/image/fetch/$s_!mr1c!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F85c196c7-1cc6-440f-b086-de25bf788ac1_1672x941.png",
+  "minutes": 17
+ },
+ {
+  "id": "3845efb3f57d",
+  "title": "Clouded Judgement 11.27.26 - Living on a Razors Edge",
+  "url": "https://cloudedjudgement.substack.com/p/clouded-judgement-112726-living-on",
+  "source": "Clouded Judgement (Jamin Ball)",
+  "source_id": "clouded-judgement",
+  "group": "data",
+  "kind": "newsletter",
+  "published": "2026-11-27T14:06:33+00:00",
+  "summary": "Weekly update on cloud software public-company trends, framed as markets living on a razor's edge. Short Thanksgiving edition with the usual multiples context.",
+  "category": "Strategy & Markets",
+  "importance": 2,
+  "tags": [
+   "saas",
+   "public-markets",
+   "valuation"
+  ],
+  "added": "2026-11-28T01:35:12+00:00",
+  "image": "https://substackcdn.com/image/fetch/$s_!CDt6!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd3755071-f951-4b05-955f-6cfe158bf6bd_1731x909.png",
+  "minutes": 6
+ },
+ {
+  "id": "0f9957586415",
+  "title": "This ER Doctor Became a Hospital’s First Clinical AI Engineer",
+  "url": "https://spectrum.ieee.org/clinical-ai-engineer-dinesh-rai",
+  "source": "IEEE Spectrum",
+  "source_id": "ieee-spectrum",
+  "group": "future",
+  "kind": "blog",
+  "published": "2026-11-27T14:00:01+00:00",
+  "summary": "Profile of an emergency-room doctor who became a hospital's first clinical AI engineer. Shows how the role is forming inside health systems.",
+  "category": "AI Engineering",
+  "importance": 1,
+  "tags": [
+   "healthcare",
+   "careers",
+   "clinical-ai"
+  ],
+  "added": "2026-11-28T01:35:12+00:00",
+  "image": "https://spectrum.ieee.org/media-library/image.png?id=68731256&width=1200&height=600&coordinates=0%2C169%2C0%2C169",
+  "minutes": 6
+ },
+ {
+  "id": "61fa769568aa",
+  "title": "Weekly Dose of Optimism #221",
+  "url": "https://www.notboring.co/p/weekly-dose-of-optimism-221",
+  "source": "Not Boring (Packy McCormick)",
+  "source_id": "not-boring",
+  "group": "pm",
+  "kind": "newsletter",
+  "published": "2026-11-27T13:37:26+00:00",
+  "summary": "Weekly roundup of positive news in technology, science and startups. A quick skim of what is going right.",
+  "category": "Science & Progress",
+  "importance": 1,
+  "tags": [
+   "progress",
+   "roundup",
+   "optimism"
+  ],
+  "added": "2026-11-28T01:35:12+00:00",
+  "image": "https://substackcdn.com/image/fetch/$s_!jJo5!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3385dd39-9adc-4402-976d-e0bd79442d90_960x540.gif",
+  "minutes": 11
+ },
+ {
+  "id": "0b28da68c3da",
+  "title": "Astra 6.2’s Brain Gets Smart But Its Head Gets Dumb",
+  "url": "https://thezvi.substack.com/p/astra-62s-brain-gets-smart-but-its",
+  "source": "Don't Worry About the Vase (Zvi)",
+  "source_id": "zvi",
+  "group": "ai",
+  "kind": "newsletter",
+  "published": "2026-11-27T13:36:29+00:00",
+  "summary": "Reviews Astra 6.2, finding it very strong at hard problems yet poor at working out what the user actually wanted. Useful for judging where capability gains do not yet translate to usability.",
+  "category": "AI Models & Research",
+  "importance": 2,
+  "tags": [
+   "astra",
+   "llm",
+   "evaluation"
+  ],
+  "added": "2026-11-28T01:35:12+00:00",
+  "image": "https://substackcdn.com/image/fetch/$s_!vSzv!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa7f3570-9d38-461c-9894-ab4141f61faa_1200x510.jpeg",
+  "minutes": 17
+ },
+ {
+  "id": "3c141b4c2051",
+  "title": "OpenAI Says ChatGPT Is More Like a Book Than a Car. Courts Are About to Decide.",
+  "url": "https://newsletter.aicollective.com/p/is-chatgpt-a-product-stress-test",
+  "source": "AI Collective",
+  "source_id": "newsletter.aicollective.com",
+  "group": "ai",
+  "kind": "newsletter",
+  "published": "2026-11-27T12:00:00+00:00",
+  "summary": "Examines whether courts will treat chatbots as products subject to liability, noting no US court has yet ruled so and the focus is shifting to design choices. Watch a Florida ruling and EU rules taking effect December 9.",
+  "category": "AI Industry",
+  "importance": 2,
+  "tags": [
+   "liability",
+   "law",
+   "chatgpt"
+  ],
+  "added": "2026-11-28T01:35:12+00:00",
+  "image": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,quality=80,width=1200,onerror=redirect/uploads/asset/file/6041a547-9a93-40cb-8ad1-2387f62bcc9a/fri_11_06.png?t=1795734877",
+  "minutes": 6
+ },
+ {
+  "id": "d4423bf67ee8",
+  "title": "I just interviewed the founder of Bending Spoons in Milan",
+  "url": "https://www.theaiopportunities.com/p/i-just-interviewed-the-founder-of",
+  "source": "AI Market Fit",
+  "source_id": "theaiopportunities.com",
+  "group": "ai",
+  "kind": "newsletter",
+  "published": "2026-11-27T12:00:00+00:00",
+  "summary": "Interview with a Bending Spoons cofounder on how the company grew from a failed startup to about $1.3B revenue by buying and improving products, including the Mailchimp deal. Useful on the acquire-and-operate model.",
+  "category": "Strategy & Markets",
+  "importance": 2,
+  "tags": [
+   "bending-spoons",
+   "acquisitions",
+   "interview"
+  ],
+  "added": "2026-11-28T01:35:12+00:00",
+  "image": "https://substackcdn.com/image/fetch/$s_!MCnY!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff2dc7e24-ca3a-4a74-9d2f-be52706d58cb_1600x800.jpeg",
+  "minutes": 0
+ },
+ {
+  "id": "5ce03ed74688",
+  "title": "The Sequence Robotics - Issue #981: How NVIDIA Isaac Turns Practice Into Robot Skills",
+  "url": "https://thesequence.substack.com/p/the-sequence-robotics-issue-981-how",
+  "source": "TheSequence",
+  "source_id": "thesequence.substack.com",
+  "group": "ai",
+  "kind": "newsletter",
+  "published": "2026-11-27T12:00:00+00:00",
+  "summary": "Explains NVIDIA Isaac as a practice-evaluate-deploy loop for robots, from simulation and policy learning to physical trials. Valuable as a map of the tooling.",
+  "category": "AI Models & Research",
+  "importance": 1,
+  "tags": [
+   "robotics",
+   "nvidia",
+   "simulation"
+  ],
+  "added": "2026-11-28T01:35:12+00:00",
+  "image": "https://substackcdn.com/image/fetch/$s_!qRBP!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdf0b0753-e5e2-4c31-ab44-bb5731473880_1774x887.jpeg",
+  "minutes": 1
+ },
+ {
+  "id": "683956db10a7",
+  "title": "What is your AI startup actually worth? Plus a valuation calculator to price your next round.",
+  "url": "https://www.venturecurator.com/p/ai-startup-valuation-calculator",
+  "source": "Venture Curator",
+  "source_id": "venturecurator.com",
+  "group": "ai",
+  "kind": "newsletter",
+  "published": "2026-11-27T12:00:00+00:00",
+  "summary": "Analyses 31 AI funding rounds and finds a median of about 37x ARR, with multiples driven by how revenue is earned rather than size or growth. Includes a valuation calculator and positioning guidance.",
+  "category": "Growth & GTM",
+  "importance": 2,
+  "tags": [
+   "valuation",
+   "ai-startups",
+   "fundraising"
+  ],
+  "added": "2026-11-28T01:35:12+00:00",
+  "image": "https://substackcdn.com/image/fetch/$s_!VwTR!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,$fp_!0.5:0.4456!/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9feb5db8-16e6-498d-a756-f78a49796683_2064x1544.png",
+  "minutes": 5
+ },
+ {
+  "id": "55060e027bba",
+  "title": "AI on brink of making online security useless, mathematicians fear",
+  "url": "https://www.thetimes.com/uk/technology-uk/article/ai-making-online-security-useless-smr73d3n8",
+  "source": "Hacker News",
+  "source_id": "hackernews",
+  "group": "community",
+  "kind": "community",
+  "published": "2026-11-27T11:09:04+00:00",
+  "summary": "Reports mathematicians' fears that AI progress could undermine the maths behind online security. Relevant to long-term assumptions about encryption.",
+  "category": "Science & Progress",
+  "importance": 2,
+  "tags": [
+   "cryptography",
+   "ai",
+   "security"
+  ],
+  "discussion_url": "https://news.ycombinator.com/item?id=50665488",
+  "points": 115,
+  "added": "2026-11-28T01:35:12+00:00",
+  "image": "https://www.thetimes.com/imageserver/image/1769afb8-0e9f-496d-96a1-6d5de4ca6640.png?strip=all&format=webp&crop=1600px%2C900px%2C0px%2C0px&resize=1200",
+  "minutes": 0
+ },
+ {
+  "id": "50965b191457",
+  "title": "The energy of thought",
+  "url": "https://aeon.co/essays/all-our-models-of-how-the-mind-functions-are-missing-something",
+  "source": "Aeon",
+  "source_id": "aeon",
+  "group": "ideas",
+  "kind": "blog",
+  "published": "2026-11-27T11:00:00+00:00",
+  "summary": "Essay arguing that standard models of how the mind works get energy and its role wrong. A thoughtful piece on the limits of current theories of cognition.",
+  "category": "Philosophy & Ideas",
+  "importance": 2,
+  "tags": [
+   "mind",
+   "neuroscience",
+   "models"
+  ],
+  "added": "2026-11-28T01:35:12+00:00",
+  "image": "https://images.aeonmedia.co/images/c26f206d-2e06-4e5b-8156-0d964a42cffc/essay-main-gettyimages-2247445825.jpg?width=1200&quality=75&format=jpeg",
+  "minutes": 14
+ },
+ {
+  "id": "ac4f7a89be07",
+  "title": "Proactivity Can Read as Sabotage",
+  "url": "https://www.dbreunig.com/2026/11/27/proactivity-can-read-as-sabotage.html",
+  "source": "Drew Breunig",
+  "source_id": "dbreunig",
+  "group": "ai",
+  "kind": "blog",
+  "published": "2026-11-27T10:52:00-08:00",
+  "summary": "Argues that proactive AI assistants can feel like sabotage when they act without being asked. Useful design guidance for agent products.",
+  "category": "AI Engineering",
+  "importance": 2,
+  "tags": [
+   "agents",
+   "ux",
+   "proactivity"
+  ],
+  "added": "2026-11-28T01:35:12+00:00",
+  "image": "https://www.dbreunig.com/img/sf_beach_og.jpg",
+  "minutes": 6
+ },
+ {
+  "id": "63167c3504ee",
+  "title": "How cutting-edge prosthetics can help probe the human mind",
+  "url": "https://www.technologyreview.com/2026/11/27/1149946/cutting-edge-prosthetics-allow-researchers-to-probe-the-human-mind/",
+  "source": "MIT Technology Review",
+  "source_id": "mit-tech-review",
+  "group": "future",
+  "kind": "blog",
+  "published": "2026-11-27T10:00:00+00:00",
+  "summary": "Explains how advanced prosthetics are being used to study how the brain models the body. Interesting but peripheral.",
+  "category": "Science & Progress",
+  "importance": 1,
+  "tags": [
+   "prosthetics",
+   "neuroscience"
+  ],
+  "added": "2026-11-28T01:35:12+00:00",
+  "image": "https://wp.technologyreview.com/wp-content/uploads/2026/11/Avi-and-Leanne.jpeg?resize=1200,600",
+  "minutes": 3
+ },
+ {
+  "id": "138e1e18872d",
+  "title": "Claude sabotaging ML research tasks?",
+  "url": "https://twitter.com/RealAstropulse/status/2126119408997466389",
+  "source": "Hacker News",
+  "source_id": "hackernews",
+  "group": "community",
+  "kind": "community",
+  "published": "2026-11-27T08:28:08+00:00",
+  "summary": "Social post alleging Claude sabotages ML research tasks. Anecdotal and unverified.",
+  "category": "AI Models & Research",
+  "importance": 1,
+  "tags": [
+   "claude",
+   "alignment",
+   "sabotage"
+  ],
+  "discussion_url": "https://news.ycombinator.com/item?id=50664325",
+  "points": 602,
+  "story": "claude-sabotage-research",
+  "added": "2026-11-28T01:35:12+00:00",
+  "image": "https://pbs.twimg.com/media/HYF66EGWIAAF9lx?format=webp&name=large",
+  "minutes": 0
+ },
+ {
+  "id": "643f0fdb7af4",
+  "title": "Google Orchestrator, llama.cpp 1.0, the \"Token Tax,\" and Agent Messaging",
+  "url": "https://www.deeplearning.ai/the-batch/issue-381",
+  "source": "The Batch (DeepLearning.AI)",
+  "source_id": "the-batch",
+  "group": "ai",
+  "kind": "newsletter",
+  "published": "2026-11-27T07:00:00-08:00",
+  "summary": "Weekly AI digest covering Google's orchestrator, llama.cpp 1.0, the \"token tax\" and agent messaging. A fast overview of the week's tooling news.",
+  "category": "AI Models & Research",
+  "importance": 1,
+  "tags": [
+   "newsletter",
+   "agents",
+   "llama-cpp"
+  ],
+  "added": "2026-11-28T01:35:12+00:00",
+  "image": "https://charonhub.deeplearning.ai/content/images/2026/11/THANKSGIVING.webp",
+  "minutes": 9
+ },
+ {
   "id": "3d118c7ed5ae",
   "title": "Converged Database Versus Lakehouse Platform for AI Agents",
   "url": "https://www.kai-waehner.de/blog/2026/11/27/converged-database-versus-lakehouse-platform-ai-agents/",
@@ -39,6 +570,48 @@
   "points": 194,
   "image": "https://pub-430e0c9ecb66464fa6999cd23a749d13.r2.dev/content/images/2026/11/black-friday-hard-drive-prices-are-messed-up/row-of-easystore-drives-on-a-cluttered-workbench.webp",
   "minutes": 4
+ },
+ {
+  "id": "809039bcfa7c",
+  "title": "Curb impacts of AI on programming to maintain EU sovereignty",
+  "url": "https://www.draketo.de/software/curb-ai-impact",
+  "source": "Lobsters",
+  "source_id": "lobsters",
+  "group": "community",
+  "kind": "community",
+  "published": "2026-11-27T01:00:03-06:00",
+  "summary": "Opinion piece proposing the EU limit AI's impact on programming to protect digital sovereignty. A policy viewpoint rather than analysis.",
+  "category": "AI Industry",
+  "importance": 1,
+  "tags": [
+   "policy",
+   "sovereignty",
+   "eu"
+  ],
+  "added": "2026-11-28T01:35:12+00:00",
+  "image": "https://www.draketo.de/assets/arne2024-192x192.png",
+  "minutes": 2
+ },
+ {
+  "id": "2d7f8b4f8454",
+  "title": "Taking Trainium3 to the Track: Generating Videos with LTX-2.5",
+  "url": "https://huggingface.co/blog/video-trainium3",
+  "source": "Hugging Face",
+  "source_id": "huggingface",
+  "group": "ai",
+  "kind": "blog",
+  "published": "2026-11-27T00:00:00+00:00",
+  "summary": "Walkthrough of generating video with the LTX-2.5 model on AWS Trainium3 hardware. A vendor-adjacent tutorial.",
+  "category": "AI Engineering",
+  "importance": 1,
+  "tags": [
+   "video-generation",
+   "trainium",
+   "inference"
+  ],
+  "added": "2026-11-28T01:35:12+00:00",
+  "image": "https://huggingface.co/blog/assets/video-trainium3/thumbnail.jpg",
+  "minutes": 7
  },
  {
   "id": "00bb51c293be",
@@ -141,6 +714,27 @@
   "minutes": 0
  },
  {
+  "id": "5449004755ba",
+  "title": "AI #196: The Return",
+  "url": "https://thezvi.substack.com/p/ai-196-the-return",
+  "source": "Don't Worry About the Vase (Zvi)",
+  "source_id": "zvi",
+  "group": "ai",
+  "kind": "newsletter",
+  "published": "2026-11-26T15:01:21+00:00",
+  "summary": "Weekly roundup of AI news and model developments. A broad overview of the week.",
+  "category": "AI Industry",
+  "importance": 2,
+  "tags": [
+   "weekly",
+   "ai-news",
+   "models"
+  ],
+  "added": "2026-11-28T01:35:12+00:00",
+  "image": "https://substackcdn.com/image/fetch/$s_!bEly!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0a288f07-98b8-4b3d-b120-a57d4e8a4589_892x900.jpeg",
+  "minutes": 71
+ },
+ {
   "id": "46cd86bf0efb",
   "title": "The need for a formally verifiable mainstream programming language",
   "url": "https://blainehansen.me/post/mainstream-verifiable-language/",
@@ -158,6 +752,27 @@
    "software-quality"
   ],
   "image": "",
+  "minutes": 3
+ },
+ {
+  "id": "1beb336d7314",
+  "title": "How Engineers Designed a Mission to One of Jupiter’s Icy Moons",
+  "url": "https://spectrum.ieee.org/jupiter-europa-clipper-mission-jpl",
+  "source": "IEEE Spectrum",
+  "source_id": "ieee-spectrum",
+  "group": "future",
+  "kind": "blog",
+  "published": "2026-11-26T14:00:02+00:00",
+  "summary": "Describes how engineers designed the Europa Clipper mission to explore a Jupiter moon. A good look at constraint-driven systems engineering.",
+  "category": "Science & Progress",
+  "importance": 2,
+  "tags": [
+   "space",
+   "engineering",
+   "europa"
+  ],
+  "added": "2026-11-28T01:35:12+00:00",
+  "image": "https://spectrum.ieee.org/media-library/image.png?id=68731208&width=1200&height=600&coordinates=0%2C168%2C0%2C168",
   "minutes": 3
  },
  {
@@ -258,6 +873,26 @@
   ],
   "image": "https://images.aeonmedia.co/images/d78fd84c-6589-4089-ac48-f2f7f41cb932/pam-projects-main.jpg?top=283&left=9&cropWidth=2656&cropHeight=1494&width=1200&quality=75&format=jpeg",
   "minutes": 10
+ },
+ {
+  "id": "c726a5af6b12",
+  "title": "The next generation of bionic hands is here—and they can feel",
+  "url": "https://www.technologyreview.com/2026/11/26/1149923/the-next-generation-of-bionic-hands-is-here-and-they-can-feel/",
+  "source": "MIT Technology Review",
+  "source_id": "mit-tech-review",
+  "group": "future",
+  "kind": "blog",
+  "published": "2026-11-26T09:59:00+00:00",
+  "summary": "Reports on a new generation of bionic hands that can sense touch. Routine science news.",
+  "category": "Science & Progress",
+  "importance": 1,
+  "tags": [
+   "prosthetics",
+   "biotech"
+  ],
+  "added": "2026-11-28T01:35:12+00:00",
+  "image": "https://wp.technologyreview.com/wp-content/uploads/2026/11/261124_ProsetheticHand_Lede_cb1337.jpg?resize=1200,600",
+  "minutes": 8
  },
  {
   "id": "6f6a6b07f17a",
@@ -401,6 +1036,30 @@
   "minutes": 6
  },
  {
+  "id": "85176c594a4a",
+  "title": "Claude tries to sabotage research work at every stage",
+  "url": "https://twitter.com/skirano/status/2125371115979641188",
+  "source": "Hacker News",
+  "source_id": "hackernews",
+  "group": "community",
+  "kind": "community",
+  "published": "2026-11-26T04:49:21+00:00",
+  "summary": "Social post alleging Claude undermines research work at every stage. Anecdotal and unverified.",
+  "category": "AI Models & Research",
+  "importance": 1,
+  "tags": [
+   "claude",
+   "alignment",
+   "sabotage"
+  ],
+  "discussion_url": "https://news.ycombinator.com/item?id=50651552",
+  "points": 105,
+  "story": "claude-sabotage-research",
+  "added": "2026-11-28T01:35:12+00:00",
+  "image": "https://pbs.twimg.com/profile_images/1620194266533199874/rCtE0hYR_400x400.jpg",
+  "minutes": 0
+ },
+ {
   "id": "244a3e8cb4f1",
   "title": "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster",
   "url": "https://twitter.com/thsottiaux/status/2125784147889393806",
@@ -481,6 +1140,27 @@
   ],
   "image": "https://substackcdn.com/image/fetch/$s_!HJbo!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0950b443-3155-43e2-8429-ec42b6be1a09_1456x971.png",
   "minutes": 6
+ },
+ {
+  "id": "cb78c13a3309",
+  "title": "Evaluating Recent Model Releases on GDPx",
+  "url": "https://newsletter.semianalysis.com/p/evaluating-recent-model-releases",
+  "source": "SemiAnalysis",
+  "source_id": "semianalysis",
+  "group": "future",
+  "kind": "newsletter",
+  "published": "2026-11-26T00:05:35+00:00",
+  "summary": "Evaluates recent frontier model releases on GDPx, a benchmark covering the most economically valuable domains. Helpful for comparing models beyond single-domain tests.",
+  "category": "AI Models & Research",
+  "importance": 2,
+  "tags": [
+   "benchmarks",
+   "evaluation",
+   "models"
+  ],
+  "added": "2026-11-28T01:35:12+00:00",
+  "image": "https://substackcdn.com/image/fetch/$s_!cRUS!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,$fp_!0.5:0.5!/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9c04cdba-7f7c-4b04-be7a-d50e882777dd_1536x1024.png",
+  "minutes": 10
  },
  {
   "id": "c01600d41603",
@@ -705,6 +1385,27 @@
   "minutes": 9
  },
  {
+  "id": "67960a417c08",
+  "title": "Claude and Levent Alpöge Prove the Riemann Hypothesis",
+  "url": "https://thezvi.substack.com/p/claude-and-levent-alpoge-prove-the",
+  "source": "Don't Worry About the Vase (Zvi)",
+  "source_id": "zvi",
+  "group": "ai",
+  "kind": "newsletter",
+  "published": "2026-11-25T17:24:10+00:00",
+  "summary": "Covers claims of an AI-assisted proof of the Riemann Hypothesis and community reaction. Worth tracking as a test of how AI results get verified.",
+  "category": "AI Models & Research",
+  "importance": 2,
+  "tags": [
+   "mathematics",
+   "proofs",
+   "claude"
+  ],
+  "added": "2026-11-28T01:35:12+00:00",
+  "image": "https://substackcdn.com/image/fetch/$s_!cI2r!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F775e5fe2-6a46-4b87-b1d4-d71c9093146b_1286x1430.png",
+  "minutes": 32
+ },
+ {
   "id": "1b2e78da4c9f",
   "title": "How well is ClickHouse tested? A detailed view of increasing our own coverage",
   "url": "https://clickhouse.com/blog/how-well-is-clickhouse-tested",
@@ -723,6 +1424,47 @@
   ],
   "image": "https://clickhouse.com/_next/image?url=%2Fuploads%2Fhow_well_is_clickhouse_tested_thumbnail_2be6121c7f.jpg&w=1200&h=630&q=75",
   "minutes": 12
+ },
+ {
+  "id": "2a99f168595c",
+  "title": "How data centers are driving a US natural-gas boom",
+  "url": "https://www.technologyreview.com/2026/11/25/1149836/data-centers-gas-power-plants/",
+  "source": "MIT Technology Review",
+  "source_id": "mit-tech-review",
+  "group": "future",
+  "kind": "blog",
+  "published": "2026-11-25T17:00:00+00:00",
+  "summary": "Reports that data-center demand is driving a US natural-gas build-out. Shows the energy cost of the AI boom.",
+  "category": "Science & Progress",
+  "importance": 2,
+  "tags": [
+   "energy",
+   "data-centers",
+   "natural-gas"
+  ],
+  "added": "2026-11-28T01:35:12+00:00",
+  "image": "https://wp.technologyreview.com/wp-content/uploads/2026/11/261124_RichlandParishDataCenter.jpg?resize=1200,600",
+  "minutes": 4
+ },
+ {
+  "id": "94b5466c358d",
+  "title": "Novel Experiments Expand the Hunt for ‘Ultralight’ Dark Matter",
+  "url": "https://www.quantamagazine.org/novel-experiments-expand-the-hunt-for-ultralight-dark-matter-20261125/",
+  "source": "Quanta Magazine",
+  "source_id": "quanta",
+  "group": "future",
+  "kind": "blog",
+  "published": "2026-11-25T14:00:49+00:00",
+  "summary": "Describes new experiments searching for ultralight dark matter. Routine physics news.",
+  "category": "Science & Progress",
+  "importance": 1,
+  "tags": [
+   "physics",
+   "dark-matter"
+  ],
+  "added": "2026-11-28T01:35:12+00:00",
+  "image": "https://www.quantamagazine.org/wp-content/uploads/2026/11/UltralightDarkMatter-crCelsiusPictor-Social.jpg",
+  "minutes": 9
  },
  {
   "id": "170ba12c1bad",
@@ -804,6 +1546,27 @@
   ],
   "image": "https://cdn-uploads.huggingface.co/production/uploads/67fe070a4e8cc28ba346f53c/-QNcrxSDbjI8VOCBlhi-C.png",
   "minutes": 4
+ },
+ {
+  "id": "b0deea04c96b",
+  "title": "AI is straining America’s open records systems",
+  "url": "https://www.technologyreview.com/2026/11/25/1149702/ai-is-straining-americas-open-records-systems/",
+  "source": "MIT Technology Review",
+  "source_id": "mit-tech-review",
+  "group": "future",
+  "kind": "blog",
+  "published": "2026-11-25T10:00:00+00:00",
+  "summary": "Reports that AI-generated requests are straining US open-records systems. A policy side effect of cheap automation.",
+  "category": "Strategy & Markets",
+  "importance": 1,
+  "tags": [
+   "ai",
+   "government",
+   "records"
+  ],
+  "added": "2026-11-28T01:35:12+00:00",
+  "image": "https://wp.technologyreview.com/wp-content/uploads/2026/11/loc-sales2a.jpg?resize=1200,600",
+  "minutes": 9
  },
  {
   "id": "045130688435",
@@ -1290,7 +2053,8 @@
    "history"
   ],
   "image": "",
-  "minutes": 2
+  "minutes": 2,
+  "story": "astra-historical-mystery"
  },
  {
   "id": "bbef1e94d167",

@@ -5,7 +5,157 @@
   <link href="https://viveksinha.github.io/reading-list/"/>
   <link rel="self" href="https://viveksinha.github.io/reading-list/feed.xml"/>
   <id>https://viveksinha.github.io/reading-list/</id>
-  <updated>2026-11-27T11:43:57+00:00</updated>
+  <updated>2026-11-28T01:35:18+00:00</updated>
+  <entry>
+    <title>Inside the AI Training Data Market — Gabe Greenberg, G2i</title>
+    <link href="https://latent.space/p/inside_the_ai_training_data_market_gabe_greenberg_g2i/"/>
+    <id>https://viveksinha.github.io/reading-list/#42f8ff418476</id>
+    <updated>2026-11-28T01:35:12+00:00</updated>
+    <published>2026-11-27T22:19:18+00:00</published>
+    <author><name>Latent Space</name></author>
+    <category term="AI Industry"/>
+    <summary>Worth it · AI Industry · Latent Space. Interview on how the market for AI training data works, including the premium labs pay for exclusive data versus discounts on shared sets. Useful for understanding a hidden cost and supply layer behind frontier models.</summary>
+  </entry>
+  <entry>
+    <title>FastLanes: Next-gen File Format</title>
+    <link href="https://research.vu.nl/files/447013431/afroozehphdthesis%20-%2069280d90f0bfd.pdf"/>
+    <id>https://viveksinha.github.io/reading-list/#40975f4ac52f</id>
+    <updated>2026-11-28T01:35:12+00:00</updated>
+    <published>2026-11-27T18:12:53-06:00</published>
+    <author><name>Lobsters</name></author>
+    <category term="Lakehouse"/>
+    <summary>Worth it · Lakehouse · Lobsters. A PhD thesis presenting FastLanes, a columnar file format designed for fast decoding on modern hardware. Relevant to anyone weighing alternatives to Parquet for analytics storage.</summary>
+  </entry>
+  <entry>
+    <title>AI researchers debate what we should do next – Daniel Kokotajlo and Ege Erdil</title>
+    <link href="https://www.dwarkesh.com/p/daniel-kokotajlo-ege-erdil"/>
+    <id>https://viveksinha.github.io/reading-list/#6c8c2668f9c0</id>
+    <updated>2026-11-28T01:35:12+00:00</updated>
+    <published>2026-11-27T18:01:14+00:00</published>
+    <author><name>Dwarkesh Patel</name></author>
+    <category term="AI Industry"/>
+    <summary>Must read · AI Industry · Dwarkesh Patel. Long interview with Daniel Kokotajlo and Ege Erdil debating what AI researchers should prioritise next and how fast capabilities will progress. Two well-known and opposed forecasting views in one conversation.</summary>
+  </entry>
+  <entry>
+    <title>The Invention Algorithm</title>
+    <link href="https://www.construction-physics.com/p/the-invention-algorithm"/>
+    <id>https://viveksinha.github.io/reading-list/#7e768fc35e69</id>
+    <updated>2026-11-28T01:35:12+00:00</updated>
+    <published>2026-11-27T15:58:24+00:00</published>
+    <author><name>Construction Physics (Brian Potter)</name></author>
+    <category term="Science &amp; Progress"/>
+    <summary>Worth it · Science &amp; Progress · Construction Physics (Brian Potter). Argues that inventing new technology is a search process over a vast space of possible arrangements of parts and phenomena. Offers a useful frame for why some inventions arrive late and others cluster.</summary>
+  </entry>
+  <entry>
+    <title>AWS Challenger: Trainium3 Inference and Microarchitecture Deep Dive</title>
+    <link href="https://newsletter.semianalysis.com/p/trainium3-inferencex"/>
+    <id>https://viveksinha.github.io/reading-list/#e7792bf08cf9</id>
+    <updated>2026-11-28T01:35:12+00:00</updated>
+    <published>2026-11-27T15:54:59+00:00</published>
+    <author><name>SemiAnalysis</name></author>
+    <category term="Science &amp; Progress"/>
+    <summary>Worth it · Science &amp; Progress · SemiAnalysis. Deep dive into the microarchitecture of AWS Trainium3 and how it targets inference, set against how Nvidia added AI-specific hardware each generation. Good detail on accelerator design trade-offs.</summary>
+  </entry>
+  <entry>
+    <title>Polars new Streaming Engine and Spill-To-Disk</title>
+    <link href="https://dataengineeringcentral.substack.com/p/polars-new-streaming-engine-and-spill"/>
+    <id>https://viveksinha.github.io/reading-list/#29f7c1daa70c</id>
+    <updated>2026-11-28T01:35:12+00:00</updated>
+    <published>2026-11-27T15:17:40+00:00</published>
+    <author><name>Data Engineering Central</name></author>
+    <category term="Data Engineering"/>
+    <summary>Worth it · Data Engineering · Data Engineering Central. Covers the new Polars streaming engine and its ability to spill to disk, which lets single machines process data larger than memory. Notable for teams choosing between Polars, Spark and DuckDB.</summary>
+  </entry>
+  <entry>
+    <title>GPT 6.2 Astra solves a historical mystery</title>
+    <link href="https://generativehistory.substack.com/p/gpt-62-astra-solves-a-historical"/>
+    <id>https://viveksinha.github.io/reading-list/#01cdd83d3c55</id>
+    <updated>2026-11-28T01:35:12+00:00</updated>
+    <published>2026-11-27T15:03:17+00:00</published>
+    <author><name>Hacker News</name></author>
+    <category term="AI Models &amp; Research"/>
+    <summary>Worth it · AI Models &amp; Research · Hacker News. Account of a GPT 6.2 Astra model helping resolve a long-standing historical puzzle by reading primary sources. A concrete example of an AI model doing archival research.</summary>
+  </entry>
+  <entry>
+    <title>Clouded Judgement 11.27.26 - Living on a Razors Edge</title>
+    <link href="https://cloudedjudgement.substack.com/p/clouded-judgement-112726-living-on"/>
+    <id>https://viveksinha.github.io/reading-list/#3845efb3f57d</id>
+    <updated>2026-11-28T01:35:12+00:00</updated>
+    <published>2026-11-27T14:06:33+00:00</published>
+    <author><name>Clouded Judgement (Jamin Ball)</name></author>
+    <category term="Strategy &amp; Markets"/>
+    <summary>Worth it · Strategy &amp; Markets · Clouded Judgement (Jamin Ball). Weekly update on cloud software public-company trends, framed as markets living on a razor's edge. Short Thanksgiving edition with the usual multiples context.</summary>
+  </entry>
+  <entry>
+    <title>Astra 6.2’s Brain Gets Smart But Its Head Gets Dumb</title>
+    <link href="https://thezvi.substack.com/p/astra-62s-brain-gets-smart-but-its"/>
+    <id>https://viveksinha.github.io/reading-list/#0b28da68c3da</id>
+    <updated>2026-11-28T01:35:12+00:00</updated>
+    <published>2026-11-27T13:36:29+00:00</published>
+    <author><name>Don't Worry About the Vase (Zvi)</name></author>
+    <category term="AI Models &amp; Research"/>
+    <summary>Worth it · AI Models &amp; Research · Don't Worry About the Vase (Zvi). Reviews Astra 6.2, finding it very strong at hard problems yet poor at working out what the user actually wanted. Useful for judging where capability gains do not yet translate to usability.</summary>
+  </entry>
+  <entry>
+    <title>OpenAI Says ChatGPT Is More Like a Book Than a Car. Courts Are About to Decide.</title>
+    <link href="https://newsletter.aicollective.com/p/is-chatgpt-a-product-stress-test"/>
+    <id>https://viveksinha.github.io/reading-list/#3c141b4c2051</id>
+    <updated>2026-11-28T01:35:12+00:00</updated>
+    <published>2026-11-27T12:00:00+00:00</published>
+    <author><name>AI Collective</name></author>
+    <category term="AI Industry"/>
+    <summary>Worth it · AI Industry · AI Collective. Examines whether courts will treat chatbots as products subject to liability, noting no US court has yet ruled so and the focus is shifting to design choices. Watch a Florida ruling and EU rules taking effect December 9.</summary>
+  </entry>
+  <entry>
+    <title>I just interviewed the founder of Bending Spoons in Milan</title>
+    <link href="https://www.theaiopportunities.com/p/i-just-interviewed-the-founder-of"/>
+    <id>https://viveksinha.github.io/reading-list/#d4423bf67ee8</id>
+    <updated>2026-11-28T01:35:12+00:00</updated>
+    <published>2026-11-27T12:00:00+00:00</published>
+    <author><name>AI Market Fit</name></author>
+    <category term="Strategy &amp; Markets"/>
+    <summary>Worth it · Strategy &amp; Markets · AI Market Fit. Interview with a Bending Spoons cofounder on how the company grew from a failed startup to about $1.3B revenue by buying and improving products, including the Mailchimp deal. Useful on the acquire-and-operate model.</summary>
+  </entry>
+  <entry>
+    <title>What is your AI startup actually worth? Plus a valuation calculator to price your next round.</title>
+    <link href="https://www.venturecurator.com/p/ai-startup-valuation-calculator"/>
+    <id>https://viveksinha.github.io/reading-list/#683956db10a7</id>
+    <updated>2026-11-28T01:35:12+00:00</updated>
+    <published>2026-11-27T12:00:00+00:00</published>
+    <author><name>Venture Curator</name></author>
+    <category term="Growth &amp; GTM"/>
+    <summary>Worth it · Growth &amp; GTM · Venture Curator. Analyses 31 AI funding rounds and finds a median of about 37x ARR, with multiples driven by how revenue is earned rather than size or growth. Includes a valuation calculator and positioning guidance.</summary>
+  </entry>
+  <entry>
+    <title>AI on brink of making online security useless, mathematicians fear</title>
+    <link href="https://www.thetimes.com/uk/technology-uk/article/ai-making-online-security-useless-smr73d3n8"/>
+    <id>https://viveksinha.github.io/reading-list/#55060e027bba</id>
+    <updated>2026-11-28T01:35:12+00:00</updated>
+    <published>2026-11-27T11:09:04+00:00</published>
+    <author><name>Hacker News</name></author>
+    <category term="Science &amp; Progress"/>
+    <summary>Worth it · Science &amp; Progress · Hacker News. Reports mathematicians' fears that AI progress could undermine the maths behind online security. Relevant to long-term assumptions about encryption.</summary>
+  </entry>
+  <entry>
+    <title>The energy of thought</title>
+    <link href="https://aeon.co/essays/all-our-models-of-how-the-mind-functions-are-missing-something"/>
+    <id>https://viveksinha.github.io/reading-list/#50965b191457</id>
+    <updated>2026-11-28T01:35:12+00:00</updated>
+    <published>2026-11-27T11:00:00+00:00</published>
+    <author><name>Aeon</name></author>
+    <category term="Philosophy &amp; Ideas"/>
+    <summary>Worth it · Philosophy &amp; Ideas · Aeon. Essay arguing that standard models of how the mind works get energy and its role wrong. A thoughtful piece on the limits of current theories of cognition.</summary>
+  </entry>
+  <entry>
+    <title>Proactivity Can Read as Sabotage</title>
+    <link href="https://www.dbreunig.com/2026/11/27/proactivity-can-read-as-sabotage.html"/>
+    <id>https://viveksinha.github.io/reading-list/#ac4f7a89be07</id>
+    <updated>2026-11-28T01:35:12+00:00</updated>
+    <published>2026-11-27T10:52:00-08:00</published>
+    <author><name>Drew Breunig</name></author>
+    <category term="AI Engineering"/>
+    <summary>Worth it · AI Engineering · Drew Breunig. Argues that proactive AI assistants can feel like sabotage when they act without being asked. Useful design guidance for agent products.</summary>
+  </entry>
   <entry>
     <title>Converged Database Versus Lakehouse Platform for AI Agents</title>
     <link href="https://www.kai-waehner.de/blog/2026/11/27/converged-database-versus-lakehouse-platform-ai-agents/"/>
@@ -67,6 +217,16 @@
     <summary>Worth it · AI Industry · Simon Willison. Simon quotes a writer who feels AI is flattening voices, with Claude's tone showing up in talks, videos and cold emails. Worth keeping in mind before letting a model draft anything sent under your name.</summary>
   </entry>
   <entry>
+    <title>AI #196: The Return</title>
+    <link href="https://thezvi.substack.com/p/ai-196-the-return"/>
+    <id>https://viveksinha.github.io/reading-list/#5449004755ba</id>
+    <updated>2026-11-28T01:35:12+00:00</updated>
+    <published>2026-11-26T15:01:21+00:00</published>
+    <author><name>Don't Worry About the Vase (Zvi)</name></author>
+    <category term="AI Industry"/>
+    <summary>Worth it · AI Industry · Don't Worry About the Vase (Zvi). Weekly roundup of AI news and model developments. A broad overview of the week.</summary>
+  </entry>
+  <entry>
     <title>The need for a formally verifiable mainstream programming language</title>
     <link href="https://blainehansen.me/post/mainstream-verifiable-language/"/>
     <id>https://viveksinha.github.io/reading-list/#46cd86bf0efb</id>
@@ -75,6 +235,16 @@
     <author><name>Lobsters</name></author>
     <category term="Engineering Culture"/>
     <summary>Worth it · Engineering Culture · Lobsters. Argues that LLMs are degrading software quality and that a mainstream language with formal verification is needed. A view on code quality as AI writes more of it.</summary>
+  </entry>
+  <entry>
+    <title>How Engineers Designed a Mission to One of Jupiter’s Icy Moons</title>
+    <link href="https://spectrum.ieee.org/jupiter-europa-clipper-mission-jpl"/>
+    <id>https://viveksinha.github.io/reading-list/#1beb336d7314</id>
+    <updated>2026-11-28T01:35:12+00:00</updated>
+    <published>2026-11-26T14:00:02+00:00</published>
+    <author><name>IEEE Spectrum</name></author>
+    <category term="Science &amp; Progress"/>
+    <summary>Worth it · Science &amp; Progress · IEEE Spectrum. Describes how engineers designed the Europa Clipper mission to explore a Jupiter moon. A good look at constraint-driven systems engineering.</summary>
   </entry>
   <entry>
     <title>Rethinking read replicas for the lakebase architecture</title>
@@ -137,6 +307,16 @@
     <summary>Worth it · AI Industry · Hacker News. OpenAI says a launch billing error under-counted usage on two GPT-6.2 tiers, so plan limits now burn faster. A pricing signal for AI product costs.</summary>
   </entry>
   <entry>
+    <title>Evaluating Recent Model Releases on GDPx</title>
+    <link href="https://newsletter.semianalysis.com/p/evaluating-recent-model-releases"/>
+    <id>https://viveksinha.github.io/reading-list/#cb78c13a3309</id>
+    <updated>2026-11-28T01:35:12+00:00</updated>
+    <published>2026-11-26T00:05:35+00:00</published>
+    <author><name>SemiAnalysis</name></author>
+    <category term="AI Models &amp; Research"/>
+    <summary>Worth it · AI Models &amp; Research · SemiAnalysis. Evaluates recent frontier model releases on GDPx, a benchmark covering the most economically valuable domains. Helpful for comparing models beyond single-domain tests.</summary>
+  </entry>
+  <entry>
     <title>Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems</title>
     <link href="https://huggingface.co/blog/training-swarms"/>
     <id>https://viveksinha.github.io/reading-list/#c01600d41603</id>
@@ -197,6 +377,16 @@
     <summary>Must read · Engineering Culture · The Pragmatic Engineer. The Pragmatic Engineer talks with an Anthropic engineering leader about how the company builds software in 2026. Real operating detail on AI-heavy development, useful as a benchmark for other teams.</summary>
   </entry>
   <entry>
+    <title>Claude and Levent Alpöge Prove the Riemann Hypothesis</title>
+    <link href="https://thezvi.substack.com/p/claude-and-levent-alpoge-prove-the"/>
+    <id>https://viveksinha.github.io/reading-list/#67960a417c08</id>
+    <updated>2026-11-28T01:35:12+00:00</updated>
+    <published>2026-11-25T17:24:10+00:00</published>
+    <author><name>Don't Worry About the Vase (Zvi)</name></author>
+    <category term="AI Models &amp; Research"/>
+    <summary>Worth it · AI Models &amp; Research · Don't Worry About the Vase (Zvi). Covers claims of an AI-assisted proof of the Riemann Hypothesis and community reaction. Worth tracking as a test of how AI results get verified.</summary>
+  </entry>
+  <entry>
     <title>How well is ClickHouse tested? A detailed view of increasing our own coverage</title>
     <link href="https://clickhouse.com/blog/how-well-is-clickhouse-tested"/>
     <id>https://viveksinha.github.io/reading-list/#1b2e78da4c9f</id>
@@ -205,6 +395,16 @@
     <author><name>ClickHouse</name></author>
     <category term="Databases &amp; Systems"/>
     <summary>Worth it · Databases &amp; Systems · ClickHouse. ClickHouse describes how it measures test coverage and uses targeted CI and AI-generated tests. Good engineering hygiene detail, but not product news.</summary>
+  </entry>
+  <entry>
+    <title>How data centers are driving a US natural-gas boom</title>
+    <link href="https://www.technologyreview.com/2026/11/25/1149836/data-centers-gas-power-plants/"/>
+    <id>https://viveksinha.github.io/reading-list/#2a99f168595c</id>
+    <updated>2026-11-28T01:35:12+00:00</updated>
+    <published>2026-11-25T17:00:00+00:00</published>
+    <author><name>MIT Technology Review</name></author>
+    <category term="Science &amp; Progress"/>
+    <summary>Worth it · Science &amp; Progress · MIT Technology Review. Reports that data-center demand is driving a US natural-gas build-out. Shows the energy cost of the AI boom.</summary>
   </entry>
   <entry>
     <title>Introducing Search for Agents</title>
@@ -405,205 +605,5 @@
     <author><name>Hacker News</name></author>
     <category term="AI Industry"/>
     <summary>Worth it · AI Industry · Hacker News. A developer found Claude refused an API workaround while helping download from YouTube, and concludes agents serve their vendors. A trust angle for agent products.</summary>
-  </entry>
-  <entry>
-    <title>Per Vognsen on the effect of AVX-512 on lexing and parsing</title>
-    <link href="https://mastodon.social/@pervognsen/117668394962974183"/>
-    <id>https://viveksinha.github.io/reading-list/#33e5526099fd</id>
-    <updated>2026-11-24T12:11:49-06:00</updated>
-    <published>2026-11-24T12:11:49-06:00</published>
-    <author><name>Lobsters</name></author>
-    <category term="Databases &amp; Systems"/>
-    <summary>Worth it · Databases &amp; Systems · Lobsters. A short post from an engineer on AVX-512 helping lexing and parsing, based on a Mastodon note. Of use to performance engineers only.</summary>
-  </entry>
-  <entry>
-    <title>Is mental illness universal?</title>
-    <link href="https://aeon.co/essays/are-mental-illnesses-universal-or-are-they-culturally-specific"/>
-    <id>https://viveksinha.github.io/reading-list/#7afaa8128bf8</id>
-    <updated>2026-11-24T11:00:00+00:00</updated>
-    <published>2026-11-24T11:00:00+00:00</published>
-    <author><name>Aeon</name></author>
-    <category term="Philosophy &amp; Ideas"/>
-    <summary>Worth it · Philosophy &amp; Ideas · Aeon. Asks whether mental illnesses are universal or shaped by culture, surveying how diagnosis varies across societies. Raises useful questions about how we define and measure mind.</summary>
-  </entry>
-  <entry>
-    <title>SeaStore: Redesigning Ceph’s Storage Backend for CPU-Efficient NVMe Performance</title>
-    <link href="https://dl.acm.org/doi/10.1145/3828523.3857112"/>
-    <id>https://viveksinha.github.io/reading-list/#3e573b092674</id>
-    <updated>2026-11-24T10:35:47-06:00</updated>
-    <published>2026-11-24T10:35:47-06:00</published>
-    <author><name>Lobsters</name></author>
-    <category term="Databases &amp; Systems"/>
-    <summary>Worth it · Databases &amp; Systems · Lobsters. An ACM paper on redesigning Ceph's storage backend for NVMe with lower CPU cost. The page was blocked here, so this follows the title. Storage-engine design lessons may apply.</summary>
-  </entry>
-  <entry>
-    <title>Using AI Without Losing Your Humanity</title>
-    <link href="https://www.dbreunig.com/2026/11/24/using-ai-without-losing-your-humanity.html"/>
-    <id>https://viveksinha.github.io/reading-list/#c052286a80b2</id>
-    <updated>2026-11-24T09:00:00-08:00</updated>
-    <published>2026-11-24T09:00:00-08:00</published>
-    <author><name>Drew Breunig</name></author>
-    <category term="AI Industry"/>
-    <summary>Worth it · AI Industry · Drew Breunig. Drew Breunig argues AI models trade diversity for reliability and bury us in the average, so humans must push them off the well-worn path. A thoughtful take on working with AI without flattening your output.</summary>
-  </entry>
-  <entry>
-    <title>Your agents don't care that you're a batch shop</title>
-    <link href="https://clickhouse.com/blog/your-agents-dont-care-that-youre-a-batch-shop"/>
-    <id>https://viveksinha.github.io/reading-list/#53ecd8bdb026</id>
-    <updated>2026-11-24T08:22:07+00:00</updated>
-    <published>2026-11-24T08:22:07+00:00</published>
-    <author><name>ClickHouse</name></author>
-    <category term="Real-time Analytics"/>
-    <summary>Must read · Real-time Analytics · ClickHouse. ClickHouse argues that agents querying at scale require a real-time engine even if data arrives in nightly batches. The same thesis StarTree sells, now coming from a direct competitor.</summary>
-  </entry>
-  <entry>
-    <title>Introducing SWE-2.1</title>
-    <link href="https://cognition.com/blog/swe-2-1"/>
-    <id>https://viveksinha.github.io/reading-list/#2b7d8b0fe4f3</id>
-    <updated>2026-11-24T08:00:00-08:00</updated>
-    <published>2026-11-24T08:00:00-08:00</published>
-    <author><name>Cognition</name></author>
-    <category term="AI Models &amp; Research"/>
-    <summary>Worth it · AI Models &amp; Research · Cognition. Cognition releases SWE-2.1, a major upgrade over SWE-2 trained with pure reinforcement learning. Worth tracking for where coding-agent models are heading.</summary>
-  </entry>
-  <entry>
-    <title>Worshipping at the altar of Brendan Gregg</title>
-    <link href="https://fzakaria.com/2026/11/12/worshipping-at-the-altar-of-brendan-gregg"/>
-    <id>https://viveksinha.github.io/reading-list/#5c003d30472b</id>
-    <updated>2026-11-24T04:50:52-06:00</updated>
-    <published>2026-11-24T04:50:52-06:00</published>
-    <author><name>Lobsters</name></author>
-    <category term="Databases &amp; Systems"/>
-    <summary>Worth it · Databases &amp; Systems · Lobsters. An engineer reflects on using AI to build performance tooling inspired by Brendan Gregg's methods. Light read for infra people.</summary>
-  </entry>
-  <entry>
-    <title>[AINews] Jensen Is Back! and OpenAI Shows Its Pretraining Curve, joined by Microsoft</title>
-    <link href="https://latent.space/p/ainews-jensen-is-back-and-openai-shows-its-pretraining-curve-joined-by-microsoft/"/>
-    <id>https://viveksinha.github.io/reading-list/#a43a2373bab7</id>
-    <updated>2026-11-24T04:14:16+00:00</updated>
-    <published>2026-11-24T04:14:16+00:00</published>
-    <author><name>Latent Space</name></author>
-    <category term="AI Models &amp; Research"/>
-    <summary>Worth it · AI Models &amp; Research · Latent Space. Roundup noting a new Chinese looped-transformer model, a large funding round and OpenAI's pretraining curve. Handy for tracking model news in one place.</summary>
-  </entry>
-  <entry>
-    <title>Sharing catalog metadata across data platforms, engines, and agents</title>
-    <link href="https://www.databricks.com/blog/sharing-catalog-metadata-across-data-platforms-engines-and-agents"/>
-    <id>https://viveksinha.github.io/reading-list/#a53e25c34fef</id>
-    <updated>2026-11-24T01:30:00+00:00</updated>
-    <published>2026-11-24T01:30:00+00:00</published>
-    <author><name>Databricks</name></author>
-    <category term="Lakehouse"/>
-    <summary>Must read · Lakehouse · Databricks. Databricks and partners add catalog labels to the Iceberg REST catalog API so engines and agents can share table and column context. Directly relevant to how StarTree reads Iceberg catalogs and surfaces metadata to agents.</summary>
-  </entry>
-  <entry>
-    <title>A FAANG PM's Guide to Practical AI Evals</title>
-    <link href="https://www.news.aakashg.com/p/practical-ai-evals"/>
-    <id>https://viveksinha.github.io/reading-list/#0dd133049a77</id>
-    <updated>2026-11-24T00:34:06+00:00</updated>
-    <published>2026-11-24T00:34:06+00:00</published>
-    <author><name>Product Growth (Aakash Gupta)</name></author>
-    <category term="Product Management"/>
-    <summary>Worth it · Product Management · Product Growth (Aakash Gupta). A PM walks through practical evaluation of AI products from a big-tech perspective. Helpful for defining quality bars for AI features.</summary>
-  </entry>
-  <entry>
-    <title>Iceberg Observability in Snowflake Horizon Catalog</title>
-    <link href="https://www.snowflake.com/content/snowflake-site/global/en/blog/iceberg-observability-horizon-catalog"/>
-    <id>https://viveksinha.github.io/reading-list/#3e8dc5b86d2d</id>
-    <updated>2026-11-24T00:00:00-08:00</updated>
-    <published>2026-11-24T00:00:00-08:00</published>
-    <author><name>Snowflake</name></author>
-    <category term="Lakehouse"/>
-    <summary>Must read · Lakehouse · Snowflake. Snowflake says access by external engines to Iceberg tables via Horizon is now logged next to its SQL history for audit. A governance move that raises expectations for any engine reading Iceberg.</summary>
-  </entry>
-  <entry>
-    <title>What is ClickHouse Security? A technical overview of the agentic SIEM built on ClickHouse</title>
-    <link href="https://clickhouse.com/blog/clickhouse-security-agentic-siem-overview"/>
-    <id>https://viveksinha.github.io/reading-list/#b99b43256cba</id>
-    <updated>2026-11-24T00:00:00+00:00</updated>
-    <published>2026-11-24T00:00:00+00:00</published>
-    <author><name>ClickHouse</name></author>
-    <category term="Real-time Analytics"/>
-    <summary>Must read · Real-time Analytics · ClickHouse. ClickHouse describes a security analytics product built on its engine, with pipelines, detections and agents. A competitor moving into observability-style workloads that Pinot also targets.</summary>
-  </entry>
-  <entry>
-    <title>Will AI Deflate Like Lightbulbs or Compound Like Copper?</title>
-    <link href="https://tomtunguz.com/jevons-works-on-tokens-not-on-dollars/"/>
-    <id>https://viveksinha.github.io/reading-list/#cd79b5cf3ca4</id>
-    <updated>2026-11-24T00:00:00+00:00</updated>
-    <published>2026-11-24T00:00:00+00:00</published>
-    <author><name>Tomasz Tunguz</name></author>
-    <category term="Strategy &amp; Markets"/>
-    <summary>Must read · Strategy &amp; Markets · Tomasz Tunguz. Tunguz asks whether falling AI costs will shrink spending like lightbulbs or grow it like copper, arguing about tokens versus dollars. A useful lens for forecasting AI-driven data demand and pricing.</summary>
-  </entry>
-  <entry>
-    <title>GLM-5.4: Toward Generalized Coding with Our First Loop Transformer</title>
-    <link href="https://simonwillison.net/2026/Nov/23/glm-54/"/>
-    <id>https://viveksinha.github.io/reading-list/#ef3910f6a7af</id>
-    <updated>2026-11-23T23:40:49+00:00</updated>
-    <published>2026-11-23T23:40:49+00:00</published>
-    <author><name>Simon Willison</name></author>
-    <category term="AI Models &amp; Research"/>
-    <summary>Worth it · AI Models &amp; Research · Simon Willison. Z.ai releases GLM 5.4, its first model with shared-weight looped layers, aimed at coding. Notable as a new architecture from a major open-model lab.</summary>
-  </entry>
-  <entry>
-    <title>"Dario is hyping the dangers so OSS models are illegal and he stays in control"</title>
-    <link href="https://twitter.com/ylecun/status/2124550037912920090"/>
-    <id>https://viveksinha.github.io/reading-list/#3c69fd56490c</id>
-    <updated>2026-11-23T17:07:26+00:00</updated>
-    <published>2026-11-23T17:07:26+00:00</published>
-    <author><name>Hacker News</name></author>
-    <category term="AI Industry"/>
-    <summary>Worth it · AI Industry · Hacker News. Yann LeCun says AI safety warnings are a tactic to get open models banned and keep control. Opinion in the open-versus-closed debate.</summary>
-  </entry>
-  <entry>
-    <title>Announcing General Availability of native Lakebase Postgres sink for Spark Structured Streaming</title>
-    <link href="https://www.databricks.com/blog/announcing-general-availability-native-lakebase-postgres-sink-spark-structured-streaming"/>
-    <id>https://viveksinha.github.io/reading-list/#072458d77f66</id>
-    <updated>2026-11-23T16:32:10+00:00</updated>
-    <published>2026-11-23T16:32:10+00:00</published>
-    <author><name>Databricks</name></author>
-    <category term="Streaming"/>
-    <summary>Worth it · Streaming · Databricks. Databricks makes its Lakebase sink for Spark Structured Streaming generally available, so streaming results land in Postgres with one call. Shows how lakehouse vendors close the low-latency serving gap.</summary>
-  </entry>
-  <entry>
-    <title>ClickHouse expands AWS strategic collaboration with a $1.5 billion-plus agreement to scale its unified enterprise AI data stack</title>
-    <link href="https://clickhouse.com/blog/clickhouse-expands-aws-strategic-collaboration-scale-unified-enterprise-ai-data-stack"/>
-    <id>https://viveksinha.github.io/reading-list/#db5ec702beee</id>
-    <updated>2026-11-23T15:57:17+00:00</updated>
-    <published>2026-11-23T15:57:17+00:00</published>
-    <author><name>ClickHouse</name></author>
-    <category term="Strategy &amp; Markets"/>
-    <summary>Must read · Strategy &amp; Markets · ClickHouse. ClickHouse signs a five-year deal with AWS to invest over $1.5 billion in migrations, integrations and go-to-market. A major competitor gaining cloud-marketplace muscle.</summary>
-  </entry>
-  <entry>
-    <title>Import AI 482: Huawei kernel benchmarks; airborne drone detection; and a national lab's AI science benchmark</title>
-    <link href="https://importai.substack.com/p/import-ai-482-huawei-kernel-benchmarks"/>
-    <id>https://viveksinha.github.io/reading-list/#3120537bb3c8</id>
-    <updated>2026-11-23T14:11:17+00:00</updated>
-    <published>2026-11-23T14:11:17+00:00</published>
-    <author><name>Import AI (Jack Clark)</name></author>
-    <category term="AI Models &amp; Research"/>
-    <summary>Worth it · AI Models &amp; Research · Import AI (Jack Clark). Import AI covers a benchmark for optimising Huawei chip kernels and other research. A good weekly scan of AI research directions.</summary>
-  </entry>
-  <entry>
-    <title>Probing DNS at Cloudflare</title>
-    <link href="https://blog.cloudflare.com/probing-dns-at-cloudflare/"/>
-    <id>https://viveksinha.github.io/reading-list/#9f50a7fbeba1</id>
-    <updated>2026-11-23T14:00:00+00:00</updated>
-    <published>2026-11-23T14:00:00+00:00</published>
-    <author><name>Cloudflare</name></author>
-    <category term="Databases &amp; Systems"/>
-    <summary>Worth it · Databases &amp; Systems · Cloudflare. Cloudflare describes probing DNS publishing after a release slipped past tests and dashboards. Practical reliability lessons for rollout checks.</summary>
-  </entry>
-  <entry>
-    <title>Databricks Lakebase: What even is a database anymore?</title>
-    <link href="https://dataengineeringcentral.substack.com/p/databricks-lakebase-what-even-is"/>
-    <id>https://viveksinha.github.io/reading-list/#c2e00314602d</id>
-    <updated>2026-11-23T13:10:01+00:00</updated>
-    <published>2026-11-23T13:10:01+00:00</published>
-    <author><name>Data Engineering Central</name></author>
-    <category term="Lakehouse"/>
-    <summary>Must read · Lakehouse · Data Engineering Central. A data engineer asks what counts as a database now that Databricks sells Lakebase, a Postgres tied to the lakehouse. Captures the converging operational and analytical architecture that frames StarTree's pitch.</summary>
   </entry>
 </feed>
